@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Build Your Paper</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <p class="kicker">Daxton Daily Presents</p>
+      <h1>Build Your Paper</h1>
+    </header>
+
+    <div class="intro">
+      <p>Pick a name for your edition, choose the topics you care about, and — if you'd like — a
+      local edition. Every reader who picks the same topic on the same day reads the same story;
+      you're just choosing which stories make your front page.</p>
+    </div>
+
+    <form class="customize" id="customize-form" novalidate>
+      <div class="field-group">
+        <label class="field-title" for="reader-name">Your name</label>
+        <p class="hint">Used for your masthead, e.g. "Uri" becomes "The Uri Update."</p>
+        <input type="text" id="reader-name" name="name" placeholder="e.g. Nathan" autocomplete="given-name">
+      </div>
+
+      <div class="field-group">
+        <span class="field-title">Topics</span>
+        <p class="hint">Select as many as you'd like.</p>
+        <div class="topics-grid" id="topics-grid"></div>
+      </div>
+
+      <div class="field-group">
+        <span class="field-title">Local news</span>
+        <p class="hint">Local news is a separate step from topics — it covers one city only.</p>
+        <div class="toggle-row" id="local-toggle">
+          <label id="local-yes-label">
+            <input type="radio" name="wantsLocal" value="yes" id="local-yes">
+            <span>Yes, include local news</span>
+          </label>
+          <label id="local-no-label">
+            <input type="radio" name="wantsLocal" value="no" id="local-no">
+            <span>No thanks</span>
+          </label>
+        </div>
+
+        <div class="city-field hidden" id="city-field">
+          <label class="field-title" for="city-select" style="margin-top:18px;">Your city</label>
+          <select id="city-select" name="city"></select>
+        </div>
+      </div>
+
+      <div class="form-error" id="form-error"></div>
+
+      <div class="submit-row">
+        <button type="submit" class="primary-btn">Build My Paper</button>
+      </div>
+    </form>
+
+    <hr class="archive-divider">
+
+    <section class="account-panel">
+      <div class="field-group">
+        <span class="field-title">Account</span>
+        <p class="hint">Optional — create an account to save your paper across devices and get a
+        daily email with today's top story.</p>
+
+        <div id="account-signed-out">
+          <div class="auth-tabs" id="auth-tabs">
+            <button type="button" class="auth-tab active" id="tab-login">Log In</button>
+            <button type="button" class="auth-tab" id="tab-signup">Sign Up</button>
+          </div>
+
+          <form id="login-form" class="auth-form">
+            <input type="email" id="login-email" placeholder="Email" autocomplete="email" required>
+            <input type="password" id="login-password" placeholder="Password" autocomplete="current-password" required>
+            <label class="remember-row">
+              <input type="checkbox" id="login-remember">
+              <span>Remember me on this device</span>
+            </label>
+            <div class="form-error" id="login-error"></div>
+            <div class="submit-row"><button type="submit" class="secondary-btn">Log In</button></div>
+          </form>
+
+          <form id="signup-form" class="auth-form hidden">
+            <input type="email" id="signup-email" placeholder="Email" autocomplete="email" required>
+            <input type="password" id="signup-password" placeholder="Password (min 6 characters)" autocomplete="new-password" required minlength="6">
+            <div class="form-error" id="signup-error"></div>
+            <div class="form-note" id="signup-note"></div>
+            <div class="submit-row"><button type="submit" class="secondary-btn">Sign Up</button></div>
+          </form>
+        </div>
+
+        <div id="account-signed-in" class="hidden">
+          <p class="account-email" id="account-email"></p>
+
+          <div class="toggle-row">
+            <label id="reminders-yes-label">
+              <input type="radio" name="allowReminders" id="reminders-yes">
+              <span>Allow Daily Reminders to Your Email</span>
+            </label>
+            <label id="reminders-no-label">
+              <input type="radio" name="allowReminders" id="reminders-no">
+              <span>No daily email</span>
+            </label>
+          </div>
+          <div class="form-note" id="reminders-note"></div>
+
+          <div class="submit-row"><button type="button" class="secondary-btn" id="logout-btn">Log Out</button></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="site-footer">Phase 2 demo — customization + accounts, running against mock content. Account is optional.</footer>
+
+  <script src="js/topics.js"></script>
+  <script src="js/cities.js"></script>
+  <script src="js/prefs.js"></script>
+  <script src="js/customize.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/account.js"></script>
+</body>
+</html>

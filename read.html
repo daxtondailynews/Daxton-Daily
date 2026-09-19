@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Paper</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead" id="masthead">
+      <p class="kicker">Daxton Daily Presents</p>
+      <h1 id="masthead-title">The Daily Edition</h1>
+      <p class="dateline"><span id="masthead-date"></span><span id="masthead-city"></span></p>
+    </header>
+
+    <div class="page-nav" id="page-nav">
+      <a href="read.html" id="archive-link" class="nav-link hidden">&larr; All editions</a>
+      <a href="index.html" id="edit-link" class="nav-link">Edit my paper</a>
+      <div class="print-row hidden" id="print-row">
+        <button type="button" id="print-btn" class="secondary-btn">Print this edition</button>
+      </div>
+    </div>
+
+    <main id="content-root"></main>
+  </div>
+
+  <footer class="site-footer">Phase 2 demo — mock content only, not real daily news. Not financial advice.</footer>
+
+  <script src="js/topics.js"></script>
+  <script src="js/cities.js"></script>
+  <script src="js/prefs.js"></script>
+  <script src="js/masthead.js"></script>
+  <script src="content/editions.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/render.js"></script>
+</body>
+</html>
