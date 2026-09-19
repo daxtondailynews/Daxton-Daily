@@ -42,7 +42,8 @@
     remindersNoLabel.classList.toggle("active", remindersNo.checked);
   }
 
-  async function showSignedIn(session) {
+  async function showSignedIn(session, opts) {
+    opts = opts || {};
     if (!session || !session.user) return;
     currentUserId = session.user.id;
     signedOutBox.classList.add("hidden");
@@ -57,8 +58,17 @@
       updateRemindersStyle();
       suppressRemindersSave = false;
 
-      if (window.NewsCustomize && (row.name || (row.topics && row.topics.length) || row.city)) {
+      var hasSavedPrefs = !!(row.name || (row.topics && row.topics.length) || row.city);
+      if (hasSavedPrefs && window.NewsCustomize) {
         window.NewsCustomize.applyPrefsToForm({ name: row.name, topics: row.topics || [], city: row.city });
+      }
+
+      // Existing account with prefs already saved: skip the onboarding
+      // form and go straight to their paper, same as submitting it.
+      if (hasSavedPrefs && opts.redirectIfPrefs && window.NewsPrefs) {
+        var prefs = { name: row.name || "", topics: row.topics || [], city: row.city || null };
+        window.NewsPrefs.savePrefs(prefs);
+        window.location.href = "read.html?" + window.NewsPrefs.buildQueryString(prefs);
       }
     }
   }
@@ -80,7 +90,7 @@
     var remember = document.getElementById("login-remember").checked;
     try {
       var data = await window.NewsAuth.signIn(email, password, remember);
-      await showSignedIn(data.session);
+      await showSignedIn(data.session, { redirectIfPrefs: true });
     } catch (err) {
       loginError.textContent = (err && err.message) || "Couldn't log in — check your email and password.";
     }
