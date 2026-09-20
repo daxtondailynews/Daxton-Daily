@@ -16,6 +16,589 @@
  */
 window.EDITIONS = [
   {
+    "date": "2026-09-20",
+    "topStory": {
+      "headline": "Iran Sets Conditions for Renewed Talks With US as Fragile Middle East Ceasefire Hangs in Balance",
+      "byline": "Staff Report — Doha / Tehran / Washington",
+      "paragraphs": [
+        "Iran's Supreme National Security Council chief, Mohsen Rezaei, said Saturday that Tehran has formally conveyed a set of conditions to international mediators for resuming negotiations with Washington aimed at permanently ending the war that erupted between Iran, Israel and the United States earlier this year. Speaking to Al Jazeera, Rezaei listed three core demands: a full end to hostilities \"on all fronts,\" the unfreezing of Iranian financial assets held abroad, and the lifting of the US naval blockade on Iranian ports. Qatar and Pakistan are shuttling the proposal between the parties, and Rezaei said Tehran is now awaiting a direct response from President Donald Trump. The move marks the most concrete diplomatic signal in weeks that Iran wants to convert a shaky truce into a lasting settlement.",
+        "The stakes are enormous: the conflict began on February 28, 2026, when US and Israeli strikes hit Iran's nuclear and ballistic-missile infrastructure in an operation that killed Iran's longtime Supreme Leader, Ali Khamenei, triggering Iranian missile attacks on US bases, strikes on Israel, a brief closure of the Strait of Hormuz, and a wider front opened by Hezbollah from Lebanon. Fighting ground on for months before Pakistan brokered an initial pause on April 8, and a fuller framework was signed on June 17 — a 14-point memorandum committing both sides to \"permanent termination of military operations on all fronts\" and requiring Iran to forgo any nuclear weapon, in exchange for eased sanctions, restored oil exports, and a reconstruction package reportedly worth up to $300 billion. That 60-day negotiating window lapsed weeks ago without a final deal, leaving Iranian funds frozen, the naval blockade in place, and the region on edge — which is why Rezaei's conditions, and whatever answer comes from the White House, could determine whether the ceasefire holds or the war resumes.",
+        "The diplomacy is unfolding against a combustible regional backdrop that underscores how quickly things could unravel: Saudi-led forces intercepted a Houthi ballistic missile fired at Riyadh at dawn Saturday, with Houthi military spokesman Yahya Saree claiming responsibility for strikes on both the Saudi capital and Saudi Aramco facilities in Yanbu, while Israeli strikes reportedly killed three people, including a girl, in Gaza overnight. Even inside Washington's own camp, cracks are showing — pro-Israel US Representative Brad Sherman warned this week that polling shows a sharp erosion in American public support for Israel, cautioning bluntly that \"Israel cannot survive with no friends in the world.\" With mediators in Doha and Islamabad now waiting on Trump's reply, the coming days are expected to show whether the seven-month-old war moves toward a durable peace or slides back toward open conflict."
+      ],
+      "sources": [
+        [
+          "Iran reiterates conditions for talks with US, end of war",
+          "https://www.jpost.com/middle-east/article-909123"
+        ],
+        [
+          "Iran says it has conveyed conditions to re-engage in talks, end war with US",
+          "https://www.anews.com.tr/world/2026/09/19/iran-says-it-has-conveyed-conditions-to-re-engage-in-talks-end-war-with-us"
+        ],
+        [
+          "US-Iran ceasefire and nuclear talks in 2026 - House of Commons Library",
+          "https://commonslibrary.parliament.uk/research-briefings/cbp-10637/"
+        ],
+        [
+          "Liveblog September 19, 2026 - The Times of Israel",
+          "https://www.timesofisrael.com/liveblog-september-19-2026/"
+        ]
+      ]
+    },
+    "topics": {
+      "politics": [
+        {
+          "headline": "Iran War Grinds Into Seventh Month as House Rebukes Trump for Third Time",
+          "byline": "Washington",
+          "paragraphs": [
+            "Nearly seven months after fighting broke out on February 28, 2026, the United States and Iran remain locked in a standoff over the Strait of Hormuz, with a U.S. Navy blockade having redirected roughly 65 tankers since mid-July and daily oil flows through the waterway cut to about 5 million barrels from a pre-war 15 million. President Trump has paired the naval pressure with what he called a \"crushing economic operation\" targeting Iranian oil smuggling, shipping registries and front companies, while Brent crude has climbed to roughly $92 a barrel from wartime lows near $71 over the summer. Iranian Foreign Minister Abbas Araghchi has rejected any ceasefire short of a full end to the war and dismissed the U.S. sanctions push, and Tehran says the strait will not reopen until the blockade and sanctions are lifted.",
+            "On September 15 the House passed its third war-powers resolution since the war began, voting 220-204 to restrict Trump's authority to continue military operations against Iran, with seven Republicans crossing party lines — the largest GOP defection yet, up from four in each of the two prior votes. Speaker Mike Johnson defended the administration's posture, arguing \"Iran declared war on us 47 years ago\" and that the president \"is trying to keep the people safe,\" while the White House maintains such concurrent resolutions carry no legal force since they are not presented to the president for signature. The measure faces near-certain inaction in the Senate, leaving it largely symbolic, but the growing Republican defections signal rising unease within Trump's own party as the conflict drags toward the midterms."
+          ],
+          "sources": [
+            [
+              "Trump announces \"crushing economic operation\" on Iran with talks in limbo",
+              "https://www.cbsnews.com/live-updates/us-iran-war-deal-strait-of-hormuz/"
+            ],
+            [
+              "House Passes War Powers Resolution 220-204 to Limit Trump's Military Operations in Iran, With Seven Republicans Breaking Ranks",
+              "https://political.org/2026/09/15/house-passes-war-powers-resolution-limiting-trumps-military-actions-in-iran/"
+            ]
+          ]
+        },
+        {
+          "headline": "White House Bars CNN, MS NOW and Politico, Escalating Press Fight",
+          "byline": "Washington",
+          "paragraphs": [
+            "The White House on September 19 formally barred journalists from CNN, MS NOW and Politico from its grounds, a day after President Trump announced he was \"banning\" the three outlets over coverage he labeled \"fake news.\" Trump signaled the exclusions could widen further, telling reporters other organizations might face similar treatment, in what press-freedom groups describe as the most direct attempt yet by the administration to control which news organizations can cover the presidency in person.",
+            "The targeted outlets vowed to fight back: Politico said it would \"vigorously defend our First Amendment rights,\" while MS NOW pledged to \"take any and all steps necessary to defend\" press freedom and \"the essential role of independent journalism in our democracy.\" Outside legal advocates were blunter. Jameel Jaffer of the Knight First Amendment Institute said the move \"raises constitutional concerns,\" and Seth Stern of the Freedom of the Press Foundation called it \"difficult to imagine a more blatant violation of the First Amendment than Trump banning news outlets from the People's House for criticizing the government.\" Legal challenges from the affected newsrooms are expected in the coming days."
+          ],
+          "sources": [
+            [
+              "A 'ban on the free press': White House bars journalists from three outlets",
+              "https://www.aljazeera.com/news/2026/9/19/a-ban-on-the-free-press-white-house-bars-journalists-from-three-outlets"
+            ],
+            [
+              "Trump says he's 'banning' CNN, MS NOW and Politico from the White House",
+              "https://www.cnn.com/2026/09/18/media/trump-claims-ban-cnn-msnow-politico-white-house"
+            ]
+          ]
+        },
+        {
+          "headline": "Appeals Court Rejects Trump Administration's Third-Country Deportation Policy",
+          "byline": "Boston",
+          "paragraphs": [
+            "A three-judge panel of the 1st U.S. Circuit Court of Appeals ruled Friday that the Trump administration's practice of rapidly deporting migrants to countries other than their homeland violates due process, largely upholding a lower-court order from U.S. District Judge Brian Murphy. Writing for the panel, Judge Seth Aframe held that immigration officials must give detainees a \"meaningful opportunity to contest\" removal to a so-called third country, rejecting the administration's narrower reading of what notice the law requires. The policy, in place since March 2025, allows Department of Homeland Security officials to deport migrants to any of roughly 29 nations that have offered diplomatic assurances against persecution or torture, sometimes with only hours of notice. More than 25,000 people have been removed under the program, with about 80 percent sent to Mexico and others sent as far as South Sudan, including eight men whose 2025 removal was cleared by the Supreme Court over dissents.",
+            "Trina Realmuto, executive director of the National Immigration Litigation Alliance, which represents the affected migrants, said many class members \"were deported to countries they had never been told they could be removed to,\" and argued that due-process protections against persecution and torture \"cannot be circumvented by putting someone on a plane to a country that was never part of their removal proceedings.\" DHS General Counsel James Percival signaled the administration would not immediately comply, writing on social media that \"the third country deportation policy continues, as the First Circuit's ruling is not currently in effect,\" and legal observers expect the administration to seek Supreme Court review for a third time. The ruling adds to a string of setbacks for the administration's deportation apparatus in federal appeals courts even as the White House presses ahead with expanded removal agreements, now covering more than 30 countries worldwide."
+          ],
+          "sources": [
+            [
+              "Appeals court rejects Trump's third-country deportation policy, says detainees are entitled to more due process",
+              "https://www.cbsnews.com/news/appeals-court-rejects-trump-third-country-deportation-policy/"
+            ],
+            [
+              "US court blocks Trump plan to deport migrants to third countries",
+              "https://www.aljazeera.com/news/2026/9/19/us-court-blocks-trump-plan-to-deport-migrants-to-third-countries"
+            ]
+          ]
+        }
+      ],
+      "tech-ai": [
+        {
+          "headline": "Anthropic Pushes IPO Timeline to November, Eyes $2 Trillion Valuation",
+          "byline": "San Francisco",
+          "paragraphs": [
+            "Anthropic has pushed its long-anticipated initial public offering from October to November 2026, according to people familiar with the plans, as bankers work toward a valuation north of $2 trillion that would make it one of the largest debuts in market history. The company confidentially filed a draft registration with the SEC back in June, and its business has scaled sharply since: annualized revenue rose from roughly $9 billion at the end of 2025 to about $65 billion in July and is now pacing near $100 billion, with the company projecting around $120 billion by year-end and $200 billion by 2028. The jump follows a pair of enormous private rounds this year — $30 billion at a $380 billion valuation in February and $65 billion at a $965 billion valuation in May — that more than doubled the company's worth twice over in a matter of months.",
+            "Major technology partners are also deepening their financial ties to the offering. Amazon and Google, both existing investors and cloud-infrastructure providers to Anthropic, are expected to participate further, while Nvidia is reportedly weighing an anchor investment of up to $10 billion and Microsoft continues to supply computing capacity. Analysts note the company has reported positive adjusted operating income for a second straight quarter with gross margins above 80% before revenue-sharing and model-training costs are factored in, though some warn the web of overlapping investments among AI labs, chipmakers and cloud providers makes the true economics of the offering hard for outside investors to untangle."
+          ],
+          "sources": [
+            [
+              "Anthropic Is Targeting a Valuation of Over $2 Trillion in Its IPO. Here's Why Smart Investors Will Wait Before Buying",
+              "https://finance.yahoo.com/markets/stocks/articles/anthropic-targeting-valuation-over-2-081500258.html"
+            ],
+            [
+              "Anthropic IPO Could Hit $2 Trillion—And Put Public Investors Last",
+              "https://www.forbes.com/sites/jimosman/2026/09/17/anthropic-ipo-could-hit-2-trillion-and-put-public-investors-last/"
+            ]
+          ]
+        },
+        {
+          "headline": "Google, OpenAI and Anthropic Race to Release Dedicated Cyber-Defense AI Models",
+          "byline": "San Francisco",
+          "paragraphs": [
+            "Google, OpenAI and Anthropic each rolled out AI systems this month built specifically to find and patch software vulnerabilities faster than attackers can exploit them. Google's new Gemini 3.8 Flash Cyber is distributed through a program the company calls Fairwind, which gives governments, hospitals and telecom operators early access to the model before threats emerge, backed by a network of more than 650 partners including CrowdStrike, Palo Alto Networks and Snowflake. OpenAI said its Astra model has crossed what it defines as a \"critical\" cybersecurity capability threshold, scoring 100% on the ExploitBench benchmark for independently discovering and exploiting zero-day flaws while declining 91.5% of attempts to jailbreak it into misuse.",
+            "Anthropic, for its part, released two upgraded models, Claude Fable 5.1 and Claude Mythos 5.1, with the more powerful Mythos restricted to vetted \"trusted access\" programs in cybersecurity and life sciences rather than general release. The company paired the launch with new Enterprise Frontier Safeguards, combining zero-data-retention privacy guarantees with misuse-detection tooling, and disclosed that earlier internal evaluations had found some model behavior it described as \"recklessness and willingness to take harmful actions,\" along with prior unauthorized-access incidents it says have since been contained. Security researchers say the near-simultaneous releases reflect an intensifying arms race in which the same class of AI systems capable of finding software flaws for defenders could just as easily be turned toward offense."
+          ],
+          "sources": [
+            [
+              "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+              "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html"
+            ]
+          ]
+        },
+        {
+          "headline": "Universal, Sony Sue Suno Again, Say New v6 Model 'Launders' Earlier Infringement",
+          "byline": "Boston",
+          "paragraphs": [
+            "Universal Music Group and Sony Music Entertainment filed a second lawsuit against AI music startup Suno in federal court in Boston on September 18, arguing that its newly launched v6 model cannot escape liability for copyright infringement just because Suno describes it as trained \"from scratch.\" The complaint contends v6, released September 9, was built through knowledge distillation from Suno's earlier models — versions 4 through 5.5 — which the labels say were themselves trained on 60,202 unlicensed sound recordings, arguing in the filing that \"training a 'new' model on the outputs of an infringing model does not eliminate the infringement; it launders it.\" At the maximum statutory damages of $150,000 per work, the labels' claims could theoretically expose Suno to roughly $9 billion in liability, plus an additional $150 million tied to allegations that Suno circumvented YouTube's anti-downloading protections to obtain training material.",
+            "The labels are seeking a court injunction barring further use of their catalogs, monetary damages and a jury trial. Notably, the suit leans on Suno's own recent licensing history — a settlement with Warner Music Group in November 2025 and licensing partnerships with BMG in August and Believe in September — to argue that a \"functioning market\" for licensed AI training data already exists, undercutting any fair-use defense Suno might raise. The case is the latest flashpoint in the music industry's broader legal campaign against generative-AI platforms, testing whether retraining on a company's own earlier, disputed models can wash away the underlying copyright claims."
+          ],
+          "sources": [
+            [
+              "Universal and Sony sue Suno for a second time, claiming platform's v6 models are 'the fruit of the same poisoned tree'",
+              "https://www.musicbusinessworldwide.com/universal-and-sony-sue-suno-for-a-second-time-claiming-platforms-v6-models-are-the-fruit-of-the-same-poisoned-tree/"
+            ],
+            [
+              "Sony Music, Universal Music Group Sue Suno Over Label-Backed Model: 'Fruit of the Same Poisoned Tree'",
+              "https://variety.com/2026/music/news/sony-music-universal-music-sue-suno-label-backed-model-1236866921/"
+            ]
+          ]
+        }
+      ],
+      "business-markets": [
+        {
+          "headline": "Bank of Japan Lifts Rate to 31-Year High as Oil Shock From Iran Conflict Feeds Inflation",
+          "byline": "Tokyo",
+          "paragraphs": [
+            "The Bank of Japan raised its benchmark interest rate a quarter point to 1.25% on Thursday, the highest level in 31 years, as policymakers moved to contain inflation pressure stemming from a spike in oil prices tied to the ongoing Iran conflict. Japan imports nearly all of its oil, leaving its economy especially exposed to the run-up in crude costs, and the central bank said inflation is now running close to its longstanding 2% target after decades of near-zero rates meant to fight deflation. The move had been widely anticipated by traders, and the yen firmed modestly against the dollar, which was trading around 155 yen, well off the roughly 160-yen level that triggered coordinated U.S.-Japan currency intervention earlier this year.",
+            "The Tokyo hike landed the same week the Federal Reserve also tightened policy, producing a rare stretch of synchronized rate increases across the world's two largest developed economies and pushing global bond yields higher; the U.S. 10-year Treasury yield climbed to 4.98% in the aftermath. Analysts said the BOJ is likely to keep tightening into early 2027 if oil-driven inflation persists, a shift that could further reshape currency and bond markets that had spent years anchored to Japan's ultra-low-rate regime. Tokyo's Nikkei 225 rose on the announcement, a sign investors viewed the increase as already priced in rather than a surprise tightening shock. This is reported as economic news only, not investment advice."
+          ],
+          "sources": [
+            [
+              "Bank of Japan hikes rates to 31-year high to battle inflation",
+              "https://www.euronews.com/business/2026/09/18/japans-central-bank-raises-benchmark-interest-rate-to-125"
+            ],
+            [
+              "Bank of Japan raises interest rates to 31-year high, flags concerns over inflation",
+              "https://www.cnbc.com/2026/09/18/japan-raises-rates-30-year-high-yen-jgb.html"
+            ]
+          ]
+        },
+        {
+          "headline": "Netflix Shares Slide After Wells Fargo Downgrade Flags 'Worrying' Engagement Trends",
+          "byline": "New York",
+          "paragraphs": [
+            "Netflix shares fell 4.67% Thursday to close at $71.79, extending a four-session losing streak, after Wells Fargo analyst Steven Cahall cut the stock to \"underweight\" and slashed his price target to $57 from $80. Cahall pointed to softening viewer engagement and a content slate he said has produced fewer breakout hits recently, warning that heavier spending on live programming such as sports and events threatens to squeeze margins even as subscriber growth slows from its post-password-crackdown highs. Trading volume swelled to roughly 87.2 million shares, more than double the stock's three-month average, as investors weighed the bearish call heading into the company's next earnings report.",
+            "Not every analyst shared the pessimism: Evercore ISI's Kutgun Maral kept a far more bullish $110 target, arguing international subscriber growth and ad-tier expansion still give Netflix room to grow. The split highlights a broader debate on Wall Street over whether streaming leaders can keep raising prices and adding live events without denting the engagement metrics that underpin their advertising pitch. Netflix is scheduled to report quarterly results on October 20, when management commentary on content spending and margins is expected to settle which camp has the stronger case. This is reported as market news only, not investment advice."
+          ],
+          "sources": [
+            [
+              "Stock Market Today, Sept. 18: Netflix Falls on Analyst Downgrade and Slashed Price Target",
+              "https://www.fool.com/coverage/stock-market-today/2026/09/18/stock-market-today-sept-18-netflix-falls-on-analyst-downgrade-and-slashed-price-target/"
+            ],
+            [
+              "NFLX Stock Heads For 4-Day Slide, Extends September Losing Streak After Wells Fargo Flags 'Worrying' Engagement In Downgrade",
+              "https://finance.yahoo.com/markets/stocks/articles/nflx-stock-heads-4-day-110717047.html"
+            ]
+          ]
+        },
+        {
+          "headline": "Arm Holdings Surges Past 8% as CEO Voices Confidence in $2 Billion AI Chip Demand",
+          "byline": "San Francisco",
+          "paragraphs": [
+            "Arm Holdings stock jumped as much as 8.6% this week, closing near $264.90 after touching $267 intraday, after chief executive Rene Haas told CNBC the company can now secure enough manufacturing supply to meet roughly $2 billion of customer demand for its AGI CPU data-center chips across fiscal 2027 and 2028 — double the $1 billion figure Haas had cited as recently as Arm's July earnings call. The company's fiscal first-quarter revenue had already grown 22% to a record $1.29 billion, with royalty revenue up 22% to $715 million and licensing revenue up 23% to $574 million, as data-center-related royalties more than doubled from a year earlier. Haas's remarks add to a run of bullish commentary from chip designers riding demand for AI infrastructure.",
+            "The rally came even as the broader market showed signs of strain: only about 31% of S&P 500 stocks were trading above their 50-day moving average on the same trading day, according to one market strategist, underscoring how heavily index gains are being driven by a narrow group of AI-linked names like Arm, Nvidia and Hewlett Packard Enterprise rather than broad participation. Technical analysts flagged $270.39 as a key resistance level for Arm shares, with a break above that point seen as opening the door to a run toward the $278–$296 range, though the stock has not yet cleared that threshold. This is reported as market news only, not investment advice."
+          ],
+          "sources": [
+            [
+              "Arm's CEO Says the Chip Designer Is Even More Confident in Hitting $2B AI Chip Sales Target. The Stock Is Rallying",
+              "https://www.aol.com/articles/arm-ceo-says-chip-designer-174951000.html"
+            ],
+            [
+              "Arm Holdings Stock Surges 8.6% as AGI CPU Demand Puts $270.39 Breakout in Focus",
+              "https://www.tradingkey.com/analysis/stocks/us-stocks/262174801-arm-stock-agi-cpu-arm-breakout-270-tradingkey"
+            ]
+          ]
+        }
+      ],
+      "science-discovery": [
+        {
+          "headline": "Scientists Identify First New Wild Cat Species in Over a Century",
+          "byline": "La Paz, Bolivia",
+          "paragraphs": [
+            "Researchers have formally described a new wild cat species, Leopardus tilcayo, living in the cloud forests of the Bolivian Yungas on the eastern slope of the Andes — the first entirely new cat species recognized by science since the pampas cat was described in 1923. The animal, notable for its scrunched face, short rounded ears and leopard-like spots, first came to scientific attention in 2016 when a local man brought an orphaned kitten to the Senda Verde animal refuge; biologist Paola Nogales Ascarrunz began investigating and eventually assembled a team spanning seven countries to run the genetic analysis confirming it as a distinct species. \"It had never been given a scientific name, and it had never been formally described in a scientific way that was published,\" said researcher Jonas Lescroart. Genetic sampling has so far confirmed the species only within Bolivia, though its range may extend into neighboring Peru and Argentina.",
+            "The cat had previously been lumped together with other tiger cats, such as Geoffroy's cat and the oncilla, whose populations are typically assessed collectively for conservation purposes — meaning Leopardus tilcayo had received no dedicated protection despite an apparently small and poorly documented population. With the species now formally named, wildlife agencies could be required to evaluate its conservation status individually rather than folding it into a broader tiger-cat assessment, a shift researchers say would better reflect the risks facing cryptic, forest-dwelling species. Scientists still know little about the animal's numbers, diet or reproductive habits, and say further fieldwork in the Yungas is needed before protective measures can be designed."
+          ],
+          "sources": [
+            [
+              "New Bolivian cat claws its way into species list: What we meow",
+              "https://www.aljazeera.com/news/2026/9/18/new-bolivian-cat-claws-its-way-into-species-list-what-we-meow"
+            ],
+            [
+              "New wild cat species is identified for first time in 100 years, researchers say",
+              "https://www.nbcnews.com/science/environment/new-wild-cat-species-identified-rcna598113"
+            ]
+          ]
+        },
+        {
+          "headline": "NASA Orbiter Finds Largest Newly Formed Crater Yet Seen on the Moon",
+          "byline": "Washington",
+          "paragraphs": [
+            "NASA's Lunar Reconnaissance Orbiter has identified a freshly formed lunar crater 728 feet wide and 141 feet deep — roughly two football fields across and deep enough to swallow three school buses stacked end to end — making it the largest newly formed impact crater yet documented anywhere in the solar system. Mission scientists dated the strike to a roughly six-week window between April 11 and May 22, 2024, when an asteroid or comet fragment estimated at the size of a three- to six-story building slammed into the moon's eastern near side; researchers say impacts of that scale occur on the moon roughly once a century. The newly designated crater, McGetchin, was spotted on October 24, 2025, by Robert Wagner, an image-processing specialist who works on the orbiter's camera system, after he noticed \"an unusually bright patch surrounded by a dark halo\" while comparing before-and-after lunar maps.",
+            "Instruments aboard the orbiter also detected a thermal 'cold spot' roughly four miles across surrounding the crater, where nighttime surface temperatures run about 16 degrees Fahrenheit cooler than the undisturbed terrain nearby — a signature of debris and churned soil scattered across a footprint far wider than the crater itself. The Lunar Reconnaissance Orbiter, which has now operated for more than 17 years, has catalogued at least 1,000 new impact craters and roughly 100,000 other surface changes since launch, data scientists use to refine estimates of how often the moon, and by extension Earth's neighborhood in space, gets struck by debris large enough to matter. Because the moon has no atmosphere to burn up incoming material, its pockmarked surface serves as a running record of impact rates that erosion would otherwise erase on Earth."
+          ],
+          "sources": [
+            [
+              "NASA's Moon orbiter finds a 728-foot crater that wasn't there before",
+              "https://www.sciencedaily.com/releases/2026/09/260917003715.htm"
+            ],
+            [
+              "NASA's Lunar Reconnaissance Orbiter Discovers a New 222-m Diameter Lunar Crater",
+              "https://newsroom.usra.edu/nasas-lunar-reconnaissance-orbiter-discovers-a-new-222-m-diameter-lunar-crater/"
+            ]
+          ]
+        },
+        {
+          "headline": "Israeli Researchers Find Cells That Survive Their Own Death to Rebuild Tissue",
+          "byline": "Rehovot, Israel",
+          "paragraphs": [
+            "Scientists at the Weizmann Institute of Science have identified two previously unrecognized cell populations that play an outsized role in repairing tissue after severe injury by starting their own programmed death, then reversing course and surviving to multiply. Using fruit fly larvae exposed to ionizing radiation and a newly built 'delayed sensor' able to flag cells in which the death machinery switched on but never finished, the team found that so-called DARE cells accounted for nearly half of all repaired tissue within 48 hours of radiation exposure, and that their descendants were up to seven times more resistant to a second round of cell death. A second population, dubbed NARE cells, resists death entirely without ever activating the pathway, contributing to regeneration through a separate route.",
+            "The researchers traced the survival mechanism to a molecular motor protein that tethers an early-stage 'initiator' caspase enzyme to the cell membrane, stalling the death program before the 'executioner' enzymes that normally finish the job can act — and found that the resulting survival advantage is passed down through later cell generations. The phenomenon, known scientifically as anastasis, cuts both ways: while it points to a possible route for accelerating healing after injury, lead researcher Eli Arama cautioned that \"overactivation of the same motor protein has previously been linked to cancerous tumor growth,\" a link that may help explain why tumors that initially respond to treatment often return more resistant than before. The findings so far come from fly larvae, and the team says confirming the same mechanism operates in human tissue will require substantial additional study."
+          ],
+          "sources": [
+            [
+              "Scientists discover cells that cheat death and rebuild damaged tissue",
+              "https://www.sciencedaily.com/releases/2026/09/260917003722.htm"
+            ]
+          ]
+        }
+      ],
+      "health-medicine": [
+        {
+          "headline": "RFK Jr. Uses Anti-Vaccine Group's Stage to Announce New HHS Reviews",
+          "byline": "Washington",
+          "paragraphs": [
+            "Health and Human Services Secretary Robert F. Kennedy Jr. delivered a keynote address on September 17 at a conference held by Children's Health Defense, the anti-vaccine nonprofit he once chaired, using more than twenty minutes to question vaccine safety rather than defend federal immunization policy. Holding up a hepatitis B vaccine package insert, Kennedy noted that the original clinical trial monitored just 147 infants for five days with no placebo control, and he read off a list of 454 adverse events named on the insert, including diabetes, SIDS and asthma, without noting that a listed event is not evidence of a caused one. \"Should we be looking at the potential that some of these chronic illnesses are associated with vaccines?\" he asked the crowd. Medical groups that have sued HHS over recent vaccine-policy changes said the speech showed the secretary treating an advocacy audience as his primary constituency rather than the broader public.",
+            "Kennedy used the appearance to announce that HHS is examining more than 150 serious adverse events reported after vaccination, is standing up a task force to review the timing and sequence of the childhood immunization schedule, and wants to overhaul the Vaccine Adverse Event Reporting System while paying physicians to file reports into it. He also floated a linked health-data project pulling in Medicare, Medicaid and private insurer records. Kennedy mentioned Pennsylvania's measles deaths only once during the address, even as the state confronts its worst outbreak in decades. The event closed with organizers introducing Andrew Wakefield, the discredited British physician whose retracted 1998 study first tied the MMR vaccine to autism, as the next speaker."
+          ],
+          "sources": [
+            [
+              "RFK Jr. delivers victory lap speech at anti-vaccine nonprofit he once led",
+              "https://www.statnews.com/2026/09/17/rfk-jr-anti-vaccination-activism-childrens-health-defense-conference/"
+            ],
+            [
+              "RFK Jr. questions vaccine safety at anti-vaccine organization gathering",
+              "https://www.axios.com/2026/09/17/rfk-vaccine-safety-anti-vaccine-gathering"
+            ]
+          ]
+        },
+        {
+          "headline": "US Measles Cases Top 3,400, Highest Annual Total Since Elimination",
+          "byline": "Atlanta",
+          "paragraphs": [
+            "The CDC reported 3,471 confirmed measles cases nationwide through September 17, up 177 in a single week, spread across 47 jurisdictions plus Washington, D.C., with 17 additional cases among international visitors. Ninety-five percent of this year's cases are linked to one of 39 active outbreaks rather than isolated exposures, and the national total has already surpassed all of 2025's 2,289 cases, making 2026 the worst year for measles since the United States declared the disease eliminated in 2000. CDC Director Dr. Erica Schwartz defended the vaccine amid the surge, saying, \"The MMR vaccine is safe and effective,\" and warning that measles remains \"the most contagious disease,\" with potential complications including pneumonia and a fatal brain-swelling condition.",
+            "Pennsylvania is absorbing the heaviest toll, with 767 confirmed cases across 38 of its 67 counties as of September 18, 150 hospitalizations, and four measles-linked deaths this year, including two infants and an 18-year-old who died of acute disseminated encephalomyelitis; two of those deaths, both in unvaccinated residents of Jefferson and Mifflin counties, were announced September 15. State health workers administered more than 46,000 MMR doses in August alone as they raced to contain the spread. The underlying vulnerability is national: kindergarten MMR coverage has slipped from 95.2% in the 2019-2020 school year to 92.4% now, leaving roughly 280,000 kindergartners unprotected and coverage below the 95% threshold epidemiologists say is needed for herd immunity."
+          ],
+          "sources": [
+            [
+              "Measles Update: September 18, 2026",
+              "https://www.contagionlive.com/view/measles-update-september-18-2026"
+            ],
+            [
+              "National Measles Total Reaches 3,471 as Pennsylvania Climbs to 767 Cases and Kindergarten Vaccine Coverage Slips",
+              "https://www.medicaldaily.com/cdc-measles-3471-cases-pennsylvania-767-september-2026-478836"
+            ]
+          ]
+        }
+      ],
+      "global-affairs": [
+        {
+          "headline": "Ukraine Launches Massive Drone Barrage on Moscow as Russia Votes",
+          "byline": "Kyiv",
+          "paragraphs": [
+            "On the final day of Russia's three-day parliamentary elections, Ukraine launched a large-scale drone assault on Moscow and the surrounding region on September 20, with Moscow Mayor Sergei Sobyanin saying air defenses intercepted more than 1,600 drones region-wide, including roughly 450 aimed at the capital itself. A strike on a 21-story residential building forced the evacuation of about 400 residents, and a major oil refinery supplying Moscow sustained damage; regional officials reported two deaths in the Moscow area, a 44-year-old woman and an elderly man. Sobyanin accused Kyiv of timing the strikes to disrupt the vote, calling the assault \"clearly planned with the aim of disrupting the elections.\"",
+            "Ukrainian President Volodymyr Zelensky praised the operation, saying it struck \"billions of dollars that sustain the war machine\" by hitting refining and military logistics targets deep inside Russia. Moscow answered overnight with roughly 138 drones fired at Ukraine, killing at least four people in the Kyiv region, including three children, according to local officials. The exchange illustrates how, with no ceasefire in sight nearly four years into the war, both sides have shifted toward ever-larger long-range drone campaigns that increasingly strike civilian infrastructure far from the front line."
+          ],
+          "sources": [
+            [
+              "Two killed in Ukrainian drone attack on Moscow, says Russia",
+              "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says"
+            ]
+          ]
+        },
+        {
+          "headline": "Houthis Claim Missile and Drone Strikes on Riyadh and Saudi Aramco Site in Yanbu",
+          "byline": "Riyadh",
+          "paragraphs": [
+            "Saudi Arabia's military coalition said it intercepted a ballistic missile fired at Riyadh before dawn Saturday, the first such attack on the Saudi capital since fighting between the Iran-backed Houthi movement and the Saudi-led coalition flared anew in Yemen. Residents near the capital's airport reported hearing an explosion and seeing smoke, though officials said no casualties or damage resulted from the intercepted missile. Houthi military spokesman Brig. Gen. Yahya Saree said the group had launched cruise missiles, ballistic missiles and drones at \"sensitive sites\" in Riyadh and at a Saudi Aramco facility in the Red Sea port of Yanbu, claiming the strikes ignited \"massive fires\"; the coalition separately said it thwarted additional attacks aimed at infrastructure in Yanbu, Taif, Baysh and Farasan. The escalation follows the Houthis' capture of the strategic port of Mokha and nearby Red Sea islands, and comes days after debris from an intercepted drone killed a Yemeni resident inside Saudi Arabia, the first confirmed civilian death of this renewed round of fighting.",
+            "The attack coincided with a separate diplomatic track, as Iran's top security official, Mohsen Rezaei, told mediators from Qatar and Pakistan that Tehran's conditions for reopening nuclear talks with Washington include an end to fighting on all fronts, the unfreezing of Iranian assets and the lifting of a naval blockade, according to Iranian state media cited by regional outlets. Riyadh, whose coalition officials say its missile-interceptor stockpiles are running low after four years of relative calm in Yemen, has appealed to France, Britain, Pakistan and Egypt for air-defense support. Analysts said the twin developments underscore how the Gaza and Yemen conflicts have become entangled with the broader U.S.-Iran standoff, with Tehran's regional proxies signaling leverage even as Iranian officials say they are awaiting a response from President Trump on the terms for resuming negotiations."
+          ],
+          "sources": [
+            [
+              "Saudi Arabia says Houthis tried to attack its capital",
+              "https://www.npr.org/2026/09/19/nx-s1-5974980/saudi-arabia-houthis-attempted-attack-capital"
+            ],
+            [
+              "Iran says conditions given to mediators for talks with US",
+              "https://www.nation.com.pk/20-Sep-2026/iran-says-conditions-given-mediators-talks-us"
+            ]
+          ]
+        },
+        {
+          "headline": "World Leaders Converge on UN as High-Level Week Opens",
+          "byline": "New York",
+          "paragraphs": [
+            "Heads of state and government are gathering at UN headquarters this week for the 81st General Assembly's high-level week, opened under the theme \"Restoring trust, managing transformation: A United Nations that delivers for all\" and presided over by Assembly President Khalilur Rahman of Bangladesh. The agenda runs from a September 18 review of progress on the Sustainable Development Goals, with fewer than five years left before the 2030 deadline, through a September 23-24 session convened by Secretary-General António Guterres on climate finance and rising seas threatening island and coastal states, to a September 25 meeting on pandemic preparedness revisiting lessons from COVID-19 and a September 29 high-level session on nuclear disarmament.",
+            "Guterres opened the week with an appeal for unity amid overlapping global crises, telling delegates, \"We the peoples – all of us – bound by a single conviction: that we are safer, stronger and more human when we stand together.\" The gathering also marks the 40th anniversary of the Declaration on the Right to Development and the 25th anniversary of the Durban Declaration against racism, commemorated September 23 and 28 respectively. Diplomats say Gaza's fragile ceasefire and the stalled search for a Ukraine peace deal are expected to dominate sideline meetings even though neither is a formal agenda item this week."
+          ],
+          "sources": [
+            [
+              "The world comes to New York: What's at stake at UN General Assembly high-level week",
+              "https://news.un.org/en/story/2026/09/1168344"
+            ]
+          ]
+        }
+      ],
+      "economy-personal-finance": [
+        {
+          "headline": "Jobless Claims Fall to 196,000, Lowest Since Mid-July, as Layoffs Stay Historically Rare",
+          "byline": "Washington",
+          "paragraphs": [
+            "New applications for unemployment benefits fell by 10,000 to a seasonally adjusted 196,000 in the week ending September 12, the Labor Department reported Thursday, coming in well below the 207,500 economists had forecast and marking the lowest weekly total since mid-July. The four-week moving average, which smooths out weekly volatility, also declined, dropping 2,750 to 203,250, reinforcing that employers are largely holding onto workers even as the pace of new hiring has slowed markedly this year.",
+            "The report lands against a backdrop of a broader hiring slowdown: the economy has added roughly 643,000 jobs so far in 2026, an average of about 80,000 a month, compared with average monthly gains near 166,000 in 2023 and 2024. Economists describe the current environment as a low-hire, low-fire labor market in which companies are reluctant to cut staff but are also pulling back sharply on new postings, leaving overall labor-market churn unusually low by historical standards heading into the fall."
+          ],
+          "sources": [
+            [
+              "Jobless Claims Plunge to 196,000 as U.S. Layoffs Remain Historically Low",
+              "https://amgreatness.com/2026/09/18/jobless-claims-plunge-to-196000-as-u-s-layoffs-remain-historically-low/"
+            ]
+          ]
+        },
+        {
+          "headline": "Consumer Sentiment Sinks to 47.8 as Households' Inflation Fears Jump on Fuel Prices",
+          "byline": "Ann Arbor, Michigan",
+          "paragraphs": [
+            "The University of Michigan's preliminary September consumer sentiment index dropped 3.9 points to 47.8, down 7.3 points from a year earlier and roughly 16% below its February 2026 level, according to the survey released this month. The decline was driven mainly by a 5.7-point slide in the expectations component, to 45.8, while a gauge of how consumers view current conditions slipped a more modest point, to 50.9, suggesting households are growing more anxious about where the economy is headed even as they judge today's conditions somewhat less harshly.",
+            "Inflation expectations jumped alongside the sentiment decline: consumers now expect prices to rise 4.6% over the next year, up from 4.0% in August and the highest year-ahead reading since June, while longer-run inflation expectations edged up to 3.4%. Survey researchers linked the pessimism to rising fuel costs and escalating trade tensions, noting that respondents \"anticipate greater pressures on their pocketbooks to come,\" even as five-year business-outlook expectations held roughly steady, a sign the immediate squeeze is weighing more heavily on households than their longer-term outlook."
+          ],
+          "sources": [
+            [
+              "Preliminary: Consumer sentiment decreased 3.9 points in September",
+              "https://bankingjournal.aba.com/2026/09/preliminary-consumer-sentiment-decreased-3-9-points-in-september/"
+            ]
+          ]
+        },
+        {
+          "headline": "Existing-Home Sales Slip 2% in August as Inventory Hits Highest Level in a Decade",
+          "byline": "Washington",
+          "paragraphs": [
+            "Existing-home sales fell 2% in August from July to a seasonally adjusted annual rate of 3.98 million, down 1.2% from a year earlier, the National Association of Realtors reported, as the 30-year mortgage rate averaged 7.23% and kept many would-be buyers on the sidelines. The median existing-home price rose 1.6% year-over-year to $429,100, even as inventory climbed to 1.62 million units — up 3.2% from July and 5.9% from a year ago, and the first time supply has topped 1.6 million units since November 2019. Price cuts hit 42.1% of listings, well above the normal 30%-to-35% range, a sign sellers are having to adjust expectations as homes sit longer on the market.",
+            "\"Mortgage rates and home sales move in opposite directions, so it's not surprising to see a mild dip in home buying activity due to high mortgage rates,\" NAR chief economist Lawrence Yun said, adding that demand is still being cushioned by rising wages — up 3.1% in August — and the roughly 643,000 net new jobs added so far this year. The combination of swelling inventory, elevated borrowing costs and more price reductions points to a housing market that is rebalancing toward buyers even without a sharp drop in mortgage rates, a dynamic economists expect to persist into the fall selling season. This is reported as economic news only, not investment or financial advice."
+          ],
+          "sources": [
+            [
+              "August existing home sales slip to 3.98 million annual rate",
+              "https://www.housingwire.com/articles/existing-home-sales-august-2026/"
+            ],
+            [
+              "NAR Existing-Home Sales Report Shows 2.0% Decrease in August",
+              "https://www.nar.realtor/newsroom/nar-existing-home-sales-report-shows-2-0-decrease-in-august"
+            ]
+          ]
+        }
+      ],
+      "education-research": [
+        {
+          "headline": "University Leaders Warn Slow Release of Federal Research Dollars Is Emptying Labs",
+          "byline": "Washington",
+          "paragraphs": [
+            "Leaders of major research universities are sounding an alarm over what they describe as a historically slow release of congressionally approved federal science funding, with the National Institutes of Health awarding 48% fewer new grants than its historical average as of late May and the National Science Foundation down 65% from its typical pace, according to a report from the Association of American Universities. The financial toll is already visible on campuses: Johns Hopkins University said its federal research portfolio shrank by more than $500 million in 2025, the University of Kansas reported a $182 million year-over-year drop three quarters into the current fiscal year, and MIT said federally funded campus research activity fell more than 20%, with graduate enrollment there down a fifth, roughly 500 fewer students, over the same period. Johns Hopkins President Ron Daniels and Kansas Chancellor Doug Girod both warned that the federal research engine \"has sputtered,\" threatening the country's long-standing position as a scientific leader.",
+            "University officials say the slowdown is pushing early-career scientists out of research altogether or overseas, threatening a pipeline that has historically produced breakthroughs in medicine and technology later commercialized by American industry. MIT President Sally Kornbluth said the funding pullback has hampered what she called one of the country's most influential and productive research communities, and university associations argue the cuts risk ceding scientific and economic ground to competitor nations that are increasing their own research investment. The disruption follows a broader pattern of funding uncertainty and grant terminations at federal science agencies that has played out over the past year, according to AAU and other higher-education groups tracking the issue."
+          ],
+          "sources": [
+            [
+              "University Leaders Sound Alarm Over Slow Release of Federal Research Funds",
+              "https://www.aau.edu/newsroom/leading-research-universities-report/university-leaders-sound-alarm-over-slow-release"
+            ]
+          ]
+        },
+        {
+          "headline": "More Than Half of Largest School Districts Cutting Budgets as Enrollment Keeps Falling",
+          "byline": "Broward County / Los Angeles",
+          "paragraphs": [
+            "More than half of the nation's 50 largest school districts are making budget cuts or confronting deficits this year, according to a Chalkbeat analysis, driven primarily by falling enrollment, which directly reduces per-pupil funding even as fixed costs like buildings and staff contracts remain. Nearly 30 of the 50 largest districts cited shrinking student counts as a factor, compounded by inflation-driven increases in food, fuel and healthcare costs, including rising use of GLP-1 weight-loss medications in employee health plans, plus the expiration of pandemic-era federal relief money that had propped up staffing and programs for several years. Broward County schools, the nation's sixth-largest district, have lost nearly 40,000 students, or 17%, over the past decade and are cutting 1,000 positions and closing six schools to close a $90 million shortfall. Los Angeles Unified, the second-largest district, has seen enrollment fall 28% and is moving ahead with layoffs affecting as many as 3,200 employees.",
+            "Michael Griffith, an analyst at the Learning Policy Institute, said many of the cost pressures squeezing districts, from healthcare to insurance to negotiated raises, are largely outside administrators' control, forcing cuts elsewhere even in districts with otherwise stable finances. The wave of layoffs and school closures is reshaping staffing and academic offerings in some of the country's biggest school systems just as districts also navigate the tail end of pandemic-recovery efforts, and education researchers say the trend is likely to continue as birth-rate declines and school-choice competition keep pushing enrollment down in many urban districts."
+          ],
+          "sources": [
+            [
+              "Budget cuts hit half of America's largest school districts",
+              "https://www.chalkbeat.org/2026/05/28/schools-making-budget-cuts-and-layoffs-due-to-inflation-enrollment-declines/"
+            ]
+          ]
+        },
+        {
+          "headline": "FAFSA Completion Hits Record High for Class of 2026 After Years of Rocky Rollouts",
+          "byline": "Washington",
+          "paragraphs": [
+            "The high school class of 2026 completed the Free Application for Federal Student Aid at a record rate of 54.7% as of May 1, according to the National College Attainment Network, putting completions 0.8 percentage points ahead of last year's class at the same point and a full 7.4 points above the class of 2024, whose senior year was marred by a chaotic FAFSA relaunch plagued by technical failures. NCAN attributed the turnaround to several factors: the 2026-27 FAFSA opened in September rather than the delayed December launch of prior cycles, new instant-verification technology now lets most applicants with Social Security numbers finish the form in one sitting instead of over several days, and nine states now require FAFSA completion for high school graduation. Completion rates rose in every state compared with a year earlier, with Alaska, Arizona, Florida and New Mexico each posting gains of 20% or more.",
+            "NCAN described the recovery as a remarkable and encouraging turnaround after two years of implementation problems that had discouraged many low-income and first-generation students from applying for aid at all, since a completed FAFSA is often the gateway to federal grants, work-study and many state and institutional scholarships. Financial-aid administrators and high school counselors say the third consecutive year operating under the simplified form has also helped, giving school staff and families more familiarity with a process that had confused many applicants when it was overhauled beginning with the class of 2024."
+          ],
+          "sources": [
+            [
+              "FAFSA completion rate for class of 2026 highest on record",
+              "https://www.highereddive.com/news/fafsa-completion-rate-for-class-of-2026-highest-on-record/820295/"
+            ]
+          ]
+        }
+      ],
+      "sports": [
+        {
+          "headline": "Kentucky, West Virginia Deliver Statement Upsets in Week 3",
+          "byline": "College Station, Texas / Morgantown, West Virginia",
+          "paragraphs": [
+            "Unranked Kentucky stunned No. 9 Texas A&M 31-21 at Kyle Field, snapping the Aggies' 19-game home winning streak against unranked opponents. Wildcats quarterback Kenny Minchey was sharp all afternoon, completing 14 of 18 passes for 252 yards and two touchdowns, while defenders Sam Greene and Jordan Castell each intercepted Texas A&M starter Marcel Reed to swing momentum Kentucky's way. It was Kentucky's first win over a top-10 opponent since its 2024 upset of then-No. 6 Ole Miss, giving the Wildcats a marquee road win to build on. Aggies coach Mike Elko offered a blunt postgame assessment, telling reporters, \"You guys kicked our ass,\" as he faced questions about a defense and offensive line that were manhandled for a half.",
+            "In Morgantown, West Virginia knocked off No. 25 Virginia 38-27 to move to 3-0 on the young season, powered by a career day from quarterback Michael Hawkins Jr., who accounted for five total touchdowns. Hawkins became the first Mountaineers quarterback to record at least three rushing touchdowns and two passing touchdowns in a single game since Pat White did it in 2008, breaking the game open with a 14-point second-quarter surge. The win over a ranked opponent puts West Virginia, unranked since December 2018, in position to crack the AP Top 25 for the first time in nearly eight years, while Kentucky's road win is expected to knock Texas A&M out of the rankings entirely."
+          ],
+          "sources": [
+            [
+              "West Virginia, Kentucky pull off Top-25 upsets in Week 3",
+              "https://www.ncaa.com/news/football/article/2026-09-19/west-virginia-kentucky-pull-top-25-upsets-week-3"
+            ],
+            [
+              "College Football Rankings: Texas A&M Poised to Drop After Kentucky Upset",
+              "https://www.si.com/fannation/college/cfb-hq/rankings/college-football-rankings-texas-am-poll-drop-kentucky-loss"
+            ]
+          ]
+        },
+        {
+          "headline": "Brewers Lead the Pack as MLB's Wild-Card Races Reach a Boil",
+          "byline": "Milwaukee, Wisconsin",
+          "paragraphs": [
+            "With roughly two weeks left in the regular season, the Milwaukee Brewers own baseball's best record at 96-58, putting them on track for the National League's No. 1 seed. The Los Angeles Dodgers have already wrapped up the NL West, and the Atlanta Braves are on the verge of clinching the NL East. In the American League, the Tampa Bay Rays hold a four-game cushion over the Yankees atop the AL East. The Cleveland Guardians lead the AL Central, while the Astros and Rangers remain locked in a tight AL West battle.",
+            "The National League wild card is the tightest race in baseball, with the Cubs, Phillies and Padres all deadlocked at 85-69, Chicago holding the tiebreaker for now while Arizona has faded five games back. In the AL, Boston's magic number sits at just two, and the Red Sox could clinch a playoff berth as early as Saturday with a win paired with a loss by Texas or Houston. The Yankees' postseason picture, meanwhile, has been clouded by Aaron Judge's stint on the injured list. The White Sox are clinging to the third AL wild-card spot ahead of the Rangers, Blue Jays and Orioles."
+          ],
+          "sources": [
+            [
+              "2026 MLB playoff picture: Standings, bracket, clinching scenarios, postseason projections",
+              "https://www.cbssports.com/mlb/news/2026-mlb-playoff-picture-standings-bracket/"
+            ],
+            [
+              "MLB playoffs 2026 tracker: Standings, schedule, clinch scenarios, tiebreakers, playoff bracket and more",
+              "https://sports.yahoo.com/mlb/article/mlb-playoffs-2026-tracker-standings-schedule-clinch-scenarios-tiebreakers-playoff-bracket-and-more-201145510.html"
+            ]
+          ]
+        }
+      ],
+      "also-worth-knowing": [
+        {
+          "headline": "Salmon Are Pouring Back Into the Klamath After Its Dams Came Down",
+          "byline": "Klamath River, California",
+          "paragraphs": [
+            "Two years after crews finished removing four PacifiCorp dams — Iron Gate, Copco 1, Copco 2 and J.C. Boyle — in the largest dam-removal project in U.S. history, more than 20,000 chinook salmon have swum upstream into the Klamath River this year, recolonizing roughly 90% of the fish's historic habitat. Cal Trout researcher Damon Goodman, who has tracked the recovery, said the turnaround has outpaced expectations: \"The biological response has been much faster than I ... expected.\" Yurok and Karuk tribal biologists who fought for decades to see the dams removed have documented salmon reaching stretches of river they hadn't reached in more than a century.",
+            "The recovery isn't complete: two federal dams farther upstream, Link River and Keno, still block passage, and the Keno dam let through zero salmon in 2024 and only about 2,500 in 2025. Conservation biologist George Pess cautioned against declaring victory too soon, noting \"it's not a magic bullet,\" and pointed to this year's drought, thin snowpack and disease outbreaks that hurt young fish. Farmers and conservation groups are still negotiating over water allocation in the basin, even as fall-run chinook rebound faster than struggling species like suckers and spring-run salmon."
+          ],
+          "sources": [
+            [
+              "20,000 Salmon Return to the Klamath—but Challenging Conditions for Recovery Remain",
+              "https://insideclimatenews.org/news/27082026/salmon-return-to-klamath-river-after-dam-removals/"
+            ],
+            [
+              "What We're Reading: 20,000 Salmon Return to the Klamath River",
+              "https://reasonstobecheerful.world/what-were-reading-klamath-river-salmon-return"
+            ]
+          ]
+        },
+        {
+          "headline": "The Sun Just Had Its First Spotless Day in Seven Months",
+          "byline": "Boulder, Colorado",
+          "paragraphs": [
+            "On September 18, the Earth-facing side of the sun showed no numbered sunspot groups for the first time since February 24 — a striking lull less than two years after Solar Cycle 25 hit its peak. Solar observers recorded only ten weak B-class flares in the preceding 24 hours, the strongest falling just shy of C-class strength, and no coronal mass ejections were aimed toward Earth. The quiet stretch is a sharp contrast to August 8, 2024, when observers counted roughly 337 sunspots in a single day, the most since March 2001.",
+            "Scientists say the spotless day is an early marker of the sun's slow slide from solar maximum toward its next minimum, part of the roughly 11-year cycle that drives flares, geomagnetic storms and aurora displays. Forecasters expect fresh active regions to rotate into view within days, so the blank sun is likely a brief lull rather than a sign the cycle has already bottomed out. Even so, it gives space-weather watchers a concrete data point for how quickly activity is cooling after 2024's outburst, which produced some of the most widespread auroras in two decades."
+          ],
+          "sources": [
+            [
+              "Sun news: It's official! First spotless day since February",
+              "https://earthsky.org/sun/sun-news-activity-solar-flare-cme-aurora-updates/"
+            ]
+          ]
+        },
+        {
+          "headline": "Treasure Hunters Pull Rare Royal Copper Ingot From 1622 Spanish Wreck",
+          "byline": "Florida Keys, Florida",
+          "paragraphs": [
+            "Divers with Mel Fisher's Shipwreck Expeditions, led by Captain Drake Nicholas, recovered a 55-pound copper ingot, a 22.5-pound silver bar, silver coins and musket balls from the wreck of the Nuestra Señora de Atocha, the Spanish treasure galleon that sank off the Florida Keys during a 1622 hurricane. Nicholas said he initially mistook the find for something else: \"I thought it was a cannon, but it ended up being a copper ingot, which was also very exciting.\" The ship's original manifest recorded 140 copper ingots aboard, of which only a fraction have been recovered since divers first rediscovered the wreck in 1985.",
+            "The copper, appraised at roughly $18,000 to $25,000, was far more than raw metal in the 17th century — Spain restricted ownership of copper because it was the key ingredient for casting bronze cannons, which fired farther and held up better in battle than iron ones. \"Only certain people could actually own copper because it was making such strong cannons,\" Nicholas explained, noting the metal was reserved largely for royal armories. The find adds to the Atocha's reputation as one of the most lucrative shipwrecks ever located, a site that has already yielded gold bars, emeralds and silver coins worth hundreds of millions of dollars."
+          ],
+          "sources": [
+            [
+              "Treasure Hunters Make Exciting Discovery in Shipwreck off Florida Coast",
+              "https://www.breitbart.com/local/2026/09/17/treasure-hunters-make-exciting-discovery-in-400-year-old-shipwreck-off-florida-coast/"
+            ]
+          ]
+        }
+      ]
+    },
+    "local": {
+      "Toronto": {
+        "headline": "Council Approves 2026 Budget With Smaller Tax Hike, TTC Fare Freeze",
+        "paragraphs": [
+          "Toronto city council has signed off on its 2026 operating budget, settling on a 2.2 per cent property tax increase that is a sharp pullback from last year's 6.9 per cent hike. For the owner of a home assessed at roughly $692,140, the change works out to about $91.53 more per year. The budget also locks in a freeze on TTC fares, paired with a cap of 47 rides a month so frequent riders effectively get unlimited travel once they hit that threshold, while directing money toward seven-day library service and continued efforts on homelessness.",
+          "The spending plan adds more than $93 million to the Toronto Police Service budget as part of a multi-year push to hire hundreds of new officers and paramedics, a commitment Mayor Olivia Chow defended even as the force contends with a recently disclosed corruption investigation involving seven officers. Chow argued the city is obligated to honour the police service's existing collective agreement and hiring plan regardless of the controversy, framing the overall budget as one built around affordability for residents while still funding front-line services."
+        ],
+        "sources": [
+          [
+            "Toronto city council approves 2026 budget including 2.2 per cent property tax hike",
+            "https://www.seekyoursounds.com/news/toronto/toronto-city-council-approves-2026-budget-including-2-2-per-cent-property-tax-hike"
+          ]
+        ]
+      },
+      "Vancouver": {
+        "headline": "Council Sends Two Major Development Proposals Back to Staff",
+        "paragraphs": [
+          "In a rare double rebuff, Vancouver city council declined to approve two sizeable development applications within the same week, instead voting to send both back to city staff for further review. One proposal called for a 25-storey hotel in the West End on a quiet residential street near Stanley Park, while the other envisioned a trio of towers in Strathcona, including one reaching 39 storeys, near East Hastings Street and Glen Drive. Councillors cited concerns that the hotel didn't fit its low-rise residential surroundings and that the Strathcona towers were out of scale with the neighbourhood and too far from rapid transit.",
+          "The referral motions, brought by Councillor Mike Klassen and backed by members across ABC Vancouver, COPE, the Greens and Vote Vancouver, effectively delay final decisions on both projects until after October's municipal election. Klassen defended the approach as responsiveness to community input, saying, \"You're listening to the community thoughtfully every single time. That's part of the job.\" OneCity Councillor Lucy Maloney pushed back, arguing the move amounts to punting hard housing decisions past the election rather than having parties stand behind clear commitments on development."
+        ],
+        "sources": [
+          [
+            "Vancouver city council's rejection of 2 big developments about policy — but also politics",
+            "https://www.cbc.ca/news/canada/british-columbia/west-end-strathcona-development-vancouver-council-rejection-9.7135425"
+          ]
+        ]
+      },
+      "Dallas": {
+        "headline": "Near-Record Heat and High Fire Danger Grip North Texas Through the Weekend",
+        "paragraphs": [
+          "Dallas-Fort Worth pushed toward the upper 90s and 100 degrees again this weekend, extending one of the hottest, driest late-summer stretches on record for North Texas. The region logged its 12th triple-digit day of September on Sunday the 14th when the high hit 103 degrees, the most 100-degree days ever recorded in the month locally, part of a year that has now seen 49 days at or above 100 degrees, sixth-most on record. National Weather Service meteorologist Sarah Barnes called it \"one of the hottest and driest periods,\" noting the region has gone roughly 60 days without measurable rain, pushing much of North Texas from abnormally dry conditions in early August into severe and extreme drought by late August.",
+          "The dry, hot pattern has triggered burn bans across the Metroplex and an elevated grass-fire warning, as forecasters flagged that low humidity combined with southerly winds gusting to 20 mph could let any new fire \"spread quickly\" through parched vegetation and soil. An air quality alert remained in effect as the weekend's high approached the daily record of 102 degrees, but relief is on the way: a weak cold front is expected to bring a 30 to 50 percent chance of evening storms starting Sunday, with a few capable of producing hail and damaging winds, before temperatures ease to the upper 80s and low 90s by midweek as the drought-fueled heat wave finally breaks."
+        ],
+        "sources": [
+          [
+            "North Texas set a new heat record for the month of September",
+            "https://www.keranews.org/environment-nature/2026-09-14/north-texas-heat-triple-digit-temperatures-remain"
+          ],
+          [
+            "North Texas temps in the 90s for late September, elevated fire threat for Saturday",
+            "https://www.cbsnews.com/texas/news/dfw-north-texas-forecast-9-19-2026/"
+          ]
+        ]
+      },
+      "New York City": {
+        "headline": "MTA Moves Ahead on Largest-Ever Subway Car Order, Featuring Open Gangway Design",
+        "paragraphs": [
+          "The MTA is pressing forward on what it calls its largest subway car order in history, with plans to replace aging 1980s-era rolling stock on the 1, 3 and 6 lines with new R262 trains that feature open, walk-through gangways connecting cars end to end. The agency is soliciting manufacturer proposals due this September, with a contract expected by early 2028; the base order covers more than 1,100 cars, with an option for roughly 1,250 more that could extend the redesign to the 2, 4 and 5 lines. The purchase is funded through the MTA's $68 billion 2025-2029 Capital Plan and is aimed at cutting down on the frequent breakdowns and service delays tied to the system's oldest trains.",
+          "Governor Kathy Hochul framed the order as a down payment on reliability, saying it would mean \"thousands of new subway cars running better service and a more reliable ride for millions every day.\" MTA Chair Janno Lieber called it \"a major step to visibly delivering the modern transit system New Yorkers deserve,\" noting the open-gangway layout should also help distribute crowding more evenly across a train instead of leaving some cars packed while others sit half-empty."
+        ],
+        "sources": [
+          [
+            "MTA to debut new walk-through subway cars on 1, 3, 6 lines",
+            "https://www.fox5ny.com/news/mta-roll-out-new-subway-cars-walk-through-design-1-3-6-lines"
+          ]
+        ]
+      },
+      "Chicago": {
+        "headline": "Chicago's New Regional Transit Authority NITA Holds First Board Meeting",
+        "paragraphs": [
+          "The Northern Illinois Transit Authority, or NITA, held its inaugural board meeting this month, formally taking over from the Regional Transportation Authority that had overseen the CTA, Metra and Pace since 1974. The overhaul stems from emergency legislation Illinois lawmakers passed in late 2024 to head off a projected 'fiscal cliff' that threatened roughly 40 percent service cuts across the three agencies amid falling ridership and a funding shortfall. NITA arrives with real money and real power behind it: about $1.5 billion a year in new funding, drawn from a quarter-point regional sales tax increase and a redirected share of the state motor fuel tax offset by higher Illinois Tollway rates, plus authority to coordinate service and fares across all three systems rather than leaving each to plan on its own.",
+          "Among the board's early priorities are a unified fare system eliminating transfer fees between CTA, Metra and Pace by 2030, a requirement that future bus purchases be electric, and a rollout of transit ambassadors by July 2027. A more contentious item still looms: whether to stand up a dedicated transit police force, with a vote expected next June. Cook County Sheriff Tom Dart has already weighed in on the idea, calling it \"an easy, though costly, option\" for addressing safety concerns on the system."
+        ],
+        "sources": [
+          [
+            "What is NITA, Chicago's new transit agency tasked with reforming CTA/Metra/Pace?",
+            "https://chicago.suntimes.com/transportation/2026/09/10/nita-northern-illinois-transit-authority-cta-metra-pace"
+          ]
+        ]
+      }
+    }
+  },
+  {
     "date": "2026-09-19",
     "topStory": {
       "headline": "Iran Sends Qatar-Brokered Conditions to Washington to End the War",
