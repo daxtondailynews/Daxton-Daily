@@ -15,6 +15,651 @@
  * demo purposes. Source URLs use example.com placeholder outlet names.
  */
 window.EDITIONS = [
+    {
+    "date": "2026-09-21",
+    "topStory": {
+      "headline": "UN General Assembly Opens Amid 'Deep Uncertainty,' as Guterres Warns of Three Existential Threats in Final Address",
+      "byline": "Staff Report — New York",
+      "paragraphs": [
+        "World leaders and roughly 120 heads of state and senior officials converged on United Nations headquarters in New York on Monday as the General Assembly's high-level week opened, with outgoing Secretary-General António Guterres delivering what he called a warning about an era of \"deep uncertainty\" in his final address before his term ends December 31. Guterres identified three existential threats demanding urgent cooperation: runaway artificial intelligence, the climate crisis, and deepening global inequality. \"The world cannot afford a race to the bottom on AI safety,\" he said, calling instead for international guardrails that make the technology \"safe, transparent and accountable, with human dignity at the centre.\" The session unfolds against a backdrop of active wars in Ukraine, Gaza, Iran, Sudan, Congo and Myanmar, and comes as the UN's own finances remain in what Guterres described as \"permanent crisis\" despite Washington's recent payment of $725 million in arrears.",
+        "The week's agenda is crowded with fallout from major geopolitical shifts over the past year. Ukrainian President Volodymyr Zelenskyy is set to address the Assembly Wednesday seeking renewed European support more than four years into Russia's invasion, a day Guterres used to urge an immediate ceasefire; Russian Foreign Minister Sergey Lavrov speaks September 26, with Vladimir Putin again skipping the gathering, as he has for over a decade. Iranian President Masoud Pezeshkian will also speak Wednesday, following the U.S.-Israel military campaign against Iran launched in February, with his delegation facing tightened visa and movement restrictions. In a first for the Assembly, Palestinian Authority President Mahmoud Abbas — denied a U.S. visa for a second consecutive year — will deliver a prerecorded video statement Thursday after members voted overwhelmingly to permit it, the same day Israeli Prime Minister Benjamin Netanyahu is scheduled to speak amid planned protests. Venezuela's interim leader Delcy Rodríguez will also make her UN debut Thursday, eight months after a U.S. military intervention removed Nicolás Maduro from power and as her government negotiates an oil deal with the Trump administration.",
+        "Notably absent in person are China's Xi Jinping, who is sending a vice president, along with India's Narendra Modi, Germany's chancellor and South Africa's president — a lineup diplomats say signals shifting patterns of global engagement. On artificial intelligence, the Security Council has added a first-ever high-level session to Wednesday's calendar after industry figures warned the technology risks escaping human control; President Trump has dismissed such warnings as \"a hoax\" while pressing for continued U.S. dominance in the field. Guterres also pressed for de-escalation in the Middle East — \"priority one, priority two and priority three,\" he said — including protection of shipping through the Hormuz and Bab al-Mandab straits and a halt to Israeli West Bank annexation moves. The week additionally opens the race to succeed Guterres, with seven candidates in contention and Costa Rica's Rebeca Grynspan and Guyana's Carolyn Rodrigues-Birkett seen as early frontrunners."
+      ],
+      "sources": [
+        [
+          "As U.N. General Assembly kicks off, here's what to know",
+          "https://www.npr.org/2026/09/21/nx-s1-5971262/united-nations-general-assembly"
+        ],
+        [
+          "AI, climate and conflicts top Guterres's agenda ahead of General Assembly",
+          "https://news.un.org/en/story/2026/09/1168348"
+        ],
+        [
+          "World leaders meet at UN as their planet grapples with war, division, runaway AI, and climate shocks",
+          "https://www.bostonglobe.com/2026/09/21/world/un-general-assembly/"
+        ]
+      ]
+    },
+    "topics": {
+      "politics": [
+        {
+          "headline": "Supreme Court Blocks Trump-Backed Postal Service Mail Ballot Restrictions Ahead of Midterms",
+          "byline": "Washington",
+          "paragraphs": [
+            "The Supreme Court has refused to let the U.S. Postal Service enforce a sweeping new set of mail ballot rules before November's midterms, leaving a lower court's injunction in place. Only Justices Samuel Alito and Clarence Thomas dissented, while Justice Brett Kavanaugh wrote separately to say the underlying rule might eventually fall within the Postal Service's authority but that there was not enough time to implement it properly before the election. The majority found that \"the Government is unlikely to succeed on the merits\" of its defense of the restrictions. The decision effectively ends months of legal wrangling that began after President Trump signed a March executive order directing the Postal Service to impose new ballot-design standards and voter-list verification requirements.",
+            "U.S. District Judge Indira Talwani, whose freeze on the rules the justices left intact, had written that \"the court is unaware of, and no party has proffered, any delegation Congress has made\" authorizing the Postal Service to regulate election mail this way. Election administrators in multiple states said the ruling lets them run mail voting under existing procedures rather than retooling systems weeks before Election Day. The decision does not permanently settle whether similar postal restrictions on ballots could be revived after this election cycle, leaving the underlying legal question for a future case. For now, though, mail ballots for the 2026 midterms will move under the same rules used in recent past elections."
+          ],
+          "sources": [
+            [
+              "Supreme Court blocks Trump's proposed mail ballot restrictions for 2026 election",
+              "https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/"
+            ],
+            [
+              "The Supreme Court Just Ruled Against Election Security",
+              "https://townhall.com/news/josephchalfant/2026/09/14/the-supreme-court-just-ruled-against-election-security-n2682955"
+            ]
+          ]
+        },
+        {
+          "headline": "Missouri's Congressional Map Fight Escalates as Courts Force Return to Old District Lines",
+          "byline": "Jefferson City, Missouri",
+          "paragraphs": [
+            "The U.S. Supreme Court has blocked Missouri from using its Republican-drawn 2025 congressional map in November's midterms, ordering the state back to the map used in 2022 even though Missouri already held its August 4 primary under the newer boundaries. The Missouri Supreme Court had unanimously found that Secretary of State Denny Hoskins violated state law and the state constitution by moving to implement the 2025 map without a public vote, holding him in contempt before he abandoned the plan. The switch reshapes two closely watched races: Kansas City's 5th District, where Democratic Rep. Emanuel Cleaver faces Republican state Sen. Rick Brattin, reverts to more Democratic-leaning territory, while suburban St. Louis's 2nd District, held by Republican Rep. Ann Wagner against Democrat Frederick Wellman, becomes more competitive. University of Missouri political scientist Peverill Squire said the collision of state and federal rulings has left candidates and voters uncertain which lines will actually govern the election.",
+            "The fight is not over: a statewide ballot measure, Proposition A, will ask Missouri voters on November 3 whether to retroactively adopt the 2025 Republican-favored map, meaning the congressional races and a referendum on their own boundaries will be decided the same day. Washington University law professor Travis Crum said the case shows how redistricting fights are increasingly being litigated court to court and ballot to ballot rather than resolved cleanly before an election. The Eighth Circuit held its own oral arguments on the map September 18, adding another layer of uncertainty just before the September 20 deadline for sending ballots to military and overseas voters. Missouri's clash is one of several redistricting disputes moving through federal courts this cycle alongside fights over new lines in states such as Wisconsin."
+          ],
+          "sources": [
+            [
+              "Missouri redistricting fight heading to ballot",
+              "https://www.upi.com/Top_News/US/2026/09/16/missouri-redistricting-congressional-map-supreme-court/7491789563739/"
+            ],
+            [
+              "Missouri's redistricting fight in turmoil as U.S. Supreme Court and federal rulings clash",
+              "https://www.stlpr.org/government-politics-issues/2026-09-08/us-supreme-court-denies-missouri-gerrymandered-congressional-maps"
+            ]
+          ]
+        },
+        {
+          "headline": "Philippine Senate Deadlocked Over Vote Threshold Needed to Convict VP Sara Duterte",
+          "byline": "Manila",
+          "paragraphs": [
+            "The Philippine Senate, sitting as an impeachment court, is fighting over how many votes are actually required to convict Vice President Sara Duterte, a procedural dispute that could decide the outcome of a trial that has run since July. Presiding officer Francis Escudero had ruled that conviction needs support from at least 16 of the chamber's 24 senators, the two-thirds threshold set by the constitution, but that ruling faces a new challenge now that several senator-judges have been unable to participate for months. Former Chief Justices Artemio Panganiban, Reynato Puno and Hilario Davide argued the two-thirds mark should not be treated as fixed at exactly 16 votes, saying \"the decision ultimately lies with the Senate,\" while Minority Leader Alan Peter Cayetano warned that changing the rule mid-trial risks producing a \"mistrial.\" Senators caucused on the question September 19 and returned to it again September 21, with Sen. JV Ejercito saying he wanted \"a few days just to absorb this\" before any vote.",
+            "The dispute has real stakes because three senator-judges have effectively been sidelined for much of the trial: Ronald dela Rosa never took his oath, while Jinggoy Estrada and Rodante Marcoleta have been arrested on separate charges, raising the question of whether 16 votes should be counted against all 24 senators or a smaller pool of those actually able to sit in judgment. Former presidential spokesman Salvador Panelo warned senators against altering the standard at all, saying \"the impeachment court absolutely has no power to tinker with the Constitution\" and that judges who knowingly misapply it could face criminal liability. Oral arguments from prosecution and defense lawyers on the threshold question are set for this week, and senators have signaled a formal vote could still be delayed so members can study the constitutional question further. The outcome will determine whether Duterte, who denies wrongdoing tied to alleged threats against President Ferdinand Marcos Jr. and other officials, can realistically be removed from office."
+          ],
+          "sources": [
+            [
+              "Senate tackles today VP impeachment vote threshold",
+              "https://www.philstar.com/headlines/2026/09/21/2557712/senate-tackles-today-vp-impeachment-vote-threshold"
+            ],
+            [
+              "Senate warned over revising impeachment vote threshold",
+              "https://www.philstar.com/headlines/2026/09/18/2557092/senate-warned-over-revising-impeachment-vote-threshold"
+            ]
+          ]
+        }
+      ],
+      "tech-ai": [
+        {
+          "headline": "US Proposes AI Incident Notification System to China Ahead of Trump-Xi Summit",
+          "byline": "New York / Washington",
+          "paragraphs": [
+            "Treasury Secretary Scott Bessent floated a bilateral AI safety notification mechanism during roughly eight hours of trade talks with Chinese Vice Premier He Lifeng and chief negotiator Li Chenggang at JPMorgan Chase's New York headquarters on September 20, 2026, ahead of a planned Trump-Xi summit in Washington. The proposed system would have Washington and Beijing alert each other to AI incidents posing national security risks, though it explicitly excludes export controls on advanced AI chips, which remain a separate and unresolved flashpoint. \"Moving from opaque to more transparency between the number one and the number two AI powers in the world is very important,\" Bessent said. The two sides agreed to form a working group to continue the discussion rather than finalizing any binding agreement.",
+            "The overture comes as tensions simmer over U.S. accusations that Chinese firms are \"distilling\" American frontier models and Chinese complaints that Washington is running a \"Cold War playbook\" on chip export restrictions, against a backdrop of 145% U.S. tariffs on Chinese goods and 125% Chinese retaliatory tariffs. Sarah Beran, incoming president of the National Committee on U.S.-China Relations, said \"there is no more important topic that the U.S. and China should be talking about than AI,\" while China specialist Samm Sacks noted that informal \"Track Two\" channels through universities and think tanks let experts \"talk about sensitive issues more candidly\" before formal negotiations. Chinese state media described the New York session as \"frank, in-depth, and constructive,\" though officials on both sides cautioned that no major agreements beyond the dialogue proposal were reached before Trump and Xi are set to meet later in the week."
+          ],
+          "sources": [
+            [
+              "US proposes AI safety notification mechanism in talks with China",
+              "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit"
+            ],
+            [
+              "When Trump and Xi meet they will discuss AI. 'Track Two' talks are already buzzing",
+              "https://www.npr.org/2026/09/18/nx-s1-5971481/trump-xi-meeting-ai-track-two-talks"
+            ]
+          ]
+        },
+        {
+          "headline": "Anthropic Confirms It Runs a Bay Area Wet Lab Where Claude Directs Biology Experiments",
+          "byline": "San Francisco",
+          "paragraphs": [
+            "Anthropic has confirmed it operates a physical wet-lab facility in the Bay Area where its Claude models help design and direct real biological experiments rather than confining AI to computational predictions. Eric Kauderer-Abrams, the company's head of life sciences, said the lab exists because \"to do biology, the final test is still...in real lab work,\" describing the facility as functioning like a conventional biotech lab that runs internal research alongside outside collaborators. The buildout follows Anthropic's roughly $400 million acquisition of stealth AI-biotech startup Coefficient Bio in April 2026 and sits alongside a partnership with Novo Nordisk on drug discovery. This week Anthropic also launched a Life Sciences Verification Program giving vetted outside researchers access to its most capable models for biological research.",
+            "The announcement lands amid unusually public internal debate at Anthropic over the risks of AI-driven biology and capability growth more broadly: researcher Jacob Coxon recently resigned, warning publicly that AI could \"kill us all by the end of the decade,\" and the company's own alignment lead has put the odds of AI-caused human extinction within ten years above 10%. Anthropic frames the wet lab and its verification program as safety infrastructure — vetting who gets access to powerful models for biological work — even as critics note that giving AI systems the ability to physically execute experiments, rather than just suggest them, raises the stakes of any misuse or error. The company has not disclosed the lab's exact address or headcount, and declined to detail specific ongoing experiments."
+          ],
+          "sources": [
+            [
+              "Anthropic is operating a lab that conducts biology experiments",
+              "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/"
+            ],
+            [
+              "Anthropic quietly sets up biology lab as it ramps AI drug program: Reuters",
+              "https://www.cnbc.com/amp/2026/09/18/anthropic-quietly-sets-up-biology-lab-as-it-ramps-ai-drug-program-report.html"
+            ]
+          ]
+        },
+        {
+          "headline": "'Plugin4Shell' Zero-Click Flaw Exposes Claude Code, Codex, Copilot and Gemini CLI to Takeover",
+          "byline": "Tel Aviv / San Francisco",
+          "paragraphs": [
+            "Security researchers Or Nevo, Dor Granat and Niv Hoffman at enterprise-agent-security startup Air disclosed a vulnerability, dubbed Plugin4Shell, that breaks the plugin-verification systems used by four major AI coding agents: Anthropic's Claude Code, OpenAI's Codex, Microsoft's GitHub Copilot, and Google's Gemini CLI. The flaw exploits a gap in how these agents check out plugin code: each verifies that a commit hash matches what a marketplace pinned, but never confirms the checkout actually landed at that commit, letting an attacker who controls a plugin's repository silently redirect the download to malicious code \"while the pin still looks honored,\" as the researchers put it. Because affected agents auto-update plugins, exploitation requires no user interaction, making it what the researchers call a \"first-of-its-kind\" zero-click AI supply-chain attack capable of granting full remote code execution over any data or system the agent can reach.",
+            "The researchers privately disclosed the bug to vendors in June 2026, giving companies roughly three months to respond before the September 17 public disclosure. Anthropic patched Claude Code in version 2.1.179 and OpenAI fixed Codex in version 0.146.0, while Google opted to deprecate the affected Gemini CLI component rather than patch it and Microsoft's Copilot remained unfixed at disclosure, though GitHub Copilot had partial protection from an existing SHA mitigation. Given that Microsoft has said roughly 90% of Fortune 500 companies use Copilot in some form, security researchers warned the exposure window before full patching was substantial, and urged enterprises to audit which AI coding agents auto-update third-party plugins in their environments."
+          ],
+          "sources": [
+            [
+              "AI coding agents' 0-click RCE flaw could hand attackers keys to the kingdom",
+              "https://www.theregister.com/security/2026/09/17/ai-coding-agents-0-click-rce-flaw-could-hand-attackers-keys-to-the-kingdom/5297335"
+            ],
+            [
+              "Plugin4Shell Zero-Click RCE Hits Claude Code, Codex, Copilot and Gemini CLI",
+              "https://cybersecuritynews.com/plugin4shell-zero-click-rce/"
+            ]
+          ]
+        }
+      ],
+      "business-markets": [
+        {
+          "headline": "Paramount Nears Settlement Talks With State Attorneys General Over $110 Billion Warner Bros. Discovery Deal",
+          "byline": "Los Angeles / Sacramento",
+          "paragraphs": [
+            "Paramount Skydance, led by chief executive David Ellison, is working toward formal settlement negotiations with a coalition of a dozen state attorneys general who sued to block its $110 billion acquisition of Warner Bros. Discovery, with talks now scheduled for October 14-15 and attendee lists due October 12. California Attorney General Rob Bonta, who is spearheading the coalition, is pushing for structural remedies such as divestitures of cable networks, while Paramount has instead offered behavioral commitments, including a pledge to release 30 theatrical films a year. A spokesperson for Bonta's office cautioned that the scheduled talks are simply the \"standard course\" in litigation and \"does not indicate that a settlement is in progress,\" underscoring how far apart the two sides remain. A trial in the underlying antitrust case is set for March 2027 if no deal is reached beforehand.",
+            "The stakes are steep on both sides: Paramount owes Warner Bros. Discovery a $7 billion termination fee if the deal collapses, and has agreed to pay roughly $7 million a day in ticking fees to WBD starting October 1 for as long as regulatory approval remains pending. Economic analyses cited in the litigation estimate the merger could eliminate anywhere from about 4,500 to nearly 58,000 jobs concentrated in Los Angeles and California, translating into billions of dollars in lost regional economic output. Opponents of a settlement, including some Hollywood labor groups, have urged Bonta publicly not to \"cave\" to Paramount's proposed terms, adding political pressure to a negotiation that will shape the future ownership of one of Hollywood's largest studios and cable portfolios."
+          ],
+          "sources": [
+            [
+              "Paramount nears merger settlement, but some key state AGs are not on board yet | CNN Business",
+              "https://www.cnn.com/2026/09/20/media/paramount-wbd-settlement-california-connecticut-bonta"
+            ],
+            [
+              "Paramount and Rob Bonta Finalize Dates for Merger Lawsuit Settlement Talks",
+              "https://www.thewrap.com/industry-news/business/paramount-rob-bonta-warner-bros-merger-lawsuit-settlement-talks-date/"
+            ],
+            [
+              "Judge Sets Date For Settlement Talks In Paramount-WBD Antitrust Case",
+              "https://deadline.com/2026/09/paramount-attorneys-general-settlement-talks-in-october-1237104639/"
+            ]
+          ]
+        },
+        {
+          "headline": "Boeing CEO Says 737 MAX 10 Certification Is Coming 'Very Soon' as Production Ramp Lags",
+          "byline": "Laguna Beach, Calif.",
+          "paragraphs": [
+            "Boeing chief executive Kelly Ortberg told investors at Morgan Stanley's Laguna Conference that certification of the long-delayed 737 MAX 10 is imminent, saying, \"We completed all the flight testing, all the testing, all of the real work is done. Now we're just in the documentation phase.\" The MAX 10, the largest variant of Boeing's best-selling narrowbody, accounts for roughly 30% of the company's current order backlog and has faced more than six years of delays tied to the 2018-19 MAX crisis, supply-chain disruptions and anti-ice system issues. Ortberg noted European regulators have already flown the aircraft and responded favorably, and Boeing has begun building production units in Washington state ahead of the expected sign-off from the Federal Aviation Administration.",
+            "Even so, Ortberg acknowledged Boeing's broader 737 production ramp remains unsettled: the company is building at a rate of 47 jets a month but has not yet stabilized there, having taken longer than expected to move up from 42, largely because wing production at its Renton plant has not delivered the anticipated efficiency gains. Boeing's next target is 52 jets monthly using a new Everett facility once the current rate holds steady. Separately, Ortberg said the 777X program faces further delays because of a mid-seal issue in GE Aerospace's GE9X engine that must be resolved before flight testing toward ETOPS certification can resume, potentially pushing some testing into 2027, though Boeing still targets first deliveries of the widebody jet that year."
+          ],
+          "sources": [
+            [
+              "737 MAX 10 Certification Coming 'Very Soon,' Boeing CEO Says | AirlineGeeks.com",
+              "https://airlinegeeks.com/2026/09/19/737-max-10-certification-coming-very-soon-boeing-ceo-says/"
+            ],
+            [
+              "Boeing CEO gives update on 737 production, MAX 10 progress and 777X flight tests | AeroTime",
+              "https://www.aerotime.aero/articles/boeing-ceo-kelly-ortberg-737-max-777x-morgan-stanley"
+            ]
+          ]
+        }
+      ],
+      "science-discovery": [
+        {
+          "headline": "New Radar Survey Suggests Hidden Chambers Still Wait Beyond King Tutankhamun's Tomb",
+          "byline": "Cairo",
+          "paragraphs": [
+            "Egyptian and British researchers say a fresh geophysical survey of Tutankhamun's tomb, KV62, has turned up the clearest signal yet of undiscovered space nearby, more than a century after Howard Carter opened the burial chamber in 1922. The team, led by Mamdouh Eldamaty of Ain Shams University and structural engineer George Ballard, combined ground-penetrating radar with a microgravity survey that logged more than 1,200 separate measurements across roughly 35 square meters around the tomb. The radar returns point to a corridor about two meters wide, apparently packed with rubble, running north from the burial chamber; the gravity data separately flagged a feature the team labeled \"Anomaly 7,\" a mostly low-density zone containing a denser, roughly square patch that could mark a filled chamber. \"The data suggest a possible hidden complex of corridors and rooms,\" Eldamaty said of the combined results.",
+            "The findings revive a decade-old proposal from Egyptologist Nicholas Reeves, who argued in 2015 that faint lines beneath the tomb's painted walls mark sealed doorways and that KV62 was originally built as a larger tomb before being hastily repurposed for Tutankhamun's unexpected death, possibly concealing the burial of Queen Nefertiti farther inside. Outside specialists urged caution: Christopher Gaffney of the University of Bradford called the survey \"fascinating\" but said too little raw data had been published to draw firm conclusions, while Keele University's Peter Styles said the gravity readings make a hidden chamber \"plausible\" without yet proving it. The team has proposed drilling narrow test holes, seven to eight centimeters wide, to confirm the anomalies before any excavation is attempted."
+          ],
+          "sources": [
+            [
+              "New evidence points to possible hidden chambers beyond Tutankhamun's tomb",
+              "https://www.heritagedaily.com/2026/09/new-evidence-points-to-possible-hidden-chambers-beyond-tutankhamuns-tomb/159329"
+            ],
+            [
+              "Hidden Chambers Near Tutankhamun's Tomb in Egypt Could Lead to Nefertiti's Burial",
+              "https://greekreporter.com/2026/09/19/nefertiti-burial-chambers-tutankhamun-tomb-egypt/"
+            ]
+          ]
+        },
+        {
+          "headline": "Interstellar Comet 3I/ATLAS Reveals a Frozen, Nitrogen-Rich Birthplace",
+          "byline": "La Palma / Atacama",
+          "paragraphs": [
+            "Two independent studies of 3I/ATLAS, only the third interstellar object ever confirmed passing through the solar system, have given astronomers an unusually detailed read on the chemistry of a comet built around another star. Using the WEAVE spectrograph on the 4.2-meter William Herschel Telescope in the Canary Islands, a team led by Léa Ferellec of Northumbria University measured five ionized gases streaming from the comet, including dinitrogen and carbon monoxide, and used their ratio to conclude the object formed at temperatures below minus 240 degrees Celsius. \"Finding that it's so rich in nitrogen tells us it likely formed in extremely cold conditions, far from its home star,\" Ferellec said, comparing the birthplace to our own Kuiper Belt or Oort Cloud. Co-author Rubén Sánchez-Janssen said it was the first time this level of chemical detail had been captured for an interstellar object.",
+            "A separate team using the Atacama Compact Array of ALMA in Chile found the comet unusually rich in methanol, with a methanol-to-hydrogen-cyanide ratio between roughly 70 and 120, among the highest ever recorded in any comet. Lead author Nathan Roth of American University said the readings show methanol escaping not just from the comet's icy nucleus but from countless small ice grains scattered through its coma, which behave as \"miniature comets\" releasing gas of their own as they warm. \"Observing 3I/ATLAS is like taking a fingerprint from another solar system,\" Roth said. Together the two studies, following earlier interstellar visitors 'Oumuamua and Borisov, give scientists their most detailed picture yet of how planetary material assembles around a star other than the sun."
+          ],
+          "sources": [
+            [
+              "Interstellar comet 3I/ATLAS is bursting with methanol",
+              "https://www.sciencedaily.com/releases/2026/09/260909005217.htm"
+            ],
+            [
+              "Study: Interstellar Comet 3I/ATLAS Formed in Cold, Nitrogen-Rich Environment",
+              "https://www.sci.news/astronomy/interstellar-comet-3i-atlas-cold-nitrogen-rich-environment-15061.html"
+            ]
+          ]
+        },
+        {
+          "headline": "Fossil in a London Museum Drawer for 60 Years Turns Out to Be a New Species",
+          "byline": "Bristol",
+          "paragraphs": [
+            "A tusked, pig-sized herbivore that lived roughly 240 million years ago has been formally identified as a new species, Dinodontosaurus isiyavamanda, more than six decades after it was pulled from Tanzania's Manda Beds by a 1963 British expedition and shelved at the Natural History Museum in London. University of Bristol PhD student Hady George led the redescription, published September 16 in the Journal of Vertebrate Paleontology, identifying the animal as a dicynodont, a mammal-lineage synapsid, of a genus previously known only from South America. \"This fossil specimen from Tanzania has been in our care for over 60 years, and it's wonderful that its identity has now been brought to light,\" said Mike Day, a curator at the Natural History Museum who helped locate the specimen in the collection.",
+            "The discovery matters beyond taxonomy: because Dinodontosaurus is well-dated elsewhere, its presence in the Manda Beds suggests the rock layers there, and the early dinosaur relatives found in them, could be up to ten million years younger than paleontologists had assumed. That shift would nudge back the timeline for when true dinosaurs and their closest relatives first appeared in East Africa, a region central to debates over where dinosaurs originated. The species name, isiyavamanda, honors the Wamanda people who live in the fossil-bearing region of southern Tanzania today. George's team says the case underscores how much remains to be learned from fossils already sitting in museum drawers rather than freshly dug from the ground."
+          ],
+          "sources": [
+            [
+              "New species of 240-million-year-old prehistoric animal from Tanzania discovered",
+              "https://www.eurekalert.org/news-releases/1143887"
+            ],
+            [
+              "New species of 240-million-year-old prehistoric animal could reshape dinosaur origins timeline",
+              "https://phys.org/news/2026-09-species-million-year-prehistoric-animal.html"
+            ]
+          ]
+        }
+      ],
+      "health-medicine": [
+        {
+          "headline": "Bundibugyo Ebolavirus Outbreak in Eastern Congo Declared Global Health Emergency as Toll Passes 3,200 Deaths",
+          "byline": "Geneva",
+          "paragraphs": [
+            "The World Health Organization has designated the Bundibugyo virus disease outbreak sweeping the Democratic Republic of Congo a Public Health Emergency of International Concern, with 6,757 confirmed cases and 3,267 deaths recorded as of September 7, a case fatality rate above 48 percent. The outbreak has spread across 61 health zones in six provinces, with Ituri province hardest hit at more than 5,400 cases in a region already sheltering roughly one million people displaced by armed conflict. Cross-border spread has reached Uganda, where 20 cases and two deaths have been confirmed, while a handful of cases diagnosed in DRC were later treated in France and Germany. WHO officials say overcrowded displacement camps with limited clean water and sanitation are accelerating transmission and complicating containment.",
+            "Responders have vaccinated more than 2,000 health workers across six health zones, and the experimental PARTNERS clinical trial has enrolled over 300 confirmed patients testing treatments for the Ebola-related virus. WHO has rated the outbreak's risk as very high within DRC, high for neighboring countries, and low globally for now, but continued insecurity and fighting in eastern Congo are hampering contact tracing and safe burials, two pillars of outbreak control. More than 1,600 patients have recovered so far, offering some evidence that supportive care and the trial therapies are helping, even as the death toll continues to climb week over week."
+          ],
+          "sources": [
+            [
+              "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+              "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617"
+            ],
+            [
+              "Bundibugyo Virus Disease in 2026 — Clinical and Public Health Responses",
+              "https://www.nejm.org/doi/full/10.1056/NEJMra2607216"
+            ]
+          ]
+        },
+        {
+          "headline": "US Measles Cases Hit 3,471, Worst Year Since Elimination Was Declared in 2000",
+          "byline": "Atlanta",
+          "paragraphs": [
+            "The CDC confirmed 3,471 measles cases nationwide as of September 17, up 5.4 percent from the previous week's tally of 3,294, making 2026 the worst year for the disease in the United States since its elimination was declared a quarter-century ago. Forty-seven jurisdictions have reported cases this year, with Pennsylvania alone logging 731 cases across 38 counties. The CDC has tracked 39 new outbreaks in 2026, and roughly 95 percent of this year's cases are outbreak-associated, split between 1,920 infections tied to outbreaks that began this year and 1,376 carried over from outbreaks that started in 2025; seventeen additional cases were linked to international travelers.",
+            "Pennsylvania has reported four measles-related deaths this year, including two infants and an 18-year-old who died of acute disseminated encephalomyelitis, a rare inflammatory brain complication. The CDC has also changed how it tracks measles fatalities, now relying on death-certificate data from the National Center for Health Statistics rather than case-confirmation reporting, a shift researchers warn could cause the official death count to lag behind the true toll. Public health researchers point to falling childhood vaccination rates in several states as the underlying driver of the sustained outbreaks, even as case growth has slowed somewhat compared to earlier in the year."
+          ],
+          "sources": [
+            [
+              "Measles Update: September 18, 2026",
+              "https://www.contagionlive.com/view/measles-update-september-18-2026"
+            ],
+            [
+              "Measles Cases and Outbreaks | Measles (Rubeola) | CDC",
+              "https://www.cdc.gov/measles/data-research/index.html"
+            ]
+          ]
+        },
+        {
+          "headline": "American Academy of Pediatrics Breaks With CDC, Keeps Broader Vaccine Schedule for 18 Diseases",
+          "byline": "Itasca, Illinois",
+          "paragraphs": [
+            "The American Academy of Pediatrics has released its own 2026 childhood immunization schedule that keeps recommendations for 18 diseases, directly rejecting the CDC's narrower 11-disease schedule adopted after Health and Human Services Secretary Robert F. Kennedy Jr. dismissed the entire Advisory Committee on Immunization Practices in June 2025 over what he called \"persistent conflicts of interest.\" Vaccines the AAP still recommends broadly but the CDC now limits to high-risk groups or case-by-case provider consultation include RSV, rotavirus, influenza, hepatitis A and B, COVID-19, and meningococcal disease. Dr. Sean T. O'Leary, chair of the AAP's Committee on Infectious Diseases, said \"following our schedule on time remains the best way to ensure children receive the strongest possible protection,\" arguing the CDC's cuts were not backed by new scientific evidence.",
+            "The AAP contends the reconstituted ACIP justified its rollback partly by pointing to narrower schedules in Denmark, Germany, and Japan, an approach the academy says ignores differences in U.S. disease epidemiology and vaccination infrastructure. Dr. O'Leary said pediatricians' job is to \"cut through all that noise and understand what the science actually shows.\" The dispute has left many U.S. pediatricians and parents navigating two competing sets of federal and professional guidance simultaneously, and the AAP has filed amended litigation, first lodged in January 2026, seeking to block implementation of the CDC's revised recommendations."
+          ],
+          "sources": [
+            [
+              "AAP Breaks With CDC, Maintains Broader 2026 Childhood and Adolescent Vaccine Schedule",
+              "https://www.ajmc.com/view/aap-breaks-with-cdc-maintains-broader-2026-childhood-and-adolescent-vaccine-schedule"
+            ],
+            [
+              "American Academy of Pediatric issues its own 2026 vaccine schedule",
+              "https://www.nbcwashington.com/news/national-international/pediatrics-group-vaccine-schedule-after-cdc-changes/4048861/"
+            ]
+          ]
+        }
+      ],
+      "global-affairs": [
+        {
+          "headline": "Russia and China Veto U.S. Bid to Keep UN Watchdog on Iran Sanctions",
+          "byline": "United Nations, New York",
+          "paragraphs": [
+            "The UN Security Council on September 17 rejected a U.S.-drafted resolution that would have extended for one more year the mandate of the independent expert panel monitoring compliance with sanctions reimposed on Iran's nuclear program, with the vote falling 11 in favor to 2 against, Pakistan and Somalia abstaining. Russia's ambassador, Vassily Nebenzya, dismissed the so-called snapback of sanctions as having \"no legal basis\" and said Moscow had \"strongly urged the authors to refrain from promoting such a draft.\" China joined Russia in casting the blocking vote, arguing the sanctions framework lapsed when Washington withdrew from the 2015 nuclear deal in 2018. The panel at the center of the fight has been without a chair for more than nine months, effectively paralyzing the sanctions committee's day-to-day work.",
+            "Western council members warned the veto strips the UN of its only independent source of evidence on Iranian sanctions violations. U.S. deputy ambassador Jennifer Locetta said that \"without an independent panel of experts, this council loses its principal source of impartial, evidence-based reporting,\" while Britain's ambassador, Sarah MacIntosh, insisted that \"sanctions against Iranian proliferation remain fully in force, binding on each and every UN member state,\" comparing the veto to Russia's 2024 move to kill the North Korea sanctions panel. France's Jerome Bonnafont called continued monitoring \"a crucial instrument to encourage Iran\" back into compliance. Iran's UN mission thanked Moscow and Beijing for blocking what it called \"another cynical attempt by the United States and its allies,\" leaving the year-old snapback dispute, triggered by Britain, France and Germany's August 2025 invocation of the mechanism, without any independent verification body going forward."
+          ],
+          "sources": [
+            [
+              "Russia and China veto US-backed resolution to monitor Iran nuclear sanctions",
+              "https://www.euronews.com/2026/09/18/russia-and-china-veto-us-backed-resolution-to-monitor-iran-nuclear-sanctions"
+            ],
+            [
+              "Russia and China veto US draft to extend UN monitoring of Iran sanctions",
+              "https://www.thenationalnews.com/news/us/2026/09/17/russia-and-china-veto-us-draft-to-extend-un-monitoring-of-iran-sanctions/"
+            ]
+          ]
+        },
+        {
+          "headline": "Geneva Talks Expose Cracks in Congo-Rwanda Peace Deal as Fighting Persists",
+          "byline": "Geneva / Kinshasa / Kigali",
+          "paragraphs": [
+            "Negotiators from the Democratic Republic of Congo and Rwanda met in Geneva on September 16-17 under the Joint Security Coordination Mechanism to salvage the Washington peace framework the two governments signed in June 2025 and reaffirmed last December, but the talks exposed how little of the deal has been implemented on the ground. Rwandan President Paul Kagame called the agreement's provisions for neutralizing the FDLR, a Hutu-led militia Kigali accuses Kinshasa of tolerating, \"insufficient,\" while DRC Information Minister Patrick Muyaya countered that \"the work of neutralising the FDLR through demobilisation is being carried out in accordance with the Washington agreements.\" The mechanism is co-mediated by the United States, Qatar, Togo and the African Union Commission, and follows an earlier JSCM session in August that likewise failed to resolve the core disputes.",
+            "On the ground, the M23 rebel alliance continues to hold the major eastern cities of Goma and Bukavu, operating under the banner of the Congo River Alliance on a diplomatic track separate from the Kinshasa-Kigali negotiations, which complicates any comprehensive settlement. Rwanda says its troop presence and border defenses cannot be withdrawn until the FDLR threat is verifiably eliminated, while Congolese officials argue Rwandan security concerns cannot justify a foreign military footprint on Congolese soil. Civilians in North and South Kivu continue to report fresh displacement and clashes despite the ceasefire commitments on paper, underscoring the gap between the diplomatic process and conditions in eastern Congo more than a year after the original accord was signed."
+          ],
+          "sources": [
+            [
+              "DRC-Rwanda: Can Geneva talks break the cycle of war in eastern Congo?",
+              "https://www.aljazeera.com/news/2026/9/16/drc-rwanda-can-geneva-talks-break-the-cycle-of-war-in-eastern-congo"
+            ],
+            [
+              "Geneva talks put Rwanda-DRC peace deal to the test",
+              "https://www.aljazeera.com/news/2026/9/15/geneva-talks-put-rwanda-drc-peace-deal-to-the-test"
+            ]
+          ]
+        },
+        {
+          "headline": "UN Sanctions Regime for Sudan Faces Lapse as Drone War and Siege of El-Obeid Grind On",
+          "byline": "El-Obeid / Port Sudan",
+          "paragraphs": [
+            "Sudan's Rapid Support Forces carried out coordinated drone strikes on August 12 against Khartoum, Omdurman, Atbara and the besieged North Kordofan capital of El-Obeid, part of a siege the UN Human Rights Council formally addressed with a resolution in July demanding investigation of alleged war-crimes violations there. The Sudanese Armed Forces, led by General Abdel Fattah al-Burhan, responded with a late-July ground offensive that recaptured the Al-Sadarat highway and five surrounding towns in North Kordofan, even as the RSF and its allied Sudan People's Liberation Movement-North opened a new front near the Ethiopian border, retaking the towns of Kurmuk and Geisan in Blue Nile state in mid-August. The UN Security Council's Sudan sanctions regime was set to expire September 12, with the sanctions Panel of Experts' mandate due to lapse October 12, forcing a council vote on renewal even as members remain split over whether to extend sanctions beyond Darfur to cover Kordofan and Blue Nile.",
+            "The council had already escalated pressure in February by sanctioning four senior RSF figures, including deputy commander Abdul Rahim Hamdan Dagalo, brother of RSF leader Mohamed Hamdan \"Hemedti\" Dagalo, along with commanders Gedo Hamdan Ahmed, Al-Fateh Abdullah Idris and Tijani Ibrahim Musa Mohamed, over atrocities in El-Fasher. An African Union Peace and Security Council delegation visited Sudan on August 16-17 to press transitional prime minister Kamil El-Tayeb Idris and military leaders on a political path out of the war, while the AU-EU-IGAD-Arab League-UN \"Quintet\" held parallel consultations with Sudanese political blocs in Addis Ababa in late July, though some factions boycotted over how the process was designed. Aid workers and UN officials describe civilians in El-Obeid enduring near-daily drone strikes and swelling displacement camps as the war, now in its fourth year, continues to push famine-level conditions deeper into central Sudan."
+          ],
+          "sources": [
+            [
+              "Sudan, September 2026 Monthly Forecast",
+              "https://www.securitycouncilreport.org/monthly-forecast/2026-09/sudan-41.php"
+            ],
+            [
+              "Security Council Sanctions 4 RSF Commanders over Atrocities in Sudan's El-Fasher",
+              "https://english.aawsat.com/arab-world/5244618-security-council-sanctions-4-rsf-commanders-over-atrocities-sudan%E2%80%99s-el-fasher"
+            ]
+          ]
+        }
+      ],
+      "economy-personal-finance": [
+        {
+          "headline": "Fed Raises Rates for First Time Since 2023, Citing Persistent Inflation",
+          "byline": "Washington",
+          "paragraphs": [
+            "The Federal Reserve's rate-setting committee voted unanimously, 12-0, on September 16 to raise the federal funds rate a quarter point to a target range of 3.75% to 4%, the central bank's first increase in three years. The Federal Open Market Committee said in its statement that economic activity \"remains solid\" with strong productivity and capital investment, but that inflation \"remains elevated\" enough to warrant tighter policy to support \"a timelier return to the Committee's 2 percent goal.\" The move followed an August jobs report that came in far hotter than expected and a string of price readings that had not cooled as quickly as officials wanted. The Fed's updated projections, released alongside the decision, put policymakers' median expectation for rates at between 4.1% and 4.4% by the end of 2026, implying at least one more hike this year.",
+            "The decision marks a reversal from the rate-cutting cycle the Fed pursued in 2024 and 2025, and it lands squarely on households already navigating higher borrowing costs for mortgages, auto loans and credit cards. Futures markets have since pushed up the odds of another quarter-point increase at the Fed's next meeting, October 27-28, with traders pricing in roughly a 60% chance of a further hike following the strong August payrolls data. The Fed's longer-run neutral rate estimate, a gauge of where officials think rates should settle once inflation is tamed, remains around 3%, well below the new target range, underscoring how far above what the Fed considers 'normal' current policy now sits."
+          ],
+          "sources": [
+            [
+              "Fed's Interest Rate Decision: September 16, 2026",
+              "https://www.advisorperspectives.com/dshort/updates/2026/09/16/feds-interest-rate-decision-september-16-2026"
+            ],
+            [
+              "Fed rate decision September 2026: Rates rise to 3.75%-4%",
+              "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
+            ]
+          ]
+        },
+        {
+          "headline": "US Economy Adds 162,000 Jobs in August, Blowing Past Forecasts",
+          "byline": "Washington",
+          "paragraphs": [
+            "U.S. employers added 162,000 jobs in August, nearly triple the 56,000 economists had forecast and the strongest monthly gain since March, according to Bureau of Labor Statistics data released September 4. The unemployment rate held steady at 4.1%, with 7.0 million Americans counted as unemployed, while average hourly earnings rose 0.3% for the month and 3.1% over the past year, edging above the 3% pace analysts expected. Government payrolls grew by 35,000, food services and drinking places added 59,000 positions, and construction and manufacturing added 22,000 and 16,000 jobs respectively, while the information sector — covering computing, publishing and media — shed 23,000 jobs. Revisions to prior months added to the upbeat picture, with June payrolls revised up by 11,000 and July flipping from a previously reported loss to a gain of 21,000.",
+            "The unexpectedly strong report immediately reshaped expectations for the Federal Reserve's policy path, with strategists warning that a resilient labor market gives the central bank less cover to ease and more reason to worry about inflation. \"An upside surprise in payrolls will likely ramp up concerns about a rate hike,\" said Ellen Zentner, chief economist at Morgan Stanley Wealth Management. Adam Schickling, a senior economist at Vanguard, said \"the labor market remains resilient enough to keep the focus on inflation,\" while Goldman Sachs' Tim Urbanowicz called the report \"strong\" but cautioned that \"broader labor market rebalancing is still intact.\" Major stock indexes slipped modestly on the news as traders raised the odds they assigned to a Fed rate hike."
+          ],
+          "sources": [
+            [
+              "August 2026 jobs report: U.S. adds 162,000 jobs, unemployment 4.1%",
+              "https://finance.yahoo.com/economy/articles/u-jobs-report-august-2026-123944354.html"
+            ],
+            [
+              "August jobs report: US adds 162,000 positions, unemployment at 4.1%",
+              "https://www.foxbusiness.com/economy/us-jobs-report-august-2026"
+            ]
+          ]
+        },
+        {
+          "headline": "Student Loan Borrowers Face September 30 Deadline for Temporary Rate Cut",
+          "byline": "Washington",
+          "paragraphs": [
+            "Federal student loan borrowers have until September 30 to enroll in automatic payments and lock in a temporary one-percentage-point interest rate reduction, the Department of Education has said. The discount stacks the existing 0.25-point autopay incentive with an additional 0.75-point reduction, applying to Direct Loans — including parent and student loans — originated after July 1, 2012, and remaining in effect through June 30, 2028. Borrowers already enrolled in autopay do not need to take any action, as their loan servicer will apply the extra discount automatically, while those not yet enrolled must set up automatic bank withdrawals before the deadline to qualify; borrowers currently in default must first return their loans to good standing. Under Secretary of Education Nicholas Kent said the incentive is meant to \"drive up repayment rates and significantly improve the overall health of the federal student loan portfolio,\" pointing to data showing autopay enrollment has fallen from more than 80% before the pandemic to about 40% today.",
+            "The rate cut arrives as some lawmakers push for more permanent changes to how federal student debt is priced. Rep. Anna Paulina Luna has argued for capping federal loan interest rates outright, saying \"student loans were supposed to be a pathway to the American Dream\" and calling on Congress to \"cap federal student loan interest rates at 2%.\" For now, the Education Department's discount is temporary and tied strictly to autopay enrollment, meaning borrowers who later cancel automatic payments would lose the reduced rate. Financial aid administrators have urged borrowers to check with their loan servicer well before the September 30 cutoff, since processing automatic-payment enrollment can take several business days."
+          ],
+          "sources": [
+            [
+              "U.S. Department of Education Announces Student Loan Interest Rate Reduction",
+              "https://www.ed.gov/about/news/press-release/us-department-of-education-announces-student-loan-interest-rate-reduction"
+            ],
+            [
+              "Student-Loan Borrowers Have Until September 30 to Claim a Temporary 1-Point Interest Rate Cut",
+              "https://finance.yahoo.com/economy/policy/articles/student-loan-borrowers-until-september-213112585.html"
+            ]
+          ]
+        }
+      ],
+      "education-research": [
+        {
+          "headline": "Education Department Dismantling Advances as Democrats Vow Fight After Midterms",
+          "byline": "Washington",
+          "paragraphs": [
+            "The Trump administration is pressing ahead with the effective dismantling of the U.S. Department of Education, having signed 14 interagency agreements shifting federal education programs to other agencies while cutting roughly half the department's workforce through layoffs, voluntary separations and probationary dismissals. About one-third of staff were let go outright, a reduction that career employees say is already eroding institutional knowledge. American Federation of Government Employees President Everett Kelley warned that \"you cannot repost a job and get back 30 years of knowing how,\" pointing to disruptions in student loan servicing and civil rights enforcement. Education Secretary Linda McMahon has defended the restructuring as consolidating duplicative functions, but the moves have proceeded largely without new congressional authorization.",
+            "Congressional Democrats, buoyed by expectations of midterm gains this November, are laying groundwork to reverse the changes rather than stop them now. Rep. Suzanne Bonamici has introduced impeachment articles against McMahon, while Rep. Bobby Scott has pledged aggressive oversight hearings should he chair the House education committee next year. Sen. Chris Van Hollen said Democrats are betting on the ballot box, telling reporters \"we will be able to move forward on that front\" if voters hand the party a majority. In the meantime, lawmakers are pushing restrictive riders into 2027 spending bills aimed at blocking further interagency transfers, setting up a fight over the department's future that will likely stretch well into next year regardless of the midterm outcome."
+          ],
+          "sources": [
+            [
+              "Education Department shutdown plans face a new hurdle",
+              "https://www.govexec.com/management/2026/09/education-department-shutdown-plans-face-new-hurdle/416003/"
+            ]
+          ]
+        },
+        {
+          "headline": "Millions of Borrowers Face Sept. 29 Deadline as SAVE Repayment Plan Shuts Down",
+          "byline": "Washington",
+          "paragraphs": [
+            "About 7.5 million federal student loan borrowers enrolled in the Biden-era SAVE plan must choose a new repayment option or be automatically defaulted into one by the Education Department, with the first wave of borrowers facing a hard deadline of September 29, 2026. Many of these borrowers have not made a payment since July 2024, having sat in forbearance while SAVE was tied up in litigation, and now face resuming bills alongside a shrunken menu of options: the new Repayment Assistance Plan (RAP), the Standard plan, Income-Based Repayment, Income-Contingent Repayment or Pay As You Earn. Under Secretary of Education Nicholas Kent framed the shutdown bluntly, saying \"if you take out a loan, you must pay it back,\" while noting borrowers get \"at least 90 days to enter a legal repayment plan.\" Borrowers who miss the window will be defaulted into whichever plan the department calculates for their circumstances, which consumer advocates say is often the option with the steepest monthly payment.",
+            "The scramble is landing on a loan system already under strain, with roughly 9 million borrowers in default and another 3 million delinquent across the government's $1.7 trillion student loan portfolio. Natalia Abrams, president of the Student Debt Crisis Center, said the transition has been marked by confusion, noting \"the biggest complaint has definitely been the high cost of exiting the SAVE plan, the confusion with what plans\" are even available to switch into. Compounding the pressure, two other income-driven options — Pay As You Earn and Income-Contingent Repayment — are slated for elimination in 2028, meaning many borrowers now choosing a plan will have to navigate a second transition within a few years. Advocates warn the combination of processing backlogs, resumed payments and reduced options could push default rates higher through the fall."
+          ],
+          "sources": [
+            [
+              "End Finally Comes for SAVE Student Loan Plan: Millions Given Deadline to Switch",
+              "https://www.nerdwallet.com/student-loans/news/save-plan-switch-ultimatum"
+            ],
+            [
+              "Student Loan Borrowers Scramble to Pick New Repayment Plans",
+              "https://www.pymnts.com/consumer-finance/2026/student-loan-borrowers-scramble-to-pick-new-repayment-plans"
+            ]
+          ]
+        },
+        {
+          "headline": "International Student Numbers Tick Up for Fall Term but Stay Well Below Prior Years",
+          "byline": "Washington",
+          "paragraphs": [
+            "New Department of Homeland Security data released September 17 shows active international student records climbing 7.6% in a single month, from 1,114,176 in August to 1,198,712 in September, as colleges opened their fall terms and updated enrollment files. Even with that rebound, the figure sits 102,423 records below September 2025 and 96,074 below September 2024 — declines of roughly 8% in each case — underscoring that visa-policy uncertainty is still keeping overall numbers well under the levels of recent years. India and China together account for 554,714 active records, or 46.3% of the total, with India the single largest source at 335,698 students and China posting the largest one-month gain, up 21,214 students to 219,016. Smaller source countries showed sharp swings too: the United Kingdom rose 20.4% and Japan 14.3% in active records, while Nepal's count grew 6.5% but remained below its March 2026 peak after a sustained decline over the summer.",
+            "Analysts caution the monthly bounce reflects the ordinary rhythm of a new academic term more than a policy turnaround. Immigration attorney Keshab Raj Seadie noted the SEVIS figures \"do not show how many students received visas during the month, how many entered the United States for the first time,\" meaning the data can mask whether new arrivals are actually recovering or whether returning students are simply being re-tallied. The Presidents' Alliance on Higher Education and Immigration has separately warned that modest swings in total enrollment can obscure much steeper drops in new-student enrollment specifically, the segment most sensitive to visa delays and restrictive rules on Optional Practical Training. With international students supporting an estimated $43 billion in economic activity and more than 355,000 U.S. jobs in the most recent academic year, university international offices are watching the next several months of SEVIS releases closely for signs of whether the fall uptick holds or fades."
+          ],
+          "sources": [
+            [
+              "U.S. International Student Numbers Rise in Fall but Remain Below Prior Years, DHS Data Shows",
+              "https://nepyork.com/2026/09/17/u-s-international-student-numbers-rise-in-fall-but-remain-below-prior-years-dhs-data-shows/"
+            ],
+            [
+              "New SEVIS Data Points Towards Worrying Trends in U.S. International Student Enrollment Amid Policy Uncertainty, Presidents' Alliance Warns",
+              "https://www.presidentsalliance.org/press/new-sevis-data-points-towards-worrying-trends-in-u-s-international-student-enrollment-amid-policy-uncertainty-presidents-alliance-warns/"
+            ]
+          ]
+        }
+      ],
+      "sports": [
+        {
+          "headline": "No. 9 Texas A&M Stunned by Kentucky, 31-21, as Elko Fumes: 'You Guys Kicked Our Ass'",
+          "byline": "College Station, Texas",
+          "paragraphs": [
+            "Kentucky pulled off one of the weekend's biggest college football upsets on Saturday, beating No. 9 Texas A&M 31-21 at Kyle Field despite entering as more-than-two-touchdown underdogs. The Wildcats blew the game open in the third quarter, scoring on three straight drives — a 42-yard Kenny Minchey touchdown pass to Kenny Darby and a pair of short touchdown runs by CJ Baxter — to take a 28-7 lead. Minchey finished the day completing 78 percent of his throws for two touchdowns and no turnovers, outplaying Aggies quarterback Marcel Reed, who went 26 of 49 for just 236 yards with a touchdown and two interceptions. Texas A&M had opened the scoring on a Carsyn Baker touchdown run but could never recover from Kentucky's third-quarter surge.",
+            "Aggies coach Mike Elko did not mince words afterward, telling reporters flatly, \"You guys kicked our ass.\" The loss is expected to knock Texas A&M — unbeaten and ranked in the top 10 entering the weekend — well outside the top 15 when the next AP poll is released, a jarring stumble for a team many had penciled in as a playoff contender. It marks Kentucky's most significant win of the season and adds to a run of results this month that has scrambled the early national picture in a sport where, once again, no ranked team appears safe on the road or at home against a hungry unranked opponent."
+          ],
+          "sources": [
+            [
+              "College Football Powerhouse Set to Plummet in AP Rankings After Shocking Upset Loss",
+              "https://www.si.com/fannation/college/cfb-hq/rankings/college-football-rankings-texas-am-poll-drop-kentucky-loss"
+            ],
+            [
+              "College football rankings after Week 3: Updated US LBM Coaches Poll, AP Top 25",
+              "https://sports.yahoo.com/articles/college-football-rankings-week-3-163618146.html"
+            ]
+          ]
+        },
+        {
+          "headline": "Dodgers, Brewers and Braves Clinch Divisions as Rays Close In on Ending Yankees' AL East Reign",
+          "byline": "Bronx, N.Y.",
+          "paragraphs": [
+            "Three National League powers have already locked up their divisions heading into the season's final week. The Los Angeles Dodgers clinched the NL West for the 13th time in 14 seasons, extending their postseason streak to 14 straight years, even as first baseman Freddie Freeman and two-way MVP candidate Shohei Ohtani sit on the 15-day injured list with right biceps inflammation. The Milwaukee Brewers claimed their fourth consecutive NL Central title while owning the best record in baseball, with right-hander Jacob Misiorowski emerging as the front-runner for the NL Cy Young award. The Atlanta Braves punched their playoff ticket by winning the NL East for the eighth time in nine seasons.",
+            "The tighter drama is in the Bronx, where the Tampa Bay Rays arrive Tuesday for a four-game series, including a doubleheader, needing just a single Rays win or Yankees loss to capture their first AL East crown since 2021 — a magic number that stood at nine as of September 17 and has been shrinking by the day. New York, already assured of a playoff berth via the wild card, is expected to manage its roster carefully rather than chase the division. \"You got to make sure guys are in a good spot going in,\" Yankees manager Aaron Boone said, before adding, \"But first things first is we're going to show up Tuesday and try and kick their butts.\" Elsewhere, Cleveland and Chicago's White Sox remain locked in a tight AL Central battle, Houston holds a narrow edge over Texas in the AL West, and Cubs outfielder Pete Crow-Armstrong has forced his way into the NL MVP conversation after a 40-homer, 30-stolen-base season."
+          ],
+          "sources": [
+            [
+              "2026 MLB Playoff Picture, Standings: Dodgers' NL West Dominance Continues",
+              "https://www.foxsports.com/stories/mlb/mlb-postseason-wild-card-playoffs-standings-2026"
+            ],
+            [
+              "Yankees will have to watch Rays celebrate AL East title on home field",
+              "https://sports.yahoo.com/articles/yankees-watch-rays-celebrate-al-005258337.html"
+            ],
+            [
+              "Rays Will Be Facing Yankees Best With AL East on the Line",
+              "https://www.si.com/mlb/rays/onsi/rays-will-be-facing-yankees-best-with-al-east-on-the-line"
+            ]
+          ]
+        },
+        {
+          "headline": "Mahomes Throws for 382 Yards as Chiefs Outlast Colts 33-30 in Overtime",
+          "byline": "Kansas City, Mo.",
+          "paragraphs": [
+            "Patrick Mahomes threw for 382 yards and three touchdowns on 32-of-47 passing with no interceptions Sunday night as the Kansas City Chiefs held off the Indianapolis Colts 33-30 in overtime at Arrowhead Stadium, moving to 2-0 and pushing Mahomes to a perfect 8-0 in regular-season overtime games for his career. Indianapolis nearly stole the win in the extra period: after Kansas City opened overtime with a field goal, quarterback Daniel Jones hit Laquon Treadwell for a 48-yard gain deep into Chiefs territory, only for Treadwell to fumble on the play — a fumble erased when replay review ruled him down by contact. The Colts settled for a game-tying field goal instead of a knockout touchdown, and Mahomes answered by driving Kansas City into range for Harrison Butker's game-winning kick as time expired in overtime.",
+            "Colts running back Jonathan Taylor kept Indianapolis in the fight all night, rushing for 92 yards and two touchdowns on 24 carries, but the loss dropped Indianapolis to 0-2 and extended the franchise's losing streak to nine games dating back to last season. Tight end Travis Kelce remained a steady target in the Kansas City passing game as the Chiefs improved to 2-0 following last week's rout of Denver. The result was one of several tight finishes across a busy NFL Sunday that also saw Philadelphia edge Tennessee 24-20 to stay unbeaten, New England roll past Pittsburgh 20-3 behind Drake Maye's big-play passing, and Chicago's Caleb Williams exit a loss to Minnesota with a hamstring injury."
+          ],
+          "sources": [
+            [
+              "Takeaways as Chiefs top Colts 33-30 in overtime on Sunday Night Football",
+              "https://www.nbcnewyork.com/news/sports/nfl/chiefs-colts-score-mahomes-week-2/6549924/"
+            ],
+            [
+              "2026 NFL season, Week 2: What We Learned from Sunday's games",
+              "https://www.nfl.com/news/2026-nfl-season-week-2-what-we-learned-from-sunday-s-games"
+            ]
+          ]
+        }
+      ],
+      "also-worth-knowing": [
+        {
+          "headline": "Ed Sheeran's Tour Loses Four Acts in Solidarity Walkout Over Macklemore Firing",
+          "byline": "East Rutherford, N.J.",
+          "paragraphs": [
+            "On September 4, Macklemore repeatedly shouted \"Free Palestine\" and performed his song \"Hind's Hall\" while opening for Ed Sheeran at MetLife Stadium, drawing objections from stadium ownership, including Patriots owner Robert Kraft. Ten days later, tour promoter Messina Touring Group announced Macklemore would be dropped from the remaining U.S. leg of Sheeran's Loop Tour, with Sheeran later saying the call \"was the promoter's decision, not mine.\" Kraft said in a statement that \"their pain and loss are real. But that advocacy should not come at the expense of the Jewish community,\" while Macklemore countered on Instagram that \"if those words were more offensive than tens of thousands of Palestinian children being killed... there was a fundamental disconnect.\" The Israeli American Council had lobbied for his removal before it became public.",
+            "Within a day, four acts pulled out of Sheeran's remaining shows in solidarity. Producer Finneas withdrew from six South American dates booked for November, saying \"artists must not be silenced when they speak up for the oppressed\"; opener Aaron Rowe invoked his Irish heritage, saying \"as Irish people we know all too well about genocide\"; the Irish band Beoga, part of Sheeran's touring band, exited the U.S. dates while insisting they'd \"continue to be\" friends with him; and Danish group Lukas Graham also departed. Macklemore had eight shows left before a September 19 date in Philadelphia. The exodus leaves Sheeran largely without a supporting lineup for the U.S. leg and has reignited debate over whether major venues are policing pro-Palestinian speech from touring musicians."
+          ],
+          "sources": [
+            [
+              "Macklemore dropped from Ed Sheeran's 'Loop Tour' after pro-Palestine comments",
+              "https://www.foxnews.com/entertainment/macklemore-doubles-down-after-kicked-off-ed-sheeran-tour-after-pro-palestine-stance"
+            ],
+            [
+              "Finneas, Lukas Graham, Beoga & Aaron Rowe withdraw from Ed Sheeran tour in solidarity with Macklemore",
+              "https://www.bandwagon.asia/articles/finneas-lukas-graham-beoga-aaron-rowe-withdraw-from-ed-sheeran-tour-in-solidarity-with-macklemore"
+            ]
+          ]
+        },
+        {
+          "headline": "Lady Gaga and Michael Polansky Reveal Daughter's Birth and Name, Rose Bean",
+          "byline": "Los Angeles",
+          "paragraphs": [
+            "Lady Gaga and her fiancé, tech executive Michael Polansky, have confirmed the birth of their first child, a daughter named Rose Bean Polansky, delivered via surrogate — news that only became public this past week even though reports place the birth earlier in the year. Outlets reported the baby arrived at Cedars-Sinai Medical Center in Los Angeles, under the care of celebrity OB-GYN Dr. Robert Katz. The name drew quick attention online: \"Rose\" is widely read as a nod to the rose tattoo on Gaga's spine and her rendition of \"La Vie en Rose\" in \"A Star Is Born,\" while \"Bean\" is thought to honor gospel singer and gay-rights pioneer Carl Bean, whose life inspired one of Gaga's own songs. Gaga and Polansky got engaged in 2024 and remain unmarried, though Gaga said in March that a wedding would come \"soon.\" ",
+            "The reveal also surfaced a wave of online commentary over the couple's choice to use a surrogate, with some reports noting backlash directed at Gaga even as fans pushed back, calling it a private medical decision. The couple has stayed largely out of the spotlight since the birth, reportedly spending time together in Northern California rather than staging a public debut with the baby. No formal joint statement has confirmed every detail, so much of the reporting has leaned on outlets close to the family rather than the couple directly. The low-key rollout stands in contrast to the intense public interest that has followed Gaga's engagement and now her transition into motherhood."
+          ],
+          "sources": [
+            [
+              "Lady Gaga and Michael Polansky's Baby's Name and Sex Revealed",
+              "https://www.tmz.com/2026/09/17/lady-gaga-welcomed-baby-girl-in-los-angeles/"
+            ],
+            [
+              "Lady Gaga Welcomes First Baby With Fiancé Michael Polansky: Reports",
+              "https://www.billboard.com/music/pop/lady-gaga-baby-michael-polansky-first-child-1236338900/"
+            ]
+          ]
+        },
+        {
+          "headline": "Matthew Rhys Makes Emmy History With Rare Same-Night Double Win",
+          "byline": "Los Angeles",
+          "paragraphs": [
+            "At the 78th Primetime Emmy Awards on September 14, actor Matthew Rhys became the first performer in the ceremony's history to win two lead-acting Emmys in a single night, taking best actor in a comedy for \"Widow's Bay\" and best actor in a limited series for \"The Beast in Me.\" \"Widow's Bay\" swept comedy, also collecting outstanding comedy series and honors for supporting actor, supporting actress, writing and directing, while \"The Pitt\" won outstanding drama series and gave Noah Wyle his second consecutive lead drama actor trophy. Jean Smart won a fifth consecutive lead comedy actress Emmy for \"Hacks,\" closing out the now-concluded series undefeated in that category across its entire run. Rhea Seehorn, nominated repeatedly over the years without a win, finally took home lead actress in drama for \"Pluribus.\" ",
+            "Host Mariska Hargitay opened the broadcast with a musical number critics called \"corny and cringe,\" and the show's pacing drew mixed reviews even as several individual wins landed as genuine surprises. Rhys's sweep was treated as a rare structural feat, since comedy, drama and limited-series acting fields are voted separately and rarely overlap for a single actor in one year. Smart's streak closes the book on \"Hacks\" as an awards force just as the series wraps for good. For Seehorn, the long-awaited win ended one of the season's most-discussed Emmy narratives about a performer repeatedly passed over."
+          ],
+          "sources": [
+            [
+              "Emmys 2026: Here's the complete list of winners",
+              "https://www.npr.org/2026/09/14/nx-s1-5957565/emmys-2026-winners"
+            ],
+            [
+              "Matthew Rhys Makes Emmy History With Best Actor Win for 'Widow's Bay'",
+              "https://www.hollywoodreporter.com/tv/tv-news/matthew-rhys-makes-emmy-history-best-actor-widows-bay-1236700740/"
+            ]
+          ]
+        }
+      ]
+    },
+    "local": {
+      "Toronto": {
+        "headline": "Toronto's Mayoral Race Heats Up Ahead of October 26 Vote",
+        "paragraphs": [
+          "With Toronto's municipal election just over a month away on October 26, incumbent Mayor Olivia Chow and her chief rival, Ward 19 councillor Brad Bradford, faced off at back-to-back debates this month, including a September 14 forum hosted by the Daily Bread Food Bank. Chow, who first won the job in a 2023 by-election after John Tory's resignation, is seeking a full term on a record that includes property tax hikes of 9.5% in 2024, 6.5% in 2025, and 2.2% this year.",
+          "Bradford's campaign has hammered Chow over traffic congestion, transit reliability, and cost of living, arguing \"Torontonians have been told that traffic this bad, transit this unreliable, and a cost of living this punishing are just the way things are now.\" Recent polling from Pallas Data and Liaison Strategies both show Chow holding roughly an 11-point lead over Bradford, with more than 60 other candidates also registered in the race."
+        ],
+        "sources": [
+          [
+            "2026 Toronto mayoral election",
+            "https://en.wikipedia.org/wiki/2026_Toronto_mayoral_election"
+          ],
+          [
+            "Incumbent Toronto Mayor Olivia Chow launching re-election bid",
+            "https://globalnews.ca/news/11861192/olivia-chow-2026-election-bid/"
+          ]
+        ]
+      },
+      "Vancouver": {
+        "headline": "Wrong-Way Flatbed Truck Shuts Down Granville Street Bridge",
+        "paragraphs": [
+          "The Granville Street Bridge was closed in both directions Sunday evening, September 21, after a flatbed towing truck operated by Aria Towing appeared to travel the wrong way and collided with a southbound articulated TransLink bus, wedging the bus against a concrete divider. At least two other passenger vehicles were also caught up in the multi-vehicle crash.",
+          "The bridge remained shut as of 9 p.m., with police diverting traffic to the Burrard and Cambie bridges while the scene was cleared. No injury details had been released as investigators worked to piece together how the truck ended up going against traffic on one of downtown Vancouver's busiest crossings."
+        ],
+        "sources": [
+          [
+            "Multi-vehicle crash closes Granville Street Bridge in both directions",
+            "https://ca.news.yahoo.com/multi-vehicle-crash-closes-granville-034929655.html"
+          ]
+        ]
+      },
+      "Dallas": {
+        "headline": "Big Tex Rises Over Fair Park Ahead of 2026 State Fair of Texas",
+        "paragraphs": [
+          "Crews hoisted the 55-foot-tall Big Tex back into position at Big Tex Circle in Fair Park on Friday morning, September 18, marking the traditional kickoff to State Fair of Texas preparations. This year's fair opens September 25 and runs through October 18.",
+          "Big Tex's origins trace back to a Kerens, Texas Santa Claus figure that the local chamber of commerce sold to the State Fair for $750 in the early 1950s; Dallas artist Jack Bridges reworked it into the cowboy icon that debuted in 1952. The figure has endured one dramatic setback — an electrical fire destroyed him on his 60th \"birthday,\" October 19, 2012 — before he returned to greet fairgoers again in 2013."
+        ],
+        "sources": [
+          [
+            "Big Tex arrives in Fair Park ahead of 2026 State Fair of Texas",
+            "https://www.nbcdfw.com/news/local/big-tex-arrives-in-fair-park-ahead-of-2026-state-fair-of-texas/4079114/"
+          ]
+        ]
+      },
+      "New York City": {
+        "headline": "Mayor Mamdani Hosts World Mayors for Urban 20 Summit, Opening Climate Week",
+        "paragraphs": [
+          "New York City is hosting roughly 25 mayors and senior officials from 34 cities across G20 nations this weekend, September 19-21, for the Urban 20 Summit, which Mayor Zohran Mamdani is co-chairing with Los Angeles Mayor Karen Bass. The gathering, which opens Climate Week NYC, brought in delegations from Atlanta, Chicago, Denver, Miami, Phoenix, Seattle and international counterparts to tackle housing affordability, energy costs, immigration support and climate resilience.",
+          "\"New York City was built by people who came here from every corner of the world, so there is no better place for the world's mayors to meet,\" Mamdani said in welcoming the delegates. The summit is set to close with a joint communique laying out a shared urban policy agenda for national governments and international bodies."
+        ],
+        "sources": [
+          [
+            "Mayor Mamdani Welcomes Mayors from Around the World to New York City for 2026 Urban 20 Summit",
+            "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-welcomes-mayors-from-around-the-world-to-new-york-"
+          ]
+        ]
+      },
+      "Chicago": {
+        "headline": "New Regional Transit Authority NITA Holds First Board Meeting",
+        "paragraphs": [
+          "The Northern Illinois Transit Authority, created to replace the Regional Transportation Authority as overseer of the CTA, Metra and Pace, held its first official board meeting on September 11. The 20-member board, appointed by the governor, Chicago's mayor, the Cook County Board president and five collar-county governments, took shape after Springfield passed a roughly $1.5 billion transit funding package last October to avert threatened 40% service cuts.",
+          "Under the new structure, Mayor Brandon Johnson's sway over CTA governance has shrunk — he now appoints just three CTA board members rather than a majority. NITA is charged with unifying fares across all three agencies by 2030, deploying transit ambassadors by July 2027, and deciding whether to stand up a dedicated transit police force, with funding coming from a quarter-point RTA sales tax increase and a shift of state motor fuel tax revenue toward transit."
+        ],
+        "sources": [
+          [
+            "What is NITA, Chicago's new transit agency tasked with reforming CTA/Metra/Pace?",
+            "https://chicago.suntimes.com/transportation/2026/09/10/nita-northern-illinois-transit-authority-cta-metra-pace"
+          ]
+        ]
+      }
+    }
+  },
   {
     "date": "2026-09-20",
     "topStory": {
