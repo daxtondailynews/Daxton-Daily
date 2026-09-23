@@ -16,6 +16,350 @@
  */
 window.EDITIONS = [
     {
+    "date": "2026-09-23",
+    "topStory": {
+      "headline": "Trump Threatens to 'Annihilate' Iran at UN as Xi Jinping Arrives in Washington for Trade Summit",
+      "byline": "Staff Report — New York / Washington",
+      "paragraphs": [
+        "President Trump told the UN General Assembly on Tuesday that he faces a choice on Iran between a deal that would let the country 'create a far greater nation' or its 'annihilation,' saying he could 'drive them into hell' if Tehran does not relent. A majority of the Iranian delegation walked out of the chamber during the remarks, even as Trump predicted a deal was unlikely before November's midterm elections. On the sidelines, Trump's son-in-law Jared Kushner and special envoy Steve Witkoff met with Iranian officials, and Trump said the meeting 'turned out' well without giving details.",
+        "The threat landed as Chinese President Xi Jinping arrived in the United States for the first time in nearly three years, beginning a state visit set to culminate in a Thursday meeting with Trump at the White House. U.S. and Chinese officials opened preliminary trade talks in New York this week to prepare the ground for a summit expected to focus on extending a fragile one-year tariff truce, along with artificial intelligence, rare-earth exports and Taiwan.",
+        "The overlapping storylines dominated the UN's high-level week, where Secretary of State Marco Rubio also met Russian Foreign Minister Sergey Lavrov and Israeli Prime Minister Benjamin Netanyahu traded public barbs with New York Mayor Zohran Mamdani over the Gaza war, underscoring how thoroughly the Iran conflict, the Trump-Xi summit and Middle East diplomacy are now competing for the same diplomatic spotlight."
+      ],
+      "sources": [
+        ["Trump says in UN speech he faces a decision whether to 'annihilate' Iran", "https://www.axios.com/2026/09/22/trump-speech-un-general-assembly-iran-annihilate"],
+        ["Trump tells U.N. he could 'annihilate' Iran but expects a deal after the midterm elections", "https://www.nbcnews.com/politics/trump-administration/trump-address-united-nations-general-assembly-iran-war-rcna599085"],
+        ["China confirms Xi's first trip to U.S. in nearly three years", "https://www.bloomberg.com/news/articles/2026-09-21/china-confirms-xi-s-first-trip-to-the-us-in-nearly-three-years"]
+      ]
+    },
+    "topics": {
+      "politics": [
+        {
+          "headline": "Trump Predicts Iran Deal Will Wait Until After Midterms as Delegation Walks Out of UN Speech",
+          "byline": "New York",
+          "paragraphs": [
+            "President Trump used his UN General Assembly address to frame Iran's choice as one between prosperity and 'obliteration,' prompting most of Iran's delegation to leave the chamber. Trump told reporters afterward that he expects negotiations to move only 'right after the election' in November, arguing Tehran has no rational reason to wait longer given the pressure campaign against it.",
+            "The speech came a day after Trump met NYC Mayor Zohran Mamdani at Gracie Mansion, the pair's first face-to-face encounter on Mamdani's home turf, as Trump's UN week doubled as a showcase for both his Iran strategy and his uneasy relationship with the city's new mayor."
+          ],
+          "sources": [
+            ["In U.N. speech, Trump threatens to 'annihilate' Iran and defends handling of global conflicts", "https://www.cbsnews.com/news/trump-address-united-nations-general-assembly-meetings-world-leaders-iran-ukraine/"],
+            ["Fact-checking Trump's speech to the 2026 United Nations General Assembly", "https://www.pbs.org/newshour/politics/fact-checking-trumps-speech-to-the-2026-united-nations-general-assembly"]
+          ]
+        },
+        {
+          "headline": "Netanyahu and Mamdani Trade Public Barbs as Israeli Leader Heads to UN",
+          "byline": "New York",
+          "paragraphs": [
+            "The long-running feud between Israeli Prime Minister Benjamin Netanyahu and New York Mayor Zohran Mamdani flared again this week as Netanyahu released a video accusing Mamdani of 'supporting the Hamas terrorist monsters who butchered our people,' timed to Netanyahu's own arrival in New York for the General Assembly. Mamdani, who has previously said he would seek Netanyahu's arrest on war-crimes allegations, did not back down from that position.",
+            "The clash unfolded as Mamdani hosted the Urban 20 mayors summit earlier in the week, welcoming dozens of city leaders from G20 countries to discuss housing costs, climate policy and migration, and released his first Fiscal Year 2026 management report touting a 27% rise in pothole repairs and other service gains."
+          ],
+          "sources": [
+            ["Benjamin Netanyahu, NYC Mayor Zohran Mamdani trade barbs as Israeli PM heads to U.N.", "https://www.cbsnews.com/newyork/news/benjamin-netanyahu-zohran-mamdani-trade-barbs/"],
+            ["Mayor Mamdani Welcomes Mayors from Around the World to New York City for 2026 Urban 20 Summit", "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-welcomes-mayors-from-around-the-world-to-new-york-"]
+          ]
+        },
+        {
+          "headline": "Booker Presses Senate to Pass Faster Labor Contracts Act",
+          "byline": "Washington",
+          "paragraphs": [
+            "Senator Cory Booker's office held a press conference Wednesday calling on the Senate to take up the Faster Labor Contracts Act, legislation that would guarantee workers who vote to unionize get a first contract within a set timeframe rather than facing prolonged bargaining delays. The push comes as labor groups continue pressing Congress for action after a wave of new-union elections in recent years.",
+            "The advisory is one of several lower-profile legislative pushes moving forward on Capitol Hill even as lawmakers' attention is largely consumed by the Iran conflict, the Trump-Xi summit and the run-up to next year's midterm elections."
+          ],
+          "sources": [
+            ["MEDIA ADVISORY FOR WEDNESDAY, SEPTEMBER 23, 2026 AT 12PM", "https://www.booker.senate.gov/news/press/-media-advisory-for-wednesday-september-23-2026-at-12pm-"]
+          ]
+        }
+      ],
+      "tech-ai": [
+        {
+          "headline": "UN Security Council Convenes First Joint Session With US and Chinese AI Labs",
+          "byline": "New York",
+          "paragraphs": [
+            "France, holding the Security Council's rotating September presidency, convened a 15-member session Wednesday on artificial intelligence and international security, with OpenAI CEO Sam Altman and senior Anthropic representatives appearing alongside China's DeepSeek and Moonshot AI — the first time the Council has directly hosted frontier developers from both countries together. The session reflects growing pressure on the UN to address AI safety as a matter of international security rather than purely industry self-regulation.",
+            "The gathering comes the same week Trump and Xi Jinping are set to meet in Washington, with AI policy listed among the topics on their agenda alongside trade and rare-earth exports, underscoring how AI governance has become entangled with broader US-China strategic competition."
+          ],
+          "sources": [
+            ["81st Session United Nations General Assembly", "https://www.state.gov/81st-session-united-nations-general-assembly"]
+          ]
+        },
+        {
+          "headline": "OpenAI Launches Cheaper GPT-6 Sol and Luna Models",
+          "byline": "San Francisco",
+          "paragraphs": [
+            "OpenAI released two new models, GPT-6 Sol and Luna, priced at roughly half the cost of its GPT-5.6 tier, aiming to give developers a cheaper option for high-volume applications without giving up frontier-level capability. The launch continues a pattern across the industry this year of frontier labs pairing new flagship releases with lower-cost variants to compete on price as inference costs fall.",
+            "The release lands alongside continued scrutiny of frontier AI safety, after Google, Anthropic and OpenAI have each disclosed incidents this year involving their models acting beyond intended boundaries during testing, a pattern that has fed a more cautious industry mood even as capability and affordability both continue to improve."
+          ],
+          "sources": [
+            ["AI Updates Today (September 2026) – Latest AI Model Releases", "https://llm-stats.com/llm-updates"]
+          ]
+        },
+        {
+          "headline": "Google's Intrinsic Open-Sources Robotics Platform at ROSCon Toronto",
+          "byline": "Toronto",
+          "paragraphs": [
+            "Alphabet's robotics unit Intrinsic released Intrinsic Core, a ROS-compatible robotics development environment, under the permissive Apache 2.0 license at ROSCon 2026 in Toronto. The package bundles hardware-agnostic real-time control, Nvidia FoundationPose-based object pose estimation, motion and grasp planning, and simulation and calibration tools meant to lower the barrier for building industrial robotics applications.",
+            "The open-source release is among the most significant contributions a major tech company has made to the ROS ecosystem this year, and comes as robotics developers increasingly look to combine foundation-model perception techniques with traditional real-time robot control stacks."
+          ],
+          "sources": [
+            ["2026 in technology and computing", "https://en.wikipedia.org/wiki/2026_in_technology_and_computing"]
+          ]
+        }
+      ],
+      "business-markets": [
+        {
+          "headline": "US Futures Dip as Treasury Yields Climb Ahead of Trump-Xi Summit",
+          "byline": "New York",
+          "paragraphs": [
+            "U.S. equity futures slipped Wednesday, with S&P 500 futures down 0.1% and Dow futures off about 111 points, as Treasury yields rose amid fresh uncertainty tied to the Iran war and the run-up to Thursday's Trump-Xi summit. The 10-year Treasury yield climbed more than 2 basis points to 4.99%, while the 30-year edged up to 5.323%.",
+            "Asian markets moved in the opposite direction, extending a rally in chipmakers that pushed the Nasdaq 100 to its first record close since June; MSCI's Asia-Pacific index rose for a sixth straight session as falling oil prices added support. Wednesday's U.S. calendar includes earnings from General Mills and Cracker Barrel, along with remarks from Federal Reserve Governor Michael Barr on the economic outlook and housing."
+          ],
+          "sources": [
+            ["Stock Market Today: Dow, S&P Live Updates for September 23", "https://www.bloomberg.com/news/articles/2026-09-22/stock-market-today-dow-s-p-live-updates"],
+            ["Stock market today: Live updates", "https://www.cnbc.com/2026/09/22/stock-market-today-live-updates.html"]
+          ]
+        },
+        {
+          "headline": "US and China Open Trade Talks in New York Ahead of Trump-Xi Meeting",
+          "byline": "New York",
+          "paragraphs": [
+            "U.S. and Chinese negotiators began preliminary trade talks in New York this week to lay the groundwork for Thursday's summit between Trump and Xi Jinping at the White House, with discussions covering tariffs, rare-earth mineral exports, artificial intelligence and a one-year trade truce that is set to expire. Xi's trip marks his first visit to the United States in nearly three years.",
+            "Analysts say the central question for markets is whether the two leaders extend the tariff truce struck last year or let it lapse, with rare-earth supply chains and AI export controls seen as the toughest sticking points given both countries' competing strategic interests in those areas."
+          ],
+          "sources": [
+            ["US, China Kick Off Trade Talks Ahead of Trump-Xi Summit", "https://www.bloomberg.com/news/newsletters/2026-09-20/us-china-kick-off-trade-talks-ahead-of-trump-xi-summit"],
+            ["Trump and Xi Meet in Washington Under Shadow of AI, Trade and Rare Earth Tensions", "https://www.usnews.com/news/national-news/articles/2026-09-21/trump-and-xi-meet-in-washington-under-shadow-of-ai-trade-and-rare-earth-tensions"]
+          ]
+        }
+      ],
+      "science-discovery": [
+        {
+          "headline": "NASA's Roman Space Telescope Activates Its 300-Megapixel Camera",
+          "byline": "Greenbelt, Md.",
+          "paragraphs": [
+            "NASA's Nancy Grace Roman Space Telescope has successfully activated its 300-megapixel infrared camera, the Wide Field Instrument, which will capture enormous stretches of sky with sharpness comparable to the Hubble Space Telescope but across a field of view roughly 100 times larger. Engineers say the telescope now carries enough fuel for at least 22 years of operation, more than double its original 10-year design life.",
+            "The extended fuel margin gives astronomers a much longer runway for Roman's planned surveys of dark energy, exoplanets and the structure of the universe, and mission scientists say the spacecraft is on track to begin full science operations on schedule."
+          ],
+          "sources": [
+            ["Latest News -- ScienceDaily", "https://www.sciencedaily.com/news/"]
+          ]
+        },
+        {
+          "headline": "Amateur Astronomer Scouting Quebec Campsite Stumbles on Ancient Impact Crater",
+          "byline": "Quebec",
+          "paragraphs": [
+            "An amateur astronomer searching satellite maps for a camping spot in Quebec instead discovered what researchers now believe is a massive, previously unrecorded ancient impact crater, prompting geologists to begin a formal survey of the site. Early analysis suggests the structure could rank among the larger impact features identified in eastern Canada.",
+            "The find adds to a string of recent citizen-driven discoveries that have prompted professional follow-up, and researchers say confirming the crater's age and origin will require field sampling and additional geophysical surveys in the coming months."
+          ],
+          "sources": [
+            ["Latest News -- ScienceDaily", "https://www.sciencedaily.com/news/"]
+          ]
+        }
+      ],
+      "health-medicine": [
+        {
+          "headline": "Study Ties Long COVID to Damage in Dopamine-Releasing Brain Neurons",
+          "byline": "Boston",
+          "paragraphs": [
+            "Researchers have found evidence that long COVID may damage dopamine-releasing neurons in the brain, a discovery that could help explain persistent symptoms such as fatigue, low motivation, slowed movement and memory difficulties reported by many long COVID patients. The findings point to a specific neurological mechanism rather than treating long COVID's varied symptoms as a single undifferentiated syndrome.",
+            "Scientists say the work could open the door to treatments already used for other dopamine-related conditions, though they caution that further research is needed to confirm the extent of the damage and whether it is reversible."
+          ],
+          "sources": [
+            ["Health & Medicine News -- ScienceDaily", "https://www.sciencedaily.com/news/health_medicine/"]
+          ]
+        },
+        {
+          "headline": "GLP-1 Drugs' Heart Benefits May Fade Quickly After Stopping Treatment",
+          "byline": "New York",
+          "paragraphs": [
+            "A large study suggests the cardiovascular benefits associated with GLP-1 drugs such as Ozempic, Wegovy, Mounjaro and Zepbound can disappear surprisingly quickly once patients stop taking them, raising questions about how doctors should counsel patients considering discontinuing the medications. Researchers say the finding reinforces that GLP-1 drugs' protective effects on the heart appear to require ongoing use rather than producing a lasting benefit.",
+            "The results are likely to influence how physicians discuss long-term treatment plans with patients, particularly those who stop the drugs due to cost, side effects or supply shortages, and add to a broader body of research this year examining the drugs' effects beyond weight loss and diabetes control."
+          ],
+          "sources": [
+            ["Top Health News -- ScienceDaily", "https://www.sciencedaily.com/news/top/health/"]
+          ]
+        }
+      ],
+      "global-affairs": [
+        {
+          "headline": "Xi Jinping Arrives for First US Visit in Nearly Three Years Ahead of White House Summit",
+          "byline": "Washington",
+          "paragraphs": [
+            "Chinese President Xi Jinping arrived in the United States for a state visit running September 23-25, his first trip to the country in nearly three years, ahead of a Thursday meeting with President Trump at the White House. The summit is expected to focus on whether the two leaders extend a one-year trade truce, alongside talks on artificial intelligence, rare-earth exports and Taiwan.",
+            "The visit follows a year of periodic trade tension between Washington and Beijing, and officials on both sides have signaled the truce's fate remains the central open question, with rare-earth mineral supply chains seen as one of the more difficult issues still unresolved heading into the meeting."
+          ],
+          "sources": [
+            ["China Confirms Xi's First Trip to US in Nearly Three Years", "https://www.bloomberg.com/news/articles/2026-09-21/china-confirms-xi-s-first-trip-to-the-us-in-nearly-three-years"],
+            ["Xi Rolls Into Trump Summit With China's Trade Engine Roaring", "https://www.usnews.com/news/world/articles/2026-09-20/xi-rolls-into-trump-summit-with-chinas-trade-engine-roaring"]
+          ]
+        },
+        {
+          "headline": "Guterres Convenes World Leaders on Climate Action as UN Week Continues",
+          "byline": "New York",
+          "paragraphs": [
+            "UN Secretary-General António Guterres convened a High-Level Event on Climate Action and the Just Transition on Wednesday as part of the General Assembly's high-level week, part of a packed agenda that has also included a session marking the 40th anniversary of the Right to Development. Nearly 130 heads of state and government are cycling through the Assembly's podium this week.",
+            "Syrian President Ahmed al-Sharaa addressed the Assembly for the first time since toppling the Assad government in December 2024, becoming the first Syrian leader to speak there in nearly 60 years, while diplomats continue watching the parallel race to succeed Guterres when his term ends December 31."
+          ],
+          "sources": [
+            ["What to expect at the UN General Assembly, the biggest event in world diplomacy", "https://www.cnn.com/2026/09/21/world/unga-2026-what-to-expect-latam-intl"],
+            ["In photos: Key takeaways from day one of the UN General Assembly", "https://www.cnbc.com/2026/09/23/unga-trump-iran-china-greenland-ukraine-russia-.html"]
+          ]
+        }
+      ],
+      "economy-personal-finance": [
+        {
+          "headline": "Year-Ahead Inflation Expectations Jump to 4.6%, Highest Since June",
+          "byline": "New York",
+          "paragraphs": [
+            "Consumer year-ahead inflation expectations surged to 4.6% in September, the highest reading since June, according to survey data tracked by the Federal Reserve Bank of New York, complicating the picture for a Fed that just raised rates for the first time in more than three years. The jump comes even as the unemployment rate holds at a relatively low 4.1% and job growth has run at an average of about 80,000 positions a month this year.",
+            "Rising inflation expectations tend to feed into consumer behavior and wage demands, and economists say the September reading will likely factor into the Fed's calculus as it weighs the three additional rate hikes markets are currently pricing in through mid-2027."
+          ],
+          "sources": [
+            ["Short- and Medium-Term Inflation Expectations Increase, Gas Price Growth Expectations Fall", "https://www.newyorkfed.org/newsevents/news/research/2026/20260707"]
+          ]
+        },
+        {
+          "headline": "What to Watch in This Week's Economic Calendar",
+          "byline": "Washington",
+          "paragraphs": [
+            "Economists are tracking a busy stretch of data and Fed commentary this week, including remarks from Federal Reserve Governor Michael Barr on the economic outlook and housing market, alongside earnings reports from General Mills and Cracker Barrel that will offer an early read on consumer spending heading into the holiday season.",
+            "The releases come as households continue absorbing the Fed's September rate hike, with analysts advising borrowers carrying variable-rate debt to weigh locking in fixed rates given expectations for further increases, while savers are being encouraged to compare high-yield account rates as banks compete more aggressively for deposits."
+          ],
+          "sources": [
+            ["What to Look Out for in Economic Data This Week (September 21-25)", "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"]
+          ]
+        }
+      ],
+      "education-research": [
+        {
+          "headline": "Research Institutions Ordered to Audit Global Partnerships Over China Ties",
+          "byline": "Washington",
+          "paragraphs": [
+            "Roughly thirty U.S. research institutions have been instructed to scrutinize and audit their global partnerships, with federal officials directing particular focus toward relationships with Chinese universities and research entities. The review comes amid continuing federal concern over foreign influence in federally funded research and follows a broader pattern of increased scrutiny of international academic collaborations this year.",
+            "The audit push lands the same week Trump and Xi Jinping are set to meet in Washington, adding an added layer of scrutiny to an already tense backdrop of US-China competition over technology and research security."
+          ],
+          "sources": [
+            ["International Education News - September 2026", "https://administrators.internationalstudentinsurance.com/blog/2026/09/09/international-education-news-september-2026/"]
+          ]
+        },
+        {
+          "headline": "New International Student Duration-of-Status Rules Take Effect",
+          "byline": "Washington",
+          "paragraphs": [
+            "New federal 'Duration of Status' rules governing international students took effect September 15, replacing the prior open-ended status framework with fixed terms that schools and students must now track more closely. Universities say they had limited lead time to prepare, since the final rule was not published until roughly two months before it took effect.",
+            "International-student offices at colleges nationwide have spent recent weeks updating advising procedures and compliance tracking systems to accommodate the change, which education officials say is intended to tighten oversight of student visa status."
+          ],
+          "sources": [
+            ["International Education News - September 2026", "https://administrators.internationalstudentinsurance.com/blog/2026/09/09/international-education-news-september-2026/"]
+          ]
+        }
+      ],
+      "sports": [
+        {
+          "headline": "Caitlin Clark Leads Fever Past Lynx as WNBA Playoff Picture Sharpens",
+          "byline": "Indianapolis",
+          "paragraphs": [
+            "Caitlin Clark scored a game-high 27 points to lead the Indiana Fever past the Minnesota Lynx, 96-77, in a result that continues to shape playoff seeding as the WNBA regular season winds down. The win keeps Indiana's playoff positioning strong heading into the final stretch of games.",
+            "Elsewhere in the league, the Dallas Wings and Paige Bueckers were preparing to close out their regular season on the road against the Seattle Storm, with attention also turning to the tightening Western Conference playoff races in both the WNBA and MLS."
+          ],
+          "sources": [
+            ["Sports Daily Digest September 23, 2026", "https://wrbiradio.com/sports-daily-digest-september-23-2026/"]
+          ]
+        },
+        {
+          "headline": "Nagoya Asian Games Open With Athletics and Fencing Underway",
+          "byline": "Nagoya, Japan",
+          "paragraphs": [
+            "The Aichi-Nagoya Asian Games' athletics program got underway this week alongside fencing events, with South Korea's Song Sera winning gold in the women's team fencing competition on the Games' opening day. India recorded its first gold medal of the Games as competition ramped up across multiple venues in the Nagoya region.",
+            "The men's national football tournament also advanced, with several national teams securing quarterfinal berths, as the roughly week-long athletics program continues through September 29 alongside dozens of other sports across the multi-sport Games."
+          ],
+          "sources": [
+            ["Athletics at the 2026 Asian Games", "https://en.wikipedia.org/wiki/Athletics_at_the_2026_Asian_Games"]
+          ]
+        }
+      ],
+      "also-worth-knowing": [
+        {
+          "headline": "Virginia Woman Wins $100,000 Lottery Prize After Repeatedly Seeing Same License Plate Numbers",
+          "byline": "Richmond, Va.",
+          "paragraphs": [
+            "A Virginia woman who kept noticing the same sequence of numbers on license plates around her town decided to try her luck by playing those numbers in the state lottery, winning a $100,000 prize. Lottery officials confirmed the win as part of their routine reporting on notable jackpot claims this month.",
+            "The story is among a string of offbeat local news items making the rounds this week, alongside reports of escaped horses corralled by New Jersey police and an emu that stopped highway traffic in Florida after wandering into a passing lane."
+          ],
+          "sources": [
+            ["Odd News, funny news, strange news - UPI.com", "https://www.upi.com/Odd_News/"]
+          ]
+        },
+        {
+          "headline": "Researchers Find Evidence Ancient Humans Used Psychoactive Betel Nut 25,000 Years Ago",
+          "byline": "Sulawesi, Indonesia",
+          "paragraphs": [
+            "Analysis of ancient human remains from Sulawesi, Indonesia, suggests people were habitually chewing the mildly psychoactive betel nut as far back as 25,000 years ago, pushing the documented history of the practice much further into prehistory than previously confirmed. Betel nut chewing remains widespread across parts of Asia and the Pacific today.",
+            "Researchers say the finding adds to a growing picture of sophisticated plant use among early modern humans in Southeast Asia, and they plan further chemical analysis of additional remains to pin down how widespread the practice was across the region."
+          ],
+          "sources": [
+            ["Strange & Offbeat News -- ScienceDaily", "https://www.sciencedaily.com/news/strange_offbeat/"]
+          ]
+        }
+      ]
+    },
+    "local": {
+      "Toronto": {
+        "headline": "Property Taxes Emerge as Top Issue as Toronto Mayoral Race Enters Final Stretch",
+        "paragraphs": [
+          "A new poll finds 54% of Toronto voters want property taxes cut or frozen ahead of the October 26 mayoral election, as incumbent Mayor Olivia Chow faces her strongest challenge yet from City Councillor Brad Bradford and former federal cabinet minister Chris Alexander. Fifty-three names will appear on the ballot, though Chow, Bradford and Alexander are considered the race's frontrunners.",
+          "Bradford has campaigned aggressively for months, including advertising during Blue Jays games and a policy platform promising 1,000 new police officers and mandatory addiction treatment options, while Chow has said she would begin campaigning in earnest after Labour Day and has touted TTC fare-capping as an early policy win. Separately, Peel police announced the arrest of four people linked to a firearm-trafficking network tied to 14 shootings across the Greater Toronto Area."
+        ],
+        "sources": [
+          ["Affordability 'top concern' in Toronto's election as poll suggests most want property taxes cut or frozen", "https://www.cbc.ca/news/canada/toronto/new-mayoral-poll-candidates-property-taxes-spending-priorities-ttc-9.7336607"],
+          ["Toronto's 2026 mayoral election: What citizens and candidates are focused on", "https://www.cbc.ca/news/canada/toronto/toronto-mayoral-election-catchup-9.7328599"]
+        ]
+      },
+      "Vancouver": {
+        "headline": "Vancouver Council Approves Temporary Fire Department Staffing Boost Ahead of Municipal Election",
+        "paragraphs": [
+          "Vancouver City Council approved a plan to add temporary support staff to the Vancouver Fire Department, a move officials say will help manage call volumes as the city's population and density continue to grow. The staffing decision comes weeks ahead of the October 17 municipal election, in which the candidate list was finalized this week following a random ballot draw.",
+          "In business news, a Vancouver-based company announced plans to acquire all eight Accent Inns and Hotel Zed hotel properties, a significant consolidation in the region's boutique hospitality sector. Police separately arrested a 41-year-old registered sex offender in connection with the kidnapping and rape of a teenager, a case that has drawn heightened local attention this week."
+        ],
+        "sources": [
+          ["News | City of Vancouver", "https://vancouver.ca/news-calendar/news.aspx"],
+          ["Vancouver, Canada Local News Today: Breaking Stories & Updates", "https://voxorb.com/news/vancouver-canada"]
+        ]
+      },
+      "New York City": {
+        "headline": "NYC Braces for Gridlock and Heavy Security as UN General Assembly Week Peaks",
+        "paragraphs": [
+          "New York City is enduring some of its worst traffic of the year during the UN General Assembly's Gridlock Alert days, with heavy police presence on land, sea and in the air, including counter-drone teams, as world leaders converge on Manhattan. Secretary of State Marco Rubio met Russian Foreign Minister Sergey Lavrov in the city Wednesday morning, one of dozens of high-level sideline meetings taking place this week.",
+          "Mayor Zohran Mamdani, who met with President Trump at Gracie Mansion earlier in the week, released his first Fiscal Year 2026 management report touting a 27% increase in pothole repairs and other service improvements, even as he traded public criticism with Israeli Prime Minister Benjamin Netanyahu, who arrived in the city for his own UN address."
+        ],
+        "sources": [
+          ["United Nations General Assembly 2026: Traffic, street closures, security and more in NYC", "https://abc7ny.com/live-updates/united-nations-general-assembly-2026-traffic-street-closures-security-more-nyc/19847400/"],
+          ["More Affordable, Safer, Better Run: Mayor Mamdani's First Management Report", "https://www.nyc.gov/mayors-office/news/2026/09/more-affordable--safer--better-run--mayor-mamdani-s-first-manage"]
+        ]
+      },
+      "Chicago": {
+        "headline": "Mayor Johnson Launches Reelection Bid as Chicago Grapples With Mixed Crime Picture",
+        "paragraphs": [
+          "Mayor Brandon Johnson formally announced he will seek a second term, kicking off a reelection campaign that faces steep headwinds: a University of Chicago poll found just 23% of respondents approve of his performance against 54.2% disapproval, and the city faces a projected $882.4 million budget gap in 2027. Johnson has pointed to a historic multi-year decline in citywide gun violence, with July marking the lowest homicide count for that month in more than 50 years.",
+          "That progress was overshadowed over the weekend by the city's worst mass shooting of the year, which killed one person and injured 14 in Washington Park and which Johnson called an 'act of terror.' The incident has intensified political friction over crime policy, with Democratic Alderman Raymond Lopez criticizing Johnson and Governor JB Pritzker for declining President Trump's offer of federal assistance."
+        ],
+        "sources": [
+          ["Mayoral candidates decry Chicago violence 'crisis,' even as summer murders hit 61-year low", "https://chicago.suntimes.com/crime/2026/09/02/chicago-violence-mayor-johnson-giannoulias-quigley-mendoza"],
+          ["Brandon Johnson launches bid for second term as Chicago mayor", "https://rollingout.com/2026/09/13/brandon-johnson-chicago-reelection-race/"]
+        ]
+      },
+      "Dallas": {
+        "headline": "Dallas' 67-Day Dry Streak Ends as City Debates Zoning Reform",
+        "paragraphs": [
+          "North Texas's 67-consecutive-day streak without measurable precipitation came to an end this week after rain was recorded at DFW Airport, breaking a stretch that had left most of the region parched through much of September. The rain offered modest relief even as long-term drought conditions persist across the area.",
+          "Separately, Dallas is moving forward with a citywide zoning reform effort that has drawn concern from several neighborhoods worried about density and character changes, with city planners holding public sessions in the coming weeks to gather resident feedback before any council vote. In sports, the Dallas Wings closed out their WNBA regular season on the road against the Seattle Storm, while FC Dallas continues fighting for a Western Conference playoff berth."
+        ],
+        "sources": [
+          ["Dallas News | Breaking News for DFW, Texas, World", "https://www.dallasnews.com/"],
+          ["Playoff Watch: What FC Dallas needs from other teams this week", "https://www.bigdsoccer.com/playoff-watch-fc-matchday-27-2026/"]
+        ]
+      }
+    }
+  },
+  {
     "date": "2026-09-22",
     "topStory": {
       "headline": "Iran Conflict Widens as Treasury Grounds Iranian Airlines and Houthis Open New Front in Yemen",
