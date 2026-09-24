@@ -16,6 +16,387 @@
  */
 window.EDITIONS = [
     {
+      "date": "2026-09-24",
+      "topStory": {
+        "headline": "Trump Greets Xi on the Tarmac as U.S. and China Extend Trade Truce Through January Before White House Talks",
+        "byline": "Staff Report — Washington",
+        "paragraphs": [
+          "President Trump and First Lady Melania Trump personally met Chinese President Xi Jinping and his wife, Peng Liyuan, at Joint Base Andrews on Wednesday evening. Reports described it as the first time in six decades that a U.S. president has greeted a visiting leader at the base in person. The state arrival included 479 military personnel and a multi-aircraft flyover. After greeting Xi, Trump told reporters he would raise the war in Iran with the Chinese leader, along with 'many other subjects.' It is Xi's first trip to the United States in nearly three years and the second time the two leaders have met this year.",
+          "The visit produced a concrete result before the leaders sat down. After an unscheduled meeting in Washington with Chinese Vice Premier He Lifeng, Treasury Secretary Scott Bessent announced that the two countries had extended their bilateral trade truce, known as the Busan agreement, through Jan. 10, 2027. The truce had been due to expire in November. Separately, the U.S. has proposed that the two governments exchange safety alerts about AI incidents that could affect national security.",
+          "Thursday's schedule calls for an Oval Office meeting, followed by an expanded session in the Cabinet Room and a state dinner. Taiwan remains the sharpest point of friction. China's ambassador to Washington called the island one of Beijing's 'red lines,' and a senior administration official said Trump would decide on a new Taiwan arms package 'in a fairly short time.' Delivery on earlier promises has been uneven. China has bought roughly half of its annual soybean commitment, the details of its 200-jet Boeing order remain unclear, and rare-earth magnet shipments fell 20% in August."
+        ],
+        "sources": [
+          ["Trump-Xi summit: Leaders meet at White House amid tensions over Taiwan, trade and AI", "https://www.nbcnews.com/world/asia/trump-xi-summit-meet-white-house-tensions-taiwan-trade-ai-rcna598073"],
+          ["Trump rolls out red carpet for Xi as high-stakes summit begins", "https://www.npr.org/2026/09/24/g-s1-144806/trump-rolls-out-red-carpet-for-xi-as-high-stakes-summit-begins"],
+          ["U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit", "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"],
+          ["Analysis: A Diplomatic Split Screen as Trump and Xi Meet", "https://www.usnews.com/news/world/articles/2026-09-24/analysis-a-diplomatic-split-screen-as-trump-and-xi-meet"]
+        ]
+      },
+      "topics": {
+        "politics": [
+          {
+            "headline": "Democrats Lead in Seven of Nine Key Senate Races as Talarico Opens Six-Point Edge Over Paxton in Texas",
+            "byline": "Washington",
+            "paragraphs": [
+              "Polls released this week put Democrats ahead in three pivotal Senate contests, giving the party the lead in seven of the nine races seen as most likely to decide control of the chamber in November. In Texas, Democratic state Rep. James Talarico leads Republican Attorney General Ken Paxton 50% to 44%, with 4% undecided.",
+              "In Michigan, a Suffolk University survey shows Democrat Abdul El-Sayed ahead of Republican Mike Rogers 47% to 40%. In Ohio, the contest between Republican Sen. Jon Husted and former Sen. Sherrod Brown is expected to come down to a small number of swing counties. All 435 House seats and 35 Senate seats are on the ballot."
+            ],
+            "sources": [
+              ["Hottest Midterm Races—Talarico Up 6 Points Over Paxton In Latest Texas Senate Poll", "https://www.forbes.com/sites/saradorn/2026/09/23/hottest-2026-midterm-races-talarico-leads-paxton-by-6-points-in-latest-poll-updated-daily/"],
+              ["2026 Midterms: Latest News, Updates and Results", "https://www.nbcnews.com/politics/2026-election"]
+            ]
+          },
+          {
+            "headline": "Pezeshkian Tells UN Iran 'Will Not Bend' as Rubio Says New York Talks Brought No Breakthrough",
+            "byline": "New York",
+            "paragraphs": [
+              "Iranian President Masoud Pezeshkian gave a rare address to the UN General Assembly on Wednesday. He said Iran would not bend to President Trump and described Iranians as 'the victims of terrorism.' The speech came a day after Trump raised the possibility of 'annihilating' the Islamic Republic and then called hours of talks between U.S. and Iranian delegations 'very productive.'",
+              "Secretary of State Marco Rubio said the mediated talks produced no major breakthrough. Iran's Foreign Ministry said Qatar had passed messages between the two sides. It said Tehran's conditions include an end to U.S. hostilities, the lifting of the U.S. naval blockade of Iranian ports and the release of frozen Iranian funds."
+            ],
+            "sources": [
+              ["Iran president addresses U.N. in rare speech at war with U.S.", "https://www.npr.org/2026/09/23/nx-s1-5978863/iran-president-united-nations-general-assembly"],
+              ["Iran's president speaks at U.N. General Assembly after Trump threatens annihilation", "https://www.washingtonpost.com/world/2026/09/23/irans-president-address-un-general-assembly-after-trump-threatens-annihilation/"]
+            ]
+          }
+        ],
+        "tech-ai": [
+          {
+            "headline": "Anthropic and OpenAI Cut Flagship AI Prices Within Minutes of Each Other",
+            "byline": "San Francisco",
+            "paragraphs": [
+              "Anthropic released Claude Opus 5.5 on Wednesday at $4 per million input tokens and $20 per million output tokens, 20% below its predecessor's prices. The company said the model costs about 40% less to run on typical workloads because it also uses fewer tokens per task. Cached input reads fell 60%, to $0.20.",
+              "Minutes later, OpenAI released two GPT-6 models. GPT-6 Sol is priced at $2 and $10 per million input and output tokens, and GPT-6 Luna at $0.10 and $0.50. OpenAI said both cost half the promotional price of the GPT-5.6 models they replace. The same-day cuts show that competition among frontier labs is increasingly being fought on price."
+            ],
+            "sources": [
+              ["Anthropic releases Claude Opus 5.5 and OpenAI counters with two cheaper GPT-6 models", "https://siliconangle.com/2026/09/22/anthropic-releases-claude-opus-5-5-and-openai-counters-with-two-cheaper-gpt-6-models/"],
+              ["OpenAI cuts GPT-6 Sol, Luna prices as Anthropic lowers Opus 5.5 costs", "https://techwireasia.com/2026/09/openai-gpt-6-sol-luna-prices/"]
+            ]
+          },
+          {
+            "headline": "Cisco Talos Uncovers Malware That Lets a Panel of AI Models Vote on Its Next Move",
+            "byline": "Security Desk",
+            "paragraphs": [
+              "Cisco's Talos threat-intelligence group has disclosed CLOSEDQUORUM, a 16.4MB Windows implant written in Go. Talos says it is the first publicly documented malware that hands tactical command-and-control decisions to commercial large language models. The implant queries DeepSeek, Qwen, Mistral and Google Gemini and carries out whichever action wins a plurality vote.",
+              "Talos said it has not confirmed any real-world deployment. The public build is a non-functional template with dummy API keys. Alongside the report, Talos open-sourced CAIRN, a toolkit that hunts for AI-integrated malware by scanning files for prompt templates, AI API endpoints and jailbreak terms without executing them."
+            ],
+            "sources": [
+              ["The Closed Quorum: Inside the first reported autonomous AI C2 implant", "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/"],
+              ["Researchers uncover malware that uses AI to choose its next move", "https://www.helpnetsecurity.com/2026/09/22/cairn-open-source-framework-ai-malware-closedquorum/"]
+            ]
+          },
+          {
+            "headline": "AI Executives Brief UN Security Council as Bengio Warns of Threat 'None Can Contain Alone'",
+            "byline": "United Nations",
+            "paragraphs": [
+              "France chaired a UN Security Council session on AI and international security on Wednesday. OpenAI CEO Sam Altman and representatives of Anthropic were among those who briefed the 15 members, and executives warned that frontier AI systems risk becoming uncontrollable.",
+              "Turing Award winner Yoshua Bengio called AI beyond human control 'an unprecedented threat for countries that none can contain alone.' Speakers pointed to the UN's Global Digital Compact and its new Independent International Scientific Panel on AI as early steps toward coordinated oversight."
+            ],
+            "sources": [
+              ["OpenAI and Anthropic brief Security Council amid 'real and imminent' threat posed by runaway AI", "https://news.un.org/en/story/2026/09/1168414"]
+            ]
+          }
+        ],
+        "business-markets": [
+          {
+            "headline": "Stocks Slide as 10-Year Treasury Yield Tops 5.1% for First Time Since 2007",
+            "byline": "New York",
+            "paragraphs": [
+              "The S&P 500 fell 0.75% to 7,706.03 on Wednesday, and the Dow Jones Industrial Average lost 352.10 points, or 0.68%, to 51,511.59. Utilities and consumer discretionary stocks led the decline, each dropping more than 1%. The Nasdaq and the small-cap Russell 2000 also fell.",
+              "The 10-year Treasury yield rose to about 5.13%, its highest since July 2007, and the 5-year yield reached 5% for the first time since 2007. The moves followed September purchasing managers' index data showing private-sector activity growing at its fastest pace in more than five years, which raised bets that the Federal Reserve will lift rates again in October."
+            ],
+            "sources": [
+              ["Stock Market Today (Sept. 23, 2026): Nasdaq, Russell 2000 sink as 5-year Treasury hits 5% for first time since 2007", "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-23-2026"],
+              ["10-year Treasury yield hits 5.1% for first time in 19 years", "https://edition.cnn.com/2026/09/23/investing/us-bond-market-fed"]
+            ]
+          },
+          {
+            "headline": "Brent Crude Jumps Nearly 4% Back Above $103 a Barrel",
+            "byline": "Energy Desk",
+            "paragraphs": [
+              "Brent crude futures rose 3.86% to settle at $103.08 a barrel on Wednesday, and U.S. crude gained 1.81% to $92.16. High energy prices remain one of the main drivers of the inflation worries behind the global bond selloff.",
+              "Analysts said expensive oil and a surge in corporate capital spending are feeding price pressures that the Fed is trying to contain, and that higher fuel costs are likely to reach gasoline prices and freight rates in the coming weeks."
+            ],
+            "sources": [
+              ["Treasury yields surge to near 20-year high as oil jumps back above $103 per barrel", "https://www.nbcnews.com/business/energy/treasury-yields-oil-stocks-rcna599398"],
+              ["Current price of oil as of September 23, 2026", "https://fortune.com/article/price-of-oil-09-23-2026/"]
+            ]
+          },
+          {
+            "headline": "Soybeans, Jets and Rare Earths: China's Uneven Record on Truce Commitments",
+            "byline": "Washington",
+            "paragraphs": [
+              "China has bought roughly half of its 25-million-ton annual soybean commitment to U.S. farmers. The details of its promised 200-aircraft Boeing order remain unclear, and shipments of Chinese rare-earth magnets to the U.S. fell 20% in August.",
+              "Industries from farming to aerospace to defense are watching the Trump-Xi talks closely, because these purchase commitments are the most tangible measure of whether the U.S.-China truce is working."
+            ],
+            "sources": [
+              ["Soybeans, planes and rare earths: What they say about fragile U.S.-China trade truce", "https://www.cnbc.com/2026/09/23/trump-xi-summit-us-china-trade-rare-earth-soybean-plane.html"]
+            ]
+          }
+        ],
+        "science-discovery": [
+          {
+            "headline": "'Fire Amoeba' Found in Lassen Hot Springs Divides at 63°C, Breaking a Heat Limit for Complex Life",
+            "byline": "Science Desk",
+            "paragraphs": [
+              "Microbiologists have described a new amoeba species, Incendiamoeba cascadensis, isolated from a tributary of Hot Springs Creek in California's Lassen Volcanic National Park. It completes full cell division at 63 degrees Celsius (145°F) and stays motile up to 64°C. For decades, scientists had placed the upper limit for eukaryotic life at about 60°C.",
+              "The NASA-funded team sampled the site over three years. They found that the organism can also form a protective casing that survives temperatures up to 70°C and becomes active again when conditions cool, a finding relevant to where scientists look for life beyond Earth."
+            ],
+            "sources": [
+              ["NASA-Funded Research Finds Complex Life Defying Record Heat", "https://science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat/"],
+              ["Volcanic Springs Amoeba Survives 63 °C, Setting a New Heat Record For Complex Life", "https://www.sciencealert.com/volcanic-springs-amoeba-survives-63-c-setting-a-new-heat-record-for-complex-life"]
+            ]
+          },
+          {
+            "headline": "Arctic Melt Season Is 40 Days Longer Than in 1979, but the Trend Unexpectedly Stalled Around 2010",
+            "byline": "Science Desk",
+            "paragraphs": [
+              "A NASA-led study in Communications Earth & Environment analyzed satellite records from 1979 to 2023. It found that the Arctic sea ice melt season is now about 40 days longer than when records began, mostly because ice refreezes later in autumn rather than melting earlier in spring.",
+              "Most of that lengthening happened before 2010. Since then, the average season length has stayed roughly flat despite large year-to-year swings. The researchers point to changing cloud cover and thinner ice as possible explanations and warn that continued warming could set off another period of rapid change."
+            ],
+            "sources": [
+              ["Arctic Melt Season Length Levels Off", "https://science.nasa.gov/earth/earth-observatory/arctic-melt-season-length-levels-off/"],
+              ["Satellite record reveals Arctic melt season has plateaued after decades of lengthening", "https://phys.org/news/2026-09-satellite-reveals-arctic-season-plateaued.html"]
+            ]
+          }
+        ],
+        "health-medicine": [
+          {
+            "headline": "FDA Advisers Back Grail's Galleri Blood Test for Detecting Multiple Cancers",
+            "byline": "Silver Spring, Md.",
+            "paragraphs": [
+              "An FDA advisory panel voted 10-0 on Wednesday that Grail's Galleri multi-cancer early detection test is safe and 6-4 that it is effective. A separate 7-2 vote, with one abstention, found that its benefits outweigh its risks. Grail says the blood test can detect signals from up to 50 cancer types, including many with no recommended screening today.",
+              "The FDA is not bound by the panel's recommendations. A final decision is expected in early 2027, and approval could open the door to Medicare and private insurance coverage for a test that is currently available only to patients paying out of pocket."
+            ],
+            "sources": [
+              ["FDA advisory panel endorses Grail blood test for cancer, saying benefits outweigh risks", "https://www.statnews.com/2026/09/23/fda-advisory-panel-recommends-approval-grail-galleri-multi-cancer-blood-test/"],
+              ["FDA Advisory Committee Votes In Favor of Approval of GRAIL's Galleri Multi-Cancer Early Detection Test", "https://grail.com/press-releases/fda-advisory-committee-votes-in-favor-of-approval-of-grails-galleri-multi-cancer-early-detection-test/"]
+            ]
+          },
+          {
+            "headline": "U.S. Measles Outbreak Now the Worst Since 1991, With Four Deaths in Pennsylvania",
+            "byline": "Health Desk",
+            "paragraphs": [
+              "The nation is experiencing its worst measles outbreak since 1991, centered in Pennsylvania. As of Sept. 15, the state Department of Health had confirmed 693 cases in 38 counties, with 133 hospitalizations and four deaths, all among unvaccinated people.",
+              "Cases have climbed sharply since late August, from 393 on Aug. 25 to nearly 700 three weeks later, and the outbreak has spread from Lancaster County to other parts of the state. National kindergarten vaccination coverage fell to 92.5% in 2025, below the 95% threshold experts say is needed for herd immunity."
+            ],
+            "sources": [
+              ["One of the most contagious diseases on the planet is having its worst U.S. outbreak since 1991", "https://www.statnews.com/2026/09/24/health-news-measles-contagious-outbreak-u-s-deaths-1991/"],
+              ["Pennsylvania reports fourth measles-related death, the most in US in decades", "https://www.cnn.com/2026/09/15/health/pennsylvania-measles-deaths-outbreak"]
+            ]
+          }
+        ],
+        "global-affairs": [
+          {
+            "headline": "Zelensky Calls Putin 'Patient Zero,' Urges Nations to Keep Squeezing Russian Revenue",
+            "byline": "United Nations",
+            "paragraphs": [
+              "Ukrainian President Volodymyr Zelensky spoke to the UN General Assembly in English for about 25 minutes on Wednesday. He called Russian President Vladimir Putin 'patient zero' of global instability and said that 'Russia's revenues must remain a target.'",
+              "Zelensky said Russia's army lost 248,964 soldiers killed or badly wounded between January and August while capturing just over 1,000 square kilometers of Ukrainian territory, much of which he said Ukraine has since retaken. His appeal came as President Trump presses for a settlement after more than four and a half years of war."
+            ],
+            "sources": [
+              ["'Putin is patient zero. He must be stopped,' Zelensky tells U.N. General Assembly", "https://meduza.io/en/feature/2026/09/24/putin-is-patient-zero-he-must-be-stopped-zelensky-tells-u-n-general-assembly"],
+              ["Key moments from UNGA Day 2: Speeches from Rodríguez, Zelensky, Pezeshkian", "https://www.cnn.com/2026/09/23/world/live-news/united-nations-general-assembly-iran-trump-ukraine"]
+            ]
+          },
+          {
+            "headline": "Venezuela's Acting Leader Promises Elections but Sets No Date in First UN Address",
+            "byline": "United Nations",
+            "paragraphs": [
+              "Venezuelan interim President Delcy Rodríguez told the General Assembly that 'elections will be held in Venezuela.' She thanked President Trump for renewing cooperation with Caracas but did not set a date. It was the first UN speech by a Venezuelan head of state since 2018, nearly nine months after U.S. forces captured Nicolás Maduro.",
+              "Rodríguez said her government has opened a 'political dialogue with opposition sectors' and described a 'process of democratic transformation' that would include judicial reform and economic changes. She said Venezuelans themselves would decide the right moment for a vote."
+            ],
+            "sources": [
+              ["Venezuela's acting leader promises elections at the 'right moment'", "https://www.npr.org/2026/09/24/g-s1-144837/venezuela-leader-un-general-assembly"],
+              ["Venezuela's Rodríguez thanks Trump, pledges elections in U.N. speech", "https://www.upi.com/Top_News/World-News/2026/09/23/latam-venezuela-delcy-rodriguez-un-speech/1001790209288"]
+            ]
+          }
+        ],
+        "economy-personal-finance": [
+          {
+            "headline": "30-Year Mortgage Rate Climbs Past 7% to a One-Year High",
+            "byline": "Personal Finance Desk",
+            "paragraphs": [
+              "The average 30-year fixed mortgage rate reached 7.11% on Thursday, according to the Mortgage Research Center, a one-year high. Rates were 6.71% at the start of September and have risen steadily since the Federal Reserve raised its benchmark rate by a quarter point on Sept. 16, to a range of 3.75% to 4.00%.",
+              "Higher rates are further squeezing buyers who are already dealing with high home prices. Because mortgage rates track longer-term Treasury yields, which hit 19-year highs this week, analysts see little relief unless inflation cools."
+            ],
+            "sources": [
+              ["Mortgage Rates Today: September 24, 2026 – 30-Year Rate Hits One-Year High", "https://www.forbes.com/advisor/mortgages/mortgage-rates-09-24-26/"],
+              ["US Mortgage Rates Rise to 6.97%, Highest In More Than a Year", "https://www.bloomberg.com/news/articles/2026-09-16/us-mortgage-rates-rise-to-6-97-highest-in-more-than-a-year"]
+            ]
+          },
+          {
+            "headline": "Traders Put 70% Odds on Another Fed Hike in October, Pushing Up Costs for Auto and Business Loans",
+            "byline": "Washington",
+            "paragraphs": [
+              "Hot business-activity data this week led investors to raise the odds of a second consecutive Fed rate increase in October to about 70%. The Fed raised rates in September for the first time since 2023.",
+              "Rising yields push up the cost of mortgages, auto loans, credit cards and business borrowing. Savers are one of the few groups to benefit, as rates on high-yield savings accounts and certificates of deposit continue to rise."
+            ],
+            "sources": [
+              ["10-year Treasury yield rockets to 19-year high. Here's what's driving the spike", "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"],
+              ["10-year Treasury yield hits 5.1% for first time in 19 years", "https://edition.cnn.com/2026/09/23/investing/us-bond-market-fed"]
+            ]
+          }
+        ],
+        "education-research": [
+          {
+            "headline": "Education Department Has Not Been Dismantled but Has Grown Less Efficient, Staff Say",
+            "byline": "Washington",
+            "paragraphs": [
+              "Eighteen months into the Trump administration's effort to close the Education Department, current and former staff say the agency still exists. They say the changes have made its work more complicated and potentially less efficient, at an unknown cost to taxpayers.",
+              "The department is still carrying out its core programs. This week it approved Workforce Pell Grant programs in Texas and announced new funding for historically Black colleges and universities."
+            ],
+            "sources": [
+              ["The Education Dept. hasn't been dismantled. It's become more inefficient, staff say", "https://www.mprnews.org/story/2026/09/24/npr-education-department-dismantling-how-its-going"],
+              ["Press Releases | U.S. Department of Education", "https://www.ed.gov/about/news/press-release"]
+            ]
+          },
+          {
+            "headline": "Grade-Inflation Debate Reaches Statehouses as South Carolina's 'No Grade Floors' Law Takes Effect",
+            "byline": "Education Desk",
+            "paragraphs": [
+              "South Carolina's Act 204, signed by Gov. Henry McMaster, bars public schools from giving students minimum grades they did not earn, such as the common 50% floor. Districts that keep the practice risk losing 10% of their state funding. The law applies starting this 2026-27 school year.",
+              "Supporters say the change gives parents an honest picture of student performance. Critics argue grade floors keep struggling students from falling so far behind that they give up. Education analysts expect other legislatures to consider similar measures."
+            ],
+            "sources": [
+              ["Worried about grade inflation, this state ended no-zeros grading", "https://www.chalkbeat.org/2026/09/21/worried-about-grade-inflation-this-state-ended-no-zeros-grading/"],
+              ["This State Banned Nonzero Grading Policies. Why Some Schools Use Them", "https://www.edweek.org/teaching-learning/this-state-banned-nonzero-grading-policies-why-some-schools-use-them/2026/08"]
+            ]
+          },
+          {
+            "headline": "Experts Debate Why AP Pass Rates Have Jumped Above 70% on Some Exams",
+            "byline": "Education Desk",
+            "paragraphs": [
+              "More than 70% of students now pass the AP English Literature, U.S. History and Chemistry exams, compared with typical pass rates of 40% to 50% a few years ago. The rise has prompted accusations that the College Board is inflating scores.",
+              "The College Board says its new scoring system corrects an older method that underestimated how many students were doing college-level work. Critics want more transparency about how the score cutoffs were set."
+            ],
+            "sources": [
+              ["Settling Scores: Experts Debate Why AP Performance Has Soared", "https://www.the74million.org/article/settling-scores-experts-debate-why-ap-performance-has-soared/"],
+              ["Why Are AP Scores Rising? The College Board's Answers Don't Add Up", "https://www.city-journal.org/article/ap-test-scores-college-board"]
+            ]
+          }
+        ],
+        "sports": [
+          {
+            "headline": "Rays Clinch First AL East Title Since 2021 With Win at Yankee Stadium",
+            "byline": "New York",
+            "paragraphs": [
+              "The Tampa Bay Rays won their fifth AL East title with a 6-1 victory over the Yankees in the second game of a doubleheader in the Bronx. Drew Rasmussen allowed one hit in 6 2/3 innings, and Yandy Díaz drove in four runs with a pair of two-run singles. It is the earliest division clincher in franchise history.",
+              "At 96-61, the Rays are guaranteed the American League's No. 1 seed. The Yankees are headed for a wild-card spot, where they currently line up to face the rival Red Sox."
+            ],
+            "sources": [
+              ["Rays clinch 2026 AL East title", "https://www.mlb.com/news/rays-clinch-2026-al-east-title"],
+              ["Rays clinch 5th AL East title with 6-1 victory at Yankee Stadium in 2nd game of doubleheader", "https://www.click2houston.com/sports/2026/09/23/rays-clinch-5th-al-east-title-with-6-1-victory-at-yankee-stadium-in-2nd-game-of-doubleheader/"]
+            ]
+          },
+          {
+            "headline": "Five Contenders Miss Chances to Clinch as MLB Enters Final Days of the Regular Season",
+            "byline": "Sports Desk",
+            "paragraphs": [
+              "The Guardians, White Sox, Cubs, Phillies and Padres all could have clinched postseason berths Wednesday, and none did. The Rays, Brewers, Dodgers, Yankees, Braves and Red Sox have already secured spots.",
+              "The Blue Jays' playoff hopes depend on sweeping a doubleheader against Baltimore and getting help elsewhere. The regular season ends Sept. 27, and the postseason begins Sept. 29."
+            ],
+            "sources": [
+              ["Updated 2026 MLB Playoffs Bracket Picture, Standings and Clinching Scenarios for Sept. 23", "https://bleacherreport.com/articles/25502277-updated-2026-mlb-playoffs-bracket-picture-standings-and-clinching-scenarios-sept-23"],
+              ["2026 MLB Playoffs Update: Clinch scenarios, schedule, tiebreakers, and more", "https://www.nbcsports.com/mlb/news/2026-mlb-playoffs-update-clinch-scenarios-schedule-tiebreakers-and-more"]
+            ]
+          },
+          {
+            "headline": "Lynx Lock Up No. 1 Seed Despite Blowout Loss as WNBA Regular Season Ends",
+            "byline": "Minneapolis",
+            "paragraphs": [
+              "The Minnesota Lynx clinched the WNBA's top seed and home-court advantage throughout the playoffs on Tuesday even though they lost 96-77 to the Indiana Fever. The clincher came when the Portland Fire beat the Golden State Valkyries. Minnesota played without MVP candidate Olivia Miles, who has a calf injury.",
+              "The regular season ends Thursday. The first round begins Sunday, and the best-of-five semifinals start Oct. 4, with the Lynx entering as heavy title favorites."
+            ],
+            "sources": [
+              ["Lynx clinch No. 1 seed, home-court advantage: Minnesota enters 2026 WNBA playoffs as heavy title favorite", "https://www.cbssports.com/wnba/news/lynx-clinch-no-1-seed-home-court-advantage-2026-wnba-playoffs/"],
+              ["WNBA playoffs schedule 2026: Dates released for postseason", "https://www.espn.com/wnba/story/_/id/49882118/wnba-playoffs-2026-schedule-games-first-round-semifinals-finals-scores-results-news-highlights"]
+            ]
+          }
+        ],
+        "also-worth-knowing": [
+          {
+            "headline": "SpaceX Stacks Starship for Its First Orbital Flight, Targeting Sept. 28",
+            "byline": "Starbase, Texas",
+            "paragraphs": [
+              "SpaceX has stacked Starship on its Super Heavy booster ahead of the rocket's first orbital flight. Pending FAA approval, Flight 14 could launch as soon as 7:15 a.m. CDT on Sept. 28.",
+              "The roughly 10-hour mission would deploy 26 next-generation Version 3 Starlink satellites. It is a key milestone for a vehicle NASA is counting on for future crewed lunar landings."
+            ],
+            "sources": [
+              ["SpaceX stack Starship and Super Heavy for first orbital flight", "https://spaceflightnow.com/2026/09/23/spacex-stack-starship-and-super-heavy-for-first-orbital-flight/"]
+            ]
+          },
+          {
+            "headline": "Delayed Crew-13 Mission to the Space Station Now Set for Oct. 1",
+            "byline": "Cape Canaveral, Fla.",
+            "paragraphs": [
+              "NASA and SpaceX are targeting 11:10 a.m. EDT on Oct. 1 to launch Crew-13 to the International Space Station, nearly three weeks after the original Sept. 12 date. The launch was delayed after an oxidizer leak was found in the Dragon capsule's propulsion system.",
+              "The crew includes NASA astronauts Jessica Watkins and Luke Delaney, Canadian Space Agency astronaut Josh Kutryk and Russian cosmonaut Sergey Teteryatnikov. They are expected to reach the station about nine hours after liftoff."
+            ],
+            "sources": [
+              ["NASA, SpaceX Move to Final Crew-13 Prelaunch Prep for Oct. 1 Liftoff", "https://www.nasa.gov/blogs/spacestation/2026/09/22/nasa-spacex-move-to-final-crew-13-prelaunch-prep-for-oct-1-liftoff/"],
+              ["SpaceX's next astronaut launch for NASA now set for Oct. 1 after delay", "https://www.space.com/space-exploration/launches-spacecraft/spacexs-next-astronaut-launch-for-nasa-now-set-for-oct-1-after-delay"]
+            ]
+          }
+        ]
+      },
+      "local": {
+        "Toronto": {
+          "headline": "Bradford Pledges One-Year Property Tax Freeze; Chow Warns of Return to 'Bad Old Days'",
+          "paragraphs": [
+            "Mayoral candidate Brad Bradford, who polls place second behind Mayor Olivia Chow, promised at Tuesday's debate to freeze Toronto property taxes for a year if elected in October. No mayor has frozen them since Rob Ford in 2011. Bradford said the freeze would allow an 'independent, line by line review' of city spending, and he promised increases below inflation for the following three years.",
+            "Chow pledged to keep increases 'at or around' inflation and said a freeze would mean 'going back to the bad old days, where libraries, fire station, even long-term care homes were faced with closure.' Toronto approved a 2.2% property tax increase in its 2026 budget, after a 9.5% increase in 2024."
+          ],
+          "sources": [
+            ["Brad Bradford promises property tax freeze if elected Toronto mayor", "https://www.cbc.ca/news/canada/toronto/brad-bradford-tax-promise-9.7355110"],
+            ["Bradford promises tax freeze as Chow defends inflation-based increases", "https://www.cp24.com/local/toronto/2026/09/23/bradford-promises-tax-freeze-as-chow-defends-inflation-based-increases-heres-what-you-need-to-know/"]
+          ]
+        },
+        "Vancouver": {
+          "headline": "Eby Calls Snap B.C. Election for Oct. 24 as Conservatives Scramble to Regroup",
+          "paragraphs": [
+            "Premier David Eby has called a provincial election for Oct. 24, two years early, citing the 'existential' threat posed by U.S. President Donald Trump. The vote falls one week after municipal elections on Oct. 17, so Vancouver residents will vote twice in eight days.",
+            "The call follows months of turmoil in the Official Opposition. B.C. Conservative leader Kerry-Lynne Findlay resigned over the weekend after the party lost or ousted 13 MLAs since August, and members of the Conservatives and the breakaway CentreBC have since discussed joining forces against the NDP."
+          ],
+          "sources": [
+            ["British Columbia's next provincial election set for Oct. 24 after Eby calls early vote", "https://www.cbc.ca/news/canada/british-columbia/livestory/british-columbia-snap-election-2026-ndp-leader-david-eby-9.7349059"],
+            ["Eby just called a snap election in B.C. Here's what that means", "https://thenarwhal.ca/bc-snap-election-david-eby/"]
+          ]
+        },
+        "New York City": {
+          "headline": "Mamdani Administration Wins Record $131.5 Million From DoorDash for Underpaid Delivery Workers",
+          "paragraphs": [
+            "Mayor Zohran Mamdani, Deputy Mayor Julie Su and Department of Consumer and Worker Protection Commissioner Samuel Levine announced a $131.5 million settlement with DoorDash over violations of the city's delivery worker pay laws. It is the largest worker settlement in city history. More than $115 million will go directly to over 260,000 workers who were underpaid, paid late or not paid at all, and more than $16 million covers penalties and costs.",
+            "DoorDash acknowledged that 'simply put, we screwed up,' and blamed technical bugs and complicated orders, such as those that crossed city lines. A second round of payments is expected in early 2027 while the company corrects additional pay-calculation errors."
+          ],
+          "sources": [
+            ["Mayor Mamdani Wins Record $131.5 Million From DoorDash for Delivery Workers", "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-wins-record--131-5-million-from-doordash-for-deliv"],
+            ["NYC Mayor Mamdani reaches record DoorDash settlement for underpaid workers", "https://www.aljazeera.com/economy/2026/9/22/nyc-mayor-mamdani-reaches-record-doordash-settlement-for-underpaid-workers"]
+          ]
+        },
+        "Chicago": {
+          "headline": "City Council Approves $57.6 Million for 200 Affordable Homes in Edgewater and Humboldt Park",
+          "paragraphs": [
+            "The Chicago City Council on Wednesday approved city subsidies of $57.6 million for two long-planned developments that will provide nearly 200 homes for low- and moderate-income residents. The package includes the first large allocation from Mayor Brandon Johnson's signature Housing and Economic Development Bond.",
+            "In Humboldt Park, the former Von Humboldt Elementary School, closed under former Mayor Rahm Emanuel, will become 103 apartments for households earning no more than 60% of the area median income, or $72,900 for a family of four. In Edgewater, Bickerdike Redevelopment Corporation plans an 11-story building at 5853 N. Broadway in which every unit will be affordable."
+          ],
+          "sources": [
+            ["City Council Approves Plans for 200 Affordable Homes in Edgewater, Humboldt Park", "https://news.wttw.com/2026/09/23/city-council-approves-plans-200-affordable-homes-edgewater-humboldt-park"]
+          ]
+        },
+        "Dallas": {
+          "headline": "Sand Branch, a Dallas County Freedmen's Settlement Founded in 1878, Still Has No Running Water",
+          "paragraphs": [
+            "Sand Branch, an unincorporated community in southeastern Dallas County founded as a freedmen's settlement in 1878, still has no municipal water service or fire hydrants. Advocates describe its situation as a humanitarian crisis. Its roughly 150 residents depend on donated bottled water because their wells were contaminated after a wastewater treatment plant was built nearby in 1964.",
+            "Many residents live in campers or deteriorating homes. Because FEMA classifies the area as a floodplain, they cannot build on or renovate their properties, and a decades-long campaign for running water has yet to succeed."
+          ],
+          "sources": [
+            ["'Humanitarian Crisis': Dallas County Settlement Founded In 1878 Still Has No Running Water", "https://dallasexpress.com/city/humanitarian-crisis-dallas-county-settlement-founded-in-1878-still-has-no-running-water/"],
+            ["Historic community near Dallas has never had running water", "https://www.fox4news.com/news/historic-community-near-dallas-has-never-had-running-water"]
+          ]
+        }
+      }
+    },
+    {
     "date": "2026-09-23",
     "topStory": {
       "headline": "Trump Threatens to 'Annihilate' Iran at UN as Xi Jinping Arrives in Washington for Trade Summit",
