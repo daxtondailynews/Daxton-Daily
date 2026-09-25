@@ -16,6 +16,381 @@
  */
 window.EDITIONS = [
     {
+      "date": "2026-09-25",
+      "topStory": {
+        "headline": "Trump and Xi End White House Summit With Pandas and Student Exchanges, but No Announced Deals on Taiwan, Trade or Iran",
+        "byline": "Staff Report — Washington",
+        "paragraphs": [
+          "President Trump and Chinese President Xi Jinping held a little over an hour of bilateral talks at the White House on Thursday, followed by an expanded session and a state dinner. Neither side announced a signed agreement. Trump summed it up for reporters as 'Great meeting, thank you,' and by Thursday evening the White House had not released its own account of what was discussed. The most concrete items came from Xi, who invited 100,000 American students to visit China over the next five years and said two giant pandas would soon be loaned to Zoo Atlanta.",
+          "Taiwan remained the main point of friction. Xi urged Trump to oppose Taiwanese independence and to handle the issue 'prudently.' A decision on a pending U.S. arms package for the island is still outstanding. On Iran, Xi voiced support for Washington and Tehran returning to an interim agreement, but no breakthrough was reported. The two leaders also differed on artificial intelligence: Xi has called for a global governance framework built on 'open source, openness, collaboration and sharing,' while Trump has argued against broad guardrails.",
+          "The summit's clearest economic result came the day before, when Treasury Secretary Scott Bessent said the two countries had extended their trade truce through Jan. 10, 2027. Thursday's state dinner drew a guest list that included Elon Musk, Jeff Bezos and Mark Zuckerberg. Questions remain about Beijing's follow-through on earlier commitments, including soybean purchases, a reported Boeing order and rare-earth exports."
+        ],
+        "sources": [
+          ["Trump-Xi summit: Four key takeaways from the Washington, DC, meeting", "https://www.aljazeera.com/news/2026/9/24/trump-xi-summit-four-key-takeaways-from-the-washington-dc-meeting"],
+          ["Trump, Xi meet at White House, reveal nothing about discussions", "https://www.upi.com/Top_News/US/2026/09/24/trump-xi-jinping-white-house/8391790273287"],
+          ["Xi, Trump conclude bilateral meeting", "https://www.washingtontimes.com/news/2026/sep/24/xi-jinping-trump-conclude-bilateral-meeting/"],
+          ["Live updates: Trump hosts Xi for US-China summit in Washington", "https://www.cnn.com/2026/09/24/politics/live-news/trump-meeting-china-xi-us-visit"]
+        ]
+      },
+      "topics": {
+        "politics": [
+          {
+            "headline": "Senate Rejects Iran War Powers Resolution 49-50 as Fetterman Breaks With Democrats",
+            "byline": "Washington",
+            "paragraphs": [
+              "The Senate on Thursday narrowly defeated a war powers resolution that would have required President Trump to halt U.S. attacks on Iran. The final vote was 49 to 50. Four Republicans voted for the measure: Susan Collins of Maine, Lisa Murkowski of Alaska, Rand Paul of Kentucky and Thom Tillis of North Carolina.",
+              "Pennsylvania Sen. John Fetterman was the only Democrat to vote no, and Maryland Democrat Angela Alsobrooks did not vote. The resolution had already passed the House. Congress approved a similar resolution in June, but the White House ignored it, arguing that it infringed on the president's powers as commander in chief."
+            ],
+            "sources": [
+              ["Iran war powers resolution fails in the Senate", "https://www.npr.org/2026/09/24/nx-s1-5980318/senate-iran-war-powers-vote"],
+              ["Senate narrowly votes down resolution calling for end to Iran war", "https://www.cnbc.com/2026/09/24/iran-war-powers-senate-vote-fuel.html"],
+              ["How every senator voted on the Iran war powers resolution", "https://www.washingtonpost.com/politics/interactive/2026/09/24/how-every-senator-voted-iran-war-powers-resolution/"]
+            ]
+          },
+          {
+            "headline": "White House Says Trump Has Done 'More Than Anyone' to Protect Canada After Carney Discusses U.S. Invasion Risk",
+            "byline": "Ottawa",
+            "paragraphs": [
+              "The White House pushed back on Thursday after Prime Minister Mark Carney told The New York Times that he had examined, and prepared for, the possibility of U.S. military action against Canada. Carney described the probability as an 'extreme tail risk.'",
+              "Asked about the remarks by The Globe and Mail, Anna Kelly, the White House's principal deputy press secretary, said Carney should be grateful for Trump's help in defending Canada. She pointed to Trump's Golden Dome missile-defence project and said it would 'secure both countries.' Separately, the Parliamentary Budget Officer suggested this week that Ottawa is not on track to balance its operating budget, despite Carney's claim that it is."
+            ],
+            "sources": [
+              ["Trump has done 'more than anyone' to protect Canada, White House says", "https://www.theglobeandmail.com/politics/article-trump-has-done-more-than-anyone-to-protect-canada-white-house-says/"],
+              ["Ottawa not on track to balance operating budget despite Carney's claim, PBO suggests", "https://www.theglobeandmail.com/politics/article-ottawa-not-on-track-to-balance-operating-budget-despite-carneys-claim/"]
+            ]
+          },
+          {
+            "headline": "Courts Deal Trump Two Press Setbacks: Banned Reporters Return and Selzer Poll Lawsuit Is Tossed",
+            "byline": "Washington",
+            "paragraphs": [
+              "A Trump-appointed federal judge ordered the administration to lift its ban on reporters from CNN, MS NOW and Politico, and the reporters were allowed back into the White House. The television pool that supplies shared video coverage remained suspended.",
+              "In Iowa, a judge dismissed Trump's lawsuit against pollster Ann Selzer and the Des Moines Register over their final 2024 pre-election poll, which showed Kamala Harris leading in the state. The judge ruled that First Amendment protections apply even if poll results are labeled a 'product.'"
+            ],
+            "sources": [
+              ["Headlines for September 25, 2026", "https://www.democracynow.org/2026/9/25/headlines"]
+            ]
+          }
+        ],
+        "tech-ai": [
+          {
+            "headline": "Anthropic Signs $11.6 Billion, Seven-Year Computing Deal With Akamai; Shares Jump About 20%",
+            "byline": "Cambridge, Mass.",
+            "paragraphs": [
+              "Akamai Technologies said on Thursday that Anthropic has committed $11.6 billion over seven years to Akamai Cloud's distributed infrastructure to handle growing CPU workloads. The deal includes an option to expand by another $9 billion, which would bring the total to roughly $20 billion. Akamai shares rose as much as 20% in after-hours trading.",
+              "As part of the agreement, Akamai issued Anthropic a warrant covering up to about 5% of its common stock at $111.33 a share. About 2% vests with the initial commitment and the rest vests only if the expansion happens. Akamai estimates it will spend about $5.5 billion in capital expenditures to support the contract."
+            ],
+            "sources": [
+              ["Akamai Announces $11.6 Billion Multi-year Agreement with Anthropic", "https://www.ir.akamai.com/news-releases/news-release-details/akamai-announces-116-billion-multi-year-agreement-anthropic"],
+              ["Akamai shares jump more than 20% on $11.6B Anthropic computing deal", "https://siliconangle.com/2026/09/24/akamai-shares-jump-more-than-20-on-11-6b-anthropic-computing-deal/"]
+            ]
+          },
+          {
+            "headline": "Google Makes Real-Time AI Avatars Generally Available in Gemini 3.8 Live",
+            "byline": "Mountain View, Calif.",
+            "paragraphs": [
+              "Google on Thursday released Gemini 3.8 Live with Live Avatar to Gemini Enterprise customers in the U.S. and EU. The feature pairs the company's live voice models with near-real-time generated video, producing an animated persona that lip-syncs in 97 languages and can see, listen and respond as a conversation happens.",
+              "Google is pitching it for customer service and interactive walkthroughs. Customers can pick from a library of pre-built avatars. Creating a custom avatar requires enterprise verification and approval, and all generated audio and video carries Google's invisible SynthID watermark."
+            ],
+            "sources": [
+              ["Introducing Gemini 3.8 Live with Live Avatar", "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/"],
+              ["Gemini 3.8 Live with Live Avatar is now generally available", "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available"]
+            ]
+          },
+          {
+            "headline": "Medical AI Search Firm OpenEvidence Raises $250 Million at $15 Billion Valuation and Moves Into Drug Development",
+            "byline": "Miami",
+            "paragraphs": [
+              "OpenEvidence, the clinical search engine that says it is used by roughly 40% of U.S. physicians, raised $250 million in a round led by Andreessen Horowitz and Byers Capital. The round values the company at $15 billion, up from $12 billion in January.",
+              "Chief executive Daniel Nadler said the company will begin developing its own cancer therapies, with a first drug expected to enter clinical trials before the end of the year and three to five more candidates in 2027. OpenEvidence also announced a partnership with Memorial Sloan Kettering to build its tools into the hospital's Epic workflows."
+            ],
+            "sources": [
+              ["OpenEvidence hits $15B valuation as its ambitions move far beyond medical search", "https://refreshmiami.com/news/openevidence-hits-15b-valuation-as-its-ambitions-move-far-beyond-medical-search/"],
+              ["OpenEvidence raises $250M at $15B, pivots into drug development", "https://dealroom.co/news/155918-openevidence-raises-250m-at-15b-pivots-into-drug-development/"]
+            ]
+          }
+        ],
+        "business-markets": [
+          {
+            "headline": "Stocks End Roughly Flat After Volatile Session; Dow Slips 162 Points",
+            "byline": "New York",
+            "paragraphs": [
+              "Wall Street swung through several reversals on Thursday before closing about where it started. The S&P 500 fell 1.90 points to 7,704.13, the Dow Jones Industrial Average lost 161.61 points, or 0.3%, to 51,349.98, and the Nasdaq Composite edged up 3.34 points to 26,939.37. The Russell 2000 slipped 0.1%.",
+              "Rising Treasury yields and higher oil prices weighed on stocks for much of the day. Losses narrowed on hopes for a deal to reopen shipping through the Strait of Hormuz."
+            ],
+            "sources": [
+              ["How major US stock indexes fared Thursday 9/24/2026", "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-thursday-9242026-136734081"],
+              ["Stock market today: Dow, S&P 500, Nasdaq trims losses as hopes of Hormuz deal offset rising bond yields", "https://finance.yahoo.com/markets/live/stock-market-today-thursday-september-24-dow-sp-500-nasdaq-080352893.html"]
+            ]
+          },
+          {
+            "headline": "Judge Holds Off on Paramount-Warner Bros. Settlement as Ellison Weighs Musk as Investor",
+            "byline": "San Francisco",
+            "paragraphs": [
+              "U.S. District Judge Araceli Martinez-Olguin declined on Thursday to approve Paramount Skydance's settlement with states challenging its $111 billion acquisition of Warner Bros. Discovery. She questioned several provisions at a hearing and allowed the advocacy group Block the Merger to file briefs opposing the deal. No ruling is expected before next week.",
+              "The timing matters because Paramount owes Warner Bros. shareholders a combined $7 million a day if the deal does not close by Oct. 1. Paramount has also begun a $7.5 billion debt raise, and Variety and Deadline report that chief executive David Ellison has considered approaching Elon Musk to join a group of equity investors."
+            ],
+            "sources": [
+              ["Judge Won't Rule On Paramount-Warner Bros. Merger Settlement Until At Least Next Week", "https://www.forbes.com/sites/alisondurkee/2026/09/24/paramount-merger-settlement-wont-be-resolved-until-at-least-next-week-as-judge-questions-agreement/"],
+              ["David Ellison Mulls Tapping Elon Musk for Paramount Investment", "https://variety.com/2026/film/news/david-ellison-considering-elon-musk-paramount-investment-1236873471/"],
+              ["Paramount Merger Delayed As Judge OKs Motion To Block Antitrust Settlement", "https://deadline.com/2026/09/paramount-merger-delayed-settlement-challenge-1237112480/"]
+            ]
+          }
+        ],
+        "science-discovery": [
+          {
+            "headline": "Uranus's Moon Ariel May Once Have Held an Ocean More Than 100 Miles Deep",
+            "byline": "Tucson, Ariz.",
+            "paragraphs": [
+              "A study published in Icarus concludes that Ariel, Uranus's brightest moon, probably had a subsurface ocean more than 100 miles (170 km) deep beneath its icy shell. The researchers reached that conclusion by modeling the tidal stresses needed to produce the large fractures and ridges on its surface. For comparison, the Pacific Ocean averages about 2.5 miles deep.",
+              "The model works only if Ariel once followed a more eccentric orbit, which would have exposed it to stronger tidal heating than it experiences today. It is the team's second such finding after similar work on the moon Miranda. The researchers say it strengthens the case for a dedicated mission to Uranus."
+            ],
+            "sources": [
+              ["Uranus' moon Ariel may have hidden a 100-mile-deep ocean", "https://www.sciencedaily.com/releases/2026/09/260923035951.htm"],
+              ["A hidden ocean may have once existed on Uranus' moon Ariel", "https://www.space.com/astronomy/uranus/a-hidden-ocean-may-have-once-existed-on-uranus-moon-ariel"]
+            ]
+          },
+          {
+            "headline": "Physicists Show Separate Time Crystals Can Fall Into Sync Across a Semiconductor",
+            "byline": "Dortmund, Germany",
+            "paragraphs": [
+              "A team led by Professor Alex Greilich reports in Nature Communications that several time crystals formed in the same semiconductor can synchronize their oscillations, much as pendulum clocks on a shared wall gradually fall into the same rhythm. Time crystals are systems whose structure repeats in time rather than in space.",
+              "The crystals formed in gallium arsenide doped with indium and silicon. Spin-polarized electrons carried the coupling, which locked oscillators up to 40 micrometers apart to a common frequency, more than a thousand times the size of a single oscillator. The authors say the finding could inform future spin-based devices."
+            ],
+            "sources": [
+              ["Non-local synchronization of continuous time crystals in a semiconductor", "https://www.nature.com/articles/s41467-026-75714-1"],
+              ["Distant time crystals can somehow fall into the same rhythm", "https://www.sciencedaily.com/releases/2026/09/260923035934.htm"]
+            ]
+          }
+        ],
+        "health-medicine": [
+          {
+            "headline": "Trump's FDA Nominee Calls MMR Vaccine Safe, Contradicting the President, but Sidesteps Mifepristone",
+            "byline": "Washington",
+            "paragraphs": [
+              "Dr. Heidi Overton, President Trump's nominee for FDA commissioner, told the Senate health committee on Thursday that the measles, mumps and rubella vaccine is safe and effective. She called it 'our best tool right now' against the measles outbreak and said 'every vaccine on the market right now' is safe. Last month Trump called the MMR vaccine 'lethal.'",
+              "Overton would not say whether she considers the abortion pill mifepristone safe. She said the FDA is conducting an internal safety review and 'I can't prejudge' its outcome. The committee will next vote on whether to send her nomination to the full Senate."
+            ],
+            "sources": [
+              ["Trump's FDA nominee Heidi Overton affirms MMR vaccine and mifepristone are safe at crucial Senate hearing", "https://www.scientificamerican.com/article/trumps-fda-nominee-heidi-overton-affirms-mmr-vaccine-and-mifepristone-are-safe-at-crucial-senate-hearing/"],
+              ["Trump's nominee to lead FDA questioned on vaccines, abortion in Senate hearing", "https://www.cnn.com/2026/09/24/health/overton-senate-hearing-fda"]
+            ]
+          },
+          {
+            "headline": "FDA and CDC Warn Contaminated Glutathione 'Detox' Injections Have Sickened Dozens",
+            "byline": "Atlanta",
+            "paragraphs": [
+              "Federal health officials say more than 25 people at wellness clinics in Texas, Washington, New York and Florida fell ill after receiving glutathione injections or IV drips. Symptoms included fever, chills, dizziness and sepsis-like shock, and some patients were hospitalized. The symptoms are consistent with exposure to endotoxin, a bacterial contaminant.",
+              "The injections were compounded using 'dietary supplement grade' glutathione, not pharmaceutical grade, which investigators traced to the supplier Medisca. Three Texas pharmacies have issued recalls. The FDA has not approved any glutathione product in the United States."
+            ],
+            "sources": [
+              ["Some peptide glutathione shots or IVs may be linked to illnesses, FDA and CDC warn", "https://www.nbcnews.com/health/health-news/peptide-glutathione-compounded-shots-linked-illnesses-fda-cdc-rcna599310"],
+              ["Adverse Events Linked to Injectable Glutathione: Current Situation", "https://www.cdc.gov/healthcare-associated-infections/current-situation/index.html"]
+            ]
+          },
+          {
+            "headline": "Danish Study Finds Children Diagnosed With ADHD and Autism Now Look More Like Their Peers",
+            "byline": "Copenhagen",
+            "paragraphs": [
+              "A large Danish registry study published in JAMA Psychiatry found that young people diagnosed with ADHD or autism today resemble the general population more closely than those diagnosed a decade ago. The authors say rising diagnosis rates may partly reflect wider identification, not only an increase in the conditions themselves.",
+              "At the start of the study period, children born at low birth weight were 54% more likely to be diagnosed later with ADHD or autism. By the end, that gap had shrunk to 17%. Links to premature birth and to several measures of socioeconomic disadvantage showed similar declines."
+            ],
+            "sources": [
+              ["ADHD and autism diagnoses have surged. A massive study may help explain why", "https://www.sciencedaily.com/releases/2026/09/260924020353.htm"],
+              ["Study suggests the profile of people diagnosed with ADHD and autism has changed over the past decade", "https://www.eurekalert.org/news-releases/1143569"]
+            ]
+          }
+        ],
+        "global-affairs": [
+          {
+            "headline": "Tigrayan Forces Seize Three Airports as Ethiopia Slides Toward Renewed Full-Scale War",
+            "byline": "Addis Ababa",
+            "paragraphs": [
+              "Tigrayan forces launched an offensive on Wednesday and took control of the airports at Axum, Shire and Mekelle. Ethiopian Airlines cancelled all flights to the region. Fighting has since spread into the neighbouring Afar and Amhara regions, including around Soqota on the Tigray-Amhara border. It is the worst fighting since the 2022 Pretoria agreement.",
+              "The 2020-2022 war between the Tigray People's Liberation Front and the federal government killed an estimated 600,000 people, according to the African Union. An uneasy calm held until clashes resumed late last year, and analysts now warn that the two sides are on the verge of a return to full-scale war."
+            ],
+            "sources": [
+              ["Ethiopia and Tigray on verge of return to full-scale war", "https://www.npr.org/2026/09/24/nx-s1-5978861/conflict-ethiopia-tigray"],
+              ["Fighting widens across Ethiopia as Tigray clashes escalate", "https://www.aljazeera.com/news/2026/9/24/fighting-widens-across-ethiopia-as-tigray-clashes-escalate"],
+              ["Ethiopia: Tigray forces seize airports as fighting spreads to Afar", "https://www.africanews.com/2026/09/23/ethiopia-tigray-forces-seize-airports-as-fighting-spreads-to-afar/"]
+            ]
+          },
+          {
+            "headline": "More Than 100 Delegates Walk Out as Netanyahu Addresses the UN for a Second Straight Year",
+            "byline": "United Nations",
+            "paragraphs": [
+              "More than 100 delegates left the General Assembly hall on Thursday as Israeli Prime Minister Benjamin Netanyahu began his speech. 'If there are any other moral cowards who have not yet left the hall, please do so now,' he said. He called genocide allegations against Israel 'the biggest lie of the century' and said attacking Iran was 'one of the easiest decisions I've ever had to make.'",
+              "Netanyahu also accused New York Mayor Zohran Mamdani of endangering Jewish New Yorkers by spreading lies about Israel's conduct in Gaza. Outside UN headquarters, more than 100 protesters, including actor Susan Sarandon, were arrested at a sit-in organized by Jewish Voice for Peace."
+            ],
+            "sources": [
+              ["Dozens of envoys at UN walk out of Netanyahu speech", "https://www.rte.ie/news/politics/2026/0924/1592839-un-netanyahu-israel-walkout/"],
+              ["U.N. Delegates Walk Out Ahead of Israeli Prime Minister Netanyahu's UNGA Speech", "https://foreignpolicy.com/2026/09/24/netanyahu-speech-unga-israel-walkout-mamdani/"]
+            ]
+          }
+        ],
+        "economy-personal-finance": [
+          {
+            "headline": "Weekly Jobless Claims Fall to 197,000, Near 57-Year Lows",
+            "byline": "Washington",
+            "paragraphs": [
+              "Initial claims for unemployment benefits fell by 1,000 to 197,000 in the week ending Sept. 19, the Labor Department said Thursday. The four-week average fell to 202,250. The figures point to historically low layoffs and suggest the labor market regained momentum after a soft summer.",
+              "The data suggest the unemployment rate held at about 4.1% in September. A separate report showed new home sales got a lift as builders cut prices to attract buyers facing higher borrowing costs."
+            ],
+            "sources": [
+              ["US Weekly Jobless Claims Near 57-Year Lows; Price Reductions Boost New Home Sales", "https://www.usnews.com/news/top-news/articles/2026-09-24/us-weekly-jobless-claims-decrease-as-labor-market-regains-footing"],
+              ["Unemployment Insurance Weekly Claims", "https://www.dol.gov/ui/data.pdf"]
+            ]
+          },
+          {
+            "headline": "Freddie Mac: 30-Year Mortgage Averages 7.03%, Fifth Straight Weekly Rise",
+            "byline": "McLean, Va.",
+            "paragraphs": [
+              "Freddie Mac's weekly survey put the average 30-year fixed mortgage rate at 7.03%, up from 6.95% a week earlier and 6.30% a year ago. It is the first time the benchmark survey has topped 7% in 20 months, and the fifth consecutive weekly increase.",
+              "The 15-year fixed rate rose more sharply, to 6.42% from 6.26%. The increases follow the 10-year Treasury yield, which moved above 5.1% this week, and they are squeezing affordability heading into the fall buying season."
+            ],
+            "sources": [
+              ["Mortgage Rates Average 7.03%", "https://www.globenewswire.com/news-release/2026/09/24/3368592/0/en/mortgage-rates-average-7-03.html"],
+              ["Mortgage rates have just surpassed 7% for the first time in well over a year", "https://www.npr.org/2026/09/24/nx-s1-5977796/mortgage-rates-freddie-mac-homebuying"]
+            ]
+          }
+        ],
+        "education-research": [
+          {
+            "headline": "Phil and Penny Knight Give $1 Billion to Create University of Oregon Engineering College",
+            "byline": "Eugene, Ore.",
+            "paragraphs": [
+              "Nike co-founder Phil Knight and his wife, Penny, have committed $1 billion to the University of Oregon to establish the Knight College of Engineering. It is the largest gift ever to a comprehensive public university. Oregon has not previously offered a traditional engineering degree, and the new college will focus on bioengineering, data science and medicine.",
+              "The gift will pay for a third building on the Knight Campus, faculty hiring and operating costs 'in perpetuity.' The university estimates it will support an average of 867 jobs a year over 15 years. It is the Knights' third major gift to the school, after two $500 million donations in the past decade."
+            ],
+            "sources": [
+              ["Knights Commit $1 Billion to Establish College of Engineering", "https://www.uoregon.edu/press/2026/knight-engineering/"],
+              ["Knights pledge $1 billion to University of Oregon to create engineering college", "https://www.opb.org/article/2026/09/23/phil-penny-knight-donation-oregon/"]
+            ]
+          },
+          {
+            "headline": "2027-28 FAFSA Opens Earlier Than Ever, With a Form the Department Says Takes 15 Minutes",
+            "byline": "Washington",
+            "paragraphs": [
+              "The Education Department opened the 2027-28 Free Application for Federal Student Aid on Sept. 23, the earliest launch in the program's history. It beat last year's record of Sept. 24. The form traditionally opened on Oct. 1.",
+              "Officials say the redesigned application uses simpler language and that most families can finish it in about 15 minutes. The department notes that students who file in the first three months tend to receive about twice as much grant aid, on average, as those who file later."
+            ],
+            "sources": [
+              ["U.S. Department of Education Announces Earliest FAFSA Launch in Program History for the Second Consecutive Year", "https://www.ed.gov/about/news/press-release/us-department-of-education-announces-earliest-fafsa-launch-program-history-second-consecutive-year"],
+              ["FSA Officially Launches 2027-28 FAFSA", "https://www.nasfaa.org/news-item/39879/FSA_Officially_Launches_2027-28_FAFSA"]
+            ]
+          }
+        ],
+        "sports": [
+          {
+            "headline": "U.S. Takes 3-2 Lead Over Internationals After Opening Day of Presidents Cup at Medinah",
+            "byline": "Medinah, Ill.",
+            "paragraphs": [
+              "The United States leads the International team 3-2 after Thursday's four-ball session at Medinah Country Club. Scottie Scheffler and Sam Burns won the opening match 1 up over Min Woo Lee and Sungjae Im. Justin Thomas and debutant Jackson Koivun won 4 and 3, and Wyndham Clark and Collin Morikawa won 3 and 2 over Ryan Fox and Adam Scott.",
+              "For the Internationals, Hideki Matsuyama and Ryo Hisatsune beat Cameron Young and Xander Schauffele 3 and 1, and Tom Kim and Si Woo Kim closed the day by beating Patrick Cantlay and Chris Gotterup 3 and 2. Five foursomes matches are scheduled for Friday."
+            ],
+            "sources": [
+              ["Presidents Cup Day 1: U.S. takes 3-2 lead over Internationals", "https://www.pgatour.com/article/news/latest/2026/09/24/presidents-cup-match-recap-thursday-fourball-us-internationals-scottie-scheffler-jackson-koivun-si-woo-kim-adam-scott"],
+              ["Presidents Cup 2026: Justin Thomas carries U.S., Internationals blow chance; 9 takeaways from Day 1", "https://www.golfdigest.com/story/presidents-cup-2026-thursday-takeaways"]
+            ]
+          },
+          {
+            "headline": "Cubs, White Sox, Guardians and Padres All Clinch Playoff Berths on the Same Night",
+            "byline": "New York",
+            "paragraphs": [
+              "Four teams clinched postseason spots on Thursday. Cleveland secured its berth with a 1-0 win at Boston, and the Chicago White Sox, Chicago Cubs and San Diego Padres also locked up places. Ten of the 12 playoff spots are now filled.",
+              "The Cubs and Padres are set as National League wild cards. The White Sox and Guardians are still fighting for the American League Central title with the regular season in its final days. The postseason begins Sept. 29."
+            ],
+            "sources": [
+              ["Teams to clinch spots in 2026 MLB playoffs", "https://www.mlb.com/news/2026-postseason-teams"],
+              ["Updated 2026 MLB Playoffs Bracket Picture and Standings After Guardians Clinch Berth", "https://bleacherreport.com/articles/25501921-updated-2026-mlb-playoffs-bracket-picture-and-standings-after-guardians-clinch-berth"]
+            ]
+          }
+        ],
+        "also-worth-knowing": [
+          {
+            "headline": "Canada's Population Growth Falls to Its Slowest Pace Since the First World War",
+            "byline": "Ottawa",
+            "paragraphs": [
+              "Statistics Canada estimates the population reached 41,798,407 on July 1, up 189,425, or 0.5%, from a year earlier. In absolute numbers, that is the smallest July-to-July gain since 1944-45. As a percentage, it is the slowest since 1915-16.",
+              "The slowdown is almost entirely due to immigration policy. The number of non-permanent residents fell by the largest amount since comparable records began in 1971-72, led by declines in study-permit holders. The median age rose to 40.9."
+            ],
+            "sources": [
+              ["Canada's population estimates: Age and gender, 2026", "https://www150.statcan.gc.ca/n1/daily-quotidien/260923/dq260923a-eng.htm"],
+              ["Canada's population growth continues its decline, StatCan says", "https://globalnews.ca/news/12070197/canada-population-growth-july-2026/"]
+            ]
+          },
+          {
+            "headline": "Forced Eviction of 87-Year-Old Madrid Tenant Sets Off Protests Across Spain",
+            "byline": "Madrid",
+            "paragraphs": [
+              "Police evicted Maricarmen Abascal, 87, from the Retiro district apartment where she had lived since 1956. Hundreds of protesters gathered outside, and Spain's national government had criticized the eviction order. An investment fund that bought the building had sought a steep rent increase, and she was carried out on a stretcher after being given 30 minutes to leave.",
+              "Riot police used tear gas on demonstrators, and thousands marched in Madrid and other Spanish cities in the following days. The case has become a flashpoint in Spain's housing crisis, driven by soaring rents and a shortage of affordable homes in major cities."
+            ],
+            "sources": [
+              ["Eviction of 87-year-old woman sparks Madrid protests", "https://www.rte.ie/news/2026/0923/1592704-madrid-eviction/"],
+              ["Spain: Protests after 87-year-old woman evicted from home by force", "https://www.euronews.com/2026/09/23/forced-eviction-of-87-year-old-maricarmen-despite-un-appeal-causes-outrage-in-spain"]
+            ]
+          }
+        ]
+      },
+      "local": {
+        "Toronto": {
+          "headline": "Ontario-Backed Fund Buys 43 Unsold Toronto Condos for $22.3 Million",
+          "paragraphs": [
+            "High Art Capital, an Ontario-backed investment vehicle, bought 43 unsold condominium units across Toronto for $22.3 million, or about $519,000 a unit. It is one of the larger institutional purchases in a condo market where developers are carrying unsold inventory.",
+            "The purchase was announced the same week Statistics Canada reported the country's slowest population growth since 1915-16, driven by a record drop in non-permanent residents such as international students."
+          ],
+          "sources": [
+            ["High Art Capital buys unsold Toronto condo units", "https://www.theglobeandmail.com/business/article-high-art-capital-unsold-toronto-condo-units/"],
+            ["News Roundup for September 24, 2026", "https://urbantoronto.ca/news/2026/09/news-roundup-september-24-2026.61834"]
+          ]
+        },
+        "Vancouver": {
+          "headline": "Eby Launches 'Build B.C. Strong' Campaign as Former Conservative Leader Rustad Bows Out",
+          "paragraphs": [
+            "NDP Leader David Eby opened his campaign for the Oct. 24 snap election with a 'Build B.C. Strong' platform built around major projects, including $3.5 billion for FortisBC's Tilbury LNG expansion. A new poll suggests voters are not persuaded by his reasons for calling an early vote.",
+            "Former BC Conservative leader John Rustad said he will not seek re-election in Nechako Lakes, saying it is time for an older generation of politicians to step aside. Four NDP MLAs have also said they will not run."
+          ],
+          "sources": [
+            ["David Eby bets big on potential for more major projects in 'Build B.C. Strong' platform", "https://vancouversun.com/business/david-eby-bets-big-on-potential-for-more-major-projects-in-build-b-c-strong-platform"],
+            ["Rustad won't seek re-election", "https://www.cbc.ca/news/canada/british-columbia/rustad-election-bc-9.7356107"]
+          ]
+        },
+        "New York City": {
+          "headline": "Mamdani Launches 'Opera for All' With 70,000 Free Met Tickets for First-Timers",
+          "paragraphs": [
+            "Mayor Zohran Mamdani announced a partnership with the Metropolitan Opera that will give away 70,000 free tickets this season to New Yorkers who have never attended a performance at the Met. The Met will release 10,000 tickets a month through the 2026-27 season, about 10% of its total.",
+            "City Emergency Management is also monitoring a nor'easter expected to pass offshore this weekend. It is forecast to bring gusts up to 40 mph from late Friday into Saturday, 1 to 1.5 inches of rain through Sunday, and coastal flooding."
+          ],
+          "sources": [
+            ["Mayor Mamdani Launches 'Opera for All,' Bringing 70,000 Free Metropolitan Opera Tickets to New Yorkers", "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-launches--opera-for-all---bringing-70-000-free-met"],
+            ["Mayor Mamdani Prepares New Yorkers for Nor'easter", "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-prepares-new-yorkers-for-nor-easter"]
+          ]
+        },
+        "Chicago": {
+          "headline": "Johnson's One-Year Data Center Moratorium Formally Introduced at City Council",
+          "paragraphs": [
+            "Mayor Brandon Johnson's proposed 12-month moratorium on data centers was formally introduced at City Council this week, co-sponsored by Aldermen Maria Hadden, Lamont Robinson and Leni Manaa-Hoppenworth. It would freeze permits for new data centers and bar 'material expansion' of existing ones while the city writes permanent rules on pollution, water use and electricity costs.",
+            "The ordinance follows Johnson's August executive order, which ordered new air and noise standards within 90 days and set up a Data Center Task Force due to report by March 15, 2027. 'We are not for sale,' Johnson said."
+          ],
+          "sources": [
+            ["Chicago mayor proposes moratorium on data center expansion", "https://thehill.com/homenews/state-watch/6106716-chicago-mayor-seeks-to-block-data-center-expansion-we-are-not-for-sale/"],
+            ["Chicago Mayor Brandon Johnson Floats Data Center Moratorium", "https://therealdeal.com/chicago/2026/09/23/chicago-mayor-brandon-johnson-floats-data-center-moratorium/"]
+          ]
+        },
+        "Dallas": {
+          "headline": "Save Dallas City Hall Coalition Launches Petition Drive for a May Referendum on the Pei Building",
+          "paragraphs": [
+            "The Save Dallas City Hall Coalition said it will collect signatures for a May referendum that would require voter approval before city operations leave the I.M. Pei-designed building at 1500 Marilla. In June the council voted 9-6 to shelve a phased repair plan and told City Manager Kimberly Bizor Tolbert to keep exploring relocation, with Comerica Bank Tower and Bryan Tower among the options.",
+            "Staff missed an August deadline to bring back relocation options. Repair estimates are sharply disputed, ranging from about $329 million to a package approaching $1 billion."
+          ],
+          "sources": [
+            ["Save Dallas City Hall group to launch petition, wants voters to decide building's fate", "https://www.keranews.org/government/2026-09-24/save-dallas-city-hall-group-to-launch-petition-wants-voters-to-decide-buildings-fate"],
+            ["Save Dallas City Hall Campaign Adds Money, Muscle, and a Ballot Strategy", "https://candysdirt.com/2026/09/24/save-dallas-city-hall-campaign-adds-money-muscle-and-a-ballot-strategy/"]
+          ]
+        }
+      }
+    },
+    {
       "date": "2026-09-24",
       "topStory": {
         "headline": "Trump Greets Xi on the Tarmac as U.S. and China Extend Trade Truce Through January Before White House Talks",
