@@ -105,7 +105,16 @@ Deno.serve(async (req) => {
 
     return json({ error: "Unknown action." }, 400);
   } catch (err) {
-    const message = err instanceof Error ? err.message : String(err);
+    let message = err instanceof Error ? err.message : String(err);
+    // Connection errors hide the real cause in err.detail; add it plus a
+    // safe summary of the key's shape (never the key itself) to diagnose it.
+    if (err && typeof err === "object" && (err as { type?: string }).type === "StripeConnectionError") {
+      const detail = (err as { detail?: { message?: string } }).detail;
+      const key = secret("STRIPE_SECRET_KEY");
+      message += " [cause: " + (detail?.message ?? String(detail)) + "; key starts " +
+        JSON.stringify(key.slice(0, 8)) + ", " + key.length + " chars" +
+        (/^[\x21-\x7e]*$/.test(key) ? "" : ", has unusual characters") + "]";
+    }
     console.error("billing:", message);
     // Stripe's own error text (e.g. "No such price") is safe to show and
     // makes setup problems obvious.
