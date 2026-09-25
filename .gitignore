@@ -1,3 +1,6 @@
 node_modules/
 .DS_Store
 .claude/settings.local.json
+.publish-secret
+content/.next-edition.json
+supabase/*.local.sql

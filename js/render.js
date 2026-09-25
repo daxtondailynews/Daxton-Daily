@@ -20,8 +20,12 @@
     return window.CITIES.find(function (c) { return c.slug === slug; }) || null;
   }
 
+  // Filled by render() from NewsAuth.loadEditions: full editions for
+  // members, top-story-only previews for everyone else.
+  var loaded = { editions: [], full: false };
+
   function getEditions() {
-    return Array.isArray(window.EDITIONS) ? window.EDITIONS : [];
+    return loaded.editions;
   }
 
   function findEdition(date) {
@@ -113,6 +117,19 @@
     return el;
   }
 
+  function buildPaywall() {
+    var el = document.createElement("section");
+    el.className = "paywall";
+    el.innerHTML =
+      "<p class=\"eyebrow\">Members only</p>" +
+      "<h2>Keep reading your paper</h2>" +
+      "<p>The top story is free every day. A membership unlocks every section you picked, " +
+      "your local edition, and the full archive, for $5 a month.</p>" +
+      "<a class=\"primary-btn-link\" href=\"index.html?join=1#account\">Become a member</a>" +
+      "<p class=\"paywall-login\">Already a member? <a href=\"index.html#account\">Log in</a></p>";
+    return el;
+  }
+
   function showEmptyState(message, ctaText, ctaHref) {
     root.innerHTML =
       "<div class=\"empty-state\">" +
@@ -147,6 +164,12 @@
 
     root.appendChild(buildTopStoryArticle(edition.topStory));
     collectSources(allSources, edition.topStory.sources);
+
+    if (!loaded.full) {
+      root.appendChild(buildPaywall());
+      if (allSources.length) root.appendChild(buildSourcesFooter(allSources));
+      return;
+    }
 
     window.TOPICS.forEach(function (topic) {
       if (prefs.topics.indexOf(topic.slug) === -1) return;
@@ -224,9 +247,17 @@
   }
 
   async function render() {
-    var editions = getEditions();
     var dateParam = new URLSearchParams(window.location.search).get("date");
     var magicToken = new URLSearchParams(window.location.search).get("magic");
+
+    if (window.NewsAuth) {
+      try {
+        loaded = await window.NewsAuth.loadEditions(magicToken);
+      } catch (e) {
+        console.error("render: couldn't load editions:", e);
+      }
+    }
+    var editions = getEditions();
 
     // A magic-link visit (from the daily email) identifies the reader by
     // an unguessable per-account token instead of login — see js/auth.js

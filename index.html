@@ -61,11 +61,14 @@
 
     <hr class="archive-divider">
 
-    <section class="account-panel">
+    <section class="account-panel" id="account">
       <div class="field-group">
         <span class="field-title">Account</span>
-        <p class="hint">Optional — create an account to save your paper across devices and get a
-        daily email with today's top story.</p>
+        <p class="hint">The top story is free for everyone. Members ($5/month) get every section they
+        pick, their local edition, the full archive, and a morning email. Create an account to
+        become a member and save your paper across devices.</p>
+        <div class="form-note join-note hidden" id="join-note">Create a free account (or log in),
+        and you'll go straight to the membership checkout.</div>
 
         <div id="account-signed-out">
           <div class="auth-tabs" id="auth-tabs">
@@ -96,6 +99,16 @@
         <div id="account-signed-in" class="hidden">
           <p class="account-email" id="account-email"></p>
 
+          <div class="membership-box" id="membership-box">
+            <p class="membership-status" id="membership-status">Checking membership…</p>
+            <div class="submit-row">
+              <button type="button" class="primary-btn hidden" id="join-btn">Become a member: $5/month</button>
+              <button type="button" class="secondary-btn hidden" id="manage-btn">Manage membership</button>
+            </div>
+            <p class="hint membership-hint hidden" id="code-hint">Have a code? Enter it on the payment page under "Add promotion code."</p>
+            <div class="form-note" id="membership-note"></div>
+          </div>
+
           <div class="toggle-row">
             <label id="reminders-yes-label">
               <input type="radio" name="allowReminders" id="reminders-yes">
@@ -114,7 +127,7 @@
     </section>
   </div>
 
-  <footer class="site-footer">Phase 2 demo — customization + accounts, running against mock content. Account is optional.</footer>
+  <footer class="site-footer">Daxton Daily · Not financial advice.</footer>
 
   <script src="js/topics.js"></script>
   <script src="js/cities.js"></script>

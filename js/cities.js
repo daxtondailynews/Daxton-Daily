@@ -2,7 +2,7 @@
  * slug = used in the URL/localStorage
  * name = display name and the key used to look up content.local[name]
  * hasContent = true for the handful of cities with fully-written demo
- *   content in content/editions.js. Everything else renders a graceful
+ *   content in the Supabase editions table. Everything else renders a graceful
  *   "not available yet" fallback on the reading page. This flag mirrors
  *   how city coverage will actually roll out gradually in production.
  */
