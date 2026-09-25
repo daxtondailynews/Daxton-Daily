@@ -171,8 +171,17 @@
     if (!sb) throw new Error("Supabase isn't configured yet.");
     var result = await sb.functions.invoke("billing", { body: { action: action } });
     if (result.error || !result.data || !result.data.url) {
-      var message = (result.data && result.data.error) || "Couldn't reach the payment page — please try again.";
-      throw new Error(message);
+      var message = result.data && result.data.error;
+      // On a non-2xx response supabase-js leaves data empty; the function's
+      // own error message is in the response body.
+      if (!message && result.error && result.error.context && typeof result.error.context.json === "function") {
+        try {
+          var body = await result.error.context.json();
+          message = body && (body.error || body.message);
+        } catch (e) { /* not JSON */ }
+      }
+      console.error("NewsAuth: billing failed:", result.error || result.data);
+      throw new Error(message || "Couldn't reach the payment page — please try again.");
     }
     window.location.href = result.data.url;
   }

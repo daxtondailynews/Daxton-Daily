@@ -98,7 +98,15 @@ Deno.serve(async (req) => {
 
     return json({ error: "Unknown action." }, 400);
   } catch (err) {
-    console.error("billing:", err instanceof Error ? err.message : err);
-    return json({ error: "Something went wrong reaching the payment page. Please try again." }, 500);
+    const message = err instanceof Error ? err.message : String(err);
+    console.error("billing:", message);
+    // Stripe's own error text (e.g. "No such price") is safe to show and
+    // makes setup problems obvious.
+    const isStripeError = !!(err && typeof err === "object" && "type" in err && String((err as { type: unknown }).type).startsWith("Stripe"));
+    return json({
+      error: isStripeError
+        ? "Payment setup problem: " + message
+        : "Something went wrong reaching the payment page. Please try again.",
+    }, 500);
   }
 });
