@@ -93,8 +93,10 @@ content/editions.js                window.EDITIONS = [ {date, topStory, topics, 
                                     switched to fetch() a dated JSON file per edition instead.
 supabase/schema.sql                 Run once in the Supabase SQL editor: subscribers table, RLS
                                     policies, and the magic-link / unsubscribe RPC functions.
-netlify/functions/send-daily-emails.js  Scheduled function: emails everyone with reminders on.
-netlify.toml                        Netlify build/publish config + the function's daily cron schedule.
+scripts/send-daily-emails.js        Daily email sender: emails everyone with reminders on.
+.github/workflows/send-daily-emails.yml  GitHub Actions cron that runs the sender once a day.
+CNAME                               Custom domain for GitHub Pages (daxtondaily.com).
+.nojekyll                           Tells GitHub Pages to serve the files as-is (no Jekyll build).
 ```
 
 ## The masthead: name -> title
@@ -290,17 +292,19 @@ to the normal URL/`localStorage` flow silently.
 
 ### Daily email
 
-`netlify/functions/send-daily-emails.js` is a **Netlify Scheduled Function**
-(cron in `netlify.toml`, defaults to 12:00 UTC daily) that, for every
+`scripts/send-daily-emails.js` is run by a **GitHub Actions** schedule
+(cron in `.github/workflows/send-daily-emails.yml`, defaults to 12:00 UTC
+daily) that, for every
 subscriber with reminders on: builds their masthead title, a 1-2 sentence
 teaser of today's top story (never the full story), a "Continue Reading"
 button (their magic link), and a working unsubscribe link — then sends it
-through the **Resend** API. It deliberately fetches `content/editions.js`
-and `js/masthead.js` from the *deployed site itself* at run time instead of
-duplicating their logic, so the email always matches the site and neither
-file has to change for this to work. If any required environment variable
-is missing, it logs a clear message and exits without sending anything or
-failing the build — it never needs a real API key to deploy or run.
+through the **Resend** API. It deliberately loads `content/editions.js`
+and `js/masthead.js` from the repo (the same files the site serves)
+instead of duplicating their logic, so the email always matches the site
+and neither file has to change for this to work. If any required
+environment variable is missing, it logs a clear message and exits without
+sending anything. To try it before going live, run the workflow by hand
+from the Actions tab with a test address — only that subscriber is emailed.
 
 ### Unsubscribe
 
@@ -319,23 +323,24 @@ file — it will not send real email or create real accounts until you:
 2. Run `supabase/schema.sql` once in its SQL Editor.
 3. Copy the project's URL and `anon public` key into `js/supabase-config.js`.
 4. **Create a Resend account** (resend.com) and verify a sending domain.
-5. Deploy this site to **Netlify** (scheduled functions only run on
-   Netlify, not locally) and set these environment variables in Site
-   configuration -> Environment variables:
+5. Host the site on **GitHub Pages** (repo Settings -> Pages -> Deploy
+   from a branch -> `main`, `/ (root)`; custom domain `daxtondaily.com`,
+   then tick Enforce HTTPS) and add these repository secrets in Settings
+   -> Secrets and variables -> Actions:
    - `SUPABASE_URL` — same project URL as step 3
    - `SUPABASE_SERVICE_ROLE_KEY` — Project Settings -> API -> `service_role`
      key. **Secret** — this bypasses Row Level Security, so it must only
-     ever live in Netlify's environment variables, never in frontend code
+     ever live in GitHub's repository secrets, never in frontend code
      or `js/supabase-config.js`.
    - `RESEND_API_KEY` — from the Resend account in step 4.
-   - `RESEND_FROM_EMAIL` — e.g. `The Daily Newspaper <news@yourdomain.com>`,
+   - `RESEND_FROM_EMAIL` — e.g. `Daxton Daily <news@daxtondaily.com>`,
      using the domain verified in step 4.
-6. Optionally adjust the send time in `netlify.toml`'s `schedule` (cron, UTC).
+6. Optionally adjust the send time in the workflow's `cron` (UTC).
 
 Until steps 1-3 are done, every account feature (signup, login, magic
 links, unsubscribe) fails gracefully with a console message and the rest of
 the site keeps working exactly as in Phase 1. Until steps 4-6 are done, the
-scheduled function logs which environment variables are missing and skips
+daily email job logs which environment variables are missing and skips
 sending, rather than erroring.
 
 ## What's deliberately out of scope

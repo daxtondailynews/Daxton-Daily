@@ -4,8 +4,8 @@
  * the project, it isn't a secret credential. Access control is enforced by
  * the Row Level Security policies in supabase/schema.sql, not by hiding
  * this value. Never put the *service role* key here or anywhere in the
- * frontend — that one is a real secret and belongs only in the Netlify
- * function's environment variables (see README.md).
+ * frontend — that one is a real secret and belongs only in the GitHub
+ * repository secrets used by the daily email (see README.md).
  *
  * Fill these in after creating the Supabase project: Project Settings ->
  * API -> "Project URL" and "anon public" key. Until they're filled in, the

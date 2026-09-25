@@ -1,0 +1,36 @@
+# Emails the daily digest to every subscriber with reminders on
+# (scripts/send-daily-emails.js). Cron is in UTC; 12:00 UTC is
+# 8:00am US Eastern / 5:00am US Pacific — adjust to taste. GitHub can
+# start scheduled runs a few minutes late at busy times.
+#
+# Can also be run by hand from the Actions tab ("Run workflow"), optionally
+# with a test address so only that one subscriber gets the email.
+
+name: Send daily emails
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+    inputs:
+      test_email:
+        description: "Only email this subscriber (leave blank to email everyone)"
+        required: false
+        default: ""
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/send-daily-emails.js
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
+          SITE_URL: https://daxtondaily.com
+          TEST_EMAIL: ${{ github.event.inputs.test_email }}

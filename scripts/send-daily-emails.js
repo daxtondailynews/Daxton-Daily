@@ -1,88 +1,106 @@
-/* Netlify Scheduled Function — runs once a day (see the schedule in
- * netlify.toml) and emails the daily digest to every subscriber who has
- * "Allow Daily Reminders" turned on.
+/* Daily email sender — run once a day by GitHub Actions (see the schedule
+ * in .github/workflows/send-daily-emails.yml) and emails the daily digest
+ * to every subscriber who has "Allow Daily Reminders" turned on.
  *
- * Deliberately reads today's content and the masthead name map straight
- * from the deployed site's own content/editions.js and js/masthead.js
- * (over http, at run time) instead of duplicating or reimplementing them
+ * Deliberately loads today's content and the masthead name map straight
+ * from the repo's own content/editions.js and js/masthead.js (the same
+ * files the site serves) instead of duplicating or reimplementing them
  * here — so the email always matches the site exactly, and those files
- * never need to change for this feature to work. When the real
- * content-generation pipeline replaces the mock content file, this
- * function keeps working unmodified.
+ * never need to change for this feature to work.
  *
- * Requires four environment variables, set in the Netlify UI (Site
- * configuration -> Environment variables), never committed to the repo:
+ * Requires four environment variables, set as repository secrets on
+ * GitHub (Settings -> Secrets and variables -> Actions), never committed
+ * to the repo:
  *   SUPABASE_URL               same project URL as js/supabase-config.js
  *   SUPABASE_SERVICE_ROLE_KEY  Project Settings -> API -> service_role key
  *                               (secret — bypasses Row Level Security, so
  *                               it must never go in frontend code)
  *   RESEND_API_KEY             from resend.com, after verifying a sending domain
- *   RESEND_FROM_EMAIL          e.g. "The Daily Newspaper <news@yourdomain.com>"
- * If any are missing, this logs a clear message and exits without
- * sending anything or failing the deploy/build.
+ *   RESEND_FROM_EMAIL          e.g. "Daxton Daily <news@daxtondaily.com>"
+ * Optional:
+ *   SITE_URL                   base URL for links in the email
+ *                               (defaults to https://daxtondaily.com)
+ *   TEST_EMAIL                 if set, only this one subscriber is emailed —
+ *                               for trying the email out before going live
+ * If any required one is missing, this logs a clear message and exits
+ * without sending anything.
+ *
+ * Run locally with: node scripts/send-daily-emails.js
  */
 
-exports.handler = async function () {
+var fs = require("fs");
+var path = require("path");
+
+var ROOT = path.join(__dirname, "..");
+
+main().catch(function (err) {
+  console.error("send-daily-emails: unexpected error: " + err.message);
+  process.exit(1);
+});
+
+async function main() {
   var SUPABASE_URL = process.env.SUPABASE_URL;
   var SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
   var RESEND_API_KEY = process.env.RESEND_API_KEY;
   var RESEND_FROM_EMAIL = process.env.RESEND_FROM_EMAIL;
-  var SITE_URL = process.env.URL || process.env.DEPLOY_PRIME_URL;
+  var SITE_URL = (process.env.SITE_URL || "https://daxtondaily.com").replace(/\/+$/, "");
+  var TEST_EMAIL = (process.env.TEST_EMAIL || "").trim().toLowerCase();
 
   var missing = [];
   if (!SUPABASE_URL) missing.push("SUPABASE_URL");
   if (!SUPABASE_SERVICE_ROLE_KEY) missing.push("SUPABASE_SERVICE_ROLE_KEY");
   if (!RESEND_API_KEY) missing.push("RESEND_API_KEY");
   if (!RESEND_FROM_EMAIL) missing.push("RESEND_FROM_EMAIL");
-  if (!SITE_URL) missing.push("URL (Netlify's own site-URL env var)");
   if (missing.length) {
     console.error("send-daily-emails: missing required env var(s): " + missing.join(", ") + " — skipping today's send.");
-    return { statusCode: 200, body: "Skipped: missing env var(s) " + missing.join(", ") };
+    return;
   }
 
-  try {
-    var editions = await loadFromSite(SITE_URL, "/content/editions.js", "EDITIONS");
-    var getMastheadTitle = await loadFromSite(SITE_URL, "/js/masthead.js", "getMastheadTitle");
+  var editions = loadFromRepo("content/editions.js", "EDITIONS");
+  var getMastheadTitle = loadFromRepo("js/masthead.js", "getMastheadTitle");
 
-    if (!Array.isArray(editions) || !editions.length || typeof getMastheadTitle !== "function") {
-      console.error("send-daily-emails: couldn't load today's content or the masthead map from the deployed site — skipping today's send.");
-      return { statusCode: 200, body: "Skipped: content unavailable" };
-    }
-    var today = editions[0];
-
-    var subscribers = await fetchSubscribers(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
-    console.log("send-daily-emails: " + subscribers.length + " subscriber(s) opted in for " + today.date + ".");
-
-    var sent = 0, failed = 0;
-    for (var i = 0; i < subscribers.length; i++) {
-      var sub = subscribers[i];
-      try {
-        await sendOne(sub, today, getMastheadTitle, SITE_URL, RESEND_API_KEY, RESEND_FROM_EMAIL);
-        sent++;
-      } catch (err) {
-        failed++;
-        console.error("send-daily-emails: failed to send to " + sub.email + ": " + err.message);
-      }
-    }
-
-    console.log("send-daily-emails: done — sent " + sent + ", failed " + failed + ".");
-    return { statusCode: 200, body: "Sent " + sent + ", failed " + failed };
-  } catch (err) {
-    console.error("send-daily-emails: unexpected error: " + err.message);
-    return { statusCode: 500, body: "Error: " + err.message };
+  if (!Array.isArray(editions) || !editions.length || typeof getMastheadTitle !== "function") {
+    throw new Error("couldn't load today's content or the masthead map from the repo");
   }
-};
+  var today = editions[0];
 
-// Fetches a browser-oriented script that assigns `window.<exportName>`,
-// runs it against a throwaway `window` object, and returns that value —
-// so we reuse the real file instead of forking its content.
-async function loadFromSite(siteUrl, path, exportName) {
-  var res = await fetch(siteUrl + path);
-  if (!res.ok) throw new Error("Failed to fetch " + path + ": " + res.status);
-  var src = await res.text();
+  var subscribers = await fetchSubscribers(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
+  if (TEST_EMAIL) {
+    subscribers = subscribers.filter(function (s) { return (s.email || "").toLowerCase() === TEST_EMAIL; });
+    console.log("send-daily-emails: TEST_EMAIL set — sending only to " + TEST_EMAIL + " (" + subscribers.length + " match).");
+  }
+  console.log("send-daily-emails: " + subscribers.length + " subscriber(s) opted in for " + today.date + ".");
+
+  var sent = 0, failed = 0;
+  for (var i = 0; i < subscribers.length; i++) {
+    var sub = subscribers[i];
+    try {
+      await sendOne(sub, today, getMastheadTitle, SITE_URL, RESEND_API_KEY, RESEND_FROM_EMAIL);
+      sent++;
+    } catch (err) {
+      failed++;
+      console.error("send-daily-emails: failed to send to " + sub.email + ": " + err.message);
+    }
+    // Resend's default rate limit is 2 requests/second.
+    await sleep(600);
+  }
+
+  console.log("send-daily-emails: done — sent " + sent + ", failed " + failed + ".");
+  if (failed && !sent) process.exit(1);
+}
+
+// Runs a browser-oriented script that assigns `window.<exportName>`
+// against a throwaway `window` object and returns that value — so we
+// reuse the real file instead of forking its content.
+function loadFromRepo(relPath, exportName) {
+  var src = fs.readFileSync(path.join(ROOT, relPath), "utf8");
   var sandbox = {};
   var runInSandbox = new Function("window", src + "\nreturn window." + exportName + ";");
   return runInSandbox(sandbox);
+}
+
+function sleep(ms) {
+  return new Promise(function (resolve) { setTimeout(resolve, ms); });
 }
 
 async function fetchSubscribers(supabaseUrl, serviceKey) {
