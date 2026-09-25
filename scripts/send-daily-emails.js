@@ -1,12 +1,14 @@
 /* Daily email sender — run once a day by GitHub Actions (see the schedule
  * in .github/workflows/send-daily-emails.yml) and emails the daily digest
- * to every subscriber who has "Allow Daily Reminders" turned on.
+ * to every current member (see supabase/membership.sql) who has "Allow
+ * Daily Reminders" turned on.
  *
- * Deliberately loads today's content and the masthead name map straight
- * from the repo's own content/editions.js and js/masthead.js (the same
- * files the site serves) instead of duplicating or reimplementing them
- * here — so the email always matches the site exactly, and those files
- * never need to change for this feature to work.
+ * Reads today's edition from the Supabase "editions" table (the same
+ * place the site reads it from), and the masthead name map straight from
+ * the repo's own js/masthead.js instead of reimplementing it — so the
+ * email always matches the site. If the newest edition isn't today's
+ * (e.g. the morning content run was missed), it skips sending rather than
+ * emailing yesterday's paper again.
  *
  * Requires four environment variables, set as repository secrets on
  * GitHub (Settings -> Secrets and variables -> Actions), never committed
@@ -56,13 +58,18 @@ async function main() {
     return;
   }
 
-  var editions = loadFromRepo("content/editions.js", "EDITIONS");
   var getMastheadTitle = loadFromRepo("js/masthead.js", "getMastheadTitle");
-
-  if (!Array.isArray(editions) || !editions.length || typeof getMastheadTitle !== "function") {
-    throw new Error("couldn't load today's content or the masthead map from the repo");
+  if (typeof getMastheadTitle !== "function") {
+    throw new Error("couldn't load the masthead map from js/masthead.js");
   }
-  var today = editions[0];
+
+  var today = await fetchLatestEdition(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
+  if (!today) throw new Error("no editions found in Supabase");
+  var todayDate = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
+  if (today.date !== todayDate) {
+    console.error("send-daily-emails: newest edition is " + today.date + ", not today (" + todayDate + ") — skipping so nobody gets a stale paper.");
+    process.exit(1);
+  }
 
   var subscribers = await fetchSubscribers(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
   if (TEST_EMAIL) {
@@ -103,16 +110,32 @@ function sleep(ms) {
   return new Promise(function (resolve) { setTimeout(resolve, ms); });
 }
 
-async function fetchSubscribers(supabaseUrl, serviceKey) {
-  var url = supabaseUrl + "/rest/v1/subscribers?allow_daily_reminders=eq.true&select=email,name,topics,city,magic_token";
-  var res = await fetch(url, {
-    headers: {
-      apikey: serviceKey,
-      Authorization: "Bearer " + serviceKey
-    }
-  });
+// New-style Supabase keys (sb_secret_...) go in the apikey header only;
+// legacy JWT keys also need to be sent as a bearer token.
+function supabaseHeaders(key) {
+  var headers = { apikey: key };
+  if (key.indexOf("sb_") !== 0) headers.Authorization = "Bearer " + key;
+  return headers;
+}
+
+async function supabaseGet(supabaseUrl, key, pathAndQuery) {
+  var res = await fetch(supabaseUrl + "/rest/v1/" + pathAndQuery, { headers: supabaseHeaders(key) });
   if (!res.ok) throw new Error("Supabase query failed: " + res.status + " " + (await res.text()));
   return res.json();
+}
+
+async function fetchLatestEdition(supabaseUrl, serviceKey) {
+  var rows = await supabaseGet(supabaseUrl, serviceKey, "editions?select=edition&order=date.desc&limit=1");
+  return rows.length ? rows[0].edition : null;
+}
+
+// Opted-in subscribers who are also current members.
+async function fetchSubscribers(supabaseUrl, serviceKey) {
+  var members = await supabaseGet(supabaseUrl, serviceKey, "memberships?status=in.(active,trialing,comped)&select=user_id");
+  var memberIds = {};
+  members.forEach(function (m) { memberIds[m.user_id] = true; });
+  var subs = await supabaseGet(supabaseUrl, serviceKey, "subscribers?allow_daily_reminders=eq.true&select=id,email,name,topics,city,magic_token");
+  return subs.filter(function (s) { return memberIds[s.id]; });
 }
 
 function escapeHtml(str) {

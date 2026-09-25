@@ -26,9 +26,82 @@
   var remindersNoLabel = document.getElementById("reminders-no-label");
   var remindersNote = document.getElementById("reminders-note");
   var logoutBtn = document.getElementById("logout-btn");
+  var joinNote = document.getElementById("join-note");
+  var membershipStatus = document.getElementById("membership-status");
+  var joinBtn = document.getElementById("join-btn");
+  var manageBtn = document.getElementById("manage-btn");
+  var codeHint = document.getElementById("code-hint");
+  var membershipNote = document.getElementById("membership-note");
 
   var currentUserId = null;
   var suppressRemindersSave = false;
+
+  // "Become a member" from a paywall (index.html?join=1) sets this so that,
+  // once the reader has signed up/logged in — possibly in another tab after
+  // confirming their email — they're sent straight to checkout.
+  var JOIN_KEY = "dnJoinIntent";
+  function hasJoinIntent() {
+    try { return localStorage.getItem(JOIN_KEY) === "1"; } catch (e) { return false; }
+  }
+  function setJoinIntent(on) {
+    try {
+      if (on) localStorage.setItem(JOIN_KEY, "1");
+      else localStorage.removeItem(JOIN_KEY);
+    } catch (e) { /* ignore */ }
+  }
+
+  function formatDay(iso) {
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return "";
+    return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+  }
+
+  function renderMembership(m) {
+    var status = m ? m.status : "none";
+    var showJoin = false, showManage = false, text;
+    if (m && m.isMember) {
+      if (status === "comped") {
+        text = "You have a complimentary membership. Enjoy the full paper!";
+      } else {
+        text = "You're a member. Thanks for reading!";
+        if (m.current_period_end) text += " Renews " + formatDay(m.current_period_end) + ".";
+        showManage = true;
+      }
+    } else if (status === "past_due" || status === "unpaid") {
+      text = "Your last payment didn't go through. Update your card to keep reading the full paper.";
+      showManage = true;
+    } else {
+      text = "Free account: you can read the top story each day.";
+      showJoin = true;
+    }
+    membershipStatus.textContent = text;
+    joinBtn.classList.toggle("hidden", !showJoin);
+    codeHint.classList.toggle("hidden", !showJoin);
+    manageBtn.classList.toggle("hidden", !showManage);
+  }
+
+  async function goToBilling(which) {
+    membershipNote.textContent = "Opening the secure payment page…";
+    joinBtn.disabled = manageBtn.disabled = true;
+    try {
+      if (which === "portal") await window.NewsAuth.openBillingPortal();
+      else await window.NewsAuth.startCheckout();
+    } catch (err) {
+      membershipNote.textContent = (err && err.message) || "Couldn't reach the payment page. Please try again.";
+      joinBtn.disabled = manageBtn.disabled = false;
+    }
+  }
+
+  // Back from Stripe checkout: the webhook can take a few seconds to
+  // record the new membership, so poll briefly before giving up.
+  async function waitForMembership(userId) {
+    for (var i = 0; i < 10; i++) {
+      var m = await window.NewsAuth.getMembership(userId);
+      if (m && m.isMember) return m;
+      await new Promise(function (r) { setTimeout(r, 1500); });
+    }
+    return window.NewsAuth.getMembership(userId);
+  }
 
   function showTab(which) {
     tabLogin.classList.toggle("active", which === "login");
@@ -49,6 +122,28 @@
     signedOutBox.classList.add("hidden");
     signedInBox.classList.remove("hidden");
     accountEmail.textContent = session.user.email;
+
+    var params = new URLSearchParams(window.location.search);
+    var membership;
+    if (params.get("membership") === "success") {
+      membershipStatus.textContent = "Finishing up your membership…";
+      membership = await waitForMembership(currentUserId);
+      membershipNote.textContent = membership && membership.isMember
+        ? "Welcome aboard! Your full paper is unlocked."
+        : "Payment received. Your membership should appear in a minute; refresh this page if it doesn't.";
+    } else {
+      membership = await window.NewsAuth.getMembership(currentUserId);
+      if (params.get("membership") === "cancelled") membershipNote.textContent = "Checkout cancelled. You weren't charged.";
+    }
+    renderMembership(membership);
+
+    if (hasJoinIntent()) {
+      setJoinIntent(false);
+      if (!(membership && membership.isMember)) {
+        await goToBilling("checkout");
+        return;
+      }
+    }
 
     var row = await window.NewsAuth.getSubscriberRow(currentUserId);
     if (row) {
@@ -115,6 +210,9 @@
     }
   });
 
+  joinBtn.addEventListener("click", function () { goToBilling("checkout"); });
+  manageBtn.addEventListener("click", function () { goToBilling("portal"); });
+
   logoutBtn.addEventListener("click", async function () {
     await window.NewsAuth.signOut();
     showSignedOut();
@@ -151,6 +249,12 @@
   };
 
   (async function init() {
+    if (new URLSearchParams(window.location.search).get("join") === "1") {
+      setJoinIntent(true);
+      joinNote.classList.remove("hidden");
+      showTab("signup");
+    }
+
     var session = await window.NewsAuth.getSession();
     if (session) {
       await showSignedIn(session);

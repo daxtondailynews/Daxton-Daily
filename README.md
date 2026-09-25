@@ -85,7 +85,7 @@ js/supabase-config.js              Supabase project URL + anon key (fill in afte
 js/auth.js                         window.NewsAuth: Supabase client, sessions/remember-me, sign up/in/out, magic-link + unsubscribe RPCs
 js/account.js                      index.html-only: wires the login/signup forms and account settings panel
 js/unsubscribe.js                  unsubscribe.html-only: calls the unsubscribe RPC on button click
-content/editions.js                window.EDITIONS = [ {date, topStory, topics, local}, ... ], newest first
+content/editions.js                (retired) editions now live in the Supabase "editions" table
                                     so it can be loaded via <script> with no server/CORS needed.
                                     In production, this is the file the daily generation
                                     pipeline appends to each morning — or, once this is
@@ -305,6 +305,30 @@ and neither file has to change for this to work. If any required
 environment variable is missing, it logs a clear message and exits without
 sending anything. To try it before going live, run the workflow by hand
 from the Actions tab with a test address — only that subscriber is emailed.
+
+### Membership ($5/month)
+
+The top story is free; everything else in an edition (topic sections,
+local edition) is for members. Editions live in the Supabase `editions`
+table, not the repo, so the paywall can't be bypassed by reading the
+site's files: Row Level Security returns full editions only to members,
+and everyone else gets top stories through `get_edition_previews()`.
+Magic links from the daily email unlock the full paper only for members
+(`get_editions_by_magic_token()`). The daily email itself goes only to
+members.
+
+Payments are **Stripe**. `supabase/functions/billing` starts Checkout for
+the $5/month price (with the "Add promotion code" box on, and no card
+required when a 100%-off code brings the total to $0) or opens the Stripe
+customer portal for existing members. `supabase/functions/stripe-webhook`
+is the only thing that writes a Stripe membership status. To give someone
+free access without Stripe, set their row in `memberships` to
+`status = 'comped'` in the Table Editor.
+
+New editions are published with `scripts/publish-edition.ps1`, which calls
+`publish_edition()` with the secret in the gitignored `.publish-secret`
+file (`supabase/publish-secret.local.sql` sets the matching value in the
+database).
 
 ### Unsubscribe
 

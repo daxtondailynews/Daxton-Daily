@@ -1,7 +1,9 @@
 /* Thin wrapper around the Supabase client: session handling (with the
  * remember-me tab-vs-device storage split), sign up/in/out, account-row
- * read/write, and the two public RPC calls used for magic-link reading and
- * unsubscribing (see supabase/schema.sql for their server-side half).
+ * read/write, the two public RPC calls used for magic-link reading and
+ * unsubscribing (see supabase/schema.sql for their server-side half), plus
+ * membership status, Stripe checkout, and loading editions (see
+ * supabase/membership.sql and supabase/functions/).
  *
  * Loaded on every page that touches accounts (index.html, read.html,
  * unsubscribe.html), after the supabase-js CDN script and
@@ -145,6 +147,76 @@
     return !!result.data;
   }
 
+  // ---------- Membership ----------
+
+  var MEMBER_STATUSES = ["active", "trialing", "comped"];
+
+  async function getMembership(userId) {
+    var sb = getClient();
+    if (!sb || !userId) return null;
+    var result = await sb.from("memberships").select("status, current_period_end").eq("user_id", userId).maybeSingle();
+    if (result.error) {
+      console.error("NewsAuth: couldn't load membership:", result.error.message);
+      return null;
+    }
+    var row = result.data || { status: "none", current_period_end: null };
+    row.isMember = MEMBER_STATUSES.indexOf(row.status) !== -1;
+    return row;
+  }
+
+  // Calls the "billing" Edge Function (supabase/functions/billing) and
+  // sends the browser to the Stripe page it returns.
+  async function goToBilling(action) {
+    var sb = getClient();
+    if (!sb) throw new Error("Supabase isn't configured yet.");
+    var result = await sb.functions.invoke("billing", { body: { action: action } });
+    if (result.error || !result.data || !result.data.url) {
+      var message = (result.data && result.data.error) || "Couldn't reach the payment page — please try again.";
+      throw new Error(message);
+    }
+    window.location.href = result.data.url;
+  }
+
+  function startCheckout() { return goToBilling("checkout"); }
+  function openBillingPortal() { return goToBilling("portal"); }
+
+  // ---------- Editions ----------
+
+  // Loads the newest editions, newest first, as fully as this reader is
+  // allowed: a member's magic link or a signed-in member gets full
+  // editions; everyone else gets each edition's top story only.
+  // Returns { editions: [...], full: boolean }.
+  async function loadEditions(magicToken) {
+    var sb = getClient();
+    if (!sb) return { editions: [], full: false };
+
+    if (magicToken) {
+      var magic = await sb.rpc("get_editions_by_magic_token", { token: magicToken });
+      if (!magic.error && magic.data && magic.data.length) {
+        return { editions: magic.data, full: true };
+      }
+    }
+
+    var session = await getSession();
+    if (session) {
+      // Row Level Security returns rows only to current members.
+      var full = await sb.from("editions").select("edition").order("date", { ascending: false }).limit(30);
+      if (!full.error && full.data && full.data.length) {
+        return { editions: full.data.map(function (r) { return r.edition; }), full: true };
+      }
+    }
+
+    var preview = await sb.rpc("get_edition_previews");
+    if (preview.error) {
+      console.error("NewsAuth: couldn't load editions:", preview.error.message);
+      return { editions: [], full: false };
+    }
+    return {
+      editions: (preview.data || []).map(function (r) { return { date: r.date, topStory: r.top_story }; }),
+      full: false
+    };
+  }
+
   window.NewsAuth = {
     getClient: getClient,
     getSession: getSession,
@@ -156,6 +228,10 @@
     saveSubscriberRow: saveSubscriberRow,
     resolveMagicPrefs: resolveMagicPrefs,
     unsubscribeByToken: unsubscribeByToken,
+    getMembership: getMembership,
+    startCheckout: startCheckout,
+    openBillingPortal: openBillingPortal,
+    loadEditions: loadEditions,
     rememberMe: rememberMe
   };
 })();
