@@ -85,15 +85,14 @@ js/supabase-config.js              Supabase project URL + anon key (fill in afte
 js/auth.js                         window.NewsAuth: Supabase client, sessions/remember-me, sign up/in/out, magic-link + unsubscribe RPCs
 js/account.js                      index.html-only: wires the login/signup forms and account settings panel
 js/unsubscribe.js                  unsubscribe.html-only: calls the unsubscribe RPC on button click
-content/editions.js                (retired) editions now live in the Supabase "editions" table
-                                    so it can be loaded via <script> with no server/CORS needed.
-                                    In production, this is the file the daily generation
-                                    pipeline appends to each morning — or, once this is
-                                    served over http instead of file://, render.js can be
-                                    switched to fetch() a dated JSON file per edition instead.
 supabase/schema.sql                 Run once in the Supabase SQL editor: subscribers table, RLS
                                     policies, and the magic-link / unsubscribe RPC functions.
-scripts/send-daily-emails.js        Daily email sender: emails everyone with reminders on.
+supabase/membership.sql             Run once after schema.sql: memberships + editions tables,
+                                    paywall RLS, preview/magic-link/publish functions.
+supabase/functions/billing/         Edge Function: Stripe Checkout / customer portal.
+supabase/functions/stripe-webhook/  Edge Function: syncs Stripe subscription status to memberships.
+scripts/publish-edition.ps1         Publishes an edition (JSON) to Supabase; used by the daily content job.
+scripts/send-daily-emails.js        Daily email sender: emails members with reminders on.
 .github/workflows/send-daily-emails.yml  GitHub Actions cron that runs the sender once a day.
 CNAME                               Custom domain for GitHub Pages (daxtondaily.com).
 .nojekyll                           Tells GitHub Pages to serve the files as-is (no Jekyll build).
