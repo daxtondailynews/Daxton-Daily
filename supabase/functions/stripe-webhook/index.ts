@@ -14,10 +14,17 @@
 import Stripe from "npm:stripe@17";
 import { createClient } from "npm:@supabase/supabase-js@2";
 
-const stripe = new Stripe(Deno.env.get("STRIPE_SECRET_KEY") ?? "", {
+// Secrets pasted into the dashboard often pick up a stray space, newline or
+// quotes, which breaks the Stripe request header ("connection to Stripe"
+// errors), so clean them up.
+function secret(name: string): string {
+  return (Deno.env.get(name) ?? "").trim().replace(/^["']+|["']+$/g, "").trim();
+}
+
+const stripe = new Stripe(secret("STRIPE_SECRET_KEY"), {
   httpClient: Stripe.createFetchHttpClient(),
 });
-const WEBHOOK_SECRET = Deno.env.get("STRIPE_WEBHOOK_SECRET") ?? "";
+const WEBHOOK_SECRET = secret("STRIPE_WEBHOOK_SECRET");
 const cryptoProvider = Stripe.createSubtleCryptoProvider();
 const admin = createClient(
   Deno.env.get("SUPABASE_URL") ?? "",
