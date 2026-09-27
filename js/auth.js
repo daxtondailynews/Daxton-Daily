@@ -91,6 +91,13 @@
     return result.data;
   }
 
+  async function resendConfirmation(email) {
+    var sb = getClient();
+    if (!sb) throw new Error("Supabase isn't configured yet.");
+    var result = await sb.auth.resend({ type: "signup", email: email });
+    if (result.error) throw result.error;
+  }
+
   async function signIn(email, password, remember) {
     // Set the flag before signing in so the storage adapter's first
     // setItem (which happens inside signInWithPassword) already sees it.
@@ -231,6 +238,7 @@
     getSession: getSession,
     onAuthChange: onAuthChange,
     signUp: signUp,
+    resendConfirmation: resendConfirmation,
     signIn: signIn,
     signOut: signOut,
     getSubscriberRow: getSubscriberRow,

@@ -187,9 +187,61 @@
       var data = await window.NewsAuth.signIn(email, password, remember);
       await showSignedIn(data.session, { redirectIfPrefs: true });
     } catch (err) {
-      loginError.textContent = (err && err.message) || "Couldn't log in — check your email and password.";
+      var notConfirmed = err && (err.code === "email_not_confirmed" || /not confirmed/i.test(err.message || ""));
+      if (notConfirmed) showResend("Your email isn't confirmed yet. Click the link in the confirmation email, or get a new one:");
+      else loginError.textContent = (err && err.message) || "Couldn't log in — check your email and password.";
     }
   });
+
+  // Confirmation links are single-use and expire; some email providers
+  // (Outlook, school/work accounts) "click" them to scan for viruses, which
+  // uses them up. Let the reader send themselves a fresh one.
+  function showResend(message) {
+    loginError.textContent = message + " ";
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "link-btn";
+    btn.textContent = "Resend confirmation email";
+    btn.addEventListener("click", async function () {
+      var email = document.getElementById("login-email").value.trim();
+      if (!email) {
+        loginError.textContent = "Type your email in the box above, then click Log in again.";
+        return;
+      }
+      btn.disabled = true;
+      try {
+        await window.NewsAuth.resendConfirmation(email);
+        loginError.textContent = "";
+        signupNote.textContent = "";
+        loginNote("New confirmation email sent to " + email + ". Click the newest link, then log in.");
+      } catch (e) {
+        loginError.textContent = (e && e.message) || "Couldn't send it — please wait a minute and try again.";
+      }
+    });
+    loginError.appendChild(btn);
+  }
+
+  function loginNote(text) {
+    var note = document.getElementById("login-note");
+    if (!note) {
+      note = document.createElement("div");
+      note.id = "login-note";
+      note.className = "form-note";
+      loginError.parentNode.insertBefore(note, loginError.nextSibling);
+    }
+    note.textContent = text;
+  }
+
+  // A failed confirmation link comes back as ...#error=...&error_code=otp_expired
+  // (or ?error=...). Supabase-js doesn't show it, so explain it here.
+  var linkError = (function () {
+    var hash = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+    var query = new URLSearchParams(window.location.search);
+    var code = hash.get("error_code") || query.get("error_code");
+    var err = hash.get("error") || query.get("error");
+    if (!code && !err) return null;
+    return { code: code, description: hash.get("error_description") || query.get("error_description") };
+  })();
 
   signupForm.addEventListener("submit", async function (e) {
     e.preventDefault();
@@ -256,6 +308,13 @@
     }
 
     var session = await window.NewsAuth.getSession();
+    if (linkError && !session) {
+      showTab("login");
+      showResend(linkError.code === "otp_expired"
+        ? "That confirmation link has expired or was already used. Type your email above, then:"
+        : "That link didn't work" + (linkError.description ? " (" + linkError.description + ")" : "") + ". Type your email above, then:");
+      try { history.replaceState(null, "", window.location.pathname); } catch (e) { /* ignore */ }
+    }
     if (session) {
       await showSignedIn(session);
     } else {
