@@ -10,10 +10,9 @@
  * (e.g. the morning content run was missed), it skips sending rather than
  * emailing yesterday's paper again.
  *
- * Requires four environment variables, set as repository secrets on
- * GitHub (Settings -> Secrets and variables -> Actions), never committed
- * to the repo:
- *   SUPABASE_URL               same project URL as js/supabase-config.js
+ * The Supabase project URL comes from js/supabase-config.js. Requires three
+ * environment variables, set as repository secrets on GitHub (Settings ->
+ * Secrets and variables -> Actions), never committed to the repo:
  *   SUPABASE_SERVICE_ROLE_KEY  Project Settings -> API -> service_role key
  *                               (secret — bypasses Row Level Security, so
  *                               it must never go in frontend code)
@@ -41,9 +40,9 @@ main().catch(function (err) {
 });
 
 async function main() {
-  // Tolerate a pasted URL with a trailing slash or the /rest/v1 suffix the
-  // Supabase dashboard sometimes shows — we append /rest/v1/ ourselves.
-  var SUPABASE_URL = (process.env.SUPABASE_URL || "").trim().replace(/\/+$/, "").replace(/\/rest\/v1$/, "");
+  // The project URL isn't secret — read it from the same js/supabase-config.js
+  // the site uses, so a mistyped repo secret can't point us at a bad path.
+  var SUPABASE_URL = (loadFromRepo("js/supabase-config.js", "SUPABASE_URL") || "").trim().replace(/\/+$/, "");
   var SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
   var RESEND_API_KEY = process.env.RESEND_API_KEY;
   var RESEND_FROM_EMAIL = process.env.RESEND_FROM_EMAIL;
