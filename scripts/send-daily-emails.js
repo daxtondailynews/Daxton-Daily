@@ -41,7 +41,9 @@ main().catch(function (err) {
 });
 
 async function main() {
-  var SUPABASE_URL = process.env.SUPABASE_URL;
+  // Tolerate a pasted URL with a trailing slash or the /rest/v1 suffix the
+  // Supabase dashboard sometimes shows — we append /rest/v1/ ourselves.
+  var SUPABASE_URL = (process.env.SUPABASE_URL || "").trim().replace(/\/+$/, "").replace(/\/rest\/v1$/, "");
   var SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
   var RESEND_API_KEY = process.env.RESEND_API_KEY;
   var RESEND_FROM_EMAIL = process.env.RESEND_FROM_EMAIL;
