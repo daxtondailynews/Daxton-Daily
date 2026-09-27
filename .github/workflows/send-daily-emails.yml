@@ -1,6 +1,7 @@
 # Emails the daily digest to every subscriber with reminders on
-# (scripts/send-daily-emails.js). Cron is in UTC; 12:00 UTC is
-# 8:00am US Eastern / 5:00am US Pacific — adjust to taste. GitHub can
+# (scripts/send-daily-emails.js). Cron is in UTC; 13:00 UTC is 9:00am
+# Toronto in summer (8:00am in winter), leaving time for the morning
+# edition (published ~6:10am Toronto) to land first. GitHub can
 # start scheduled runs a few minutes late at busy times.
 #
 # Can also be run by hand from the Actions tab ("Run workflow"), optionally
@@ -10,7 +11,7 @@ name: Send daily emails
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "0 13 * * *"
   workflow_dispatch:
     inputs:
       test_email:

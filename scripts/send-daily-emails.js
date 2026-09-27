@@ -24,8 +24,8 @@
  *                               (defaults to https://daxtondaily.com)
  *   TEST_EMAIL                 if set, only this one subscriber is emailed —
  *                               for trying the email out before going live
- * If any required one is missing, this logs a clear message and exits
- * without sending anything.
+ * If any required one is missing, this logs a clear message and fails the
+ * run (so it shows red in the Actions tab) without sending anything.
  *
  * Run locally with: node scripts/send-daily-emails.js
  */
@@ -55,7 +55,7 @@ async function main() {
   if (!RESEND_FROM_EMAIL) missing.push("RESEND_FROM_EMAIL");
   if (missing.length) {
     console.error("send-daily-emails: missing required env var(s): " + missing.join(", ") + " — skipping today's send.");
-    return;
+    process.exit(1);
   }
 
   var getMastheadTitle = loadFromRepo("js/masthead.js", "getMastheadTitle");
@@ -169,7 +169,7 @@ async function sendOne(sub, edition, getMastheadTitle, siteUrl, apiKey, fromEmai
       '<h2 style="font-size: 21px; line-height: 1.3; margin: 0 0 12px;">' + escapeHtml(headline) + '</h2>' +
       '<p style="font-size: 16px; line-height: 1.55; margin: 0 0 26px;">' + escapeHtml(teaserText) + '</p>' +
       '<p style="text-align: center; margin: 0 0 30px;">' +
-        '<a href="' + readUrl + '" style="display: inline-block; background: #1a1a1a; color: #faf6ee; text-decoration: none; font-family: Arial, sans-serif; font-weight: bold; font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; padding: 14px 30px;">Continue Reading ' + escapeHtml(mastheadTitle) + '</a>' +
+        '<a href="' + readUrl + '" style="display: inline-block; background: #1a1a1a; color: #faf6ee; text-decoration: none; font-family: Arial, sans-serif; font-weight: bold; font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; padding: 14px 30px;">Keep Reading ' + escapeHtml(mastheadTitle) + '</a>' +
       '</p>' +
       '<p style="font-family: Arial, sans-serif; font-size: 12px; color: #3a3a3a; text-align: center; border-top: 1px solid #c9c1af; padding-top: 16px;">' +
         'Don&#39;t want these emails? <a href="' + unsubscribeUrl + '" style="color: #3a3a3a;">Unsubscribe</a>.' +
