@@ -1,0 +1,84 @@
+name: Publish pending editions
+
+# Publishes edition(s) staged under content/.pending/*.json.enc to Supabase
+# via publish_edition() (see supabase/membership.sql). Each file is the
+# edition JSON encrypted with the same publish secret used to authenticate
+# to the RPC (openssl aes-256-cbc, pbkdf2), so paid content never sits in
+# plaintext in this public repo or in a workflow_dispatch input/log.
+#
+# Runs automatically whenever a pending file is pushed, and can also be
+# run by hand from the Actions tab.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/.pending/**.json.enc"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Publish each pending edition
+        env:
+          DAXTON_PUBLISH_SECRET: ${{ secrets.DAXTON_PUBLISH_SECRET }}
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+
+          if [ -z "${DAXTON_PUBLISH_SECRET:-}" ]; then
+            echo "::error::DAXTON_PUBLISH_SECRET repo secret is not set. Add it under Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+
+          URL=$(grep -oP 'SUPABASE_URL\s*=\s*"\K[^"]+' js/supabase-config.js)
+          KEY=$(grep -oP 'SUPABASE_ANON_KEY\s*=\s*"\K[^"]+' js/supabase-config.js)
+
+          files=(content/.pending/*.json.enc)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No pending editions to publish."
+            exit 0
+          fi
+
+          published=()
+          for f in "${files[@]}"; do
+            echo "Decrypting $f"
+            plain="${f%.enc}.plain"
+            openssl enc -d -aes-256-cbc -pbkdf2 -salt -pass env:DAXTON_PUBLISH_SECRET -in "$f" -out "$plain"
+
+            body_file="${f%.enc}.body"
+            node -e '
+              const fs = require("fs");
+              const secret = process.env.DAXTON_PUBLISH_SECRET;
+              const edition = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
+              fs.writeFileSync(process.argv[2], JSON.stringify({ secret, edition }));
+            ' "$plain" "$body_file"
+
+            echo "Publishing $f"
+            resp=$(curl -sS -X POST "$URL/rest/v1/rpc/publish_edition" \
+              -H "apikey: $KEY" -H "Authorization: Bearer $KEY" \
+              -H "Content-Type: application/json; charset=utf-8" \
+              --data-binary @"$body_file")
+            echo "Response: $resp"
+
+            if ! echo "$resp" | grep -qE '^[0-9]+$'; then
+              echo "::error::publish_edition did not return a row count for $f"
+              rm -f "$plain" "$body_file"
+              exit 1
+            fi
+
+            rm -f "$plain" "$body_file"
+            published+=("$f")
+          done
+
+          git config user.name "daxton-daily-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git rm -q "${published[@]}"
+          git commit -m "Remove published pending edition(s)"
+          git push
