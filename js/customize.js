@@ -40,7 +40,8 @@
     ["CA", "US"].forEach(function (countryCode) {
       var optgroup = document.createElement("optgroup");
       optgroup.label = groups[countryCode];
-      window.CITIES.filter(function (c) { return c.country === countryCode; })
+      // Only offer cities with local coverage (see js/cities.js).
+      window.CITIES.filter(function (c) { return c.country === countryCode && c.hasContent; })
         .forEach(function (city) {
           var opt = document.createElement("option");
           opt.value = city.slug;
@@ -71,6 +72,17 @@
     });
     if (prefs.city) {
       localYes.checked = true;
+      // A reader who picked a city before it was hidden keeps seeing it
+      // selected rather than a blank picker.
+      if (!citySelect.querySelector("option[value=\"" + prefs.city + "\"]")) {
+        var saved = window.CITIES.find(function (c) { return c.slug === prefs.city; });
+        if (saved) {
+          var opt = document.createElement("option");
+          opt.value = saved.slug;
+          opt.textContent = saved.name;
+          citySelect.appendChild(opt);
+        }
+      }
       citySelect.value = prefs.city;
     } else {
       localNo.checked = true;

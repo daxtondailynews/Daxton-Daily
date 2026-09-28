@@ -1,22 +1,27 @@
-/* Fixed list of the 45 supported cities (12 Canada + 33 US).
+/* Fixed list of the 48 known cities (15 Canada + 33 US).
  * slug = used in the URL/localStorage
  * name = display name and the key used to look up content.local[name]
- * hasContent = true for the handful of cities with fully-written demo
- *   content in the Supabase editions table. Everything else renders a graceful
- *   "not available yet" fallback on the reading page. This flag mirrors
- *   how city coverage will actually roll out gradually in production.
+ * hasContent = true for cities the morning edition writes a local story
+ *   for. Only these are offered in the city picker (js/customize.js). The
+ *   rest stay listed so readers who already chose one keep a valid
+ *   preference; the reading page shows them a "not available yet" fallback.
+ *   Adding coverage = flip hasContent to true and add the city to the
+ *   morning routine's local list.
  */
 window.CITIES = [
   { name: "Toronto", slug: "toronto", country: "CA", hasContent: true },
   { name: "Vancouver", slug: "vancouver", country: "CA", hasContent: true },
-  { name: "Montreal", slug: "montreal", country: "CA", hasContent: false },
+  { name: "Montreal", slug: "montreal", country: "CA", hasContent: true },
+  { name: "Ottawa", slug: "ottawa", country: "CA", hasContent: true },
+  { name: "Kitchener-Waterloo", slug: "kitchener-waterloo", country: "CA", hasContent: true },
+  { name: "Guelph", slug: "guelph", country: "CA", hasContent: true },
+  { name: "Vaughan", slug: "vaughan", country: "CA", hasContent: true },
+  { name: "Kingston", slug: "kingston", country: "CA", hasContent: true },
   { name: "Calgary", slug: "calgary", country: "CA", hasContent: false },
-  { name: "Ottawa", slug: "ottawa", country: "CA", hasContent: false },
   { name: "Edmonton", slug: "edmonton", country: "CA", hasContent: false },
   { name: "Winnipeg", slug: "winnipeg", country: "CA", hasContent: false },
   { name: "Quebec City", slug: "quebec-city", country: "CA", hasContent: false },
   { name: "Hamilton", slug: "hamilton", country: "CA", hasContent: false },
-  { name: "Kitchener-Waterloo", slug: "kitchener-waterloo", country: "CA", hasContent: false },
   { name: "London", slug: "london", country: "CA", hasContent: false },
   { name: "Halifax", slug: "halifax", country: "CA", hasContent: false },
   { name: "New York City", slug: "new-york-city", country: "US", hasContent: true },

@@ -76,7 +76,7 @@ read.html                          Rendering page: archive view + single-edition
 unsubscribe.html                   One-click unsubscribe page (no login required)
 css/styles.css                     Shared newspaper styling, incl. print stylesheet
 js/topics.js                       Fixed list of the 10 topics (source of truth)
-js/cities.js                       Fixed list of the 45 supported cities + which have demo content
+js/cities.js                       Fixed list of the 48 known cities + which get local stories
 js/prefs.js                        Reads/writes name/topics/city (URL query string <-> localStorage)
 js/masthead.js                      First-initial -> word map and getMastheadTitle()
 js/customize.js                    Onboarding page logic (form rendering, validation, submit, account sync hook)
@@ -127,10 +127,11 @@ news is never mixed into the topic checkbox list, since it's not a "topic" a
 reader picks per-story, it's a single city selection that unlocks one
 additional local block.
 
-## The 45 supported cities (fixed list)
+## The 48 known cities (fixed list)
 
-**Canada (12):** Toronto, Vancouver, Montreal, Calgary, Ottawa, Edmonton,
-Winnipeg, Quebec City, Hamilton, Kitchener-Waterloo, London, Halifax
+**Canada (15):** Toronto, Vancouver, Montreal, Ottawa, Kitchener-Waterloo,
+Guelph, Vaughan, Kingston, Calgary, Edmonton, Winnipeg, Quebec City, Hamilton,
+London, Halifax
 
 **USA (33):** New York City, Los Angeles, Chicago, Houston, Dallas, Phoenix,
 Philadelphia, San Antonio, San Diego, Austin, Seattle, Denver, Boston, Miami,
@@ -138,15 +139,14 @@ Atlanta, Washington D.C., San Francisco, Las Vegas, Nashville, New Orleans,
 Portland, Charlotte, Minneapolis, San Jose, Detroit, Baltimore, Milwaukee,
 Tampa, Orlando, Sacramento, Kansas City, Cleveland, Pittsburgh
 
-Only **Toronto, Vancouver, Dallas, New York City, and Chicago** have
-fully-written demo content in `content/editions.js` (see `hasContent: true`
-in `js/cities.js`), across all three sample days. Every other city is a valid
-selection in the city picker, but the rendering page shows a graceful
-fallback — *"A local edition for &lt;city&gt; isn't available yet — check
-back soon."* — instead of erroring or showing nothing. This mirrors how city
-coverage will actually roll out gradually in production: adding a city later
-is just adding it to `local` in each day's edition object and flipping
-`hasContent` to `true`.
+The morning edition writes a local story for the 11 cities with
+`hasContent: true` in `js/cities.js`: **Toronto, Vancouver, Montreal, Ottawa,
+Kitchener-Waterloo, Guelph, Vaughan, Kingston, New York City, Chicago, and
+Dallas**. Only those appear in the city picker. The others stay in the list so
+readers who chose one earlier keep a valid preference; the reading page shows
+them a *"A local edition for &lt;city&gt; isn't available yet — check back
+soon."* fallback. Adding a city is flipping `hasContent` to `true` and adding
+it to the morning routine's list of local cities.
 
 ## Content file schema
 
