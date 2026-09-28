@@ -75,7 +75,7 @@ index.html                        Onboarding / customize page + account panel (l
 read.html                          Rendering page: archive view + single-edition view + magic-link entry
 unsubscribe.html                   One-click unsubscribe page (no login required)
 css/styles.css                     Shared newspaper styling, incl. print stylesheet
-js/topics.js                       Fixed list of the 10 topics (source of truth)
+js/topics.js                       Fixed list of the 12 topics (source of truth)
 js/cities.js                       Fixed list of the 48 known cities + which get local stories
 js/prefs.js                        Reads/writes name/topics/city (URL query string <-> localStorage)
 js/masthead.js                      First-initial -> word map and getMastheadTitle()
@@ -116,11 +116,12 @@ uppercases it, and looks it up — e.g. `"Uri"` → **"The Uri Update"**. If the
 name is empty or its first character isn't a letter A–Z, it falls back to the
 neutral title **"The Daily Edition"** (no name inserted).
 
-## The 10 topics (fixed list)
+## The 12 topics (fixed list)
 
 Politics · Technology & AI · Business & Markets · Science & Discovery ·
 Health & Medicine · Global Affairs · Economy & Personal Finance ·
-Education & Research · Sports · Also Worth Knowing
+Education & Research · Sports · Entertainment & Pop Culture ·
+Philosophy & Ideas · Also Worth Knowing
 
 Topics and local news are deliberately **separate steps** in the UI — local
 news is never mixed into the topic checkbox list, since it's not a "topic" a
@@ -157,6 +158,12 @@ it to the morning routine's list of local cities.
 window.EDITIONS = [
   {
     "date": "2026-09-16",
+    "quote": {
+      "text": "...",
+      "author": "...",
+      "source": "...",
+      "reflection": "..."
+    },
     "topStory": {
       "headline": "...",
       "byline": "...",
@@ -173,7 +180,7 @@ window.EDITIONS = [
         }
         /* ...2-3 stories per topic, each with exactly 2 paragraphs... */
       ]
-      /* ...one array per topic slug, all 10 always present... */
+      /* ...one array per topic slug, all 12 always present... */
     },
     "local": {
       "Toronto": {
@@ -191,12 +198,18 @@ window.EDITIONS = [
 - **`topStory`** is not tied to any topic and is always rendered at the top
   of every reader's single-edition page, regardless of which topics they
   selected.
+- **`quote`** (optional) is the Quote of the Day, shown under the masthead
+  on the single-edition page: a real, verifiable quote (`text`, `author`,
+  optional `source` such as the book or speech) plus a one-sentence
+  `reflection` — a gentle, practical habit the quote suggests. Editions
+  without one simply show no quote.
 - **`topics`** keys must match the `slug` values in `js/topics.js` exactly
   (`politics`, `tech-ai`, `business-markets`, `science-discovery`,
   `health-medicine`, `global-affairs`, `economy-personal-finance`,
   `education-research`, `sports`, `also-worth-knowing`). Each value is an
   **array of 2-3 story objects**, each with exactly 2 paragraphs — several
-  short stories per section rather than one long one.
+  short stories per section rather than one long one. The exception is
+  `philosophy-ideas`: exactly 1 story a day.
 - **`local`** keys must match the `name` values in `js/cities.js` exactly
   (e.g. `"New York City"`, `"Washington D.C."`) and stay a single story object
   per city (no array), with no `byline` — a lighter blurb format than topic

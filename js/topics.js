@@ -1,4 +1,4 @@
-/* Fixed list of the 10 topics a reader can subscribe to.
+/* Fixed list of the 12 topics a reader can subscribe to.
  * slug = used in the URL/localStorage and as the key into content.topics
  * label = display name shown as a checkbox label and section heading eyebrow
  */
@@ -12,5 +12,7 @@ window.TOPICS = [
   { slug: "economy-personal-finance", label: "Economy & Personal Finance" },
   { slug: "education-research", label: "Education & Research" },
   { slug: "sports", label: "Sports" },
+  { slug: "entertainment-pop-culture", label: "Entertainment & Pop Culture" },
+  { slug: "philosophy-ideas", label: "Philosophy & Ideas" },
   { slug: "also-worth-knowing", label: "Also Worth Knowing" }
 ];

@@ -4,6 +4,7 @@
   var mastheadTitle = document.getElementById("masthead-title");
   var mastheadDate = document.getElementById("masthead-date");
   var mastheadCity = document.getElementById("masthead-city");
+  var mastheadQuote = document.getElementById("masthead-quote");
   var pageNav = document.getElementById("page-nav");
   var archiveLink = document.getElementById("archive-link");
   var editLink = document.getElementById("edit-link");
@@ -62,6 +63,33 @@
     return paragraphs.map(function (p) {
       return "<p class=\"body-text\">" + p + "</p>";
     }).join("");
+  }
+
+  // Quote of the Day, under the masthead. Older editions have no quote,
+  // and the archive view passes null, so the slot just stays hidden.
+  function renderQuote(quote) {
+    mastheadQuote.innerHTML = "";
+    var show = !!(quote && quote.text && quote.author);
+    mastheadQuote.classList.toggle("hidden", !show);
+    if (!show) return;
+
+    var label = document.createElement("p");
+    label.className = "daily-quote-label";
+    label.textContent = "Quote of the Day";
+    var text = document.createElement("blockquote");
+    text.textContent = "“" + quote.text + "”";
+    var cite = document.createElement("figcaption");
+    cite.textContent = "— " + quote.author + (quote.source ? ", " + quote.source : "");
+    mastheadQuote.appendChild(label);
+    mastheadQuote.appendChild(text);
+    mastheadQuote.appendChild(cite);
+
+    if (quote.reflection) {
+      var reflection = document.createElement("p");
+      reflection.className = "daily-quote-reflection";
+      reflection.textContent = quote.reflection;
+      mastheadQuote.appendChild(reflection);
+    }
   }
 
   function buildTopStoryArticle(story) {
@@ -149,6 +177,7 @@
     var edition = findEdition(date);
 
     mastheadDate.textContent = edition ? formatDate(edition.date) : "";
+    renderQuote(edition && edition.quote);
     var city = prefs.city ? cityBySlug(prefs.city) : null;
     mastheadCity.textContent = city ? "Local edition: " + city.name : "";
     archiveLink.href = archiveHref(prefs, null);
@@ -199,6 +228,7 @@
     var editions = getEditions();
     mastheadDate.textContent = "";
     mastheadCity.textContent = "";
+    renderQuote(null);
     setNav(false, false);
 
     if (!editions.length) {
