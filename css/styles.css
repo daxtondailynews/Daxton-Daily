@@ -1,13 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600&family=Libre+Franklin:wght@800&display=swap");
 
 :root {
+  /* Logo palette: navy for headers and dark areas, cream for light
+     backgrounds, red as the single accent (links, labels, rules). */
+  --navy: #1B2A4A;
+  --cream: #F1E9D8;
+  --red: #C8372D;
+
   --ink: #1a1a1a;
-  --ink-soft: #3a3a3a;
-  --paper: #faf6ee;
-  --paper-card: #fffdf8;
-  --rule: #1a1a1a;
-  --rule-soft: #c9c1af;
-  --accent: #8a2a2a;
+  --ink-soft: #3d4250;
+  --paper: var(--cream);
+  --paper-card: #faf6ec;
+  --rule: var(--navy);
+  --rule-soft: #d3c6ab;
+  --accent: var(--red);
   --max-width: 860px;
 }
 
@@ -30,6 +36,95 @@ body {
 }
 
 a { color: var(--accent); }
+
+h1, h2, h3 { color: var(--navy); }
+
+/* ---------- Brand bar (logo lockup) ---------- */
+
+.brand-bar {
+  background: var(--navy);
+  border-bottom: 3px solid var(--red);
+  color: var(--cream);
+}
+
+.brand-bar-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--cream);
+  text-decoration: none;
+  min-width: 0;
+}
+
+.brand-badge {
+  width: 38px;
+  height: 38px;
+  flex: none;
+  display: block;
+}
+
+.brand-word {
+  font-family: "Libre Franklin", "Inter", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 0.92rem;
+  line-height: 0.98;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--cream);
+}
+
+.brand-word span {
+  display: block;
+  white-space: nowrap;
+}
+
+.brand-meta {
+  margin: 0;
+  text-align: right;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  color: var(--cream);
+}
+
+.brand-meta span { display: block; white-space: nowrap; }
+.brand-meta span:empty { display: none; }
+
+/* Home page: a bigger lockup */
+.brand-bar--home .brand-bar-inner { padding: 10px 20px; }
+.brand-bar--home .brand { gap: 12px; }
+.brand-bar--home .brand-badge { width: 48px; height: 48px; }
+.brand-bar--home .brand-word { font-size: 1.12rem; }
+
+@media (max-width: 560px) {
+  .brand-bar-inner { padding: 7px 16px; gap: 10px; }
+  .brand { gap: 8px; }
+  .brand-badge { width: 30px; height: 30px; }
+  .brand-word { font-size: 0.76rem; }
+  .brand-meta { font-size: 10px; letter-spacing: 0.05em; }
+  .brand-bar--home .brand-bar-inner { padding: 8px 16px; }
+  .brand-bar--home .brand-badge { width: 36px; height: 36px; }
+  .brand-bar--home .brand-word { font-size: 0.88rem; }
+}
+
+@media (max-width: 360px) {
+  .brand-badge { width: 26px; height: 26px; }
+  .brand-word { font-size: 0.7rem; }
+  .brand-bar--home .brand-badge { width: 32px; height: 32px; }
+  .brand-bar--home .brand-word { font-size: 0.8rem; }
+}
 
 .wrap {
   width: 100%;
@@ -72,7 +167,7 @@ a { color: var(--accent); }
   color: var(--ink-soft);
   margin: 12px 0 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 12px;
   flex-wrap: wrap;
 }
@@ -236,7 +331,7 @@ input[type="password"]:focus {
 
 .toggle-row input:checked + span,
 .toggle-row label.active {
-  background: var(--ink);
+  background: var(--navy);
   color: var(--paper-card);
 }
 
@@ -297,7 +392,7 @@ button.primary-btn {
   font-size: 0.95rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  background: var(--ink);
+  background: var(--navy);
   color: var(--paper-card);
   border: none;
   padding: 15px 38px;
@@ -333,9 +428,9 @@ button.primary-btn:hover {
 }
 
 .auth-tab.active {
-  background: var(--ink);
+  background: var(--navy);
   color: var(--paper-card);
-  border-color: var(--ink);
+  border-color: var(--navy);
 }
 
 .auth-form.hidden {
@@ -561,7 +656,7 @@ article.story.top-story {
   letter-spacing: 0.01em;
   margin: 26px 0 6px;
   padding-bottom: 8px;
-  border-bottom: 2px solid var(--ink);
+  border-bottom: 2px solid var(--accent);
 }
 
 .topic-stories-grid {
@@ -644,7 +739,7 @@ article.story p.body-text:first-of-type::first-letter {
 .sources-footer {
   margin-top: 44px;
   padding-top: 22px;
-  border-top: 2px solid var(--ink);
+  border-top: 2px solid var(--navy);
   font-family: "Inter", sans-serif;
   font-size: 0.85rem;
   color: var(--ink-soft);
@@ -709,7 +804,7 @@ article.story p.body-text:first-of-type::first-letter {
   margin-top: 18px;
   font-weight: 600;
   text-decoration: none;
-  background: var(--ink);
+  background: var(--navy);
   color: var(--paper-card);
   padding: 14px 30px;
   font-size: 0.9rem;
@@ -752,6 +847,12 @@ article.story p.body-text:first-of-type::first-letter {
   .masthead {
     border-bottom-color: #000;
   }
+
+  /* Printers often drop backgrounds, which would leave cream on white. */
+  .brand-bar { background: none; border-bottom-color: #000; }
+  .brand-word,
+  .brand-meta,
+  h1, h2, h3 { color: #000; }
 
   .masthead .kicker,
   .masthead .dateline,
@@ -838,7 +939,7 @@ article.story p.body-text:first-of-type::first-letter {
   margin-top: 20px;
   font-weight: 600;
   text-decoration: none;
-  background: var(--ink);
+  background: var(--navy);
   color: var(--paper-card);
   padding: 14px 30px;
   font-size: 0.9rem;

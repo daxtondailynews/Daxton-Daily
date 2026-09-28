@@ -2,7 +2,6 @@
   var root = document.getElementById("content-root");
   var masthead = document.getElementById("masthead");
   var mastheadTitle = document.getElementById("masthead-title");
-  var mastheadDate = document.getElementById("masthead-date");
   var mastheadCity = document.getElementById("masthead-city");
   var mastheadQuote = document.getElementById("masthead-quote");
   var pageNav = document.getElementById("page-nav");
@@ -176,7 +175,7 @@
   function renderSingleEdition(prefs, date) {
     var edition = findEdition(date);
 
-    mastheadDate.textContent = edition ? formatDate(edition.date) : "";
+    if (window.DaxtonBrand) window.DaxtonBrand.setDate(edition ? edition.date : date);
     renderQuote(edition && edition.quote);
     var city = prefs.city ? cityBySlug(prefs.city) : null;
     mastheadCity.textContent = city ? "Local edition: " + city.name : "";
@@ -226,7 +225,7 @@
 
   function renderArchive(prefs) {
     var editions = getEditions();
-    mastheadDate.textContent = "";
+    if (window.DaxtonBrand) window.DaxtonBrand.setDate(null);
     mastheadCity.textContent = "";
     renderQuote(null);
     setNav(false, false);
