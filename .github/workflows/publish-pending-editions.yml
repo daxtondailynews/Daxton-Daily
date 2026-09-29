@@ -42,7 +42,20 @@ jobs:
             echo "::warning::DAXTON_EDITION_PRIVATE_KEY secret is not set; only shared-secret uploads can be published."
             exit 0
           fi
-          printf '%s\n' "$DAXTON_EDITION_PRIVATE_KEY" > "$RUNNER_TEMP/edition-private.pem"
+          # Rebuild the PEM from its base64 body so a paste that lost its line
+          # breaks or picked up spaces/CRs still works.
+          body=$(printf '%s' "$DAXTON_EDITION_PRIVATE_KEY" | sed 's/-----[A-Z ]*-----//g' | tr -d ' \r\n\t')
+          { echo "-----BEGIN PRIVATE KEY-----"; printf '%s' "$body" | fold -w 64; echo; echo "-----END PRIVATE KEY-----"; } > "$RUNNER_TEMP/edition-private.pem"
+          if ! openssl pkey -in "$RUNNER_TEMP/edition-private.pem" -pubout -out "$RUNNER_TEMP/derived-public.pem" 2>/dev/null; then
+            has_begin=no; printf '%s' "$DAXTON_EDITION_PRIVATE_KEY" | grep -q 'BEGIN PRIVATE KEY' && has_begin=yes
+            has_end=no; printf '%s' "$DAXTON_EDITION_PRIVATE_KEY" | grep -q 'END PRIVATE KEY' && has_end=yes
+            echo "::error::DAXTON_EDITION_PRIVATE_KEY isn't a readable private key (secret is ${#DAXTON_EDITION_PRIVATE_KEY} chars, key body ${#body} chars - expected about 2480 and 2392; BEGIN line: $has_begin, END line: $has_end)."
+            exit 1
+          fi
+          if ! cmp -s <(openssl pkey -pubin -in keys/edition-public.pem -outform DER) <(openssl pkey -pubin -in "$RUNNER_TEMP/derived-public.pem" -outform DER); then
+            echo "::error::DAXTON_EDITION_PRIVATE_KEY is a valid key but not the one matching keys/edition-public.pem."
+            exit 1
+          fi
           openssl pkeyutl -decrypt -inkey "$RUNNER_TEMP/edition-private.pem" \
             -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 \
             -in keys/keycheck.json.key -out "$RUNNER_TEMP/keycheck.pass"
