@@ -1,19 +1,27 @@
 name: Publish pending editions
 
 # Publishes edition(s) staged under content/.pending/*.json.enc to Supabase
-# via publish_edition() (see supabase/membership.sql). Each file is the
-# edition JSON encrypted with the same publish secret used to authenticate
-# to the RPC (openssl aes-256-cbc, pbkdf2), so paid content never sits in
-# plaintext in this public repo or in a workflow_dispatch input/log.
+# via publish_edition() (see supabase/membership.sql), so paid content never
+# sits in plaintext in this public repo or in a workflow log.
 #
-# Runs automatically whenever a pending file is pushed, and can also be
-# run by hand from the Actions tab.
+# Two ways a pending edition can be locked:
+#  - Public key (what the morning routine uses): edition-DATE.json.enc is
+#    AES-encrypted with a random one-time key, and edition-DATE.json.key is
+#    that key encrypted with keys/edition-public.pem. Only this workflow
+#    holds the private key (DAXTON_EDITION_PRIVATE_KEY secret), so the
+#    routine needs no secret at all and nothing has to be kept in sync.
+#  - Shared secret (manual uploads): a lone .json.enc encrypted with
+#    DAXTON_PUBLISH_SECRET, as before.
+#
+# Runs automatically whenever a pending file (or the key check) is pushed,
+# and can also be run by hand from the Actions tab.
 
 on:
   push:
     branches: [main]
     paths:
-      - "content/.pending/**.json.enc"
+      - "content/.pending/**"
+      - "keys/**"
   workflow_dispatch: {}
 
 permissions:
@@ -25,11 +33,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Check the edition private key
+        env:
+          DAXTON_EDITION_PRIVATE_KEY: ${{ secrets.DAXTON_EDITION_PRIVATE_KEY }}
+        run: |
+          set -euo pipefail
+          if [ -z "${DAXTON_EDITION_PRIVATE_KEY:-}" ]; then
+            echo "::warning::DAXTON_EDITION_PRIVATE_KEY secret is not set; only shared-secret uploads can be published."
+            exit 0
+          fi
+          printf '%s\n' "$DAXTON_EDITION_PRIVATE_KEY" > "$RUNNER_TEMP/edition-private.pem"
+          openssl pkeyutl -decrypt -inkey "$RUNNER_TEMP/edition-private.pem" \
+            -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 \
+            -in keys/keycheck.json.key -out "$RUNNER_TEMP/keycheck.pass"
+          openssl enc -d -aes-256-cbc -pbkdf2 -salt -pass file:"$RUNNER_TEMP/keycheck.pass" \
+            -in keys/keycheck.json.enc | grep -q '"ok":true'
+          rm -f "$RUNNER_TEMP/keycheck.pass"
+          echo "Edition key OK"
+
       - name: Publish each pending edition
         env:
           DAXTON_PUBLISH_SECRET: ${{ secrets.DAXTON_PUBLISH_SECRET }}
         run: |
-          set -euo pipefail
+          set -uo pipefail
           shopt -s nullglob
 
           if [ -z "${DAXTON_PUBLISH_SECRET:-}" ]; then
@@ -47,18 +73,38 @@ jobs:
           fi
 
           published=()
+          failed=0
           for f in "${files[@]}"; do
-            echo "Decrypting $f"
             plain="${f%.enc}.plain"
-            openssl enc -d -aes-256-cbc -pbkdf2 -salt -pass env:DAXTON_PUBLISH_SECRET -in "$f" -out "$plain"
-
             body_file="${f%.enc}.body"
-            node -e '
+            keyfile="${f%.enc}.key"
+
+            echo "Decrypting $f"
+            if [ -f "$keyfile" ]; then
+              pass="$RUNNER_TEMP/edition.pass"
+              if ! { [ -f "$RUNNER_TEMP/edition-private.pem" ] \
+                  && openssl pkeyutl -decrypt -inkey "$RUNNER_TEMP/edition-private.pem" \
+                       -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 \
+                       -in "$keyfile" -out "$pass" \
+                  && openssl enc -d -aes-256-cbc -pbkdf2 -salt -pass file:"$pass" -in "$f" -out "$plain"; }; then
+                echo "::error::Couldn't decrypt $f with the edition private key"
+                rm -f "$pass" "$plain"; failed=1; continue
+              fi
+              rm -f "$pass"
+            elif ! openssl enc -d -aes-256-cbc -pbkdf2 -salt -pass env:DAXTON_PUBLISH_SECRET -in "$f" -out "$plain"; then
+              echo "::error::Couldn't decrypt $f with DAXTON_PUBLISH_SECRET"
+              rm -f "$plain"; failed=1; continue
+            fi
+
+            if ! node -e '
               const fs = require("fs");
               const secret = process.env.DAXTON_PUBLISH_SECRET;
               const edition = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
               fs.writeFileSync(process.argv[2], JSON.stringify({ secret, edition }));
-            ' "$plain" "$body_file"
+            ' "$plain" "$body_file"; then
+              echo "::error::$f didn't decrypt to valid JSON"
+              rm -f "$plain" "$body_file"; failed=1; continue
+            fi
 
             echo "Publishing $f"
             resp=$(curl -sS -X POST "$URL/rest/v1/rpc/publish_edition" \
@@ -66,19 +112,26 @@ jobs:
               -H "Content-Type: application/json; charset=utf-8" \
               --data-binary @"$body_file")
             echo "Response: $resp"
+            rm -f "$plain" "$body_file"
 
             if ! echo "$resp" | grep -qE '^[0-9]+$'; then
               echo "::error::publish_edition did not return a row count for $f"
-              rm -f "$plain" "$body_file"
-              exit 1
+              failed=1; continue
             fi
 
-            rm -f "$plain" "$body_file"
             published+=("$f")
+            [ -f "$keyfile" ] && published+=("$keyfile")
           done
 
-          git config user.name "daxton-daily-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git rm -q "${published[@]}"
-          git commit -m "Remove published pending edition(s)"
-          git push
+          rm -f "$RUNNER_TEMP/edition-private.pem"
+
+          if [ ${#published[@]} -gt 0 ]; then
+            git config user.name "daxton-daily-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git rm -q "${published[@]}"
+            git commit -m "Remove published pending edition(s)"
+            git pull --rebase -q origin main
+            git push
+          fi
+
+          exit $failed

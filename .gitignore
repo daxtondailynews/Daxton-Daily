@@ -4,3 +4,4 @@ node_modules/
 .publish-secret
 content/.next-edition.json
 supabase/*.local.sql
+keys/edition-private.pem
