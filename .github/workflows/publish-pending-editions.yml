@@ -53,17 +53,26 @@ jobs:
             echo "::error::DAXTON_EDITION_PRIVATE_KEY isn't a readable private key (secret is ${#DAXTON_EDITION_PRIVATE_KEY} chars, key body ${#body} chars - expected about 2480 and 2392; BEGIN line: $has_begin, END line: $has_end)."
             exit 1
           fi
-          if ! cmp -s <(openssl pkey -pubin -in keys/edition-public.pem -outform DER) <(openssl pkey -pubin -in "$RUNNER_TEMP/derived-public.pem" -outform DER); then
-            echo "::error::DAXTON_EDITION_PRIVATE_KEY is a valid key but not the one matching keys/edition-public.pem."
+          want=$(openssl pkey -pubin -in keys/edition-public.pem -pubout -outform DER | sha256sum | cut -c1-16)
+          got=$(openssl pkey -pubin -in "$RUNNER_TEMP/derived-public.pem" -pubout -outform DER | sha256sum | cut -c1-16)
+          if [ "$want" != "$got" ]; then
+            echo "::error::DAXTON_EDITION_PRIVATE_KEY is a valid key but not the one matching keys/edition-public.pem (fingerprint $got, expected $want)."
             exit 1
           fi
-          openssl pkeyutl -decrypt -inkey "$RUNNER_TEMP/edition-private.pem" \
-            -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 \
-            -in keys/keycheck.json.key -out "$RUNNER_TEMP/keycheck.pass"
-          openssl enc -d -aes-256-cbc -pbkdf2 -salt -pass file:"$RUNNER_TEMP/keycheck.pass" \
-            -in keys/keycheck.json.enc | grep -q '"ok":true'
-          rm -f "$RUNNER_TEMP/keycheck.pass"
-          echo "Edition key OK"
+          if ! openssl pkeyutl -decrypt -inkey "$RUNNER_TEMP/edition-private.pem" \
+              -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 \
+              -in keys/keycheck.json.key -out "$RUNNER_TEMP/keycheck.pass"; then
+            echo "::error::Key matches but couldn't unlock keys/keycheck.json.key."
+            exit 1
+          fi
+          if ! openssl enc -d -aes-256-cbc -pbkdf2 -salt -pass file:"$RUNNER_TEMP/keycheck.pass" \
+              -in keys/keycheck.json.enc -out "$RUNNER_TEMP/keycheck.json"; then
+            echo "::error::Unlocked the one-time key but couldn't decrypt keys/keycheck.json.enc."
+            exit 1
+          fi
+          grep -q '"ok":true' "$RUNNER_TEMP/keycheck.json" || { echo "::error::keycheck decrypted to unexpected content."; exit 1; }
+          rm -f "$RUNNER_TEMP/keycheck.pass" "$RUNNER_TEMP/keycheck.json"
+          echo "::notice::Edition key OK (fingerprint $got)"
 
       - name: Publish each pending edition
         env:
