@@ -65,6 +65,8 @@ jobs:
             echo "::error::Key matches but couldn't unlock keys/keycheck.json.key."
             exit 1
           fi
+          # A pass made on Windows ends in CR LF; Linux openssl would keep the CR.
+          tr -d '\r\n' < "$RUNNER_TEMP/keycheck.pass" > "$RUNNER_TEMP/keycheck.pass2" && mv "$RUNNER_TEMP/keycheck.pass2" "$RUNNER_TEMP/keycheck.pass"
           if ! openssl enc -d -aes-256-cbc -pbkdf2 -salt -pass file:"$RUNNER_TEMP/keycheck.pass" \
               -in keys/keycheck.json.enc -out "$RUNNER_TEMP/keycheck.json"; then
             echo "::error::Unlocked the one-time key but couldn't decrypt keys/keycheck.json.enc."
@@ -109,6 +111,7 @@ jobs:
                   && openssl pkeyutl -decrypt -inkey "$RUNNER_TEMP/edition-private.pem" \
                        -pkeyopt rsa_padding_mode:oaep -pkeyopt rsa_oaep_md:sha256 \
                        -in "$keyfile" -out "$pass" \
+                  && tr -d '\r\n' < "$pass" > "$pass.clean" && mv "$pass.clean" "$pass" \
                   && openssl enc -d -aes-256-cbc -pbkdf2 -salt -pass file:"$pass" -in "$f" -out "$plain"; }; then
                 echo "::error::Couldn't decrypt $f with the edition private key"
                 rm -f "$pass" "$plain"; failed=1; continue
