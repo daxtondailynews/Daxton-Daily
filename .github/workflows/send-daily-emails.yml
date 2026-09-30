@@ -1,8 +1,9 @@
 # Emails the daily digest to every subscriber with reminders on
-# (scripts/send-daily-emails.js). Cron is in UTC; 13:00 UTC is 9:00am
-# Toronto in summer (8:00am in winter), leaving time for the morning
-# edition (published ~6:10am Toronto) to land first. GitHub can
-# start scheduled runs a few minutes late at busy times.
+# (scripts/send-daily-emails.js). It sends as soon as the morning edition
+# is published (right after "Publish pending editions" succeeds), so a
+# late edition still gets emailed. The 13:00 UTC schedule (9:00am Toronto
+# in summer, 8:00am in winter) is a backup in case that send failed;
+# content/last-emailed.txt makes sure readers only get one email a day.
 #
 # Can also be run by hand from the Actions tab ("Run workflow"), optionally
 # with a test address so only that one subscriber gets the email.
@@ -10,6 +11,9 @@
 name: Send daily emails
 
 on:
+  workflow_run:
+    workflows: ["Publish pending editions"]
+    types: [completed]
   schedule:
     - cron: "0 13 * * *"
   workflow_dispatch:
@@ -19,11 +23,22 @@ on:
         required: false
         default: ""
 
+permissions:
+  contents: write
+
+# Never run two sends at once, so the one-email-a-day marker can't race.
+concurrency:
+  group: send-daily-emails
+  cancel-in-progress: false
+
 jobs:
   send:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 20
@@ -34,3 +49,14 @@ jobs:
           RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
           SITE_URL: https://daxtondaily.com
           TEST_EMAIL: ${{ github.event.inputs.test_email }}
+          # A publish run with no new edition (e.g. a key check) just skips.
+          QUIET_SKIP: ${{ github.event_name == 'workflow_run' && '1' || '' }}
+      - name: Remember that today was emailed
+        run: |
+          git add content/last-emailed.txt 2>/dev/null || exit 0
+          git diff --cached --quiet && exit 0
+          git config user.name "daxton-daily-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Mark $(cat content/last-emailed.txt) as emailed"
+          git pull --rebase -q origin main
+          git push

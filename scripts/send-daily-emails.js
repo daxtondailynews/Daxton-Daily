@@ -69,7 +69,17 @@ async function main() {
   var todayDate = new Date().toLocaleDateString("en-CA", { timeZone: "America/New_York" });
   if (today.date !== todayDate) {
     console.error("send-daily-emails: newest edition is " + today.date + ", not today (" + todayDate + ") — skipping so nobody gets a stale paper.");
-    process.exit(1);
+    // A publish run that didn't add today's paper (e.g. a key check) isn't a failure.
+    process.exit(process.env.QUIET_SKIP ? 0 : 1);
+  }
+
+  // The send runs when an edition is published and again at the scheduled
+  // time as a backup; this marker makes sure readers only get one email a day.
+  var MARKER = path.join(ROOT, "content/last-emailed.txt");
+  var lastEmailed = fs.existsSync(MARKER) ? fs.readFileSync(MARKER, "utf8").trim() : "";
+  if (!TEST_EMAIL && lastEmailed === todayDate) {
+    console.log("send-daily-emails: " + todayDate + " was already emailed — nothing to do.");
+    return;
   }
 
   var subscribers = await fetchSubscribers(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
@@ -94,6 +104,8 @@ async function main() {
   }
 
   console.log("send-daily-emails: done — sent " + sent + ", failed " + failed + ".");
+  // Record the day unless every send failed, so the backup run can retry.
+  if (!TEST_EMAIL && (sent || !subscribers.length)) fs.writeFileSync(MARKER, todayDate + "\n");
   if (failed && !sent) process.exit(1);
 }
 
