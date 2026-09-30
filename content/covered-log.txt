@@ -1,0 +1,81 @@
+# Subjects already covered, newest at the bottom. One line per story: DATE | section | short subject tag.
+# The morning routine reads the last ~7 days before choosing stories and appends today's lines.
+2026-09-29 | top | US-Iran war, Strait of Hormuz reopening offer
+2026-09-29 | politics | RAF base suspects bail
+2026-09-29 | politics | Venezuela/Maduro vs US warships
+2026-09-29 | tech-ai | OpenAI DevDay GPT-6.1
+2026-09-29 | tech-ai | OpenAI pulls GPT-6.1 Astra
+2026-09-29 | business-markets | Anthropic IPO filing leak
+2026-09-29 | business-markets | AMD Crusoe loan
+2026-09-29 | science-discovery | Denisovan fossils China cave
+2026-09-29 | science-discovery | Saturn ten-sided wave Hubble
+2026-09-29 | science-discovery | xenon dark matter detector hint
+2026-09-29 | health-medicine | US measles record year
+2026-09-29 | health-medicine | Alzheimer's blood test/dosing
+2026-09-29 | health-medicine | Eli Lilly obesity pill trial
+2026-09-29 | global-affairs | Trump-Xi trade truce extension
+2026-09-29 | global-affairs | Sudan war Darfur massacre
+2026-09-29 | economy-personal-finance | Fed rate hike
+2026-09-29 | economy-personal-finance | mortgage rates near 7%
+2026-09-29 | education-research | University of Florida research spending
+2026-09-29 | education-research | Harvard frozen federal funds
+2026-09-29 | education-research | Oklahoma record enrollment
+2026-09-29 | sports | MLB regular season ends, wild card field
+2026-09-29 | sports | F1 Azerbaijan GP qualifying
+2026-09-29 | entertainment-pop-culture | box office weekend, Avengers Endgame re-release
+2026-09-29 | entertainment-pop-culture | Marvel's Wolverine game release
+2026-09-29 | entertainment-pop-culture | M!lk tops Oricon chart
+2026-09-29 | philosophy-ideas | global cooperation without a referee
+2026-09-29 | also-worth-knowing | NASA Roman Space Telescope launch
+2026-09-29 | also-worth-knowing | candy bottle recall
+2026-09-29 | local-Toronto | TTC Line 1 signal closure
+2026-09-29 | local-Vancouver | Metro Vancouver home prices
+2026-09-29 | local-Montreal | Van Horne overpass encampment court ruling
+2026-09-29 | local-Ottawa | OC Transpo deficit
+2026-09-29 | local-Kitchener-Waterloo | Ron Schlegel dies
+2026-09-29 | local-Guelph | council approves 1,730 homes
+2026-09-29 | local-Vaughan | election candidate list
+2026-09-29 | local-Kingston | dog bylaw review after fatal attack
+2026-09-29 | local-New York City | Mamdani BQE rebuild plan
+2026-09-29 | local-Chicago | gun-purchase executive order
+2026-09-29 | local-Dallas | city budget adopted
+2026-09-30 | top | US military leaves Iraq
+2026-09-30 | politics | Supreme Court rejects Missouri map
+2026-09-30 | politics | Falklands oil dispute
+2026-09-30 | tech-ai | Google UK Play Store trial
+2026-09-30 | tech-ai | Amazon agentic ad tools unBoxed
+2026-09-30 | business-markets | markets risk-off over US-Iran Hormuz
+2026-09-30 | business-markets | SpaceX buys Cursor parent
+2026-09-30 | science-discovery | xenon dark matter detector hint (REPEAT)
+2026-09-30 | science-discovery | Troy oldest marketplace
+2026-09-30 | science-discovery | ocean warming fish collapses
+2026-09-30 | health-medicine | US measles record year (REPEAT)
+2026-09-30 | health-medicine | FDA narcolepsy drug
+2026-09-30 | health-medicine | CDC bird flu risk low
+2026-09-30 | global-affairs | Guterres final UNGA debate
+2026-09-30 | global-affairs | US land strike in Venezuela
+2026-09-30 | global-affairs | Sudan RSF North Kordofan attacks
+2026-09-30 | economy-personal-finance | Fed chair Warsh hawkish
+2026-09-30 | economy-personal-finance | August jobs report
+2026-09-30 | economy-personal-finance | SAVE student loan deadline
+2026-09-30 | education-research | University of Kentucky research funding
+2026-09-30 | education-research | Iowa universities research funding falls
+2026-09-30 | sports | MLB wild card Padres-Braves
+2026-09-30 | sports | MLB wild card Tigers, Royals
+2026-09-30 | sports | NHL opener Bruins-Rangers
+2026-09-30 | entertainment-pop-culture | Avengers Endgame re-release box office (REPEAT)
+2026-09-30 | entertainment-pop-culture | Avengers Endgame vs Avatar record (REPEAT)
+2026-09-30 | philosophy-ideas | chatbot blame in a killing
+2026-09-30 | also-worth-knowing | NASA Roman Space Telescope orbit (REPEAT)
+2026-09-30 | also-worth-knowing | Dreyer's Outshine recall
+2026-09-30 | local-Toronto | University-Rosedale ward race
+2026-09-30 | local-Vancouver | election campaign housing/safety
+2026-09-30 | local-Montreal | infant found at encampment
+2026-09-30 | local-Ottawa | Trump Avenue sign vanishes
+2026-09-30 | local-Kitchener-Waterloo | West Nile mosquito trap
+2026-09-30 | local-Guelph | Innovation District housing deferred
+2026-09-30 | local-Vaughan | fatal multi-vehicle crash
+2026-09-30 | local-Kingston | dog bylaw review after fatal attack (REPEAT)
+2026-09-30 | local-New York City | Fresh Kills sanitation complex
+2026-09-30 | local-Chicago | seven tornadoes in suburbs
+2026-09-30 | local-Dallas | DART board power fight
