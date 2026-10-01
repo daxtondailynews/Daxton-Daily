@@ -79,3 +79,38 @@
 2026-09-30 | local-New York City | Fresh Kills sanitation complex
 2026-09-30 | local-Chicago | seven tornadoes in suburbs
 2026-09-30 | local-Dallas | DART board power fight
+2026-10-01 | top | Alberta independence referendum campaign
+2026-10-01 | politics | Truth and Reconciliation Day
+2026-10-01 | politics | Doug Ford Ontario cabinet shuffle
+2026-10-01 | tech-ai | Micron record earnings AI memory
+2026-10-01 | tech-ai | CoreWeave Fully Connected conference
+2026-10-01 | business-markets | Trump bans Canadian alcohol dairy auto imports
+2026-10-01 | business-markets | gold record high $3800
+2026-10-01 | science-discovery | Crew-13 launch Canadian astronaut Kutryk
+2026-10-01 | science-discovery | Dakhleh Oasis Egypt pyramid tomb
+2026-10-01 | health-medicine | UK flu season surveillance early
+2026-10-01 | health-medicine | Ontario Grand Erie first flu case
+2026-10-01 | global-affairs | Pope Leo XIV France visit
+2026-10-01 | global-affairs | Burnham first Labour conference speech PM
+2026-10-01 | economy-personal-finance | Canada housing starts August
+2026-10-01 | economy-personal-finance | US PCE inflation August cooler
+2026-10-01 | education-research | Ontario colleges layoffs St Lawrence
+2026-10-01 | education-research | BC colleges Kwantlen Thompson Rivers cuts
+2026-10-01 | sports | NHL all-Canadian opening night Leafs Canucks
+2026-10-01 | sports | MLB wild card Yankees White Sox Padres advance
+2026-10-01 | entertainment-pop-culture | Ella Langley Choosin Texas Billboard record
+2026-10-01 | entertainment-pop-culture | Resident Evil box office Heart of the Beast
+2026-10-01 | entertainment-pop-culture | gaming releases Dynasty Warriors Rayman
+2026-10-01 | philosophy-ideas | Truth and Reconciliation recognition Charles Taylor
+2026-10-01 | also-worth-knowing | Guinness World Records new honorees
+2026-10-01 | local-Toronto | mayoral debate land transfer tax TTC fares
+2026-10-01 | local-Vancouver | $790M infrastructure borrowing plebiscite
+2026-10-01 | local-Montreal | fall road closures construction
+2026-10-01 | local-Ottawa | advance voting opens Sutcliffe platform
+2026-10-01 | local-Kitchener-Waterloo | Lime takes over e-scooter program
+2026-10-01 | local-Guelph | four-way mayoral race
+2026-10-01 | local-Vaughan | CCTV cameras council vote
+2026-10-01 | local-Kingston | Trailblazers Lane street naming
+2026-10-01 | local-New York City | Sunnyside Yard housing talks Mamdani Trump
+2026-10-01 | local-Chicago | CTA police presence funding vote
+2026-10-01 | local-Dallas | downtown subway streetcar plans
