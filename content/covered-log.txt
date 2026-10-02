@@ -114,3 +114,40 @@
 2026-10-01 | local-New York City | Sunnyside Yard housing talks Mamdani Trump
 2026-10-01 | local-Chicago | CTA police presence funding vote
 2026-10-01 | local-Dallas | downtown subway streetcar plans
+2026-10-02 | top | Christa Pike botched execution, Tennessee halts executions
+2026-10-02 | politics | Pathways pipeline national-interest designation
+2026-10-02 | politics | US government shutdown begins
+2026-10-02 | tech-ai | Meta AI restructuring layoffs
+2026-10-02 | tech-ai | Nvidia Vera Rubin chips, $1T sales forecast
+2026-10-02 | business-markets | Tesla Q3 deliveries due
+2026-10-02 | business-markets | markets shrug off government shutdown
+2026-10-02 | science-discovery | ghost galaxy dark matter discovery
+2026-10-02 | science-discovery | Nobel Prize season preview
+2026-10-02 | health-medicine | Dana-Farber pancreatic cancer drug
+2026-10-02 | health-medicine | CIHI mental health conditions rising Canada
+2026-10-02 | global-affairs | Thailand flooding disaster
+2026-10-02 | global-affairs | G20 trade ministerial Milwaukee
+2026-10-02 | economy-personal-finance | Canada minimum wage hikes Oct 1
+2026-10-02 | economy-personal-finance | US ISM manufacturing PMI slows
+2026-10-02 | education-research | Cape Breton University job cuts
+2026-10-02 | education-research | Temple University budget cuts
+2026-10-02 | sports | Blue Jays eliminated from playoffs
+2026-10-02 | sports | CFL playoff race Elks clinch Ticats eliminated
+2026-10-02 | sports | NHL Flames Jets home openers Western Canada
+2026-10-02 | entertainment-pop-culture | Survivor season 51 regular run
+2026-10-02 | entertainment-pop-culture | MTV VMAs West Coast return
+2026-10-02 | entertainment-pop-culture | quiet gaming release week
+2026-10-02 | philosophy-ideas | Waymo recall Aristotle phronesis techne
+2026-10-02 | also-worth-knowing | Waymo robotaxi recall consumer angle
+2026-10-02 | also-worth-knowing | Nobel Prize season preview calendar
+2026-10-02 | local-Toronto | Phoenix Concert Theatre relocation search
+2026-10-02 | local-Vancouver | Oakridge pedestrian fatality Granville St
+2026-10-02 | local-Montreal | STM budget cuts opposition pushback
+2026-10-02 | local-Ottawa | homebuilding approval process changes
+2026-10-02 | local-Kitchener-Waterloo | Hydro One Puslinch-Cambridge power line
+2026-10-02 | local-Guelph | homecoming street party chaos
+2026-10-02 | local-Vaughan | Chamber of Commerce infrastructure summit
+2026-10-02 | local-Kingston | east-end housing proposal pushback
+2026-10-02 | local-New York City | Greenpoint Box Street Park MTA deal
+2026-10-02 | local-Chicago | Johnson rules out property tax hike
+2026-10-02 | local-Dallas | police fire union contract dispute
