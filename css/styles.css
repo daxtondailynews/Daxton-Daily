@@ -659,6 +659,62 @@ article.story.top-story {
   border-bottom: 2px solid var(--accent);
 }
 
+/* Section header row: the title (or Top Story label) with the optional
+   "Extend stories" switch pushed to the right. */
+.section-head-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.section-head-row .eyebrow {
+  margin: 0;
+}
+
+article.story.top-story .section-head-row {
+  margin-bottom: 8px;
+}
+
+.topic-section-title h2 {
+  font: inherit;
+  margin: 0;
+}
+
+.extend-toggle {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--navy);
+  background: transparent;
+  border: 1.5px solid var(--navy);
+  border-radius: 999px;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.extend-toggle:hover,
+.extend-toggle[aria-pressed="true"] {
+  background: var(--navy);
+  color: var(--cream);
+}
+
+.extend-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.extended-text {
+  display: none;
+}
+
+.is-extended .extended-text {
+  display: block;
+}
+
 .topic-stories-grid {
   display: grid;
   gap: 30px 34px;

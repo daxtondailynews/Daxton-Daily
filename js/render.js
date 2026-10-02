@@ -91,24 +91,77 @@
     }
   }
 
+  // Optional extra paragraphs a story carries for readers who extend that
+  // section. They sit right after the regular paragraphs and stay hidden
+  // until the section's "Extend stories" switch is on. Older editions have
+  // no `extended` field, so nothing changes for them.
+  function extendedHtml(story) {
+    if (!story.extended || !story.extended.length) return "";
+    return story.extended.map(function (p) {
+      return "<p class=\"body-text extended-text\">" + p + "</p>";
+    }).join("");
+  }
+
+  var EXTEND_KEY = "daxton-extended-sections";
+
+  function readExtended() {
+    try { return JSON.parse(localStorage.getItem(EXTEND_KEY)) || []; } catch (e) { return []; }
+  }
+
+  function saveExtended(key, on) {
+    var list = readExtended().filter(function (k) { return k !== key; });
+    if (on) list.push(key);
+    try { localStorage.setItem(EXTEND_KEY, JSON.stringify(list)); } catch (e) { /* choice just won't persist */ }
+  }
+
+  // Adds the "Extend stories" switch to a section when any of its stories
+  // has extra paragraphs. The reader's choice is remembered per section.
+  function addExtendToggle(container, headerRow, key, stories) {
+    var hasExtra = stories.some(function (s) { return s.extended && s.extended.length; });
+    if (!hasExtra) return;
+
+    var on = readExtended().indexOf(key) !== -1;
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "extend-toggle";
+
+    function apply() {
+      container.classList.toggle("is-extended", on);
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.textContent = on ? "Shorter stories" : "Extend stories";
+    }
+
+    btn.addEventListener("click", function () {
+      on = !on;
+      saveExtended(key, on);
+      apply();
+    });
+    apply();
+    headerRow.appendChild(btn);
+  }
+
   function buildTopStoryArticle(story) {
     var el = document.createElement("article");
     el.className = "story top-story";
     el.innerHTML =
-      "<p class=\"eyebrow\">Top Story</p>" +
+      "<div class=\"section-head-row\"><p class=\"eyebrow\">Top Story</p></div>" +
       "<h2>" + story.headline + "</h2>" +
       (story.byline ? "<p class=\"byline\">By " + story.byline + "</p>" : "") +
-      paragraphsHtml(story.paragraphs);
+      paragraphsHtml(story.paragraphs) +
+      extendedHtml(story);
+    addExtendToggle(el, el.querySelector(".section-head-row"), "top", [story]);
     return el;
   }
 
   function buildTopicSection(topic, stories) {
     var section = document.createElement("section");
     section.className = "topic-section";
+    var headerRow = document.createElement("div");
+    headerRow.className = "section-head-row topic-section-title";
     var heading = document.createElement("h2");
-    heading.className = "topic-section-title";
     heading.textContent = topic.label;
-    section.appendChild(heading);
+    headerRow.appendChild(heading);
+    section.appendChild(headerRow);
 
     var grid = document.createElement("div");
     grid.className = "topic-stories-grid grid-" + stories.length;
@@ -119,11 +172,13 @@
       el.innerHTML =
         "<h3>" + story.headline + "</h3>" +
         (story.byline ? "<p class=\"byline\">By " + story.byline + "</p>" : "") +
-        paragraphsHtml(story.paragraphs);
+        paragraphsHtml(story.paragraphs) +
+        extendedHtml(story);
       grid.appendChild(el);
     });
 
     section.appendChild(grid);
+    addExtendToggle(section, headerRow, topic.slug, stories);
     return section;
   }
 
