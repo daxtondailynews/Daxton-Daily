@@ -151,3 +151,39 @@
 2026-10-02 | local-New York City | Greenpoint Box Street Park MTA deal
 2026-10-02 | local-Chicago | Johnson rules out property tax hike
 2026-10-02 | local-Dallas | police fire union contract dispute
+2026-10-03 | top | FlyDubai copilot Iran link identified
+2026-10-03 | global-affairs | Trump rejects Iran Hormuz truce
+2026-10-03 | global-affairs | Brazil election first round
+2026-10-03 | politics | US alcohol dairy ban takes effect
+2026-10-03 | politics | Carney EU associate member push
+2026-10-03 | tech-ai | OpenAI scraps GPT-6.1 Astra
+2026-10-03 | tech-ai | OpenAI Dots always-on agents
+2026-10-03 | business-markets | Canadian Natural Resources dividend
+2026-10-03 | business-markets | Tesla Q3 deliveries 486532
+2026-10-03 | science-discovery | GHGSat Transporter-18 launch
+2026-10-03 | science-discovery | Comet 161P Hartley-IRAS approach
+2026-10-03 | health-medicine | Ontario RSV newborn program
+2026-10-03 | health-medicine | Novo-Gesic Forte acetaminophen recall
+2026-10-03 | economy-personal-finance | US retail sales holiday season
+2026-10-03 | economy-personal-finance | Bank of Canada holds rate 2.25
+2026-10-03 | education-research | PISA science rankings Canada
+2026-10-03 | education-research | U of T international PhD tuition cut
+2026-10-03 | sports | Stampeders Roughriders CFL comeback
+2026-10-03 | sports | Raptors NBA preseason Quebec City
+2026-10-03 | entertainment-pop-culture | Tom Cruise Digger reviews
+2026-10-03 | entertainment-pop-culture | Ace Combat 8 Wings of Theve
+2026-10-03 | entertainment-pop-culture | Austin City Limits festival
+2026-10-03 | philosophy-ideas | OpenAI deception Frankfurt bullshit Kant
+2026-10-03 | also-worth-knowing | 3I-ATLAS alien comet speculation
+2026-10-03 | also-worth-knowing | WestJet wage raise effective
+2026-10-03 | local-Toronto | TTC fare capping program
+2026-10-03 | local-Vancouver | civic election ballot set 8 mayoral candidates
+2026-10-03 | local-Montreal | council REM Griffintown station motion
+2026-10-03 | local-Ottawa | Sutcliffe homelessness platform
+2026-10-03 | local-Kitchener-Waterloo | encampment cleared for transit hub
+2026-10-03 | local-Guelph | council approves 1726 homes
+2026-10-03 | local-Vaughan | 0 percent property tax budget
+2026-10-03 | local-Kingston | Paterson mayor race undecided
+2026-10-03 | local-New York City | NYPD 200 officers subway patrol
+2026-10-03 | local-Chicago | Block Club Chicago block party
+2026-10-03 | local-Dallas | 10M homeless housing World Cup
