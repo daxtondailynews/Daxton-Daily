@@ -259,3 +259,47 @@
 2026-10-05 | local-New York City | NYC Center gala In the Heights
 2026-10-05 | local-Chicago | Johnson budget proposal defense
 2026-10-05 | local-Dallas | Mavericks new leadership preseason
+2026-10-06 | top | Quebec election PQ landslide CAQ wiped out
+2026-10-06 | politics | Carney Plains of Abraham PQ referendum tension
+2026-10-06 | politics | Tillis Hegseth confirmation vote regret
+2026-10-06 | tech-ai | Trump Jay Clayton AI czar Super Intelligence Force
+2026-10-06 | tech-ai | Carney national AI council Bengio
+2026-10-06 | tech-ai | Bell Saskatchewan AI data centre milestone
+2026-10-06 | business-markets | Cenovus buys Athabasca Oil
+2026-10-06 | business-markets | Curaleaf raises Aurora Cannabis bid
+2026-10-06 | science-discovery | Halzen Nobel Physics cosmic neutrinos
+2026-10-06 | science-discovery | Kelvin wave El Nino BC coast
+2026-10-06 | health-medicine | GTA e-bike e-scooter speed limiter investigation
+2026-10-06 | health-medicine | Ontario early flu season
+2026-10-06 | health-medicine | New York measles disaster emergency
+2026-10-06 | global-affairs | Russia Ukraine energy grid strikes
+2026-10-06 | global-affairs | Gaza ceasefire death toll tops 1000
+2026-10-06 | economy-personal-finance | Canada trade deficit widens August
+2026-10-06 | economy-personal-finance | Canada gas prices climbing G7 reserve
+2026-10-06 | education-research | Kenya university lecturers nationwide strike
+2026-10-06 | education-research | Canada recruits US researchers
+2026-10-06 | education-research | Carleton study Canadian spy agency caution
+2026-10-06 | sports | MLB ALDS Rays Yankees
+2026-10-06 | sports | NFL Week 4 Giants Chargers upset
+2026-10-06 | entertainment-pop-culture | Taylor Swift Patient Zero chart record
+2026-10-06 | entertainment-pop-culture | Woody Allen Madrid film shoot
+2026-10-06 | entertainment-pop-culture | Gears of War E-Day launch
+2026-10-06 | philosophy-ideas | Ukraine war Simone Weil force
+2026-10-06 | also-worth-knowing | PEI band washroom denial transgender singer
+2026-10-06 | also-worth-knowing | Everglades record python catch
+2026-10-06 | local-Toronto | 2026 budget consultations open
+2026-10-06 | local-Vancouver | council housing construction plan
+2026-10-06 | local-Montreal | Marconi Technologies defence partnership
+2026-10-06 | local-Ottawa | Senators sale nears finish
+2026-10-06 | local-Kitchener-Waterloo | GrandLinq sues region ION LRT delays
+2026-10-06 | local-Guelph | federal funding wastewater housing
+2026-10-06 | local-Vaughan | third suspect arrested double homicide
+2026-10-06 | local-Kingston | officer charged impaired driving
+2026-10-06 | local-New York City | World Cup economic boost estimate
+2026-10-06 | local-Los Angeles | county begins mailing ballots
+2026-10-06 | local-Chicago | first elected school board early voting
+2026-10-06 | local-Houston | trash fee relief ordinance
+2026-10-06 | local-Dallas | council push data center zoning
+2026-10-06 | local-Philadelphia | ICE Out legislation passes council
+2026-10-06 | local-Atlanta | Beltline light rail council resolution
+2026-10-06 | local-Washington D.C. | council presses delayed budget resolution
