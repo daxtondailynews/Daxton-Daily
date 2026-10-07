@@ -303,3 +303,45 @@
 2026-10-06 | local-Philadelphia | ICE Out legislation passes council
 2026-10-06 | local-Atlanta | Beltline light rail council resolution
 2026-10-06 | local-Washington D.C. | council presses delayed budget resolution
+2026-10-07 | top | Israel marks 3rd anniversary Oct 7 Gaza ceasefire
+2026-10-07 | politics | judge halts shutdown layoffs
+2026-10-07 | politics | Quebec premier skip oath King
+2026-10-07 | tech-ai | Marvell Google AI chip deal 2029
+2026-10-07 | tech-ai | Google Washington layoffs 52
+2026-10-07 | business-markets | loonie oil prices firm
+2026-10-07 | business-markets | Wall Street shutdown data blackout swings
+2026-10-07 | science-discovery | Nobel Chemistry Kagan Soai chirality
+2026-10-07 | science-discovery | CERN quark-gluon plasma liquid
+2026-10-07 | science-discovery | South Korea Nuri rocket launch
+2026-10-07 | health-medicine | young-onset colorectal cancer late diagnosis
+2026-10-07 | health-medicine | week-long fasting physiology study
+2026-10-07 | global-affairs | Ukraine 650-drone strike Moscow
+2026-10-07 | global-affairs | France school protests 5000 arrests
+2026-10-07 | economy-personal-finance | shutdown data blackout Fed households
+2026-10-07 | economy-personal-finance | Canada insolvencies 17-year high
+2026-10-07 | education-research | Hochul Cornell rape case special prosecutor
+2026-10-07 | education-research | Ken Griffin Carnegie Mellon Miami gift
+2026-10-07 | sports | WNBA Dream beat Liberty semifinal
+2026-10-07 | sports | Iowa upsets Michigan football
+2026-10-07 | entertainment-pop-culture | Primetime A24 box office
+2026-10-07 | entertainment-pop-culture | Miley Cyrus Bass Persuades No 1
+2026-10-07 | entertainment-pop-culture | Epic Mickey Rebrushed Switch 2
+2026-10-07 | philosophy-ideas | Quebec Renan nationhood forgetting
+2026-10-07 | also-worth-knowing | BC giant pumpkin weigh-off
+2026-10-07 | also-worth-knowing | Walmart grill brush recall
+2026-10-07 | local-Toronto | Chris Alexander drops mayoral race
+2026-10-07 | local-Vancouver | SkyTrain driverless control testing
+2026-10-07 | local-Montreal | teens arrested jewellery store robbery
+2026-10-07 | local-Ottawa | downtown stabbings safety concerns
+2026-10-07 | local-Kitchener-Waterloo | Oktoberfest keg-tapping kickoff
+2026-10-07 | local-Guelph | flu COVID RSV vaccine clinics booking
+2026-10-07 | local-Vaughan | advance vote goes fully online
+2026-10-07 | local-Kingston | University District Safety Initiative dates
+2026-10-07 | local-New York City | e-bike e-scooter council hearing
+2026-10-07 | local-Los Angeles | San Gabriel Valley battery storage rally
+2026-10-07 | local-Chicago | CTA adds police private security
+2026-10-07 | local-Houston | drainage overhaul flood-prone neighborhoods
+2026-10-07 | local-Dallas | DART train shooting murder charge
+2026-10-07 | local-Philadelphia | PHA Fairhill affordable senior housing
+2026-10-07 | local-Atlanta | MARTA 1 billion station overhaul
+2026-10-07 | local-Washington D.C. | Lewis George favored mayor general election
