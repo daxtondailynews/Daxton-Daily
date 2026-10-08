@@ -345,3 +345,44 @@
 2026-10-07 | local-Philadelphia | PHA Fairhill affordable senior housing
 2026-10-07 | local-Atlanta | MARTA 1 billion station overhaul
 2026-10-07 | local-Washington D.C. | Lewis George favored mayor general election
+2026-10-08 | top | Hurricane Isaias Gulf Coast landfall warning
+2026-10-08 | politics | Carney Quebec referendum economy focus
+2026-10-08 | politics | Carney Turkey trip Erdogan confirmed
+2026-10-08 | tech-ai | Marvell investor day AI revenue targets
+2026-10-08 | tech-ai | SpaceX 40 billion Nvidia chip financing
+2026-10-08 | business-markets | TSX telecom dip Treasury yields
+2026-10-08 | business-markets | Treasury yields highest since 2002
+2026-10-08 | science-discovery | Perseverance Jezero Crater water three times
+2026-10-08 | science-discovery | Curiosity rover 5000 sols panorama
+2026-10-08 | health-medicine | Kenya Ebola case Congo outbreak
+2026-10-08 | health-medicine | FDA cancer drug approvals Q3 record
+2026-10-08 | global-affairs | Ethiopia Eritrea diplomatic rupture drone strike
+2026-10-08 | global-affairs | Pakistan Afghanistan border conflict third week
+2026-10-08 | economy-personal-finance | Canadian mortgage rates bond yields
+2026-10-08 | economy-personal-finance | US inflation expectations three-year high
+2026-10-08 | education-research | U of T octupolar magnetism quantum
+2026-10-08 | education-research | McMaster viral infections ALS progression
+2026-10-08 | sports | MLB ALDS Guardians White Sox Game 3
+2026-10-08 | sports | WNBA Valkyries upset Aces semifinal
+2026-10-08 | entertainment-pop-culture | Star Wars Galactic Racer game reviews
+2026-10-08 | entertainment-pop-culture | NCIS New York series premiere
+2026-10-08 | entertainment-pop-culture | Record Store Day Black Friday lineup
+2026-10-08 | philosophy-ideas | Hurricane relief Peter Singer drowning child
+2026-10-08 | also-worth-knowing | raccoon NYC church candlelight service
+2026-10-08 | also-worth-knowing | South Carolina 50 identical lottery tickets
+2026-10-08 | local-Toronto | Scarborough stabbing home invasion arrests
+2026-10-08 | local-Vancouver | RBC housing correction home prices
+2026-10-08 | local-Montreal | Lionel-Groulx metro platform death
+2026-10-08 | local-Ottawa | Sutcliffe re-election tax cap pledge
+2026-10-08 | local-Kitchener-Waterloo | police renew appeal Kitchener shooting suspect
+2026-10-08 | local-Guelph | 13-year-old threat shoot high school
+2026-10-08 | local-Vaughan | fatal hit-and-run Pine Valley Drive
+2026-10-08 | local-Kingston | inflatable water park shelved naming rights
+2026-10-08 | local-New York City | MTA 1.1 billion fare gates plan
+2026-10-08 | local-Los Angeles | council anti-camping law debate delayed
+2026-10-08 | local-Chicago | COPA off-duty officer Little Village shooting
+2026-10-08 | local-Houston | Whitmire withdraws immigration grant application
+2026-10-08 | local-Dallas | South Dallas gathering shooting six injured
+2026-10-08 | local-Philadelphia | council hearing universal SEPTA student passes
+2026-10-08 | local-Atlanta | MARTA budget overrun oversight measures
+2026-10-08 | local-Washington D.C. | DC Council 300 million Metro Commanders stadium
