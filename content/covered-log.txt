@@ -386,3 +386,44 @@
 2026-10-08 | local-Philadelphia | council hearing universal SEPTA student passes
 2026-10-08 | local-Atlanta | MARTA budget overrun oversight measures
 2026-10-08 | local-Washington D.C. | DC Council 300 million Metro Commanders stadium
+2026-10-09 | top | Nobel Peace Prize Navi Pillay
+2026-10-09 | politics | Alberta referendum Smith Nenshi campaign
+2026-10-09 | politics | UK Burnham first budget prep
+2026-10-09 | global-affairs | Pentagon Iran strike options midterms
+2026-10-09 | global-affairs | Houthi Saudi airport attacks
+2026-10-09 | global-affairs | Maduro torture indictment charges
+2026-10-09 | tech-ai | Apple October smart home event
+2026-10-09 | tech-ai | Anthropic IPO investor day
+2026-10-09 | business-markets | TSX oil driven swings
+2026-10-09 | business-markets | CPKC grain shipment record
+2026-10-09 | science-discovery | solar storm aurora Canada
+2026-10-09 | health-medicine | PEI drug coverage renewal
+2026-10-09 | health-medicine | telikibart eczema phase 3
+2026-10-09 | economy-personal-finance | Canada September jobs report release
+2026-10-09 | economy-personal-finance | GTA gas price spike
+2026-10-09 | education-research | Trump pocket rescission GAO ruling
+2026-10-09 | education-research | Ontario EQAO test results
+2026-10-09 | sports | MLB NLDS Padres Brewers
+2026-10-09 | sports | NFL Lamar Jackson ankle injury
+2026-10-09 | entertainment-pop-culture | Heart of the Beast box office
+2026-10-09 | entertainment-pop-culture | DWTS Mariah Carey elimination
+2026-10-09 | entertainment-pop-culture | Billboard Latin Music Awards finalists
+2026-10-09 | philosophy-ideas | Nobel Peace Prize Arendt rights
+2026-10-09 | also-worth-knowing | rollerball candy recall
+2026-10-09 | also-worth-knowing | Nuit Blanche Toronto UFO
+2026-10-09 | local-Toronto | police chief crime stats poll
+2026-10-09 | local-Vancouver | council transit motion scale back
+2026-10-09 | local-Montreal | STM 300 positions cut
+2026-10-09 | local-Ottawa | long-term care homes closure concern
+2026-10-09 | local-Kitchener-Waterloo | Cambridge mayoral candidates transit
+2026-10-09 | local-Guelph | rezoning appeal deadline passed
+2026-10-09 | local-Vaughan | AI data centre petition pause
+2026-10-09 | local-Kingston | Official Plan review paused
+2026-10-09 | local-New York City | census count pushback
+2026-10-09 | local-Los Angeles | homelessness count increase
+2026-10-09 | local-Chicago | CPS budget TIF gap
+2026-10-09 | local-Houston | right to air conditioning ordinance
+2026-10-09 | local-Dallas | Hurricane Polo flooding rain
+2026-10-09 | local-Philadelphia | skill games ban deadline
+2026-10-09 | local-Atlanta | Pride festival weekend
+2026-10-09 | local-Washington D.C. | robotaxi bill debate
