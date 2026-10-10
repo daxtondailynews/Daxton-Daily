@@ -427,3 +427,47 @@
 2026-10-09 | local-Philadelphia | skill games ban deadline
 2026-10-09 | local-Atlanta | Pride festival weekend
 2026-10-09 | local-Washington D.C. | robotaxi bill debate
+2026-10-10 | top | Houthi missile strikes Saudi airports
+2026-10-10 | politics | BC snap election campaign
+2026-10-10 | politics | Pacific Link pipeline national interest
+2026-10-10 | tech-ai | Apple Welcome Home event October 13
+2026-10-10 | tech-ai | Microsoft CSP subscription price hike
+2026-10-10 | business-markets | Wall Street S&P Nasdaq record closes
+2026-10-10 | business-markets | Couche-Tard Zabka takeover
+2026-10-10 | science-discovery | WMO El Nino seasonal outlook
+2026-10-10 | science-discovery | CSIRO Pacific ocean research voyage
+2026-10-10 | health-medicine | BC flu RSV vaccine rollout
+2026-10-10 | health-medicine | US measles cases Pennsylvania death
+2026-10-10 | global-affairs | Russia missile barrage Pryluky Ukraine
+2026-10-10 | global-affairs | Haiti gang violence UN report
+2026-10-10 | global-affairs | Romania drone incursion border
+2026-10-10 | economy-personal-finance | Canada CPI inflation 3 percent
+2026-10-10 | economy-personal-finance | US household debt credit card delinquency
+2026-10-10 | education-research | Ontario colleges international enrollment shortfall
+2026-10-10 | education-research | Oman research funding 467 projects
+2026-10-10 | sports | NHL Oilers Kapanen 100th goal
+2026-10-10 | sports | Djokovic China Open title
+2026-10-10 | sports | NASCAR Briscoe Las Vegas win
+2026-10-10 | entertainment-pop-culture | Ben Affleck Animals Netflix
+2026-10-10 | entertainment-pop-culture | Josh Hartnett Below Netflix series
+2026-10-10 | entertainment-pop-culture | Kingdom Hearts Switch 2 collection
+2026-10-10 | philosophy-ideas | Yemen truce collapse Hobbes Grotius
+2026-10-10 | also-worth-knowing | estate sale painting auction record
+2026-10-10 | also-worth-knowing | MEC child carrier recall
+2026-10-10 | also-worth-knowing | Thailand dog revives rescue viral
+2026-10-10 | local-Toronto | Line 2 subway early closure
+2026-10-10 | local-Vancouver | mayoral candidates housing plans
+2026-10-10 | local-Montreal | STM metro entrances closed
+2026-10-10 | local-Ottawa | hate crime stats decline
+2026-10-10 | local-Kitchener-Waterloo | CUPE contract ratified
+2026-10-10 | local-Guelph | advisory committee applications closed
+2026-10-10 | local-Vaughan | municipal election final push
+2026-10-10 | local-Kingston | VIA Rail service cuts motion
+2026-10-10 | local-New York City | council AI safety hearing
+2026-10-10 | local-Los Angeles | LAUSD insolvency risk warning
+2026-10-10 | local-Chicago | hotel workers strike marathon weekend
+2026-10-10 | local-Houston | Stella Link affordable housing approved
+2026-10-10 | local-Dallas | mayor city manager united front
+2026-10-10 | local-Philadelphia | Black Bottom neighborhood recognition
+2026-10-10 | local-Atlanta | stolen guns trafficking indictment
+2026-10-10 | local-Washington D.C. | utility bill auto-enrollment bill
