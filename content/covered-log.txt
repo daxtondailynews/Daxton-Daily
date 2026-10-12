@@ -520,3 +520,45 @@
 2026-10-11 | local-Philadelphia | Parkway shooting suicide by cop
 2026-10-11 | local-Atlanta | Pride festival Hurricane Isaias cancellation
 2026-10-11 | local-Washington D.C. | Hirshhorn Sculpture Garden reopening
+2026-10-12 | top | Riyadh airport attack escalation condemnation
+2026-10-12 | politics | Carney condemns Russia diesel deal
+2026-10-12 | politics | Trump Canada immigration unchecked claim
+2026-10-12 | tech-ai | AI revenue chip stock selloff
+2026-10-12 | tech-ai | Uber layoffs robotaxi pivot
+2026-10-12 | business-markets | Wall Street AI selloff recovery oil
+2026-10-12 | business-markets | TSX Thanksgiving rally basic materials
+2026-10-12 | science-discovery | NASA flight director hiring
+2026-10-12 | science-discovery | comet C46K1R1 close approach
+2026-10-12 | health-medicine | World Health Summit Berlin opens
+2026-10-12 | health-medicine | Canada dexamethasone steroid shortage
+2026-10-12 | global-affairs | Trump Russia Ukraine energy ceasefire
+2026-10-12 | global-affairs | international condemnation Houthi Saudi attacks
+2026-10-12 | economy-personal-finance | Thanksgiving turkey dinner cost Dalhousie
+2026-10-12 | economy-personal-finance | Bank of Canada Rogers housing speech
+2026-10-12 | education-research | Eddie Goldenberg research chairs
+2026-10-12 | education-research | US federal student loan caps rates
+2026-10-12 | sports | MLB NLCS Brewers Dodgers Game 1
+2026-10-12 | sports | WNBA semifinals Dream Valkyries
+2026-10-12 | sports | PGA Baycurrent Classic Brennan win
+2026-10-12 | entertainment-pop-culture | Austin City Limits festival weekend two
+2026-10-12 | entertainment-pop-culture | Street Fighter box office tracking
+2026-10-12 | entertainment-pop-culture | CBS Monday lineup returns
+2026-10-12 | philosophy-ideas | Nobel economics prize Hayek pretence knowledge
+2026-10-12 | also-worth-knowing | Walmart grill brush recall
+2026-10-12 | also-worth-knowing | Alberta first snow Thanksgiving
+2026-10-12 | local-Toronto | municipal election advance voting
+2026-10-12 | local-Vancouver | school support staff strike vote
+2026-10-12 | local-Montreal | Pierrefonds-Roxboro borough budget
+2026-10-12 | local-Ottawa | Hintonburg bookstore book brigade move
+2026-10-12 | local-Kitchener-Waterloo | Kitchener Market rebuild update
+2026-10-12 | local-Guelph | murder charges pedestrian collision
+2026-10-12 | local-Vaughan | charity hockey trick shot 100k
+2026-10-12 | local-Kingston | taxi commission employee fraud charges
+2026-10-12 | local-New York City | council small business construction relief
+2026-10-12 | local-Los Angeles | Metro safety plan supervisors vote
+2026-10-12 | local-Chicago | South Chicago business shooting
+2026-10-12 | local-Houston | Rice University AI masters program
+2026-10-12 | local-Dallas | City Hall relocation lawsuit pending
+2026-10-12 | local-Philadelphia | PGW CEO ethics Phillies trips
+2026-10-12 | local-Atlanta | zoning code rewrite paused
+2026-10-12 | local-Washington D.C. | senior wellness center recognition resolution
