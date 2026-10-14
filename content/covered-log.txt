@@ -607,3 +607,45 @@
 2026-10-13 | local-Philadelphia | officer Shane Seiber killed shooting
 2026-10-13 | local-Atlanta | Six Flags roller coaster death
 2026-10-13 | local-Washington D.C. | Reflecting Pool refilling algae
+2026-10-14 | top | Pope Leo XIV lung cancer diagnosis surgery
+2026-10-14 | politics | Carney Alberta referendum Thanksgiving message
+2026-10-14 | politics | Kenney Notley unity rally Edmonton
+2026-10-14 | global-affairs | Pakistan train derailment Punjab
+2026-10-14 | global-affairs | UK Iran IRGC RAF Fairford sanctions
+2026-10-14 | tech-ai | Meta Muse Wonder frontier model
+2026-10-14 | tech-ai | Broadcom CEO AI investors casino gamblers
+2026-10-14 | business-markets | US bank earnings JPMorgan Citi Wells Fargo
+2026-10-14 | business-markets | TSX energy rally Aritzia Shopify
+2026-10-14 | economy-personal-finance | bank earnings credit health consumer debt
+2026-10-14 | economy-personal-finance | Canada fixed mortgage rates rise bond yields
+2026-10-14 | science-discovery | JPL open house 90th anniversary
+2026-10-14 | science-discovery | Hubble second-generation planet white dwarf
+2026-10-14 | health-medicine | women autoimmune disease diagnostic delays study
+2026-10-14 | health-medicine | Fred Hutch prostate cancer tRNA discovery
+2026-10-14 | education-research | Ghana teachers strike suspended
+2026-10-14 | education-research | Ontario Guelph seats funding
+2026-10-14 | sports | Bills Rams Monday Night Football overtime
+2026-10-14 | sports | Brewers Dodgers NLCS Game 2
+2026-10-14 | sports | Verstappen Singapore Grand Prix win
+2026-10-14 | entertainment-pop-culture | Real Housewives Potomac season 11 premiere
+2026-10-14 | entertainment-pop-culture | Verity Anne Hathaway box office 100 million
+2026-10-14 | entertainment-pop-culture | Boltgun 2 game launch
+2026-10-14 | philosophy-ideas | Pope Leo cancer Epicurus death
+2026-10-14 | also-worth-knowing | Jeep Wagoneer roof rack recall
+2026-10-14 | also-worth-knowing | trimmer mower recall fires
+2026-10-14 | local-Toronto | Ward 14 council race Fletcher retiring
+2026-10-14 | local-Vancouver | Georgia Viaduct repairs lane closures
+2026-10-14 | local-Montreal | Metro security special constables winter
+2026-10-14 | local-Ottawa | mayoral candidates CTV debate
+2026-10-14 | local-Kitchener-Waterloo | Mannheim water capacity development halt
+2026-10-14 | local-Guelph | Homecoming street party working group
+2026-10-14 | local-Vaughan | fatal hit-and-run Pine Valley
+2026-10-14 | local-Kingston | safe drug site closure measures
+2026-10-14 | local-New York City | e-bike e-scooter regulation bills
+2026-10-14 | local-Los Angeles | mayoral debate Bass Raman
+2026-10-14 | local-Chicago | Chicago Marathon record times
+2026-10-14 | local-Houston | HISD school closures state control
+2026-10-14 | local-Dallas | Mavericks arena rezoning pending
+2026-10-14 | local-Philadelphia | Germantown rezoning bill vote
+2026-10-14 | local-Atlanta | Beltline data center fight stalled
+2026-10-14 | local-Washington D.C. | Lewis George mayoral transition
