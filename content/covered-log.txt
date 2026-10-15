@@ -649,3 +649,45 @@
 2026-10-14 | local-Philadelphia | Germantown rezoning bill vote
 2026-10-14 | local-Atlanta | Beltline data center fight stalled
 2026-10-14 | local-Washington D.C. | Lewis George mayoral transition
+2026-10-15 | top | Netanyahu Trump Iran strike pressure
+2026-10-15 | politics | Parti Quebecois sworn in National Assembly
+2026-10-15 | politics | Trump Alaska 5000 dollar pledge
+2026-10-15 | tech-ai | Ricursive Intelligence AI chip design
+2026-10-15 | tech-ai | ChatGPT visual interface GPT-6
+2026-10-15 | business-markets | TC Energy Coastal GasLink First Nations
+2026-10-15 | business-markets | global markets slide US inflation data
+2026-10-15 | science-discovery | superconductor time-reversal symmetry
+2026-10-15 | science-discovery | dying sun solar system timeline
+2026-10-15 | health-medicine | Congo Ebola surpasses 9000 cases
+2026-10-15 | health-medicine | Canada flu season vaccine rollout
+2026-10-15 | global-affairs | Hormuz tanker war Iran tactics
+2026-10-15 | global-affairs | Russia Kyiv energy grid Starlink
+2026-10-15 | economy-personal-finance | Canadian dollar 70 cents slide
+2026-10-15 | economy-personal-finance | IMF global growth outlook oil
+2026-10-15 | education-research | Ontario OSAP private college fraud
+2026-10-15 | education-research | France student protests tear gas
+2026-10-15 | sports | MLB NLCS Brewers Dodgers Game 3
+2026-10-15 | sports | NHL Golden Knights Wild Karlsson
+2026-10-15 | sports | WNBA Dream sweep Liberty Finals
+2026-10-15 | entertainment-pop-culture | SNL Shane Gillis f-bomb controversy
+2026-10-15 | entertainment-pop-culture | Social Reckoning Sorkin box office
+2026-10-15 | entertainment-pop-culture | Dinard film festival top prize
+2026-10-15 | philosophy-ideas | Supreme Court tracking pixel Foucault
+2026-10-15 | also-worth-knowing | pumpkin weigh-off world record
+2026-10-15 | also-worth-knowing | honey bee stinger micropump study
+2026-10-15 | local-Toronto | crypto kidnapping CAF members charged
+2026-10-15 | local-Vancouver | VPD record low crime stats election
+2026-10-15 | local-Montreal | Mercier Bridge lane closed indefinitely
+2026-10-15 | local-Ottawa | Mulroney school opening speeding charge
+2026-10-15 | local-Kitchener-Waterloo | election candidates certified
+2026-10-15 | local-Guelph | mayoral candidates advance voting
+2026-10-15 | local-Vaughan | advance vote deadline Del Duca Cerrelli
+2026-10-15 | local-Kingston | Racquet Centre partnership exploration
+2026-10-15 | local-New York City | carriage horse industry phase-out vote
+2026-10-15 | local-Los Angeles | charter amendment budget council runoff
+2026-10-15 | local-Chicago | Johnson veto override fails one vote
+2026-10-15 | local-Houston | budget shortfall deeper Whitmire tax
+2026-10-15 | local-Dallas | property tax homelessness ballot measure
+2026-10-15 | local-Philadelphia | Natural Sciences museum council subpoena
+2026-10-15 | local-Atlanta | boil water advisory lifted south Fulton
+2026-10-15 | local-Washington D.C. | ticket resale RESALE Act lawsuit
