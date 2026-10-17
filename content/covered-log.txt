@@ -734,3 +734,48 @@
 2026-10-16 | local-Philadelphia | vape tobacco shop zoning restrictions
 2026-10-16 | local-Atlanta | Clark Atlanta student killed crash
 2026-10-16 | local-Washington D.C. | back-to-school paperwork digital bill
+2026-10-17 | top | Oregon elementary school shooting
+2026-10-17 | politics | Canada EU draft summit ties
+2026-10-17 | politics | Express Entry high-wage overhaul
+2026-10-17 | tech-ai | Salience Labs photonic AI chips
+2026-10-17 | tech-ai | SUNMMIO China AI chip funding
+2026-10-17 | tech-ai | Canada 500 million AI adoption fund
+2026-10-17 | business-markets | TSX six-week high resource rally
+2026-10-17 | business-markets | Wall Street chip stock losing streak
+2026-10-17 | science-discovery | black hole jet universal rule
+2026-10-17 | science-discovery | closest black hole pair early universe
+2026-10-17 | health-medicine | P3 peptide Alzheimer's theory
+2026-10-17 | health-medicine | GLP-1 weight regain structured support
+2026-10-17 | global-affairs | EU Brussels migration summit clash
+2026-10-17 | global-affairs | South Korea bank AI breach probe
+2026-10-17 | economy-personal-finance | Bank of Canada hold jobs shock
+2026-10-17 | economy-personal-finance | Canada building permits August jump
+2026-10-17 | economy-personal-finance | US wholesale PPI inflation surge
+2026-10-17 | education-research | Memorial University tuition freeze enrollment
+2026-10-17 | education-research | U of T president three commitments
+2026-10-17 | sports | MLB ALCS Guardians Rays Halpin homer
+2026-10-17 | sports | NHL McDavid 800th game milestone
+2026-10-17 | sports | MLS playoff clinches Kansas City eliminated
+2026-10-17 | entertainment-pop-culture | DWTS Guillermo Rodriguez elimination
+2026-10-17 | entertainment-pop-culture | Tales of Eternia Remastered launch
+2026-10-17 | entertainment-pop-culture | Tamil composer Deva dies
+2026-10-17 | philosophy-ideas | AI data centre power Heidegger technology
+2026-10-17 | also-worth-knowing | skateboard downhill speed record Quebec
+2026-10-17 | also-worth-knowing | hornbill 3D printed beak prosthetic
+2026-10-17 | also-worth-knowing | escaped emu California traffic
+2026-10-17 | local-Toronto | Riverside suspicious fire DVP
+2026-10-17 | local-Vancouver | civic election day advance turnout
+2026-10-17 | local-Montreal | SPVM officers suspended homeless abuse
+2026-10-17 | local-Ottawa | police chief road safety fatal incidents
+2026-10-17 | local-Kitchener-Waterloo | Cambridge advance voting first region
+2026-10-17 | local-Guelph | councillors pay raise next term
+2026-10-17 | local-Vaughan | hit-and-run suspect vehicle identified
+2026-10-17 | local-Kingston | Paterson donor disclosure reversal
+2026-10-17 | local-New York City | National Grid winter gas rate hike
+2026-10-17 | local-Los Angeles | LA28 Olympics financial subpoena
+2026-10-17 | local-Chicago | Northwest Side Beverly burglary spree
+2026-10-17 | local-Houston | Harris County Flock camera oversight delay
+2026-10-17 | local-Dallas | downtown office tower foreclosure
+2026-10-17 | local-Philadelphia | Rebuild nonprofits libraries parks renovation
+2026-10-17 | local-Atlanta | Monroe Heights fatal shooting arrests
+2026-10-17 | local-Washington D.C. | e-bike e-scooter safety crackdown
