@@ -779,3 +779,45 @@
 2026-10-17 | local-Philadelphia | Rebuild nonprofits libraries parks renovation
 2026-10-17 | local-Atlanta | Monroe Heights fatal shooting arrests
 2026-10-17 | local-Washington D.C. | e-bike e-scooter safety crackdown
+2026-10-18 | top | Ebola crosses into Kenya from DRC
+2026-10-18 | politics | Alberta referendum eve of vote
+2026-10-18 | politics | BC municipal elections wave new mayors
+2026-10-18 | tech-ai | TSMC Q3 earnings AI chip demand
+2026-10-18 | tech-ai | CyberXero 51 AI agents Ukraine hack
+2026-10-18 | business-markets | TSX Macklem oil rate comments
+2026-10-18 | business-markets | Truist Q3 earnings securities loss
+2026-10-18 | science-discovery | Perseverance Mars driving record
+2026-10-18 | science-discovery | Kutryk Canadian astronaut ISS mission
+2026-10-18 | health-medicine | flu COVID RSV vaccine rollout Canada
+2026-10-18 | health-medicine | Ontario senior opioid use disorder study
+2026-10-18 | global-affairs | North Korea AI torpedo test
+2026-10-18 | global-affairs | Russia sanctions deadline Trump Congress
+2026-10-18 | economy-personal-finance | CREA home sales forecast cut
+2026-10-18 | economy-personal-finance | CRA 2027 RRSP CPP limits
+2026-10-18 | education-research | Nottingham UK job cuts strike
+2026-10-18 | education-research | Near North EQAO reading scores
+2026-10-18 | sports | Ohio State Indiana college football
+2026-10-18 | sports | MLB ALCS Rays Guardians Game 4
+2026-10-18 | sports | NHL Flyers first win Senators
+2026-10-18 | entertainment-pop-culture | Whalefall movie release Brolin
+2026-10-18 | entertainment-pop-culture | Toy Story 3 remaster game launch
+2026-10-18 | entertainment-pop-culture | Grammy voting opens ABC move
+2026-10-18 | philosophy-ideas | Boethius Nagel fortune moral luck
+2026-10-18 | also-worth-knowing | Orionid meteor shower peak
+2026-10-18 | also-worth-knowing | Anne Carson Nobel literature win
+2026-10-18 | local-Toronto | advance voting turnout record
+2026-10-18 | local-Vancouver | Pete Fry unseats Ken Sim mayor
+2026-10-18 | local-Montreal | Van Horne encampment court ruling
+2026-10-18 | local-Ottawa | Parliament O-Train station stabbing
+2026-10-18 | local-Kitchener-Waterloo | Kitchener driveway vehicle theft
+2026-10-18 | local-Guelph | Gryphons football loss Queen's
+2026-10-18 | local-Vaughan | arson shooting video release
+2026-10-18 | local-Kingston | Queen's archives Home Movie Day
+2026-10-18 | local-New York City | subway billion riders 2026
+2026-10-18 | local-Los Angeles | ballot measures pulled police voting
+2026-10-18 | local-Chicago | Open House Chicago architecture weekend
+2026-10-18 | local-Houston | property tax rate held flat
+2026-10-18 | local-Dallas | police academy funding package
+2026-10-18 | local-Philadelphia | school closures reading scores
+2026-10-18 | local-Atlanta | Beltline light rail revival push
+2026-10-18 | local-Washington D.C. | neighborhood commissions modernization bills
