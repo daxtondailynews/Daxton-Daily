@@ -821,3 +821,49 @@
 2026-10-18 | local-Philadelphia | school closures reading scores
 2026-10-18 | local-Atlanta | Beltline light rail revival push
 2026-10-18 | local-Washington D.C. | neighborhood commissions modernization bills
+2026-10-19 | top | France Macron riots unrest
+2026-10-19 | politics | CFB Wainwright base fire deaths
+2026-10-19 | politics | Alberta referendum voting day
+2026-10-19 | tech-ai | OpenCode credential breach distillation
+2026-10-19 | tech-ai | DeepSeek V4.1 Flash update
+2026-10-19 | tech-ai | White House FTC AI enforcement
+2026-10-19 | business-markets | US softwood lumber duty cut
+2026-10-19 | business-markets | Mullen Group Willson acquisition
+2026-10-19 | science-discovery | depression DBS brain pathways study
+2026-10-19 | science-discovery | quantum computer self-correction demo
+2026-10-19 | health-medicine | ultra-processed food brain injury study
+2026-10-19 | health-medicine | Ottawa rare disease drug funding
+2026-10-19 | health-medicine | US measles cases 4400
+2026-10-19 | global-affairs | Kenya Ebola cases grow eight
+2026-10-19 | global-affairs | Trump endorses Netanyahu election
+2026-10-19 | global-affairs | Zelenskyy Starlink access dispute
+2026-10-19 | economy-personal-finance | Canada September CPI release
+2026-10-19 | economy-personal-finance | Bitcoin price drop TFSA RRSP
+2026-10-19 | education-research | Atlantic Canada international enrollment drop
+2026-10-19 | education-research | Goldsmiths UK longest strike
+2026-10-19 | sports | MLB ALCS Rays Game 5 win
+2026-10-19 | sports | NFL Saints comeback Giants
+2026-10-19 | sports | NHL Kaprizov Wild record goal
+2026-10-19 | entertainment-pop-culture | DWTS Chmerkovskiy suspension
+2026-10-19 | entertainment-pop-culture | Netflix Bajaria Rice content chief
+2026-10-19 | entertainment-pop-culture | A24 Elizabeth Holmes documentary
+2026-10-19 | philosophy-ideas | France protests Arendt violence power
+2026-10-19 | also-worth-knowing | 3M laminator recall fire
+2026-10-19 | also-worth-knowing | Nazi reactor Heisenberg study
+2026-10-19 | also-worth-knowing | SpaceX ISS brain organoids cargo
+2026-10-19 | local-Toronto | Waymo robotaxi pilot launch
+2026-10-19 | local-Vancouver | stranger attacks three incidents
+2026-10-19 | local-Montreal | police violence rally France solidarity
+2026-10-19 | local-Ottawa | Redblacks end losing streak
+2026-10-19 | local-Kitchener-Waterloo | heat record October 13
+2026-10-19 | local-Guelph | Storm ninth straight win
+2026-10-19 | local-Vaughan | Art in Motion charity run
+2026-10-19 | local-Kingston | clear-cutting prosecution Taylor-Kidd
+2026-10-19 | local-New York City | subway platform shooting Midtown
+2026-10-19 | local-Los Angeles | Metro ridership six-year high
+2026-10-19 | local-Chicago | Block Club beer neighborhood journalism
+2026-10-19 | local-Houston | Buffalo Bayou body found
+2026-10-19 | local-Dallas | bodycam fatal motel shooting
+2026-10-19 | local-Philadelphia | Fairhill bar shooting five shot
+2026-10-19 | local-Atlanta | 13-year-old shot Summerhill apartments
+2026-10-19 | local-Washington D.C. | National Guard member shot Eastern Market
