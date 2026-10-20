@@ -867,3 +867,44 @@
 2026-10-19 | local-Philadelphia | Fairhill bar shooting five shot
 2026-10-19 | local-Atlanta | 13-year-old shot Summerhill apartments
 2026-10-19 | local-Washington D.C. | National Guard member shot Eastern Market
+2026-10-20 | top | Alberta referendum result stay in Canada
+2026-10-20 | politics | BC snap election final stretch
+2026-10-20 | politics | Brazil runoff Lula Bolsonaro final stretch
+2026-10-20 | tech-ai | Grok Voice 3.0 launch
+2026-10-20 | tech-ai | Microchip PCIe Gen 6 AI switch
+2026-10-20 | business-markets | Wall Street chip stock rebound AI debt fears
+2026-10-20 | business-markets | Fairfax IDBI Bank India stake deal
+2026-10-20 | science-discovery | Croatia underwater sauropod dinosaur find
+2026-10-20 | science-discovery | Argentina deep-sea 57 new marine species
+2026-10-20 | health-medicine | Ottawa mental health home care funding extension
+2026-10-20 | health-medicine | MSK cancer weight loss survival study
+2026-10-20 | global-affairs | France unrest worst in years curfews
+2026-10-20 | global-affairs | Pope Leo XIV discharged hospital
+2026-10-20 | economy-personal-finance | CMHC September housing starts
+2026-10-20 | economy-personal-finance | US jobless claims low hire low fire
+2026-10-20 | education-research | US colleges record enrollment demographic cliff
+2026-10-20 | education-research | colleges cutting tuition list prices
+2026-10-20 | sports | BYU upset Notre Dame college football
+2026-10-20 | sports | Tkachuk back-to-back hat tricks Panthers
+2026-10-20 | entertainment-pop-culture | Street Fighter movie box office
+2026-10-20 | entertainment-pop-culture | Billboard Latin Music Week Peso Pluma
+2026-10-20 | entertainment-pop-culture | Castlevania Belmont's Curse reviews
+2026-10-20 | philosophy-ideas | Mill self-determination Alberta referendum
+2026-10-20 | also-worth-knowing | electric motorcycle world record range
+2026-10-20 | also-worth-knowing | Mysuru Dasara drone peacock record
+2026-10-20 | local-Toronto | mayoral race final week Chow Bradford
+2026-10-20 | local-Vancouver | new driver licensing rules take effect
+2026-10-20 | local-Montreal | Notre-Dame Basilica facade restoration unveiling
+2026-10-20 | local-Ottawa | four-way mayoral race final week
+2026-10-20 | local-Kitchener-Waterloo | CNG waste depot opens
+2026-10-20 | local-Guelph | drug trafficking arrests traffic stop
+2026-10-20 | local-Vaughan | AI data centre moratorium mayoral race
+2026-10-20 | local-Kingston | Primaris sells Cataraqui Centre stake
+2026-10-20 | local-New York City | rent freeze stabilized apartments
+2026-10-20 | local-Los Angeles | Bow-Kay wildfire Angeles National Forest
+2026-10-20 | local-Chicago | council fails override snap curfew veto
+2026-10-20 | local-Houston | HISD first fall after school closures
+2026-10-20 | local-Dallas | DART funding formula first disbursement
+2026-10-20 | local-Philadelphia | ICE Out laws enforcement questions
+2026-10-20 | local-Atlanta | Streets Alive car-free event
+2026-10-20 | local-Washington D.C. | permanent youth curfew zones
