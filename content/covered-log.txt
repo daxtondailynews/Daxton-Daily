@@ -908,3 +908,47 @@
 2026-10-20 | local-Philadelphia | ICE Out laws enforcement questions
 2026-10-20 | local-Atlanta | Streets Alive car-free event
 2026-10-20 | local-Washington D.C. | permanent youth curfew zones
+2026-10-21 | top | Houthi missile strike Yemen training camp
+2026-10-21 | global-affairs | Sudan RSF drone strikes Gedaref Kassala
+2026-10-21 | global-affairs | Syria Israeli incursions Quneitra Daraa
+2026-10-21 | politics | Canada US softwood lumber duties
+2026-10-21 | politics | Trump approval rating record low
+2026-10-21 | politics | Collins Jackson Maine Senate debate heckler
+2026-10-21 | tech-ai | Nvidia Nemotron 3.5 Super VL release
+2026-10-21 | tech-ai | Mecka AI Toronto robot training data funding
+2026-10-21 | business-markets | Netflix Q3 2026 earnings
+2026-10-21 | business-markets | Couche-Tard Irving Oil fuel sites acquisition
+2026-10-21 | science-discovery | Japan MMX Phobos sample return launch
+2026-10-21 | science-discovery | Saskatchewan quantum error correction record
+2026-10-21 | health-medicine | Canada measles outbreak declared over
+2026-10-21 | health-medicine | Health Canada Q3 drug approvals
+2026-10-21 | health-medicine | US flu season early surge CDC
+2026-10-21 | economy-personal-finance | Canada housing starts CMHC September
+2026-10-21 | economy-personal-finance | Canada fixed mortgage rates rise big banks
+2026-10-21 | economy-personal-finance | US consumer sentiment near record low
+2026-10-21 | education-research | Irish university strike pay dispute
+2026-10-21 | sports | MLB World Series Brewers Guardians matchup
+2026-10-21 | sports | NFL Bills Raiders Josh Allen touchdown record
+2026-10-21 | sports | NHL Red Wings Sharks shootout Raymond
+2026-10-21 | entertainment-pop-culture | Mycopunk game 1.0 launch
+2026-10-21 | entertainment-pop-culture | Clayface movie review embargo
+2026-10-21 | entertainment-pop-culture | Marshals Yellowstone spinoff episode
+2026-10-21 | philosophy-ideas | Locke consent approval ratings legitimacy
+2026-10-21 | also-worth-knowing | oldest shipwreck Turkey discovery
+2026-10-21 | also-worth-knowing | Nobel economics prize Hall Woodford
+2026-10-21 | local-Toronto | mpox vaccination cases climb
+2026-10-21 | local-Vancouver | new council no majority party
+2026-10-21 | local-Montreal | seven arrested break-ins Southwest
+2026-10-21 | local-Ottawa | Kichi Zibi Mikan bridge lane closures
+2026-10-21 | local-Kitchener-Waterloo | Oktoberfest Walter Ostanek final bow
+2026-10-21 | local-Guelph | infrastructure announcement officials
+2026-10-21 | local-Vaughan | advance voting wraps up election
+2026-10-21 | local-Kingston | taxi commission fraud charges
+2026-10-21 | local-New York City | NYPD use-of-force review Mamdani
+2026-10-21 | local-Los Angeles | Port of LA record container volume
+2026-10-21 | local-Chicago | police settlement veto override fails
+2026-10-21 | local-Houston | Sunnyside landfill reuse plan
+2026-10-21 | local-Dallas | Preston-Royal tower zoning delay
+2026-10-21 | local-Philadelphia | zoning board McDonald's housing
+2026-10-21 | local-Atlanta | Pride Parade Dickens police chief
+2026-10-21 | local-Washington D.C. | Howard University homecoming shootings
