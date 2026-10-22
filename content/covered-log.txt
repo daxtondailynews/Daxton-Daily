@@ -952,3 +952,47 @@
 2026-10-21 | local-Philadelphia | zoning board McDonald's housing
 2026-10-21 | local-Atlanta | Pride Parade Dickens police chief
 2026-10-21 | local-Washington D.C. | Howard University homecoming shootings
+2026-10-22 | top | France Europe cost-of-living unrest widens
+2026-10-22 | global-affairs | Albania Rama student protests sixth day
+2026-10-22 | global-affairs | Portugal Lisbon housing protests tent camps
+2026-10-22 | politics | Commons defeats Conservative affordability motion
+2026-10-22 | politics | Trump South Carolina Senate rally Graham
+2026-10-22 | tech-ai | Xanadu Toronto DARPA quantum funding
+2026-10-22 | tech-ai | Texas Instruments Q3 AI chip demand
+2026-10-22 | tech-ai | DragonForce ransomware Oak Grove claim
+2026-10-22 | business-markets | Canada September CPI 3.1 percent gasoline
+2026-10-22 | business-markets | Bombardier Las Vegas business jet show
+2026-10-22 | science-discovery | Masaya volcano second magma chamber
+2026-10-22 | science-discovery | Webb telescope most distant fast radio burst
+2026-10-22 | health-medicine | Canada migrant teen girls mental health study
+2026-10-22 | health-medicine | microplastics reactive chemicals water study
+2026-10-22 | economy-personal-finance | Alberta fifth straight budget surplus
+2026-10-22 | economy-personal-finance | Canadians household debt burden C.D. Howe report
+2026-10-22 | education-research | Hanover Research four-year degree interest decline
+2026-10-22 | education-research | Ottawa OCDSB trustee election supervision
+2026-10-22 | sports | NBA Timberwolves rout Heat Giannis debut
+2026-10-22 | sports | NHL Flames beat Hurricanes first home win
+2026-10-22 | sports | UFC Edmonton Malott knockout Buckley
+2026-10-22 | entertainment-pop-culture | Call of Duty Modern Warfare 4 campaign reviews
+2026-10-22 | entertainment-pop-culture | New Music Friday Zach Bryan Gucci Mane
+2026-10-22 | entertainment-pop-culture | CMA Awards 2026 voting final stretch
+2026-10-22 | philosophy-ideas | Camus Sartre rebellion European protests
+2026-10-22 | also-worth-knowing | Flintstones vitamin recall Health Canada
+2026-10-22 | also-worth-knowing | October heat wave US weather records
+2026-10-22 | also-worth-knowing | stolen Renoir paintings recovered France
+2026-10-22 | local-Toronto | Bradford marathon transit pledge Chow
+2026-10-22 | local-Vancouver | skunk rabies downtown bites
+2026-10-22 | local-Montreal | mall death threat arrest Interpol
+2026-10-22 | local-Ottawa | Lansdowne arena construction steel milestone
+2026-10-22 | local-Kitchener-Waterloo | Cambridge attempted car theft arrests
+2026-10-22 | local-Guelph | organized theft ring arrest
+2026-10-22 | local-Vaughan | Pine Valley hit-and-run van recovered
+2026-10-22 | local-Kingston | VIA Rail service cuts corridor
+2026-10-22 | local-New York City | council fast-track rezoning housing hearing
+2026-10-22 | local-Los Angeles | license plate reader camera pilot vote
+2026-10-22 | local-Chicago | Guevara wrongful conviction settlement advances
+2026-10-22 | local-Houston | Whitmire Hollins adviser pay clash
+2026-10-22 | local-Dallas | council recall petition drives
+2026-10-22 | local-Philadelphia | Food Affordability Act introduced
+2026-10-22 | local-Atlanta | city jail sale Fulton County vote
+2026-10-22 | local-Washington D.C. | Bowser Ward 8 hospital funding request
