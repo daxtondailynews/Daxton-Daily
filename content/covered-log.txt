@@ -996,3 +996,43 @@
 2026-10-22 | local-Philadelphia | Food Affordability Act introduced
 2026-10-22 | local-Atlanta | city jail sale Fulton County vote
 2026-10-22 | local-Washington D.C. | Bowser Ward 8 hospital funding request
+2026-10-23 | top | Houthi attacks Saudi Arabia escalation evacuation
+2026-10-23 | politics | Supreme Court Emergencies Act appeal
+2026-10-23 | politics | Canada US trade deal midterms
+2026-10-23 | politics | Texas Senate Paxton Talarico race
+2026-10-23 | tech-ai | OpenAI Google Cloud frontier models
+2026-10-23 | tech-ai | Google DeepMind researcher resigns Pentagon
+2026-10-23 | business-markets | TSX record highs oil gold rally
+2026-10-23 | business-markets | Lockheed Martin record missile defense backlog
+2026-10-23 | science-discovery | UN Emissions Gap Report 1.5C lost
+2026-10-23 | science-discovery | SpaceX Starfall reentry capsule second flight
+2026-10-23 | health-medicine | Canada flu RSV season arrives early
+2026-10-23 | global-affairs | Trump blocked Netanyahu Iran strike plan
+2026-10-23 | global-affairs | Brazil runoff Lula Bolsonaro final weekend
+2026-10-23 | economy-personal-finance | Ottawa Ontario steel auto tariff funding
+2026-10-23 | economy-personal-finance | OSFI pension plans unpaid contributions
+2026-10-23 | education-research | Ontario Waterloo postsecondary seats funding
+2026-10-23 | sports | MLB World Series Rays Brewers opener
+2026-10-23 | sports | Miami Hurricanes AP poll number one
+2026-10-23 | sports | Maple Leafs rout Blue Jackets
+2026-10-23 | entertainment-pop-culture | A24 The Invite HBO Max release
+2026-10-23 | entertainment-pop-culture | Taylor Swift Patient Zero third week number one
+2026-10-23 | entertainment-pop-culture | DWTS dedication night double elimination
+2026-10-23 | philosophy-ideas | double effect doctrine Houthi airport strikes
+2026-10-23 | also-worth-knowing | world biggest pumpkin record broken twice
+2026-10-23 | local-Toronto | mayoral debate Chow Bradford final stretch
+2026-10-23 | local-Vancouver | new council sworn in Fry priorities
+2026-10-23 | local-Montreal | LaSalle water main project final stretch
+2026-10-23 | local-Ottawa | advance voting surge mayoral pledges
+2026-10-23 | local-Kitchener-Waterloo | Oktoberfest Panthers alter ego
+2026-10-23 | local-Guelph | University Guelph honey bee research centre
+2026-10-23 | local-Vaughan | mayor crime fighting cameras expansion
+2026-10-23 | local-Kingston | high speed rail stop pitch
+2026-10-23 | local-New York City | MTA J M train weekend closure switches
+2026-10-23 | local-Los Angeles | city council public bank study vote
+2026-10-23 | local-Chicago | mayor Johnson Ask the Mayor radio forum
+2026-10-23 | local-Houston | 88 million budget gap property tax
+2026-10-23 | local-Dallas | Dallas ISD settlement special education
+2026-10-23 | local-Philadelphia | planning commission South Philly rezoning
+2026-10-23 | local-Atlanta | city council Starbucks boycott
+2026-10-23 | local-Washington D.C. | Park Police groping suspect National Mall

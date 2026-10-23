@@ -22,3 +22,4 @@
 2026-10-20 | Helen Keller | Everything has its wonders, even darkness
 2026-10-21 | Jean-Jacques Rousseau | Patience is bitter, but its fruit is sweet
 2026-10-22 | Dale Carnegie | You can make more friends in two months by
+2026-10-23 | Martin Luther King Jr. | Darkness cannot drive out darkness; only light
