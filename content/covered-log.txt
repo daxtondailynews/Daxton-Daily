@@ -1036,3 +1036,46 @@
 2026-10-23 | local-Philadelphia | planning commission South Philly rezoning
 2026-10-23 | local-Atlanta | city council Starbucks boycott
 2026-10-23 | local-Washington D.C. | Park Police groping suspect National Mall
+2026-10-24 | top | Super Typhoon Champi Japan Taiwan
+2026-10-24 | global-affairs | Australian MP Helen Haines car attack
+2026-10-24 | global-affairs | Japan China Takaichi diplomatic protest
+2026-10-24 | politics | Royal Society Bill C-39 amendments
+2026-10-24 | politics | Canada Nov 5 federal budget date
+2026-10-24 | tech-ai | IBM Q3 2026 earnings AI revenue
+2026-10-24 | tech-ai | Shopify merchant plan price increase
+2026-10-24 | business-markets | Tesla Q3 2026 earnings
+2026-10-24 | business-markets | Meta Q3 2026 earnings legal charge
+2026-10-24 | business-markets | Rogers Communications Q3 MLSE full ownership
+2026-10-24 | economy-personal-finance | CREA home sales forecast cut
+2026-10-24 | economy-personal-finance | CRA Q4 prescribed interest rate
+2026-10-24 | science-discovery | Perseverance Mars driving record
+2026-10-24 | science-discovery | bleached coral recovery touch study
+2026-10-24 | health-medicine | eplontersen CARDIO-TTRansform heart trial
+2026-10-24 | health-medicine | McGill Marathon of Hope cancer network
+2026-10-24 | education-research | McGill Too Good To Go food waste study
+2026-10-24 | education-research | University of Auckland student survey
+2026-10-24 | sports | MLB World Series Game 1 Brewers Rays
+2026-10-24 | sports | WNBA Finals Game 2 Dream Valkyries
+2026-10-24 | sports | NHL Heritage Classic Winnipeg Montreal
+2026-10-24 | entertainment-pop-culture | Final Fantasy Resonance launch reviews
+2026-10-24 | entertainment-pop-culture | Lupin season 4 Netflix premiere
+2026-10-24 | entertainment-pop-culture | Wildwood LAIKA film opening
+2026-10-24 | philosophy-ideas | Aldo Leopold land ethic Bill C-39
+2026-10-24 | also-worth-knowing | WMO El Nino winter forecast
+2026-10-24 | also-worth-knowing | Guinness World Records 2026 edition
+2026-10-24 | local-Toronto | TTC Line 2 weekend closures
+2026-10-24 | local-Vancouver | council cancels Villages rezoning plan
+2026-10-24 | local-Montreal | STM metro 60th anniversary
+2026-10-24 | local-Ottawa | LRT East Extension pre-trial delay
+2026-10-24 | local-Kitchener-Waterloo | rural townships ION Stage 2 funding
+2026-10-24 | local-Guelph | Homecoming street party investigation update
+2026-10-24 | local-Vaughan | Jane Street BRT corridor progress
+2026-10-24 | local-Kingston | water governance model debate
+2026-10-24 | local-New York City | comptroller Sammy's Law speed limit push
+2026-10-24 | local-Los Angeles | charter commission council expansion ranked choice
+2026-10-24 | local-Chicago | hotel workers strike expands
+2026-10-24 | local-Houston | Rice University AI faculty expansion
+2026-10-24 | local-Dallas | homelessness shelter options committee
+2026-10-24 | local-Philadelphia | Market East master plan fast-track
+2026-10-24 | local-Atlanta | MARTA rapid bus corridor groundbreaking
+2026-10-24 | local-Washington D.C. | mayoral transition bill fast-tracked
