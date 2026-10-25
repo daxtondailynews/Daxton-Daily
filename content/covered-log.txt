@@ -1079,3 +1079,46 @@
 2026-10-24 | local-Philadelphia | Market East master plan fast-track
 2026-10-24 | local-Atlanta | MARTA rapid bus corridor groundbreaking
 2026-10-24 | local-Washington D.C. | mayoral transition bill fast-tracked
+2026-10-25 | top | Brazil runoff Lula Flavio Bolsonaro vote
+2026-10-25 | politics | BC Conservatives election win Doerkson
+2026-10-25 | politics | Trump tariffs Canada midterms partial rollback
+2026-10-25 | politics | US midterms Senate NC Texas races
+2026-10-25 | tech-ai | Cohere Toronto funding talks 20 billion
+2026-10-25 | tech-ai | AI model release wave October count
+2026-10-25 | business-markets | Union Pacific Q3 earnings
+2026-10-25 | business-markets | TSX rally financial tech shares
+2026-10-25 | science-discovery | NOAA ocean temperature record September
+2026-10-25 | science-discovery | Pacific volcanoes ash eruptions
+2026-10-25 | health-medicine | Dana-Farber lung cancer trial Imdelltra
+2026-10-25 | health-medicine | McGill global pain study 118 countries
+2026-10-25 | global-affairs | Ebola Nigeria first case Africa CDC summit
+2026-10-25 | global-affairs | Pakistan Afghanistan border clashes emergency
+2026-10-25 | economy-personal-finance | Canada jobs report unemployment 6.5
+2026-10-25 | economy-personal-finance | Fed meeting rate decision preview
+2026-10-25 | education-research | Canada PISA 2025 scores lowest ever
+2026-10-25 | education-research | international student cap Universities Canada
+2026-10-25 | sports | World Series Game 2 Brewers comeback
+2026-10-25 | sports | Maple Leafs Oilers 7-2 rout
+2026-10-25 | sports | Bulls Bucks comeback NBA
+2026-10-25 | entertainment-pop-culture | Metallica Sphere residency Vegas
+2026-10-25 | entertainment-pop-culture | WWE Raw Reigns Zayn Crown Jewel
+2026-10-25 | entertainment-pop-culture | Grammy voting closes nominations date
+2026-10-25 | philosophy-ideas | Machiavelli fortuna virtue BC election
+2026-10-25 | also-worth-knowing | Halloween spending record NRF
+2026-10-25 | also-worth-knowing | Yellowstone horse iPhone tracking
+2026-10-25 | local-Toronto | affordable housing groundbreaking Dundas
+2026-10-25 | local-Vancouver | incoming councillors reverse ABC decisions
+2026-10-25 | local-Montreal | Metro special constables safety plan
+2026-10-25 | local-Ottawa | hateful incidents candidates election
+2026-10-25 | local-Kitchener-Waterloo | mayoral races preview Monday vote
+2026-10-25 | local-Guelph | open mayoral race four way Guthrie
+2026-10-25 | local-Vaughan | Del Duca second term election
+2026-10-25 | local-Kingston | Paterson fourth term challengers
+2026-10-25 | local-New York City | Central Park horse carriage ban bill
+2026-10-25 | local-Los Angeles | Westwood council Olympics homelessness plan
+2026-10-25 | local-Chicago | WBEZ In the Loop host departure
+2026-10-25 | local-Houston | budget vote property tax rate
+2026-10-25 | local-Dallas | City Hall relocation legal fight
+2026-10-25 | local-Philadelphia | hotel tax homelessness fund fight
+2026-10-25 | local-Atlanta | Beltline secures full trail land
+2026-10-25 | local-Washington D.C. | FY2027 budget Metro housing vouchers
