@@ -1161,3 +1161,46 @@
 2026-10-26 | local-Philadelphia | youth voter turnout march
 2026-10-26 | local-Atlanta | WNBA Dream Valkyries Finals Game 3
 2026-10-26 | local-Washington D.C. | mayoral race final week campaign
+2026-10-27 | top | Israel Knesset election day
+2026-10-27 | politics | Alberta referendum stay Canada results
+2026-10-27 | politics | US midterms early voting record
+2026-10-27 | global-affairs | Jordan church attack manhunt continues
+2026-10-27 | global-affairs | Ukraine deep strikes Russian oil refineries
+2026-10-27 | tech-ai | Anthropic IPO filing loss revenue
+2026-10-27 | tech-ai | Alphabet Q3 earnings AI cloud spending
+2026-10-27 | business-markets | Amazon Q3 earnings AWS preview
+2026-10-27 | business-markets | TSX banks energy rally rate decision
+2026-10-27 | economy-personal-finance | Canada CPI September inflation 3.1
+2026-10-27 | economy-personal-finance | Canada banks raise fixed mortgage rates
+2026-10-27 | science-discovery | NASA Mars helicopters SkyFall
+2026-10-27 | science-discovery | ESA Hera asteroid Didymos
+2026-10-27 | health-medicine | Canada measles outbreak declared over
+2026-10-27 | health-medicine | Health Canada drug device approvals summer
+2026-10-27 | health-medicine | US flu season early vaccination
+2026-10-27 | education-research | CIHR federal research access
+2026-10-27 | education-research | Saint Paul University vice-rector appointment
+2026-10-27 | sports | MLB World Series Brewers Game 3 rout
+2026-10-27 | sports | NFL Cowboys Eagles Hurts injury
+2026-10-27 | sports | NHL Heritage Classic Canadiens Jets
+2026-10-27 | entertainment-pop-culture | Clayface box office DC horror
+2026-10-27 | entertainment-pop-culture | Phantom Blade Zero game launch
+2026-10-27 | entertainment-pop-culture | Nobody Wants This season 3
+2026-10-27 | philosophy-ideas | Plato Aristotle democracy Netanyahu election
+2026-10-27 | also-worth-knowing | oldest shipwreck Turkey discovery
+2026-10-27 | also-worth-knowing | Albanian woman oldest person claim
+2026-10-27 | local-Toronto | Olivia Chow re-elected mayor
+2026-10-27 | local-Vancouver | Broadway subway track milestone
+2026-10-27 | local-Montreal | Van Horne encampment court ruling
+2026-10-27 | local-Ottawa | Sutcliffe re-elected mayor low turnout
+2026-10-27 | local-Kitchener-Waterloo | four mayors ousted election night
+2026-10-27 | local-Guelph | Leanne Caron elected mayor
+2026-10-27 | local-Vaughan | Del Duca re-elected mayor landslide
+2026-10-27 | local-Kingston | Conny Glenn upsets Paterson mayor
+2026-10-27 | local-New York City | Mamdani CCRB appointees NYPD watchdog
+2026-10-27 | local-Los Angeles | council upholds fire chief Crowley firing
+2026-10-27 | local-Chicago | Johnson budget corporate head tax
+2026-10-27 | local-Houston | housing tax credit trash fee
+2026-10-27 | local-Dallas | curbside trash pickup shift debate
+2026-10-27 | local-Philadelphia | Reworld incineration contract opposition
+2026-10-27 | local-Atlanta | AJC editor steps down digital
+2026-10-27 | local-Washington D.C. | youth curfew extended council
