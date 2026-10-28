@@ -1204,3 +1204,43 @@
 2026-10-27 | local-Philadelphia | Reworld incineration contract opposition
 2026-10-27 | local-Atlanta | AJC editor steps down digital
 2026-10-27 | local-Washington D.C. | youth curfew extended council
+2026-10-28 | top | Israel election deadlock no majority
+2026-10-28 | politics | Quebec skips First Nations meeting
+2026-10-28 | politics | UK Burnham government first budget
+2026-10-28 | tech-ai | Google SpaceX AI compute deal effect
+2026-10-28 | tech-ai | Anthropic Cyber Mission Claude Haiku
+2026-10-28 | business-markets | P&G fiscal Q1 earnings
+2026-10-28 | business-markets | Celestica Q3 earnings AI demand
+2026-10-28 | science-discovery | antimatter positron trapped months
+2026-10-28 | science-discovery | 57 new ocean species Argentina
+2026-10-28 | health-medicine | melanoma mRNA vaccine trial ESMO
+2026-10-28 | health-medicine | pancreatic cancer drug daraxonrasib
+2026-10-28 | global-affairs | Ukraine Oleshky ceasefire Kyiv strikes
+2026-10-28 | global-affairs | Saudi Houthi missile interception
+2026-10-28 | economy-personal-finance | Bank of Canada rate decision day
+2026-10-28 | economy-personal-finance | US consumer sentiment five month low
+2026-10-28 | education-research | CSA CUBICS CubeSat student funding
+2026-10-28 | education-research | Ontario trustee powers diminished
+2026-10-28 | sports | World Series Rays avoid sweep Game4
+2026-10-28 | sports | UFC 333 Yan Volkanovski Abu Dhabi
+2026-10-28 | entertainment-pop-culture | Elizabeth Holmes documentary box office
+2026-10-28 | entertainment-pop-culture | Wicker horror film opening
+2026-10-28 | philosophy-ideas | Arendt power Israel election deadlock
+2026-10-28 | also-worth-knowing | Musk Arizona voter giveaway settlement
+2026-10-28 | also-worth-knowing | Walmart grill brush recall
+2026-10-28 | local-Toronto | Crime Stoppers data breach pause
+2026-10-28 | local-Vancouver | second pedestrian death days
+2026-10-28 | local-Montreal | police officers suspended homeless abuse
+2026-10-28 | local-Ottawa | road deaths record 29 2026
+2026-10-28 | local-Kitchener-Waterloo | multi-vehicle crash Highland Belmont
+2026-10-28 | local-Guelph | encampment fire Hanlon Expressway
+2026-10-28 | local-Vaughan | pedestrian killed Keele Steeles
+2026-10-28 | local-Kingston | steel recycling yard fire schools shelter
+2026-10-28 | local-New York City | Little Yemen cultural district Bronx
+2026-10-28 | local-Los Angeles | Metro Vermont BRT groundbreaking
+2026-10-28 | local-Chicago | CPS lunchroom workers union contract
+2026-10-28 | local-Houston | water billing smart meter funding boost
+2026-10-28 | local-Dallas | DART new CEO takes office
+2026-10-28 | local-Philadelphia | SEPTA ridership highest since pandemic
+2026-10-28 | local-Atlanta | MARTA budget overrun overtime
+2026-10-28 | local-Washington D.C. | tenants empire of neglect landlord lawsuit
