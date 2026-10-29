@@ -1244,3 +1244,45 @@
 2026-10-28 | local-Philadelphia | SEPTA ridership highest since pandemic
 2026-10-28 | local-Atlanta | MARTA budget overrun overtime
 2026-10-28 | local-Washington D.C. | tenants empire of neglect landlord lawsuit
+2026-10-29 | top | Cyclone Arnab India Andhra landfall
+2026-10-29 | politics | Michigan Senate race El-Sayed Rogers
+2026-10-29 | politics | Alberta Smith UCP separatists legislature
+2026-10-29 | tech-ai | Mistral Large 4 preview launch
+2026-10-29 | business-markets | Kinross Gold Q3 earnings payout
+2026-10-29 | business-markets | Alphabet Q3 cloud earnings surge
+2026-10-29 | science-discovery | NASA SPHEREx brown dwarfs study
+2026-10-29 | health-medicine | IBD blood marker early detection
+2026-10-29 | health-medicine | Canadian postpartum diabetes complications study
+2026-10-29 | global-affairs | UN Gaza genocide report Israel
+2026-10-29 | global-affairs | Israel coalition talks Herzog Eisenkot
+2026-10-29 | economy-personal-finance | Canada prime rate hike mortgages
+2026-10-29 | economy-personal-finance | US consumer confidence rebound October
+2026-10-29 | education-research | US Census educational attainment industries
+2026-10-29 | education-research | England GCSE English maths shortfall
+2026-10-29 | education-research | StatCan university graduate earnings tracking
+2026-10-29 | sports | MLB World Series Brewers champions
+2026-10-29 | sports | College football top-10 upset weekend
+2026-10-29 | sports | CFL playoff bracket Blue Bombers
+2026-10-29 | entertainment-pop-culture | Hello Kitty Party Land launch
+2026-10-29 | entertainment-pop-culture | You Can See Everything box office legs
+2026-10-29 | entertainment-pop-culture | Windsor International Film Festival opening
+2026-10-29 | philosophy-ideas | Peter Singer cyclone Arnab altruism
+2026-10-29 | also-worth-knowing | Chiba Japan earthquake magnitude 5.4
+2026-10-29 | also-worth-knowing | Guinness largest pop-up book LA
+2026-10-29 | also-worth-knowing | Minnesota cornfield Chinese rocket debris
+2026-10-29 | local-Toronto | TTC Line 1 closures Yonge North
+2026-10-29 | local-Vancouver | drug plebiscite results Fry mayor-elect
+2026-10-29 | local-Montreal | Canada Malting plant demolition Saint-Henri
+2026-10-29 | local-Ottawa | taxi plate owners class action ruling
+2026-10-29 | local-Kitchener-Waterloo | Weber Street house fire
+2026-10-29 | local-Guelph | GO train suspension fourth weekend
+2026-10-29 | local-Vaughan | Health Wellness Expo Vellore Village
+2026-10-29 | local-Kingston | firearms drug charges search warrant
+2026-10-29 | local-New York City | MTA EAGLE fare enforcement suspended
+2026-10-29 | local-Los Angeles | city council oil drilling ban
+2026-10-29 | local-Chicago | parking meter deal budget fight
+2026-10-29 | local-Houston | tax break wage rules council
+2026-10-29 | local-Dallas | police academy funding bond vote
+2026-10-29 | local-Philadelphia | H.O.M.E. housing initiative spending report
+2026-10-29 | local-Atlanta | MARTA Five Points renovation cost overrun
+2026-10-29 | local-Washington D.C. | Audi Field roof funding hearing
