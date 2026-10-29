@@ -198,28 +198,16 @@
 
   // ---------- Editions ----------
 
-  // Loads the newest editions, newest first, as fully as this reader is
-  // allowed: a member's magic link or a signed-in member gets full
-  // editions; everyone else gets each edition's top story only.
+  // Loads the newest editions, newest first. The paper is free, so everyone
+  // gets full editions; the top-story previews are only a fallback.
   // Returns { editions: [...], full: boolean }.
-  async function loadEditions(magicToken) {
+  async function loadEditions() {
     var sb = getClient();
     if (!sb) return { editions: [], full: false };
 
-    if (magicToken) {
-      var magic = await sb.rpc("get_editions_by_magic_token", { token: magicToken });
-      if (!magic.error && magic.data && magic.data.length) {
-        return { editions: magic.data, full: true };
-      }
-    }
-
-    var session = await getSession();
-    if (session) {
-      // Row Level Security returns rows only to current members.
-      var full = await sb.from("editions").select("edition").order("date", { ascending: false }).limit(30);
-      if (!full.error && full.data && full.data.length) {
-        return { editions: full.data.map(function (r) { return r.edition; }), full: true };
-      }
+    var full = await sb.from("editions").select("edition").order("date", { ascending: false }).limit(30);
+    if (!full.error && full.data && full.data.length) {
+      return { editions: full.data.map(function (r) { return r.edition; }), full: true };
     }
 
     var preview = await sb.rpc("get_edition_previews");

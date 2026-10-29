@@ -1,6 +1,6 @@
 /* Daily email sender — run once a day by GitHub Actions (see the schedule
  * in .github/workflows/send-daily-emails.yml) and emails the daily digest
- * to every current member (see supabase/membership.sql) who has "Allow
+ * to every subscriber who has "Allow
  * Daily Reminders" turned on.
  *
  * Reads today's edition from the Supabase "editions" table (the same
@@ -142,13 +142,9 @@ async function fetchLatestEdition(supabaseUrl, serviceKey) {
   return rows.length ? rows[0].edition : null;
 }
 
-// Opted-in subscribers who are also current members.
+// Every subscriber with daily reminders on (the paper is free).
 async function fetchSubscribers(supabaseUrl, serviceKey) {
-  var members = await supabaseGet(supabaseUrl, serviceKey, "memberships?status=in.(active,trialing,comped)&select=user_id");
-  var memberIds = {};
-  members.forEach(function (m) { memberIds[m.user_id] = true; });
-  var subs = await supabaseGet(supabaseUrl, serviceKey, "subscribers?allow_daily_reminders=eq.true&select=id,email,name,topics,city,magic_token");
-  return subs.filter(function (s) { return memberIds[s.id]; });
+  return supabaseGet(supabaseUrl, serviceKey, "subscribers?allow_daily_reminders=eq.true&select=id,email,name,topics,city,magic_token");
 }
 
 function escapeHtml(str) {

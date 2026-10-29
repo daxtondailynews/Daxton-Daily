@@ -20,8 +20,8 @@
     return window.CITIES.find(function (c) { return c.slug === slug; }) || null;
   }
 
-  // Filled by render() from NewsAuth.loadEditions: full editions for
-  // members, top-story-only previews for everyone else.
+  // Filled by render() from NewsAuth.loadEditions: full editions, or
+  // top-story-only previews if those can't be loaded.
   var loaded = { editions: [], full: false };
 
   function getEditions() {
@@ -199,19 +199,6 @@
     return el;
   }
 
-  function buildPaywall() {
-    var el = document.createElement("section");
-    el.className = "paywall";
-    el.innerHTML =
-      "<p class=\"eyebrow\">Members only</p>" +
-      "<h2>Keep reading your paper</h2>" +
-      "<p>The top story is free every day. A membership unlocks every section you picked, " +
-      "your local edition, and the full archive, for $5 a month.</p>" +
-      "<a class=\"primary-btn-link\" href=\"index.html?join=1#account\">Become a member</a>" +
-      "<p class=\"paywall-login\">Already a member? <a href=\"index.html#account\">Log in</a></p>";
-    return el;
-  }
-
   function showEmptyState(message, ctaText, ctaHref) {
     root.innerHTML =
       "<div class=\"empty-state\">" +
@@ -249,7 +236,6 @@
     collectSources(allSources, edition.topStory.sources);
 
     if (!loaded.full) {
-      root.appendChild(buildPaywall());
       if (allSources.length) root.appendChild(buildSourcesFooter(allSources));
       return;
     }
