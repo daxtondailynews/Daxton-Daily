@@ -1322,3 +1322,41 @@
 2026-10-30 | local-Philadelphia | Mural Arts Mello Golden transition
 2026-10-30 | local-Atlanta | jail sale Fulton County vote
 2026-10-30 | local-Washington D.C. | Metro winter construction service changes
+2026-10-31 | top | Israel election deadlock Netanyahu Eisenkot
+2026-10-31 | politics | Alberta referendum results separation
+2026-10-31 | politics | BC Eby resigns Conservatives win
+2026-10-31 | politics | US midterms Trump rigged claims
+2026-10-31 | tech-ai | tech layoffs 200000 AI restructuring
+2026-10-31 | business-markets | Chevron Q3 earnings refining
+2026-10-31 | business-markets | Suncor CNQ earnings preview TSX
+2026-10-31 | science-discovery | ataxia genetic cause NEJM
+2026-10-31 | health-medicine | Health Canada generic drug review
+2026-10-31 | health-medicine | FDA Hibsago hepatitis B approval
+2026-10-31 | global-affairs | Israel Arab parties historic gains fraud
+2026-10-31 | global-affairs | UK sanctions Sudan El Fasher commanders
+2026-10-31 | economy-personal-finance | Canada trade surplus widens
+2026-10-31 | economy-personal-finance | Canada payroll growth stalls census
+2026-10-31 | education-research | OECD teacher shortages report
+2026-10-31 | education-research | US university fall enrollment growth
+2026-10-31 | sports | WNBA CBA lapse Game 7 Finals
+2026-10-31 | entertainment-pop-culture | SNL Halloween Navarrette host
+2026-10-31 | entertainment-pop-culture | Taylor Swift Hot 100 chart
+2026-10-31 | entertainment-pop-culture | Phantom Blade Zero game launch
+2026-10-31 | philosophy-ideas | WNBA fairness Rawls Nozick
+2026-10-31 | also-worth-knowing | Breeders Cup Keeneland venue
+2026-10-31 | local-Toronto | Waymo robotaxi first Canadian city
+2026-10-31 | local-Vancouver | council supermajority Green COPE OneCity
+2026-10-31 | local-Montreal | safest city travellers ranking
+2026-10-31 | local-Ottawa | new council incumbents Chianello
+2026-10-31 | local-Kitchener-Waterloo | Kitchener 2051 Official Plan fire hall
+2026-10-31 | local-Guelph | Caron mayor transition council
+2026-10-31 | local-Vaughan | Del Duca re-elected landslide
+2026-10-31 | local-Kingston | Glenn elected mayor Paterson
+2026-10-31 | local-New York City | Brooklyn crash traffic safety advocates
+2026-10-31 | local-Los Angeles | Christina Downer murder arrests
+2026-10-31 | local-Chicago | Roseland Hospital labor delivery closure
+2026-10-31 | local-Houston | ICE agent indicted Harris County
+2026-10-31 | local-Dallas | Highland Park UMC new pastor
+2026-10-31 | local-Philadelphia | police oversight chair charged
+2026-10-31 | local-Atlanta | 4-year-old death second suspect charged
+2026-10-31 | local-Washington D.C. | gun found candy box school festival
