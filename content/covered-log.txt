@@ -1360,3 +1360,42 @@
 2026-10-31 | local-Philadelphia | police oversight chair charged
 2026-10-31 | local-Atlanta | 4-year-old death second suspect charged
 2026-10-31 | local-Washington D.C. | gun found candy box school festival
+2026-11-01 | top | France Yellow Vest Act III unrest
+2026-11-01 | politics | Carney Quebec EU summit clash
+2026-11-01 | politics | Israel Netanyahu Eisenkot Trump unity push
+2026-11-01 | tech-ai | Nvidia DOJ Hugging Face antitrust
+2026-11-01 | tech-ai | Nvidia Oracle Meta infrastructure deals
+2026-11-01 | business-markets | Amazon Q3 AWS earnings record
+2026-11-01 | business-markets | Loonie TSX selloff six-week high
+2026-11-01 | science-discovery | metals resist cracking extreme cold
+2026-11-01 | science-discovery | X-ray physics limit helium laser
+2026-11-01 | health-medicine | McGill diabetes remission trial
+2026-11-01 | health-medicine | US flu vaccination rates decline
+2026-11-01 | global-affairs | Canada EU defense procurement CETA
+2026-11-01 | economy-personal-finance | CMHC September housing starts
+2026-11-01 | education-research | Canada grad student visa surge
+2026-11-01 | education-research | UBC CUPE strike vote
+2026-11-01 | sports | Packers Panthers Thursday night
+2026-11-01 | sports | Matthews 800 points Maple Leafs
+2026-11-01 | entertainment-pop-culture | Anomalith game launch
+2026-11-01 | entertainment-pop-culture | DWTS Horror Night double elimination
+2026-11-01 | entertainment-pop-culture | Fontaines DC Dopamine Chamber
+2026-11-01 | philosophy-ideas | Keynes animal spirits AI stock selloff
+2026-11-01 | also-worth-knowing | Ohio State e-nose smell transmission
+2026-11-01 | also-worth-knowing | skyrmion magnetic vortices filmed melting
+2026-11-01 | local-Toronto | Bridle Path home invasion suspect
+2026-11-01 | local-Vancouver | West End bank robbery arrest
+2026-11-01 | local-Montreal | 20th homicide 2026 Rosemont
+2026-11-01 | local-Ottawa | stunt driving charges surge
+2026-11-01 | local-Kitchener-Waterloo | Woolwich election error recount
+2026-11-01 | local-Guelph | Gryphons football playoff loss
+2026-11-01 | local-Vaughan | teens injured dump truck collision
+2026-11-01 | local-Kingston | RMC bilingual designation Glenn
+2026-11-01 | local-New York City | early voting ballot questions
+2026-11-01 | local-Los Angeles | Cal State LA music archive
+2026-11-01 | local-Chicago | homeless count drops 12 percent
+2026-11-01 | local-Houston | bayou deaths serial killer theory
+2026-11-01 | local-Dallas | Deep Ellum bar lockout
+2026-11-01 | local-Philadelphia | Academy Natural Sciences subpoenas
+2026-11-01 | local-Atlanta | autonomous weapons police ban
+2026-11-01 | local-Washington D.C. | Metro Stadium-Armory funding
