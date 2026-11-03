@@ -1434,3 +1434,44 @@
 2026-11-02 | local-Philadelphia | Free Library Foundation interim president
 2026-11-02 | local-Atlanta | Silverton Mortgage layoffs Taylor Morrison
 2026-11-02 | local-Washington D.C. | Robert White resigns council seat
+2026-11-03 | top | US midterm election day
+2026-11-03 | politics | Carney second budget Poilievre diesel tax
+2026-11-03 | politics | Carney Trump trade moving closer midterms
+2026-11-03 | tech-ai | Palantir Q3 revenue 2 billion
+2026-11-03 | tech-ai | AMD Q3 earnings AI chip demand
+2026-11-03 | business-markets | Fed holds rates Warsh split decision
+2026-11-03 | business-markets | CN Rail Q3 profit 1.21 billion
+2026-11-03 | science-discovery | NOAA autonomous submersibles Pacific
+2026-11-03 | science-discovery | Ethiopia egg-eating snake species
+2026-11-03 | health-medicine | Weyburn General Hospital opens
+2026-11-03 | health-medicine | lung cancer immunotherapy DeLLphi-305
+2026-11-03 | global-affairs | Pakistan Afghanistan border war ceasefire
+2026-11-03 | global-affairs | Putin Trump Xi trilateral summit proposal
+2026-11-03 | economy-personal-finance | CREA home sales forecast cut
+2026-11-03 | economy-personal-finance | OAS GIS quarterly increase 1.4 percent
+2026-11-03 | education-research | Canada PISA science scores Alberta
+2026-11-03 | education-research | McGill global pain study Nature Medicine
+2026-11-03 | sports | Brewers win first World Series title
+2026-11-03 | sports | Pastrnak shootout Bruins Golden Knights
+2026-11-03 | sports | Blue Bombers upset Argonauts CFL East
+2026-11-03 | entertainment-pop-culture | Zelda Ocarina of Time Switch 2 remake
+2026-11-03 | entertainment-pop-culture | Godzilla Minus Zero Japan premiere
+2026-11-03 | philosophy-ideas | Arrow impossibility theorem election
+2026-11-03 | also-worth-knowing | giant waterlily Instagram discovery
+2026-11-03 | also-worth-knowing | South Taurids meteor shower peak
+2026-11-03 | local-Toronto | TTC GO weekend closures track work
+2026-11-03 | local-Vancouver | Art Gallery daylight attack
+2026-11-03 | local-Montreal | police chief fires seven officers
+2026-11-03 | local-Ottawa | garbage collection audit compliance
+2026-11-03 | local-Kitchener-Waterloo | e-scooter rider death confirmed
+2026-11-03 | local-Guelph | man riding on car roof charged
+2026-11-03 | local-Vaughan | hit-and-run suspect vehicle recovered
+2026-11-03 | local-Kingston | St. Patrick School purchase scrapped
+2026-11-03 | local-New York City | NYC Marathon 50th anniversary winners
+2026-11-03 | local-Los Angeles | homeless count rose 7.9 percent
+2026-11-03 | local-Chicago | council pension debt parking meter
+2026-11-03 | local-Houston | tax break wages health benefits
+2026-11-03 | local-Dallas | police academy construction phase
+2026-11-03 | local-Philadelphia | driverless taxi delivery robot fee
+2026-11-03 | local-Atlanta | Hardwick house landmark nomination
+2026-11-03 | local-Washington D.C. | Marine Corps Marathon winners
