@@ -1475,3 +1475,45 @@
 2026-11-03 | local-Philadelphia | driverless taxi delivery robot fee
 2026-11-03 | local-Atlanta | Hardwick house landmark nomination
 2026-11-03 | local-Washington D.C. | Marine Corps Marathon winners
+2026-11-04 | top | Democrats sweep Congress midterm
+2026-11-04 | politics | Carney Commonwealth summit EU associate
+2026-11-04 | politics | Carney second budget tabled
+2026-11-04 | tech-ai | OpenAI ChatGPT Pro limits Classic retirement
+2026-11-04 | tech-ai | AI chip stocks slide midterm reaction
+2026-11-04 | business-markets | Shopify Q3 earnings GMV record
+2026-11-04 | business-markets | DoorDash Instacart 17 billion acquisition
+2026-11-04 | science-discovery | bandicoot species museum specimens
+2026-11-04 | science-discovery | Linda Nazar Herzberg Medal battery
+2026-11-04 | health-medicine | Ontario flu season early vaccine match
+2026-11-04 | health-medicine | ultra-processed foods children brain study
+2026-11-04 | global-affairs | Ibero-American Summit Madrid
+2026-11-04 | global-affairs | Rubio Venezuela foreign minister elections
+2026-11-04 | economy-personal-finance | PBO growth downgrade inflation
+2026-11-04 | economy-personal-finance | LNG Canada pension Blackstone investment
+2026-11-04 | education-research | Treasury college tax exemption proposal
+2026-11-04 | education-research | CSU researchers sue NSF grants
+2026-11-04 | education-research | STEM students AI career anxiety survey
+2026-11-04 | sports | Broncos Chiefs Week 8 comeback
+2026-11-04 | sports | Andrew Novak Mexico Open win
+2026-11-04 | entertainment-pop-culture | World of Warcraft Forever launch
+2026-11-04 | entertainment-pop-culture | Cat in the Hat Bill Hader film
+2026-11-04 | entertainment-pop-culture | Gilded Age season 4 premiere
+2026-11-04 | philosophy-ideas | Tocqueville tyranny majority midterms
+2026-11-04 | also-worth-knowing | Hera probe Didymos asteroid arrival
+2026-11-04 | also-worth-knowing | Rhode Island giant pumpkin record
+2026-11-04 | local-Toronto | Halloween Church Street crowd safety review
+2026-11-04 | local-Vancouver | TransLink free Remembrance Day veterans
+2026-11-04 | local-Montreal | Terrebonne bike lane NDG dispute
+2026-11-04 | local-Ottawa | legal claim settlements 10 million
+2026-11-04 | local-Kitchener-Waterloo | cyclist seriously injured King Morgan
+2026-11-04 | local-Guelph | police seek suspects altercation
+2026-11-04 | local-Vaughan | Small Business Week networking event
+2026-11-04 | local-Kingston | KHSC gastroenterology laser donation
+2026-11-04 | local-New York City | apartment construction 12 neighborhoods
+2026-11-04 | local-Los Angeles | Palisades mansion tax exemption vote
+2026-11-04 | local-Chicago | domestic violence survivors housing North Center
+2026-11-04 | local-Houston | Prop A no-knock warrants marijuana
+2026-11-04 | local-Dallas | DART governance overhaul review
+2026-11-04 | local-Philadelphia | SEPTA funding crisis continues
+2026-11-04 | local-Atlanta | Beltline Northwest Trail groundbreaking
+2026-11-04 | local-Washington D.C. | mayoral election McDuffie Lewis George
