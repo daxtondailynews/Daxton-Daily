@@ -1517,3 +1517,46 @@
 2026-11-04 | local-Philadelphia | SEPTA funding crisis continues
 2026-11-04 | local-Atlanta | Beltline Northwest Trail groundbreaking
 2026-11-04 | local-Washington D.C. | mayoral election McDuffie Lewis George
+2026-11-05 | top | Hong Kong Joshua Wong sentencing
+2026-11-05 | politics | Alberta riding boundaries NDP court fight
+2026-11-05 | politics | Democrats Carney tariffs trade post-midterm
+2026-11-05 | tech-ai | Anthropic IPO S-1 filing Nasdaq
+2026-11-05 | tech-ai | Apple fiscal Q4 earnings record
+2026-11-05 | tech-ai | Binance hack withdrawals resume North Korea
+2026-11-05 | business-markets | TSX gold rally oil slide
+2026-11-05 | business-markets | Palantir Q3 revenue doubles
+2026-11-05 | science-discovery | dinosaur fossilized red blood cells
+2026-11-05 | science-discovery | NASA Swift telescope reentry
+2026-11-05 | health-medicine | colorectal cancer atlas Dana-Farber
+2026-11-05 | health-medicine | Canada measles outbreak declared over
+2026-11-05 | global-affairs | Zaporizhzhia Russia strike aid center
+2026-11-05 | global-affairs | Ukraine Russia fake nuclear alert hack
+2026-11-05 | global-affairs | Israel election commission fraud claims
+2026-11-05 | economy-personal-finance | Food Banks Canada record visits
+2026-11-05 | economy-personal-finance | US Social Security COLA 2027
+2026-11-05 | education-research | Ontario Waterloo seats funding
+2026-11-05 | education-research | Quebec English universities French requirements
+2026-11-05 | sports | Lions Vikings unbeaten snapped
+2026-11-05 | sports | Kaprizov 500th point Wild Capitals
+2026-11-05 | sports | Arsenal Liverpool Anfield drought
+2026-11-05 | entertainment-pop-culture | Susan Saint James obituary
+2026-11-05 | entertainment-pop-culture | Clayface box office second weekend
+2026-11-05 | entertainment-pop-culture | Grammy new categories announcement
+2026-11-05 | philosophy-ideas | Arendt shared viewing space of appearance
+2026-11-05 | also-worth-knowing | Albanian supercentenarian oldest woman claim
+2026-11-05 | local-Toronto | delivery drivers protest Uber pay
+2026-11-05 | local-Vancouver | Aquatic Centre demolition resumes
+2026-11-05 | local-Montreal | Little Burgundy five-alarm fire
+2026-11-05 | local-Ottawa | Peter Gilgan 50 million donation Civic campus
+2026-11-05 | local-Kitchener-Waterloo | targeted stabbing Kitchener
+2026-11-05 | local-Guelph | four teens killed Puslinch crash
+2026-11-05 | local-Vaughan | hit-and-run suspect vehicle recovered
+2026-11-05 | local-Kingston | Belle Park homeless shelter structure
+2026-11-05 | local-New York City | MTA SoHo basketball court pledge
+2026-11-05 | local-Los Angeles | Sheriff Luna second term
+2026-11-05 | local-Chicago | millionaires tax ballot question
+2026-11-05 | local-Houston | Letitia Plummer Harris County Judge
+2026-11-05 | local-Dallas | Dallas ISD budget deficit early learning
+2026-11-05 | local-Philadelphia | charter amendments Creative Philadelphia
+2026-11-05 | local-Atlanta | Opportunity Rising economic mobility
+2026-11-05 | local-Washington D.C. | Pepco substation outage downtown
