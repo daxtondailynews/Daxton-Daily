@@ -1726,3 +1726,46 @@
 2026-11-09 | local-Philadelphia | SEPTA station shooting teen injured
 2026-11-09 | local-Atlanta | Hartsfield-Jackson airport safety funding
 2026-11-09 | local-Washington D.C. | Metro Center escalator replacement
+2026-11-10 | top | Kraków mass shooting gunman dies
+2026-11-10 | politics | Canada Strong Fund CEO appointment
+2026-11-10 | politics | Stephen Miller chief of staff
+2026-11-10 | global-affairs | Houthi Aramco attack Riyadh
+2026-11-10 | global-affairs | New Zealand election no winner
+2026-11-10 | tech-ai | AI voice cloning fraud charges
+2026-11-10 | tech-ai | Google Wyoming data center
+2026-11-10 | tech-ai | Cohere Ottawa 1.6 billion investment
+2026-11-10 | business-markets | Equinox Gold Q3 earnings
+2026-11-10 | business-markets | Canadian banks block AI agents
+2026-11-10 | science-discovery | Verica Iron Age queen
+2026-11-10 | science-discovery | NASA Hubble rescue RFI
+2026-11-10 | health-medicine | Moderna flu COVID combo vaccine Canada
+2026-11-10 | health-medicine | US flu season CDC hospitalizations
+2026-11-10 | economy-personal-finance | Canada manufacturing PMI contraction
+2026-11-10 | economy-personal-finance | Wall Street rally mortgage rates
+2026-11-10 | education-research | Ottawa 813 million research funding
+2026-11-10 | education-research | UWindsor toxic algae study
+2026-11-10 | sports | Bills Vikings Monday Night Football
+2026-11-10 | sports | Notre Dame Miami college football
+2026-11-10 | sports | F1 Sao Paulo Norris Mercedes title
+2026-11-10 | entertainment-pop-culture | Football Manager 27 launch
+2026-11-10 | entertainment-pop-culture | SNL Druski Strokes host
+2026-11-10 | entertainment-pop-culture | Fontaines DC Marianne chart
+2026-11-10 | philosophy-ideas | prison sentence punishment theory Brand
+2026-11-10 | also-worth-knowing | Rubik's cube mile record
+2026-11-10 | also-worth-knowing | Winnipeg lottery lawsuit girlfriend
+2026-11-10 | local-Toronto | vacant home tax declaration
+2026-11-10 | local-Vancouver | Broadway Subway track complete
+2026-11-10 | local-Montreal | STM transit funding cuts
+2026-11-10 | local-Ottawa | winter parking ban season
+2026-11-10 | local-Kitchener-Waterloo | outdoor rink volunteers
+2026-11-10 | local-Guelph | Stone Road Mall arrest
+2026-11-10 | local-Vaughan | shawarma restaurant arson
+2026-11-10 | local-Kingston | election results certified acclamation
+2026-11-10 | local-New York City | Brooklyn jogger stabbing charged
+2026-11-10 | local-Los Angeles | Raman defeats Bass mayor
+2026-11-10 | local-Chicago | CTA Pink Line collision
+2026-11-10 | local-Houston | Gerald Goines sentenced raid
+2026-11-10 | local-Dallas | Deep Ellum shooting suspect surrenders
+2026-11-10 | local-Philadelphia | boycott ride Jewish businesses
+2026-11-10 | local-Atlanta | Zoo Atlanta pandas debut
+2026-11-10 | local-Washington D.C. | record eviction levels renters
