@@ -1898,3 +1898,45 @@
 2026-11-13 | local-Philadelphia | charter amendments small business arts office
 2026-11-13 | local-Atlanta | city council approves jail sale Fulton County
 2026-11-13 | local-Washington D.C. | mayor-elect Lewis George transition team
+2026-11-14 | top | Russia Ukraine prisoner swap Abu Dhabi talks
+2026-11-14 | politics | Canada tariff relief aluminum extension
+2026-11-14 | politics | Hegseth impeachment vote Massie
+2026-11-14 | tech-ai | Anthropic IPO Nasdaq ANT listing
+2026-11-14 | tech-ai | OpenAI Q3 revenue losses widen
+2026-11-14 | business-markets | Strathcona Greenfire oil sands acquisition
+2026-11-14 | business-markets | Western Union Intermex deal collapse
+2026-11-14 | science-discovery | DARPA Caltech robot orbit assembly
+2026-11-14 | science-discovery | Mars volcano hydrogen chloride gas
+2026-11-14 | health-medicine | tobacco bowel incontinence study
+2026-11-14 | health-medicine | Canada flu season early H3N2
+2026-11-14 | global-affairs | Gaza winter flooding aid crisis
+2026-11-14 | global-affairs | COP31 climate finance programme
+2026-11-14 | economy-personal-finance | Canada unemployment rate 6.7 percent
+2026-11-14 | economy-personal-finance | Canada gas diesel prices fall
+2026-11-14 | education-research | StatCan school enrolment growth slows
+2026-11-14 | education-research | UC San Diego Instagram loneliness study
+2026-11-14 | sports | Blades Brown PGA youngest winner
+2026-11-14 | sports | Hellebuyck Winnipeg return Jets Devils
+2026-11-14 | entertainment-pop-culture | Godzilla Minus Zero box office record
+2026-11-14 | entertainment-pop-culture | Dancing with the Stars Grammy Night elimination
+2026-11-14 | entertainment-pop-culture | Carly Rae Jepsen Juno Awards host
+2026-11-14 | philosophy-ideas | GTA VI Buddhism craving Second Noble Truth
+2026-11-14 | also-worth-knowing | GTA VI most pre-ordered record
+2026-11-14 | also-worth-knowing | Georgia OKeeffe painting found closet
+2026-11-14 | also-worth-knowing | Loch Ness beavers reintroduced
+2026-11-14 | local-Toronto | Vacant Home Tax declaration period
+2026-11-14 | local-Vancouver | Southwynd Place social housing approved
+2026-11-14 | local-Montreal | budget no refrigerated outdoor rinks
+2026-11-14 | local-Ottawa | Senators Quebec City games backlash
+2026-11-14 | local-Kitchener-Waterloo | Cowan Recreation Centre grand opening
+2026-11-14 | local-Guelph | 3-for-free parking promotion extended
+2026-11-14 | local-Vaughan | fire vacant home road closures
+2026-11-14 | local-Kingston | municipal property surplus declaration
+2026-11-14 | local-New York City | Harlem Urban Civil Rights Museum opens
+2026-11-14 | local-Los Angeles | Nithya Raman council meeting mayor-elect
+2026-11-14 | local-Chicago | RTA transit funding shortfall 230 million
+2026-11-14 | local-Houston | Katy apartment complex groundbreaking Sunterra
+2026-11-14 | local-Dallas | Prop A public safety bond rejected
+2026-11-14 | local-Philadelphia | Transit Access Fund bill council support
+2026-11-14 | local-Atlanta | Moores Mill Road bridge replacement
+2026-11-14 | local-Washington D.C. | ranked-choice council election analysis
