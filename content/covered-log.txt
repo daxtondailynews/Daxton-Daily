@@ -1940,3 +1940,48 @@
 2026-11-14 | local-Philadelphia | Transit Access Fund bill council support
 2026-11-14 | local-Atlanta | Moores Mill Road bridge replacement
 2026-11-14 | local-Washington D.C. | ranked-choice council election analysis
+2026-11-15 | top | Spain rail safety strikes snap election
+2026-11-15 | politics | Carney China election interference APEC
+2026-11-15 | politics | US Congress stopgap funding deal
+2026-11-15 | tech-ai | IBM Algorithmiq quantum advantage tracker
+2026-11-15 | tech-ai | OpenAI GPT-6 Cyber security model
+2026-11-15 | tech-ai | GCtranslate mistranslation errors
+2026-11-15 | business-markets | Canadian Natural Resources Q3 earnings
+2026-11-15 | business-markets | Enbridge earnings CEO transition
+2026-11-15 | business-markets | Wall Street Fed rate hike worries
+2026-11-15 | science-discovery | Hera spacecraft Didymos images
+2026-11-15 | science-discovery | SFU sleep study older brains
+2026-11-15 | health-medicine | Vanderbilt three liver transplants
+2026-11-15 | health-medicine | Toronto robotic hybrid AFib ablation
+2026-11-15 | health-medicine | park visits child mental health study
+2026-11-15 | global-affairs | Sudan Kordofan RSF offensive
+2026-11-15 | global-affairs | Trump Xi APEC summit trade truce
+2026-11-15 | economy-personal-finance | CRA 2027 RRSP contribution limit
+2026-11-15 | economy-personal-finance | US October jobs report
+2026-11-15 | education-research | low-income math tracking study
+2026-11-15 | education-research | AI deepfakes educators underprepared
+2026-11-15 | sports | Brandon Aiyuk 49ers roster saga
+2026-11-15 | sports | Grey Cup Elks Alouettes Calgary
+2026-11-15 | entertainment-pop-culture | SNL Mulaney Phoebe Bridgers
+2026-11-15 | entertainment-pop-culture | Glenn Close honorary Oscar Governors Awards
+2026-11-15 | entertainment-pop-culture | U2 album Dolly Parton last vocal
+2026-11-15 | philosophy-ideas | ubuntu African ethics posthumous voice
+2026-11-15 | also-worth-knowing | magnetic cube toy recall
+2026-11-15 | also-worth-knowing | dinosaur blood cells Brazil fossil
+2026-11-15 | also-worth-knowing | Chinese space station cold atoms record
+2026-11-15 | local-Toronto | new council term Chow second term
+2026-11-15 | local-Vancouver | new council no party majority
+2026-11-15 | local-Montreal | Verdun borough outreach funding
+2026-11-15 | local-Ottawa | women majority council history
+2026-11-15 | local-Kitchener-Waterloo | water supply strategy meetings
+2026-11-15 | local-Guelph | Allan's Dam spillway emergency repair
+2026-11-15 | local-Vaughan | new council term public safety pledge
+2026-11-15 | local-Kingston | council pay raise part-time roles
+2026-11-15 | local-New York City | council MTA subway service housing bills
+2026-11-15 | local-Los Angeles | anti-camping zones cancelled district 13
+2026-11-15 | local-Chicago | Amtrak Bridgeport environmental review
+2026-11-15 | local-Houston | trash fee budget gap
+2026-11-15 | local-Dallas | homelessness property tax vote rejected
+2026-11-15 | local-Philadelphia | speed cameras highway deaths report
+2026-11-15 | local-Atlanta | house fire death educator author
+2026-11-15 | local-Washington D.C. | minimum wage special election
