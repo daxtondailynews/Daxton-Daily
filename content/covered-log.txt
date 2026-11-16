@@ -1985,3 +1985,44 @@
 2026-11-15 | local-Philadelphia | speed cameras highway deaths report
 2026-11-15 | local-Atlanta | house fire death educator author
 2026-11-15 | local-Washington D.C. | minimum wage special election
+2026-11-16 | top | Iran Bahrain strikes Hormuz tanker sinks
+2026-11-16 | politics | Carney six federal byelections December
+2026-11-16 | politics | Jim Jordan elected House GOP leader
+2026-11-16 | tech-ai | Google 17 billion Wyoming data center
+2026-11-16 | tech-ai | AI deepfake CEO fraud ring charges
+2026-11-16 | business-markets | Bank of Canada rate hikes TSX energy
+2026-11-16 | business-markets | Wall Street rally oil slide Nvidia
+2026-11-16 | science-discovery | JWST little red dots Portsmouth explanation
+2026-11-16 | science-discovery | Vera Rubin dwarf planet ED138
+2026-11-16 | health-medicine | US measles elimination status review
+2026-11-16 | health-medicine | Canada CIHI health spending 433 billion
+2026-11-16 | global-affairs | Xi Trump Putin trilateral summit Shenzhen
+2026-11-16 | global-affairs | Canary Islands migrant surge emergency
+2026-11-16 | economy-personal-finance | US credit card debt record
+2026-11-16 | economy-personal-finance | Canada housing recovery shaky RBC CMHC
+2026-11-16 | education-research | AI classroom impact studies review
+2026-11-16 | education-research | Universities Canada budget research funding
+2026-11-16 | sports | Liverpool Fenerbahce loss Como history Champions League
+2026-11-16 | sports | Alcaraz wins Paris Masters Shelton
+2026-11-16 | entertainment-pop-culture | Grammy nominations Times Square 2027
+2026-11-16 | entertainment-pop-culture | Phantom Blade Zero Steam record
+2026-11-16 | entertainment-pop-culture | Cat in the Hat box office Hader
+2026-11-16 | philosophy-ideas | Xi Trump Putin summit Hobbes realism
+2026-11-16 | also-worth-knowing | Bose speaker battery recall
+2026-11-16 | also-worth-knowing | Moche painted clay faces Peru
+2026-11-16 | local-Toronto | TTC winter e-bike scooter ban
+2026-11-16 | local-Vancouver | council revisit speed limits major roads
+2026-11-16 | local-Montreal | five-alarm fire Pierrefonds-Roxboro apartment
+2026-11-16 | local-Ottawa | University of Ottawa teaching staff strike
+2026-11-16 | local-Kitchener-Waterloo | Shannon Weber elected Waterloo mayor
+2026-11-16 | local-Guelph | Leanne Caron elected Guelph mayor
+2026-11-16 | local-Vaughan | pellet gun damages home police
+2026-11-16 | local-Kingston | Conny Glenn new mayor takes office
+2026-11-16 | local-New York City | first Code Blue winter season
+2026-11-16 | local-Los Angeles | Alhambra voters ban data centers
+2026-11-16 | local-Chicago | McGee's Tavern site apartment proposal
+2026-11-16 | local-Houston | HISD state takeover possible end
+2026-11-16 | local-Dallas | Save Dallas City Hall petition
+2026-11-16 | local-Philadelphia | City Hall bike lane final approval
+2026-11-16 | local-Atlanta | council endorses Starbucks boycott
+2026-11-16 | local-Washington D.C. | Jamal Holtz sworn in councilmember
