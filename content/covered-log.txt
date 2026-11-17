@@ -2026,3 +2026,45 @@
 2026-11-16 | local-Philadelphia | City Hall bike lane final approval
 2026-11-16 | local-Atlanta | council endorses Starbucks boycott
 2026-11-16 | local-Washington D.C. | Jamal Holtz sworn in councilmember
+2026-11-17 | top | Iran Bahrain tanker seizure Hormuz war
+2026-11-17 | global-affairs | Iran tanker seizure Talara Gulf of Oman
+2026-11-17 | global-affairs | Russia Ukraine missile drone barrage Kyiv
+2026-11-17 | politics | Alberta Impact Assessment Act no appeal
+2026-11-17 | politics | FAA nationwide ground stop accountability
+2026-11-17 | business-markets | TSX slips Wall Street tech selloff
+2026-11-17 | business-markets | Nvidia Huang ousted CFO Kress interim
+2026-11-17 | economy-personal-finance | Canada CPI October 3.1 percent
+2026-11-17 | economy-personal-finance | US jobless claims 200000
+2026-11-17 | science-discovery | UCLA autism brain cell gene targets
+2026-11-17 | science-discovery | NASA Parker Solar Probe switchbacks
+2026-11-17 | health-medicine | Geneva hantavirus cruise ship Hondius
+2026-11-17 | health-medicine | Utah AEBP1 protein heart failure mice
+2026-11-17 | education-research | teacher coaching study no effect
+2026-11-17 | education-research | USask Canada Research Chairs Sanganyado Wozny
+2026-11-17 | tech-ai | Nvidia earnings succession search Kress
+2026-11-17 | tech-ai | China AI export control catalogue
+2026-11-17 | sports | Jeremiah Smith Big Ten receiving record
+2026-11-17 | sports | Crosby passes Dionne NHL scoring
+2026-11-17 | sports | Cooper Flagg 43 points Mavericks
+2026-11-17 | entertainment-pop-culture | How to Rob a Bank box office flop
+2026-11-17 | entertainment-pop-culture | Bilibili Gaming wins LoL Worlds
+2026-11-17 | entertainment-pop-culture | Robert Pattinson cast James Bond
+2026-11-17 | philosophy-ideas | Buber I and Thou AI companionship
+2026-11-17 | also-worth-knowing | snorkel mask recall CPSC
+2026-11-17 | also-worth-knowing | fire pit recall CPSC
+2026-11-17 | local-Toronto | Scarborough North new councillor Chen
+2026-11-17 | local-Vancouver | council first motions tenant bylaw
+2026-11-17 | local-Montreal | mayor first year self-assessment grade
+2026-11-17 | local-Ottawa | Manotick lawsuit health hub council
+2026-11-17 | local-Kitchener-Waterloo | Remembrance Day ceremonies region
+2026-11-17 | local-Guelph | South End Community Centre opening
+2026-11-17 | local-Vaughan | inaugural council meeting Official Plan
+2026-11-17 | local-Kingston | federal minister budget infrastructure visit
+2026-11-17 | local-New York City | NYPD misconduct payouts 117 million
+2026-11-17 | local-Los Angeles | LAHSA 69 million owed providers
+2026-11-17 | local-Chicago | police superintendent finalists named
+2026-11-17 | local-Houston | home sales cool 14 year supply high
+2026-11-17 | local-Dallas | zoning code rewrite first in decades
+2026-11-17 | local-Philadelphia | South Broad transit zoning incentives
+2026-11-17 | local-Atlanta | veterans affairs office resolution
+2026-11-17 | local-Washington D.C. | free Metrobus measure advances
