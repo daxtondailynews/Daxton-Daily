@@ -2068,3 +2068,50 @@
 2026-11-17 | local-Philadelphia | South Broad transit zoning incentives
 2026-11-17 | local-Atlanta | veterans affairs office resolution
 2026-11-17 | local-Washington D.C. | free Metrobus measure advances
+2026-11-18 | top | Iran Hormuz third carrier tanker strikes
+2026-11-18 | politics | Carney Plamondon Francophonie Cambodia meeting
+2026-11-18 | politics | Alaska Senate race uncalled Sullivan Peltola
+2026-11-18 | tech-ai | Alibaba Qwen4-Max launch
+2026-11-18 | tech-ai | Google AI autonomous exploit attack
+2026-11-18 | tech-ai | BluWave-ai Ottawa grid funding
+2026-11-18 | business-markets | Quebecor unsolicited bid Telus
+2026-11-18 | business-markets | Home Depot Q3 earnings
+2026-11-18 | science-discovery | ULA Vulcan rocket failure Amazon satellites
+2026-11-18 | science-discovery | Voyager 1 light-day milestone
+2026-11-18 | science-discovery | McGill giant rodent fossil Thailand
+2026-11-18 | health-medicine | FDA Gazyva membranous nephropathy approval
+2026-11-18 | health-medicine | FDA Klygefa myasthenia gravis approval
+2026-11-18 | health-medicine | Pfizer Premarin discontinued Canada
+2026-11-18 | global-affairs | Pope Leo XIV South America tour
+2026-11-18 | global-affairs | Cape Verde Neves re-elected
+2026-11-18 | economy-personal-finance | Canada consumer insolvencies Q3 record
+2026-11-18 | economy-personal-finance | Canada business insolvencies Q3
+2026-11-18 | education-research | Rhodes Scholars 2027 class
+2026-11-18 | education-research | motor cortex brain imaging study
+2026-11-18 | education-research | Dalhousie Discovery Awards researchers
+2026-11-18 | sports | Texas LSU Arch Manning finish
+2026-11-18 | sports | 49ers Cowboys shootout McCaffrey
+2026-11-18 | sports | ATP Finals Alcaraz Zverev Sinner absence
+2026-11-18 | entertainment-pop-culture | GTA 6 review embargo confusion
+2026-11-18 | entertainment-pop-culture | Miranda Lambert Songline live album
+2026-11-18 | entertainment-pop-culture | A24 Club Kid box office
+2026-11-18 | philosophy-ideas | Levinas face autonomous weapons treaty
+2026-11-18 | also-worth-knowing | Shein toy recall choking hazard
+2026-11-18 | also-worth-knowing | Cummins generator recall fuel spray
+2026-11-18 | also-worth-knowing | Guinness handcuffed run record
+2026-11-18 | local-Toronto | new council term speaker TTC chair
+2026-11-18 | local-Vancouver | park board meetings City Hall
+2026-11-18 | local-Montreal | Blue Line delayed Hydro-Quebec maintenance
+2026-11-18 | local-Ottawa | Central Park homicide teen charged
+2026-11-18 | local-Kitchener-Waterloo | Davey regional chair dual-role petition
+2026-11-18 | local-Guelph | Homecoming street party more arrests
+2026-11-18 | local-Vaughan | shawarma restaurant suspected arson
+2026-11-18 | local-Kingston | city reverses surplus school purchase
+2026-11-18 | local-New York City | public school enrollment declines
+2026-11-18 | local-Los Angeles | Boyle Heights warehouse fire aid
+2026-11-18 | local-Chicago | Amtrak crash Western Springs students killed
+2026-11-18 | local-Houston | airport audit contract vote delayed
+2026-11-18 | local-Dallas | DART Operation Access security pilot
+2026-11-18 | local-Philadelphia | tree planting progress report
+2026-11-18 | local-Atlanta | fatal shooting northwest park
+2026-11-18 | local-Washington D.C. | robotaxi bill committee deadlock
