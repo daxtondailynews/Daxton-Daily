@@ -2115,3 +2115,46 @@
 2026-11-18 | local-Philadelphia | tree planting progress report
 2026-11-18 | local-Atlanta | fatal shooting northwest park
 2026-11-18 | local-Washington D.C. | robotaxi bill committee deadlock
+2026-11-19 | top | Iran Bahrain Fifth Fleet radar strike escalation
+2026-11-19 | politics | Carney Xi APEC China tariff cuts
+2026-11-19 | politics | Carney Sheinbaum USMCA meeting
+2026-11-19 | tech-ai | Waymo freeway ban construction zones
+2026-11-19 | tech-ai | Optimizely supply chain attack malware
+2026-11-19 | business-markets | Nvidia Q3 earnings record Huang exit
+2026-11-19 | business-markets | TSX bank stocks slide tech selloff
+2026-11-19 | science-discovery | Perseverance Mars silica rocks Idubi
+2026-11-19 | science-discovery | screen-printed lithium battery technique
+2026-11-19 | health-medicine | US loses measles elimination status
+2026-11-19 | health-medicine | Health Canada Winnipeg plasma facility suspended
+2026-11-19 | health-medicine | Amgen Sjogren's disease drug trial
+2026-11-19 | global-affairs | Crimean bridge strike aftermath investigation
+2026-11-19 | global-affairs | Gaza winter shelter food crisis
+2026-11-19 | economy-personal-finance | Canada CREA October home sales
+2026-11-19 | economy-personal-finance | US existing home sales 16-year low
+2026-11-19 | education-research | ADHD classroom accommodations study
+2026-11-19 | education-research | McMaster federal research funding
+2026-11-19 | sports | UFC 334 Gane Thompson retirement
+2026-11-19 | sports | PGA Austin Championship Ramey win
+2026-11-19 | sports | NFL Chargers end losing streak Ravens
+2026-11-19 | entertainment-pop-culture | P1Harmony Blow Up Billboard chart
+2026-11-19 | entertainment-pop-culture | Hunger Games Sunrise Reaping premiere
+2026-11-19 | entertainment-pop-culture | GTA 6 launch day
+2026-11-19 | philosophy-ideas | P1Harmony vinyl variants Walter Benjamin aura
+2026-11-19 | also-worth-knowing | Guinness flamingo lawn record
+2026-11-19 | also-worth-knowing | T&T Supermarket recall undeclared milk
+2026-11-19 | local-Toronto | TTC weekend subway closures
+2026-11-19 | local-Vancouver | new council first motions
+2026-11-19 | local-Montreal | STM metro security service increase
+2026-11-19 | local-Ottawa | Sutcliffe transit pass pledge
+2026-11-19 | local-Kitchener-Waterloo | Rangers OHL trade Cameron
+2026-11-19 | local-Guelph | Storm OHL trade Passmore
+2026-11-19 | local-Vaughan | Del Duca York Region chair
+2026-11-19 | local-Kingston | council budget pressures review
+2026-11-19 | local-New York City | NYPD retiree suicides peer support
+2026-11-19 | local-Los Angeles | Woodland Hills senior housing zoning
+2026-11-19 | local-Chicago | Bears stadium bill veto session
+2026-11-19 | local-Houston | Greenspoint Mall shooting
+2026-11-19 | local-Dallas | fatal shooting after assault charges
+2026-11-19 | local-Philadelphia | selective school deadline delay
+2026-11-19 | local-Atlanta | Zoo Atlanta lantern festival cancelled
+2026-11-19 | local-Washington D.C. | Metro RFK Gold Line survey
