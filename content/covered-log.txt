@@ -2158,3 +2158,44 @@
 2026-11-19 | local-Philadelphia | selective school deadline delay
 2026-11-19 | local-Atlanta | Zoo Atlanta lantern festival cancelled
 2026-11-19 | local-Washington D.C. | Metro RFK Gold Line survey
+2026-11-20 | top | Trump Xi Putin trilateral summit outcome
+2026-11-20 | politics | MAID bill C-41 debate limit
+2026-11-20 | politics | Carney Trump impromptu APEC talks
+2026-11-20 | tech-ai | US AI chip export rule Nvidia China halt
+2026-11-20 | tech-ai | OpenAI GPT-6.2 Astra Sol release
+2026-11-20 | business-markets | Anthropic IPO prices Nasdaq debut
+2026-11-20 | business-markets | Canadian Tire Q3 dividend raise
+2026-11-20 | science-discovery | Toronto autism microexons study
+2026-11-20 | science-discovery | NZ erect-crested penguin drone survey
+2026-11-20 | health-medicine | FDA Roche giredestrant breast cancer approval
+2026-11-20 | health-medicine | Health Canada peptide bacteria warning Ottawa
+2026-11-20 | global-affairs | Sudan Kordofan army advance UN drone warning
+2026-11-20 | global-affairs | North Macedonia Greece Iran assassination plot
+2026-11-20 | economy-personal-finance | Canada housing starts fall mortgage rates
+2026-11-20 | economy-personal-finance | Canada holiday retail spending outlook
+2026-11-20 | education-research | OpenAI 50000 research grants scientists
+2026-11-20 | education-research | Toronto study female physicians mortality
+2026-11-20 | sports | McDavid point streak NHL
+2026-11-20 | sports | Hatton wins DP World Tour Championship McIlroy record
+2026-11-20 | entertainment-pop-culture | Jhene Aiko tour announcement
+2026-11-20 | entertainment-pop-culture | DWTS semifinal elimination
+2026-11-20 | entertainment-pop-culture | Pope rosary viral moment
+2026-11-20 | philosophy-ideas | MAID bill Dworkin autonomy dying
+2026-11-20 | also-worth-knowing | butterfly three species discovery
+2026-11-20 | also-worth-knowing | CPSC Mommy Me mattress warning
+2026-11-20 | local-Toronto | new council winter homelessness plan
+2026-11-20 | local-Vancouver | mosque vandalism hate crime investigation
+2026-11-20 | local-Montreal | STM 2027 budget cutback warning
+2026-11-20 | local-Ottawa | governance review committee restructuring
+2026-11-20 | local-Kitchener-Waterloo | Zellers reopens Waterloo Region
+2026-11-20 | local-Guelph | Fife Road affordable housing groundbreaking
+2026-11-20 | local-Vaughan | York University medical school funding
+2026-11-20 | local-Kingston | taxi commission board replaced
+2026-11-20 | local-New York City | NYPD Strategic Response Group disbanded
+2026-11-20 | local-Los Angeles | Proposition TE Palisades fire tax exemption
+2026-11-20 | local-Chicago | Bovino bounty case deportation fight
+2026-11-20 | local-Houston | council approves police public works vehicles
+2026-11-20 | local-Dallas | Preston-Royal Towers deal recall push
+2026-11-20 | local-Philadelphia | SEPTA Silverliner IV inspections complete
+2026-11-20 | local-Atlanta | new era state partnership governor transition
+2026-11-20 | local-Washington D.C. | Logan Circle shooting
