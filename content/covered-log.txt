@@ -2199,3 +2199,45 @@
 2026-11-20 | local-Philadelphia | SEPTA Silverliner IV inspections complete
 2026-11-20 | local-Atlanta | new era state partnership governor transition
 2026-11-20 | local-Washington D.C. | Logan Circle shooting
+2026-11-21 | top | ICJ Myanmar Rohingya genocide ruling
+2026-11-21 | politics | Poilievre staff exodus byelections
+2026-11-21 | politics | PBO federal spending 331.6 billion report
+2026-11-21 | tech-ai | California sues OpenAI rogue agents
+2026-11-21 | tech-ai | New York RAISE Act AI registration
+2026-11-21 | business-markets | Canada China tariff relief steel aluminum 2028
+2026-11-21 | business-markets | Wall Street AI stocks swing doubts
+2026-11-21 | science-discovery | SpaceX Starship Flight 15 booster loss
+2026-11-21 | science-discovery | Oregon State potatoes lunar soil
+2026-11-21 | health-medicine | CMAJ Canada disease burden study
+2026-11-21 | health-medicine | MD Anderson breast cancer TargetScore
+2026-11-21 | global-affairs | South Korea Han Duck-soo retrial
+2026-11-21 | global-affairs | Denmark Greenland Arctic security pact
+2026-11-21 | global-affairs | Hegseth Caracas Venezuela military pact
+2026-11-21 | economy-personal-finance | Canada October CPI 3.1 percent
+2026-11-21 | economy-personal-finance | US jobless claims rise Fed December
+2026-11-21 | education-research | U of T fusion energy research chair
+2026-11-21 | education-research | NTU online hostility climate study
+2026-11-21 | sports | Jazz snap Lakers winning streak
+2026-11-21 | sports | Utah Mammoth end losing skid Avalanche
+2026-11-21 | entertainment-pop-culture | Netflix Altruists FTX series
+2026-11-21 | entertainment-pop-culture | TXT Perfect Storm album sales
+2026-11-21 | entertainment-pop-culture | Game Awards 2026 nominees GTA VI
+2026-11-21 | philosophy-ideas | Myanmar genocide Arendt Jaspers guilt
+2026-11-21 | also-worth-knowing | Guinness World Records Day stunts
+2026-11-21 | also-worth-knowing | Ororo battery pack recall
+2026-11-21 | local-Toronto | Chow declines police board seat
+2026-11-21 | local-Vancouver | council designates Gore Union park
+2026-11-21 | local-Montreal | Notre-Dame homeless transition hub
+2026-11-21 | local-Ottawa | new council hiring cap committee shakeup
+2026-11-21 | local-Kitchener-Waterloo | Conestoga faculty layoffs December
+2026-11-21 | local-Guelph | sidewalk vegetation clearing notice
+2026-11-21 | local-Vaughan | Pine Valley hit-and-run charge
+2026-11-21 | local-Kingston | Frontenacs beat Generals hockey
+2026-11-21 | local-New York City | Flatbush Avenue busway opens
+2026-11-21 | local-Los Angeles | minimum wage hike delay 2030
+2026-11-21 | local-Chicago | independent finance review vote
+2026-11-21 | local-Houston | homeless services grant council
+2026-11-21 | local-Dallas | council post-election assertive agenda
+2026-11-21 | local-Philadelphia | Reworld trash contract rejected
+2026-11-21 | local-Atlanta | independent bridge review ordered
+2026-11-21 | local-Washington D.C. | mayor-elect transition team named
