@@ -2241,3 +2241,45 @@
 2026-11-21 | local-Philadelphia | Reworld trash contract rejected
 2026-11-21 | local-Atlanta | independent bridge review ordered
 2026-11-21 | local-Washington D.C. | mayor-elect transition team named
+2026-11-22 | top | Trump permanent Iran deal fighting resumes
+2026-11-22 | politics | SCOTUS asylum ban cert grant
+2026-11-22 | politics | Bill C-261 OAS GIS royal recommendation
+2026-11-22 | tech-ai | Nvidia SEC probe Huang resignation
+2026-11-22 | tech-ai | Chase Visa Mastercard vendor breach
+2026-11-22 | business-markets | Loblaw Q3 profit PC Financial sale
+2026-11-22 | business-markets | Skydance merges Warner Paramount TV studios
+2026-11-22 | science-discovery | UCSD gut bacteria longevity study
+2026-11-22 | science-discovery | Mongolia Xiongnu nomad tomb discovery
+2026-11-22 | health-medicine | Eli Lilly GLP-1 pill Health Canada approval
+2026-11-22 | health-medicine | chronic loneliness dementia risk study
+2026-11-22 | global-affairs | Belgium budget crisis bitter failure
+2026-11-22 | global-affairs | South Korea Han Duck-soo Supreme Court reversal
+2026-11-22 | economy-personal-finance | Toronto mortgage arrears BoC warning
+2026-11-22 | economy-personal-finance | Black Friday early deals retailers
+2026-11-22 | education-research | Texas college dropout debt report
+2026-11-22 | education-research | TMU 25 million scholarship gift
+2026-11-22 | sports | Verstappen Las Vegas Grand Prix
+2026-11-22 | sports | Hawks upset Thunder NBA
+2026-11-22 | sports | Indiana upsets Penn State college football
+2026-11-22 | entertainment-pop-culture | Lil Baby Billboard album chart
+2026-11-22 | entertainment-pop-culture | Ebenezer Johnny Depp box office
+2026-11-22 | entertainment-pop-culture | Golden Joystick Resident Evil Requiem
+2026-11-22 | philosophy-ideas | Belgium budget Rawls Nozick fairness
+2026-11-22 | also-worth-knowing | Kusama painting auction record
+2026-11-22 | also-worth-knowing | Mississauga lottery decade win
+2026-11-22 | local-Toronto | rental housing announcement
+2026-11-22 | local-Vancouver | organized retail theft measures
+2026-11-22 | local-Montreal | 1000 jobs cut city budget
+2026-11-22 | local-Ottawa | final council meeting farewell councillors
+2026-11-22 | local-Kitchener-Waterloo | Waterloo researcher Herzberg gold medal
+2026-11-22 | local-Guelph | library budget central library transition
+2026-11-22 | local-Vaughan | Order of Vaughan civic honour ceremony
+2026-11-22 | local-Kingston | Western beats Queens Yates Cup
+2026-11-22 | local-New York City | council bans algorithmic surveillance pricing
+2026-11-22 | local-Los Angeles | LAPD Olympic vehicle fleet funding
+2026-11-22 | local-Chicago | ShotSpotter replacement deadline ordinance
+2026-11-22 | local-Houston | UH medical college full accreditation
+2026-11-22 | local-Dallas | ISD teams advance UIL football playoffs
+2026-11-22 | local-Philadelphia | Academy of Natural Sciences reopening funding
+2026-11-22 | local-Atlanta | deteriorated bridges review ordered
+2026-11-22 | local-Washington D.C. | Metro Center escalator overhaul
