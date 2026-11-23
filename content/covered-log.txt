@@ -2283,3 +2283,47 @@
 2026-11-22 | local-Philadelphia | Academy of Natural Sciences reopening funding
 2026-11-22 | local-Atlanta | deteriorated bridges review ordered
 2026-11-22 | local-Washington D.C. | Metro Center escalator overhaul
+2026-11-23 | top | COP31 Antalya collapse without deal
+2026-11-23 | politics | Liberals budget vote Commons majority
+2026-11-23 | politics | Jeffries reelected House Democrat leader
+2026-11-23 | tech-ai | USDA cybersecurity incident password resets
+2026-11-23 | tech-ai | OpenAI quarterly revenue tops 10 billion
+2026-11-23 | tech-ai | Ottawa Cohere AI investment budget
+2026-11-23 | business-markets | loonie climbs oil rebounds Fed
+2026-11-23 | business-markets | Strathcona Resources buys Greenfire
+2026-11-23 | science-discovery | ESCAPADE Mars probes Earth flyby
+2026-11-23 | science-discovery | northern lights solar storm Canada
+2026-11-23 | science-discovery | 1.5 degree warming threshold study
+2026-11-23 | health-medicine | Canadian robotic AFib treatment
+2026-11-23 | health-medicine | flu season underway PHAC
+2026-11-23 | global-affairs | COP31 Panama oil production cap veto
+2026-11-23 | global-affairs | Kryvyi Rih missile strike injures 26
+2026-11-23 | economy-personal-finance | Bank of Canada mandate renewal
+2026-11-23 | economy-personal-finance | Fed minutes Cook dissent Warsh
+2026-11-23 | education-research | U of T autism gene ML study
+2026-11-23 | education-research | Ontario fusion energy research chair
+2026-11-23 | sports | RSM Classic rain delay Monday finish
+2026-11-23 | sports | LeBron James passes Kidd assists
+2026-11-23 | sports | Wake Forest AP Top 10 first time
+2026-11-23 | entertainment-pop-culture | Percy Jackson season 3 premiere
+2026-11-23 | entertainment-pop-culture | Olivia Dean Apple Music artist of year
+2026-11-23 | entertainment-pop-culture | Ace Combat 8 Wings of Theve launch
+2026-11-23 | philosophy-ideas | COP31 tragedy of commons Ostrom
+2026-11-23 | also-worth-knowing | CPSC magnetic toy battery recall
+2026-11-23 | also-worth-knowing | USPS cryptid unicorn stamps 2027
+2026-11-23 | local-Toronto | Scarborough gas station shooting
+2026-11-23 | local-Vancouver | officer fraud charges pay halted
+2026-11-23 | local-Montreal | systemic racism executive appointed
+2026-11-23 | local-Ottawa | new council sworn in term
+2026-11-23 | local-Kitchener-Waterloo | water supply strategy public meeting
+2026-11-23 | local-Guelph | downtown parking promotion extended
+2026-11-23 | local-Vaughan | council sworn in Del Duca agenda
+2026-11-23 | local-Kingston | council pay raise perks scaled back
+2026-11-23 | local-New York City | woman pushes teen subway tracks
+2026-11-23 | local-Los Angeles | camping ban enforcement suspended
+2026-11-23 | local-Chicago | WBEZ analysis UChicago expulsions
+2026-11-23 | local-Houston | animal adoption center groundbreaking
+2026-11-23 | local-Dallas | fatal shooting Garrison Street
+2026-11-23 | local-Philadelphia | Schuylkill swing bridge reopens
+2026-11-23 | local-Atlanta | Zoo Atlanta cancels lantern festival
+2026-11-23 | local-Washington D.C. | 25 dollar minimum wage measure
