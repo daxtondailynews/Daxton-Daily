@@ -2372,3 +2372,47 @@
 2026-11-24 | local-Philadelphia | Marathon Weekend record field
 2026-11-24 | local-Atlanta | Hartsfield-Jackson airport safety funding
 2026-11-24 | local-Washington D.C. | youngest councilmember sworn in
+2026-11-25 | top | Nvidia board reinstates Jensen Huang
+2026-11-25 | global-affairs | COP31 Antalya climate summit collapse
+2026-11-25 | global-affairs | ICJ rules Myanmar committed genocide
+2026-11-25 | politics | Poilievre staff departures byelections
+2026-11-25 | politics | Carney Xi Jinping Shenzhen meeting
+2026-11-25 | politics | MAID safeguards bill C-41 Commons
+2026-11-25 | business-markets | Canada China steel tariff exemption
+2026-11-25 | business-markets | Bank of Canada oil inflation warning
+2026-11-25 | tech-ai | Nvidia Huang reinstatement market reaction
+2026-11-25 | tech-ai | Canadian cyber centre AI hacking warning
+2026-11-25 | science-discovery | Euclid telescope first comet
+2026-11-25 | science-discovery | NTU online hostility contagion study
+2026-11-25 | health-medicine | Health Canada GLP-1 pill approval
+2026-11-25 | health-medicine | Canada disease burden CMAJ study
+2026-11-25 | economy-personal-finance | Quebecor Telus Bell takeover fight
+2026-11-25 | economy-personal-finance | Loblaw grocery price warning 2027
+2026-11-25 | education-research | Fraser Institute Quebec schools report card
+2026-11-25 | education-research | University of Toronto fusion research chair
+2026-11-25 | sports | Golden Knights Oilers NHL game
+2026-11-25 | sports | NFL Thanksgiving schedule 2026
+2026-11-25 | sports | CFL Grey Cup Elks Fajardo
+2026-11-25 | entertainment-pop-culture | GTA 6 launch sales records
+2026-11-25 | entertainment-pop-culture | Robert Pattinson cast James Bond
+2026-11-25 | entertainment-pop-culture | P1Harmony Billboard 200 debut
+2026-11-25 | philosophy-ideas | James Bond recasting identity Ship of Theseus
+2026-11-25 | also-worth-knowing | CPSC infant bouncer recall
+2026-11-25 | also-worth-knowing | Obama IShowSpeed Indonesian exchange
+2026-11-25 | also-worth-knowing | Eurovision Asia Carmelle Philippines win
+2026-11-25 | local-Toronto | council term police board seat
+2026-11-25 | local-Vancouver | VPD Downtown Eastside firearm drugs seizure
+2026-11-25 | local-Montreal | 2027 budget public review
+2026-11-25 | local-Ottawa | Central Park homicide arrest
+2026-11-25 | local-Kitchener-Waterloo | Weber sworn in Waterloo mayor
+2026-11-25 | local-Guelph | South End Community Centre opening
+2026-11-25 | local-Vaughan | York Regional Council inaugural meeting
+2026-11-25 | local-Kingston | Jane Doe solidarity protest Queen's
+2026-11-25 | local-New York City | Riverside Park stabbing suspect
+2026-11-25 | local-Los Angeles | Mid-City strip mall fire
+2026-11-25 | local-Chicago | O'Hare equipment outage ground stop
+2026-11-25 | local-Houston | Eastex Freeway tanker truck fire
+2026-11-25 | local-Dallas | Save Dallas City Hall petition
+2026-11-25 | local-Philadelphia | Thanksgiving Day Parade road closures
+2026-11-25 | local-Atlanta | ATLDOT winter weather readiness
+2026-11-25 | local-Washington D.C. | Opportunity Zone census tracts
