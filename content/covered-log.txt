@@ -2416,3 +2416,48 @@
 2026-11-25 | local-Philadelphia | Thanksgiving Day Parade road closures
 2026-11-25 | local-Atlanta | ATLDOT winter weather readiness
 2026-11-25 | local-Washington D.C. | Opportunity Zone census tracts
+2026-11-26 | top | Ukraine peace deal no deadline Witkoff Kushner
+2026-11-26 | politics | Carney Asia trip Philippines ASEAN trade
+2026-11-26 | politics | Hegseth impeachment vote blocked
+2026-11-26 | politics | FAA nationwide ground stop Arkansas cause
+2026-11-26 | global-affairs | Hormuz tanker attacks oil disruption
+2026-11-26 | global-affairs | Iran ceasefire talks Rubio rejects terms
+2026-11-26 | tech-ai | Google DeepMind Gemini Robotics Mercedes
+2026-11-26 | tech-ai | IBM Nighthawk R3 quantum chip
+2026-11-26 | science-discovery | NASA retires NICER X-ray telescope
+2026-11-26 | science-discovery | Vera Rubin dwarf planet candidate 2026 ED138
+2026-11-26 | science-discovery | room temperature superconductor electron pairing
+2026-11-26 | health-medicine | MD Anderson CAR-T enterocolitis study
+2026-11-26 | health-medicine | FDA approves Gazyva kidney disease
+2026-11-26 | health-medicine | Health Canada medical device standards update
+2026-11-26 | education-research | U of T kindergarten readiness math study
+2026-11-26 | education-research | CUSC survey Canadian university students
+2026-11-26 | business-markets | TSX rebound 700 point swing gold
+2026-11-26 | business-markets | Wall Street PCE inflation selloff recovery
+2026-11-26 | economy-personal-finance | PCE inflation holiday spending impact
+2026-11-26 | economy-personal-finance | gold price swings RRSP TFSA
+2026-11-26 | sports | Canadiens hand Hellebuyck first Devils loss
+2026-11-26 | sports | Blades Brown youngest PGA Tour winner
+2026-11-26 | sports | CFP rankings Georgia Texas top five
+2026-11-26 | entertainment-pop-culture | Macy's Thanksgiving parade 100th
+2026-11-26 | entertainment-pop-culture | CMA Awards Dolly Parton tribute Langley
+2026-11-26 | entertainment-pop-culture | Hexed Focker In-Law box office
+2026-11-26 | philosophy-ideas | Thanksgiving gratitude Seneca Stoicism
+2026-11-26 | also-worth-knowing | Health Canada CPSC fire burn recall
+2026-11-26 | also-worth-knowing | Guinness agentic AI hackathon record
+2026-11-26 | local-Toronto | 2027 budget shortfall interim levy
+2026-11-26 | local-Vancouver | council pauses supportive housing construction
+2026-11-26 | local-Montreal | snow removal investment Martinez Ferrada
+2026-11-26 | local-Ottawa | Manotick truck traffic lawsuit
+2026-11-26 | local-Kitchener-Waterloo | Metrolinx weekend GO train Kitchener
+2026-11-26 | local-Guelph | Gryphons football OUA quarter final loss
+2026-11-26 | local-Vaughan | new YRP substation west end
+2026-11-26 | local-Kingston | historic sites shared housing conversion
+2026-11-26 | local-New York City | Van Wyck Expressway widening JFK
+2026-11-26 | local-Los Angeles | council district 9 special election recount
+2026-11-26 | local-Chicago | self cleaning public toilet Wicker Park
+2026-11-26 | local-Houston | Flock license plate cameras vandalized
+2026-11-26 | local-Dallas | Mavericks NBA Cup group title
+2026-11-26 | local-Philadelphia | sheriff held in contempt of court
+2026-11-26 | local-Atlanta | pedestrian killed I-285
+2026-11-26 | local-Washington D.C. | nor'easter storm prep Pepco
